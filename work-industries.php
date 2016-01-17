@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<div class="section text-center">
+<div class="section medium-section text-center">
 	<p class="lead">I'm looking for</p>
 	<h1>Work</h1>
 	<p><img src="images/line.svg" alt=""></p>
