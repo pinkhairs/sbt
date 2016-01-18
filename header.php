@@ -14,7 +14,7 @@
 		<span class="menu-label">Close</span>
 	</a>
 	<p class="lead midnight">I'm looking for</p>
-	<h2 class="menu-link-heading" id="menu-work-link"><a href="work-industries.php">Work</a></h2>
+	<h2 class="menu-link-heading" id="menu-work-link"><a href="work.php">Work</a></h2>
 	<h2 class="menu=link-heading" id="menu-work-link"><a href="#talent-links">Talent</a></h2>
 	<nav id="talent-links">
 		<ul class="menu-links">
@@ -31,22 +31,33 @@
 			<li><a href="#">Terms &amp; Privacy</a></li>
 		</ul>
 	</nav>
-	<div class="section pt0">
-		<p class="lead">Follow us on</p>
-		<nav class="menu-social-links">
-			<ul class="flat-links">
-				<li><a href="#"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
-				<li><a href="#"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
-				<li><a href="#"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
-				<li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li>
-			</ul>
-		</nav>
+	<div class="row">
+		<div class="small-12 columns">
+			<div class="section pt0">
+				<p class="lead">Follow us on</p>
+				<nav class="menu-social-links">
+					<ul class="flat-links">
+						<li><a href="#"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
+						<li><a href="#"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
+						<li><a href="#"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
+						<li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</div>
 </div>
 <header class="site-header">
-	<a href="#" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>" id="menu-button">
-		<img src="images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
-		<span class="menu-label">Menu</span>
-	</a>
+	<div class="row">
+		<div class="small-12 large-6 columns">
+			<a href="index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
+				<img src="images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
+			</a>
+		</div>
+		<div class="small-12 large-6 columns">
+				<a href="#" id="menu-button"><span class="menu-label">Menu</span></a>
+			</a>
+		</div>
+	</div>
 </header>
 <div class="wrap">

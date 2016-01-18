@@ -1,18 +1,24 @@
+if (window.matchMedia('(max-width:40em)').matches) {
+	$('.logo').click(function() {
+		$('#menu').addClass('menu-container-expanded');
+		return false;
+	});
+	$(document).on('click', '.dropdown-label', function() {
+		$(this).parent().find('.dropdown').toggle();
+	});
+	$('.dropdown input').change(function() {
+		theparent = $(this).closest('.dropdown-container');
+		thelabel = $(this).parent().text();
+		theparent.find('.dropdown').hide();
+		theparent.find('.dropdown-label').text(thelabel);
+	});
+}
 $('#menu-button').click(function() {
 	$('#menu').addClass('menu-container-expanded');
 });
 $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
-});
-$(document).on('click', '.dropdown-label', function() {
-	$(this).parent().find('.dropdown').toggle();
-});
-$('.dropdown input').change(function() {
-	theparent = $(this).closest('.dropdown-container');
-	thelabel = $(this).parent().text();
-	theparent.find('.dropdown').hide();
-	theparent.find('.dropdown-label').text(thelabel);
-});
+});	
 $('.industry-card').click(function() {
 	$('.industry-card .card').css('opacity', '0');
 	setTimeout(

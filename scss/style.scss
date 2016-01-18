@@ -26,13 +26,13 @@ a {
 
 /* section types by padding */
 .section {
-	padding:60px 10px;
+	padding:60px 0;
 }
 .short-section {
-	padding:10px;
+	padding:10px 0;
 }
 .medium-section {
-	padding:40px 10px;
+	padding:40px 0;
 }
 .section0 {
 	padding:0;
@@ -70,9 +70,12 @@ a {
 	padding:10px;
 }
 .logo {
-	background:$azure;
+	background:$azure url('../images/sbt-logo.svg') top 10px center no-repeat;
 	display:inline-block;
 	text-decoration:none;
+	img {
+		opacity:0;
+	}
 }
 .logo-2 {
 	background:$solitude;
@@ -121,6 +124,8 @@ a {
 	max-height:100em;
 }
 .menu-label {
+	width:80px;
+	margin:0 auto;
 	font-size:14px;
 	display:block;
 	background:$bluegrey;
@@ -306,13 +311,17 @@ label {
 	text-align:center;
 	padding-bottom:40px;
 }
-.colophon a {
-	color:#fff;
-	text-shadow:0 1px 1px rgba(0,0,0,.2);
-	text-decoration:none;
-	font-size:14px;
-	line-height:20px;
-	font-weight:700;
+.colophon {
+	display:block;
+	margin-top:40px;
+	a {
+		color:#fff;
+		text-shadow:0 1px 1px rgba(0,0,0,.2);
+		text-decoration:none;
+		font-size:14px;
+		line-height:20px;
+		font-weight:700;
+	}	
 }
 .flat-links li, .flat-links a {
 	display:inline-block;
@@ -438,6 +447,7 @@ hr {
 	min-height:90px;
 	.sub-industry & {
 		display:table;
+		width:100%;
 	}
 	h5 {
 		line-height:14px;
@@ -560,3 +570,7 @@ hr {
 	margin-bottom:20px;
 	cursor:pointer;
 }
+.desktop-only {
+	display:none;
+}
+@import "desktop.scss";

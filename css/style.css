@@ -16,13 +16,13 @@ a {
 
 /* section types by padding */
 .section {
-  padding: 60px 10px; }
+  padding: 60px 0; }
 
 .short-section {
-  padding: 10px; }
+  padding: 10px 0; }
 
 .medium-section {
-  padding: 40px 10px; }
+  padding: 40px 0; }
 
 .section0 {
   padding: 0; }
@@ -63,9 +63,11 @@ a {
   padding: 10px; }
 
 .logo {
-  background: #315BA6;
+  background: #315BA6 url("../images/sbt-logo.svg") top 10px center no-repeat;
   display: inline-block;
   text-decoration: none; }
+  .logo img {
+    opacity: 0; }
 
 .logo-2 {
   background: #E9ECF0; }
@@ -110,6 +112,8 @@ a {
   max-height: 100em; }
 
 .menu-label {
+  width: 80px;
+  margin: 0 auto;
   font-size: 14px;
   display: block;
   background: #669DC9;
@@ -279,13 +283,16 @@ label {
   text-align: center;
   padding-bottom: 40px; }
 
-.colophon a {
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 700; }
+.colophon {
+  display: block;
+  margin-top: 40px; }
+  .colophon a {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700; }
 
 .flat-links li, .flat-links a {
   display: inline-block; }
@@ -402,7 +409,8 @@ hr {
   padding-right: 10px;
   min-height: 90px; }
   .sub-industry .color-card {
-    display: table; }
+    display: table;
+    width: 100%; }
   .color-card h5 {
     line-height: 14px;
     letter-spacing: 2px;
@@ -517,5 +525,112 @@ hr {
   overflow: hidden;
   margin-bottom: 20px;
   cursor: pointer; }
+
+.desktop-only {
+  display: none; }
+
+@media (min-width: 40em) {
+  .desktop-only {
+    display: block; }
+  .mobile-only {
+    display: none; }
+  .site-header {
+    background: #000F2E; }
+  .logo {
+    background: url("../images/sbt-full-logo.svg") left center no-repeat;
+    width: 100%; }
+  .menu-label {
+    background: none;
+    color: transparent;
+    background: url("../images/menu-button.svg") right center no-repeat;
+    float: right;
+    width: 100px;
+    margin-top: 30px; }
+  .medium-section {
+    padding: 180px 0 100px; }
+  .lead, h5, .read-button, .load-more-button, .reverse-button, .view-all-button {
+    font-size: 24px;
+    line-height: 32px; }
+  .lead-small {
+    font-size: 14px;
+    line-height: 20px; }
+  h1 {
+    font-size: 144px;
+    line-height: 206px; }
+  body {
+    font-size: 24px;
+    line-height: 32px; }
+  .large-text {
+    font-size: 36px;
+    line-height: 52px; }
+    .large-text input, .large-text textarea {
+      font-size: 24px;
+      line-height: 32px; }
+  textarea {
+    height: 125px; }
+  .large-pt {
+    padding-top: 40px; }
+  .dropdown-label {
+    display: none; }
+  .dropdown {
+    display: block;
+    position: static;
+    margin-top: 40px; }
+  .dropdown li {
+    width: 350px;
+    display: block;
+    font-size: 48px;
+    color: #000F2E;
+    font-weight: 400;
+    background: #fff;
+    border: 0;
+    border-radius: 2px;
+    line-height: 56px;
+    padding: 5px 20px 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto; }
+    .dropdown li.active {
+      background: #315BA6; }
+      .dropdown li.active label {
+        color: #fff; }
+      .dropdown li.active .lead, .dropdown li.active h5, .dropdown li.active .read-button, .dropdown li.active .load-more-button, .dropdown li.active .reverse-button, .dropdown li.active .view-all-button {
+        color: #669DC9; }
+  hr {
+    clear: both; }
+  form h4 {
+    font-size: 36px;
+    line-height: 52px; }
+  .subtext-block {
+    display: block; }
+  .social-links {
+    margin: 0;
+    border: 0;
+    overflow: hidden; }
+  .social-links li:not(:last-child) {
+    border: 0;
+    margin-right: 20px; }
+  .social-links li {
+    width: auto;
+    padding: 20px 0 0;
+    text-align: center;
+    display: block;
+    float: left; }
+  .site-footer {
+    padding-bottom: 0; }
+    .site-footer .section {
+      padding-bottom: 40px; }
+    .site-footer h4, .site-footer .colophon {
+      color: #B5CEE1; }
+      .site-footer h4 a, .site-footer .colophon a {
+        font-size: 24px;
+        line-height: 34px; } }
+
+@media (min-width: 1200px) {
+  .dropdown li {
+    float: left; }
+  .dropdown li:not(:last-child) {
+    margin-right: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
