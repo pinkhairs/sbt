@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="47px" viewBox="0 0 48 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="sbt-blog-story" sketch:type="MSArtboardGroup" transform="translate(-867.000000, -2828.000000)" fill="#315BA6">
+            <g id="Share" sketch:type="MSLayerGroup" transform="translate(619.000000, 2750.000000)">
+                <path d="M249.007812,93.9921875 L249.007812,125 L258.992188,125 L258.992188,93.9921875 L249.007812,93.9921875 Z M275,107 C275,102.992188 277.554688,101 280.554688,101 C283.554688,101 285.992188,102.992188 285.992188,108.007812 L285.992188,125 L296,125 L296,107 C296,98 291.007812,93.0078125 284,93.0078125 C279.992188,93.0078125 276.992188,95.28125 275,98.28125 L274.671875,93.9921875 L264.828125,93.9921875 C264.828125,95.046875 264.992188,101 264.992188,101 L264.992188,125 L275,125 L275,107 Z M253.953125,89 C257.65625,89 260,86.5625 260,83.4921875 C259.953125,80.3984375 257.65625,78.0078125 254.046875,78.0078125 C250.390625,78.0078125 248,80.3984375 248,83.4921875 C248,86.5625 250.34375,89 253.882812,89 L253.953125,89 L253.953125,89 Z" id="linkedin" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

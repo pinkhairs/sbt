@@ -6,6 +6,8 @@
 		display:none;
 	}
 	.site-header {
+		position:relative;
+		z-index:100;
 		background:$midnight;
 	}
 	.logo {
@@ -132,6 +134,34 @@
 	.read-button {
 		font-size:18px;
 		line-height:20px;
+	}
+	.post-hero {
+		padding:140px 0;
+	}
+	.avatar {
+		width:100%;
+		height:auto;
+	}
+	.author-name {
+		font-weight:700;
+	}
+	hr {
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.date {
+		font-size:18px;
+	}
+	.small-hr {
+		margin:15px auto 10px;
+	}
+	.share-this-story {
+		background:$lightsteelblue;
+		text-align:center;
+		padding:40px;
+	}
+	.space-out li:not(:last-child) {
+		margin-right:40px;
 	}
 }
 @media (min-width:1200px) {

@@ -453,7 +453,7 @@ hr {
   color: #000F2E;
   display: block; }
 
-.date {
+.position {
   color: #9E9E9E;
   line-height: 16px;
   display: block; }
@@ -535,6 +535,8 @@ hr {
   .mobile-only {
     display: none; }
   .site-header {
+    position: relative;
+    z-index: 100;
     background: #000F2E; }
   .logo {
     background: url("../images/sbt-full-logo.svg") left center no-repeat;
@@ -630,7 +632,27 @@ hr {
         line-height: 34px; }
   .read-button {
     font-size: 18px;
-    line-height: 20px; } }
+    line-height: 20px; }
+  .post-hero {
+    padding: 140px 0; }
+  .avatar {
+    width: 100%;
+    height: auto; }
+  .author-name {
+    font-weight: 700; }
+  hr {
+    margin-left: auto;
+    margin-right: auto; }
+  .date {
+    font-size: 18px; }
+  .small-hr {
+    margin: 15px auto 10px; }
+  .share-this-story {
+    background: #B5CEE1;
+    text-align: center;
+    padding: 40px; }
+  .space-out li:not(:last-child) {
+    margin-right: 40px; } }
 
 @media (min-width: 1200px) {
   .dropdown li {

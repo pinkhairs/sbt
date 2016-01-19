@@ -2,7 +2,8 @@
 <div class="row">
 	<div class="small-12 columns">
 		<div class="section medium-section text-center">
-			<h2>Working at a Startup</h2>
+			<h2>WORKING AT A STARTUP &amp;
+NOT GIVING UP</h2>
 			<p><img src="images/avatar.jpg" alt="Portrait of Max Brown" class="avatar"></p>
 			<p class="lead">Max Brown<br>12/15/2015</p>
 			<p><img src="images/line.svg" alt=""></p>
