@@ -597,6 +597,8 @@ hr {
         color: #fff; }
       .dropdown li.active .lead, .dropdown li.active h5, .dropdown li.active .read-button, .dropdown li.active .load-more-button, .dropdown li.active .reverse-button, .dropdown li.active .view-all-button {
         color: #669DC9; }
+  .standalone-dropdown-options li {
+    padding: 5px 20px 10px; }
   hr {
     clear: both; }
   form h4 {
@@ -625,7 +627,10 @@ hr {
       color: #B5CEE1; }
       .site-footer h4 a, .site-footer .colophon a {
         font-size: 24px;
-        line-height: 34px; } }
+        line-height: 34px; }
+  .read-button {
+    font-size: 18px;
+    line-height: 20px; } }
 
 @media (min-width: 1200px) {
   .dropdown li {
