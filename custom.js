@@ -59,10 +59,12 @@ $(document).on('click', '.industry-card', function() {
 $(document).on('click', '.sub-industry', function() {
 	$('.overlay').fadeIn(300);
 	$('.modal-container').fadeIn(300);
+	$('body').css('overflow-y', 'hidden');
 });
 $(document).on('click', '.close-button', function() {
 	$('.overlay').fadeOut(300);
 	$('.modal-container').fadeOut(300);
+	$('body').css('overflow-y', 'auto');
 	return false;
 });
 $('#section-work-talent-content').load('section-work.php');

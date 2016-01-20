@@ -1,6 +1,6 @@
 <div class="section large-industry-content white-section pt0 large-pt text-center">
 	<div class="row">
-		<div class="small-12 columns">
+		<div class="small-12 large-8 large-centered columns">
 			<p>Specializing in the Electric Vehicle Industry. Clients include both start-up and middle-large OEMs.  Recruiting Specialties include:</p>
 		</div>
 	</div>
