@@ -10,11 +10,16 @@ $stardust:#9E9E9E;
 
 /* base properties */
 body {
-	background:$solitude url('../images/water.png');
-	background-size:100% auto;
-	background-repeat:no-repeat;
+	background:$solitude;
 	color:$black;
 	font:18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
+}
+.wrap {
+	background:url('../images/water.png');
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	max-width:1200px;
+	margin:0 auto;
 }
 * + p, * + h2, * + h3, * + nav, * + h5, * + h4 {
 	margin-top:26px;
@@ -250,10 +255,9 @@ label {
 	display:inline-block;
 	text-decoration:none;
 	border:0;
-	box-shadow:0 2px 0 0 rgba(0,0,0,.2);
 	border-radius:2px;
 	letter-spacing:2px;
-	padding:5px 20px;
+	padding:10px 20px;
 	p > &:first-child {
 		margin-top:-6px;
 		margin-bottom:6px; /* optical adjustment */
@@ -356,6 +360,11 @@ input[type="text"],input[type="url"],input[type="email"],input[type="tel"], text
 	border-radius: 2px;
 	line-height: 34px;
 	padding-left:0.5rem;
+}
+input[type="file"] {
+	font-size:18px;
+	font-weight:700;
+	line-height:18px;
 }
 .dropdown-label {
 	box-shadow:none;
