@@ -15,7 +15,7 @@ body {
 	background-repeat:no-repeat;
 	background-position:top center;
 	color:$black;
-	font:18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
+	font:300 18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
 	overflow-x:hidden;
 }
 .post-alt.wrap {
@@ -226,7 +226,7 @@ h3 {
 h4 {
 	font-size:24px;
 	line-height:24px;
-	font-weight:700;
+	font-weight:400;
 	text-shadow:0 1px 0 rgba(0,0,0,.1);
 	.site-footer & {
 		font-weight:400;
@@ -248,16 +248,7 @@ label {
 
 /* buttons */
 .button {
-	background:$bluegrey;
-	color:#fff;
-	font-weight:300;
-	text-transform:uppercase;
-	display:inline-block;
-	text-decoration:none;
-	border:0;
-	border-radius:2px;
-	letter-spacing:2px;
-	padding:10px 20px;
+	@extend .load-more-button;
 	p > &:first-child {
 		margin-top:-6px;
 		margin-bottom:6px; /* optical adjustment */

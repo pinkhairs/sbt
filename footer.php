@@ -1,6 +1,6 @@
 </div>
 <footer class="site-footer">
-	<div class="row">
+	<div class="row large-collapse">
 		<div class="small-12 large-4 columns">
 			<div class="section large-pt color-section text-center large-text-left">
 				<h4>Ready to find your next great gig?</h4>

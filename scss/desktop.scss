@@ -333,6 +333,21 @@
 			padding-bottom:60px;
 		}
 	}
+	.site-footer .columns {
+		padding:0 40px;
+		&:first-child {
+			border-left:$bluegrey 1px solid;
+			border-right:$bluegrey 1px solid;
+		}
+		&:last-child {
+			border-left:$bluegrey 1px solid;
+			border-right:$bluegrey 1px solid;
+			padding:0 40px 70px;
+		}
+	}
+	.menu-active {
+		overflow-y:scroll;
+	}
 }
 @media (min-width:1024px) {
 	.talent-title {

@@ -11,7 +11,7 @@
 <div class="menu-container" id="menu">
 	<div class="row">
 		<div class="small-12 columns">
-			<p class="text-right menu-close-button"><a href="#"><img src="images/close-modal.svg" alt=""></a></p>
+			<p class="text-right menu-close-button desktop-only"><a href="#"><img src="images/close-modal.svg" alt=""></a></p>
 			<a href="#" class="logo mobile-only" id="close-button">
 				<img src="images/close.svg" alt="" class="close-title">
 				<span class="menu-label">Close</span>
