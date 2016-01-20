@@ -14,12 +14,15 @@ body {
 	color:$black;
 	font:18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
 }
-.wrap:not('.post .wrap') {
+.wrap {
 	background:url('../images/water.png');
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	max-width:1200px;
 	margin:0 auto;
+}
+.post-alt.wrap {
+	max-width:none;
 }
 * + p, * + h2, * + h3, * + nav, * + h5, * + h4 {
 	margin-top:26px;
