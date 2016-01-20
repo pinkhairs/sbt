@@ -1,4 +1,8 @@
 @media (min-width:40em) {
+	body {
+		background-position:top 80px center;
+		background-size:auto 139px;
+	}
 	.desktop-only {
 		display:block;
 	}
@@ -54,6 +58,9 @@
 	}
 	.large-pt {
 		padding-top:40px;
+	}
+	.large-mt {
+		margin-top:80px;
 	}
 	.dropdown-label {
 		display:none;
@@ -166,6 +173,73 @@
 	.space-out li:not(:last-child) {
 		margin-right:40px;
 	}
+	.industry-card {
+		width:33.3%;
+		float:left;
+		h3 a {
+			font-size:48px;
+		}
+	}
+	.industry-cards {
+		overflow:hidden;
+	}
+	h3 strong {
+		text-transform:lowercase;
+		font-weight:400;
+	}
+	.large-work-bg {
+		background-image:url('../images/work-bg.jpg');
+		background-size:cover;
+		padding:0;
+		overflow:hidden;
+		margin-bottom:-2px;
+	}
+	.work-bg-content {
+		background:rgba(233,236,240,.9);
+		overflow:hidden;
+		padding:80px 40px;
+		h1.standalone {
+			color:$bluegrey !important;
+			font-size:36px;
+			font-weight:700;
+			line-height:36px;
+		}
+		.lead.standalone {
+			color:$midnight !important;
+			margin-top:10px;
+			font-weight:400;
+		}
+	}
+	.work-bg-content .container {
+		float:left;
+		width:500px;
+	}
+	.gradient-section {
+		color:$midnight;
+		font-size:36px;
+		line-height:44px;
+		font-weight:300;
+		h4 {
+			font-size:48px;
+			line-height:56px;
+			font-weight:400;
+		}
+	}
+	.full-width-row {
+		margin:0;
+		max-width:none;
+	}
+	.tal {
+		top:340px;
+		right:-160px;
+		img {
+			height:auto;
+		}
+	}
+}
+@media ('min-width:960px') {
+	.tal {
+	}
 }
 @media (min-width:1200px) {
 	.dropdown li {
@@ -173,5 +247,9 @@
 	}
 	.dropdown li:not(:last-child) {
 		margin-right:60px;
+	}
+	.tal {
+		top:50%;
+		right:20px;
 	}
 }

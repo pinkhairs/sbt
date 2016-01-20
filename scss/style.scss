@@ -10,16 +10,12 @@ $stardust:#9E9E9E;
 
 /* base properties */
 body {
-	background:$solitude;
+	background:$solitude url('../images/water.png');
+	background-size:200% auto;
+	background-repeat:no-repeat;
+	background-position:top center;
 	color:$black;
 	font:18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
-}
-.wrap {
-	background:url('../images/water.png');
-	background-size:100% auto;
-	background-repeat:no-repeat;
-	max-width:1200px;
-	margin:0 auto;
 }
 .post-alt.wrap {
 	max-width:none;
@@ -560,9 +556,10 @@ hr {
 	text-align:center;
 	transition:all 600ms ease-in-out;
 	h3 a {
-		font-size:32px;
 		font-weight:400;
 		color:$midnight;
+		letter-spacing:0;
+		font-weight:300;
 		.lead {
 			color:$bluegrey;
 			display:block;
@@ -585,5 +582,13 @@ hr {
 }
 .desktop-only {
 	display:none;
+}
+.tal {
+	position:absolute;
+	top:180px;
+	right:-63px;
+	img {
+		height:48px;
+	}
 }
 @import "desktop.scss";
