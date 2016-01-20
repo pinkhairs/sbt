@@ -360,7 +360,7 @@ label {
 }
 
 /* form elements */
-input[type="text"],input[type="url"],input[type="email"],input[type="tel"], textarea, .dropdown-label, .dropdown li {
+input[type="text"],input[type="url"],input[type="email"],input[type="tel"], textarea, .dropdown-label, .dropdown li, input[type="file"] {
 	display:block;
 	font:inherit;
 	font-weight:400;
@@ -376,6 +376,7 @@ input[type="file"] {
 	font-size:18px;
 	font-weight:700;
 	line-height:18px;
+	padding:8px 10px;
 }
 .dropdown-label {
 	box-shadow:none;
@@ -438,7 +439,7 @@ hr {
 	margin:1.5rem 0 0;
 }
 .subtext {
-	font-size:14px;
+	font-size:16px;
 	font-weight:400;
 	font-style:italic;
 }
