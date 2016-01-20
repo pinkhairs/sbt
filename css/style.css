@@ -622,7 +622,7 @@ hr {
       .dropdown li.active .lead, .dropdown li.active h5, .dropdown li.active .read-button, .dropdown li.active .load-more-button, .dropdown li.active .reverse-button, .dropdown li.active .view-all-button {
         color: #669DC9; }
   .standalone-dropdown-options li {
-    padding: 5px 20px 10px; }
+    padding: 5px 20px 5px; }
   hr {
     clear: both; }
   form h4 {
@@ -676,8 +676,13 @@ hr {
     background: #B5CEE1;
     text-align: center;
     padding: 40px; }
-  .space-out li:not(:last-child) {
-    margin-right: 40px; }
+    .share-this-story img {
+      vertical-align: bottom; }
+  .space-out li {
+    display: inline-block;
+    float: none; }
+    .space-out li:not(:last-child) {
+      margin-right: 40px; }
   .industry-card {
     width: 33.3%;
     float: left; }

@@ -96,7 +96,7 @@
 		}
 	}
 	.standalone-dropdown-options li {
-		padding:5px 20px 10px;
+		padding:5px 20px 5px;
 	}
 	hr {
 		clear:both;
@@ -169,9 +169,16 @@
 		background:$lightsteelblue;
 		text-align:center;
 		padding:40px;
+		img {
+			vertical-align:bottom;
+		}
 	}
-	.space-out li:not(:last-child) {
-		margin-right:40px;
+	.space-out li {
+		display:inline-block;
+		float:none;
+		&:not(:last-child) {
+			margin-right:40px;
+		}
 	}
 	.industry-card {
 		width:33.3%;
