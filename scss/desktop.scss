@@ -327,6 +327,12 @@
 	.work-title:not(.active) {
 		right:auto;
 	}
+	.industry-card.active {
+		padding-bottom:0;
+		.card {
+			padding-bottom:60px;
+		}
+	}
 }
 @media (min-width:1024px) {
 	.talent-title {

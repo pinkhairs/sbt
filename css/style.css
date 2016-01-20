@@ -872,7 +872,11 @@ hr {
   .work-active {
     transform: translate(0); }
   .work-title:not(.active) {
-    right: auto; } }
+    right: auto; }
+  .industry-card.active {
+    padding-bottom: 0; }
+    .industry-card.active .card {
+      padding-bottom: 60px; } }
 
 @media (min-width: 1024px) {
   .talent-title {
