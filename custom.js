@@ -20,27 +20,35 @@ $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
 });	
 $('.industry-card').click(function() {
-	$('.industry-card .card').css('opacity', '0');
-	setTimeout(
-		function() {
-			$('.industry-card').css('opacity', '0');
-		}, 600
-	);
-	setTimeout(
-		function() {
-			$( "#industry-dropdown-container" ).hide().load( "section-industry-dropdown.php" ).fadeIn(600);
-		}, 1200
-	);
-	setTimeout(
-		function() {
-			$( "#industry-content" ).hide().load( "section-industry-content.php" ).fadeIn(600);
-		}, 1800
-	);
-	setTimeout(
-		function() {
-			$('.industry-card').hide();
-		}, 2400
-	);
+	if (window.matchMedia('(max-width:960px)').matches) { 
+		$('.industry-card .card').css('opacity', '0');
+		setTimeout(
+			function() {
+				$('.industry-card').css('opacity', '0');
+			}, 600
+		);
+		setTimeout(
+			function() {
+				$( "#industry-dropdown-container" ).hide().load( "section-industry-dropdown.php" ).fadeIn(600);
+			}, 1200
+		);
+		setTimeout(
+			function() {
+				$( "#industry-content" ).hide().load( "section-industry-content.php" ).fadeIn(600);
+			}, 1800
+		);
+		setTimeout(
+			function() {
+				$('.industry-card').hide();
+			}, 1900
+		);
+	} else {
+		setTimeout(
+			function() {
+				$( "#industry-content" ).hide().load( "section-industry-content.php" ).fadeIn(600);
+			}, 300
+		);
+	}
 	return false;
 });
 $(document).on('click', '.sub-industry', function() {

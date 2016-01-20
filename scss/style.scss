@@ -263,9 +263,21 @@ label {
 	}
 }
 .read-button {
-	background:$lightsteelblue url('../images/right-arrow.svg') center right 11px no-repeat;
+	background:#9FBDD4 url('../images/right-arrow.svg') center right 11px no-repeat;
 	display:inline-block;
 	width:100%;
+	text-align:center;
+	@extend .lead;
+	color:$midnight;
+	font-weight:700;
+	padding:7px 0;
+}
+.back-read-button {
+	background:$lightsteelblue url('../images/left-arrow.svg') center left 11px no-repeat;
+	display:inline-block;
+	width:100%;
+	font-size:18px !important;
+	line-height:20px !important;
 	text-align:center;
 	@extend .lead;
 	color:$midnight;
@@ -278,7 +290,7 @@ label {
 	font-size: 14px;
 	line-height: 20px;
 	display:inline-block;
-	padding:5px 30px;
+	padding:10px 20px;
 	@extend .lead;
 	color: #FFFFFF;
 	font-weight:700;
@@ -290,7 +302,7 @@ label {
 	font-size: 14px;
 	line-height: 20px;
 	display:inline-block;
-	padding:5px 30px;
+	padding:10px 20px;
 	@extend .lead;
 	color: #FFFFFF;
 	font-weight:700;
@@ -526,6 +538,9 @@ hr {
 	position:relative;
 	z-index:200;
 	margin:20px 20px 0;
+	p {
+		font-weight:300;
+	}
 }
 .modal-container {
 	position:fixed;
@@ -590,5 +605,8 @@ hr {
 	img {
 		height:48px;
 	}
+}
+.large-industry-content .small-6:nth-child(2n+1) {
+	clear:both;
 }
 @import "desktop.scss";

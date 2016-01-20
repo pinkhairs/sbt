@@ -20,9 +20,7 @@
 <div class="row small-collapse large-uncollapse">
 	<div class="small-12 columns">
 		<div class="section0 white-section">
-			<div id="industry-dropdown-container"></div>
-			<div id="industry-content"></div>
-				<div class="industry-cards">
+			<div class="industry-cards">
 				<div class="design-industry industry-card card-container">
 					<div class="card">
 						<h3><a href="#">SBT<strong>design</strong><br>
@@ -51,6 +49,8 @@
 		</div>
 	</div>
 </div>
+<div id="industry-dropdown-container"></div>
+<div id="industry-content"></div>
 <div class="section large-mt gradient-section large-work-bg">
 	<div class="row collapse full-width-row">
 		<div class="small-12 large-6 large-offset-6 columns">
@@ -78,18 +78,31 @@
 	<div class="color-card modal">
 		<div class="section">
 			<p class="text-right close-button"><a href="#"><img src="images/close-modal.svg" alt=""></a></p>
-			<h4 class="text-center">Vehicle Engineering</h4>
-			<p class="text-center">Phasellus dignissim diam et nisi interdum, ut auctor turpis imperdiet.</p>
-			<p class="text-center">Attribute Engineering<br>
-			Component Engineering<br>
-			Test and Validation<br>
-			Program Management<br>
-			Dimensional Engineering<br>
-			Homologation</p>
+			<div class="row">
+				<div class="small-12 large-6 columns text-center large-text-left">
+					<h4>Vehicle Engineering</h4>
+					<p>Phasellus dignissim diam et nisi interdum, ut auctor turpis imperdiet.</p>
+				</div>
+				<div class="small-12 large-6 columns text-center large-text-left">
+					<p>Attribute Engineering<br>
+					Component Engineering<br>
+					Test and Validation<br>
+					Program Management<br>
+					Dimensional Engineering<br>
+					Homologation</p>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="modal-button">
-		<a href="#" class="full-width-button read-button">Battery Engineering</a>
+		<div class="row collapse">
+			<div class="small-12 large-6 columns">
+				<a href="#" class="full-width-button back-read-button">Design and Studio Engineering</a>
+			</div>
+			<div class="small-12 large-6 columns">
+				<a href="#" class="full-width-button read-button">Battery Engineering</a>
+			</div>
+		</div>
 	</div>
 </div>
 <?php include 'footer.php'; ?>
