@@ -22,7 +22,9 @@ $('#menu-button, .menu-close-button').click(function() {
 $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
 });	
-$('.industry-card').click(function() {
+$(document).on('click', '.industry-card', function() {
+	$('.industry-card').removeClass('active');
+	$(this).addClass('active');
 	if (window.matchMedia('(max-width:960px)').matches) { 
 		$('.industry-card .card').css('opacity', '0');
 		setTimeout(
