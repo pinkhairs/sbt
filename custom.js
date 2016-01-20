@@ -1,3 +1,4 @@
+$('.work-talent-titles').width($('body').width() * 2);
 if (window.matchMedia('(max-width:40em)').matches) {
 	$('.logo').click(function() {
 		$('#menu').addClass('menu-container-expanded');
@@ -12,9 +13,11 @@ if (window.matchMedia('(max-width:40em)').matches) {
 		theparent.find('.dropdown').hide();
 		theparent.find('.dropdown-label').text(thelabel);
 	});
+} else {
+	$('.menu-container').height($('body').height());
 }
-$('#menu-button').click(function() {
-	$('#menu').addClass('menu-container-expanded');
+$('#menu-button, .menu-close-button').click(function() {
+	$('#menu').toggleClass('menu-container-expanded');
 });
 $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
@@ -60,3 +63,37 @@ $(document).on('click', '.close-button', function() {
 	$('.modal-container').fadeOut(300);
 	return false;
 });
+$('#section-work-talent-content').load('section-work.php');
+$('.work-talent-title').click(function() {
+	if ($(this).hasClass('talent-title')) {
+		makeTalentActive($(this));
+	} else {
+		makeWorkActive($(this));
+	}
+});
+$('.work-talent-title').on('swipeleft', function() {
+	makeTalentActive($(this));
+});
+$('.work-talent-title').on('swiperight', function() {
+	makeWorkActive($(this));
+});
+function makeTalentActive(newactive) {
+	switchViews(newactive);
+	$('#section-work-talent-content').load('section-talent.php');
+	$('.work-talent-titles').removeClass('work-active');
+	$('.work-talent-titles').addClass('talent-active');
+}
+function makeWorkActive(newactive) {
+	switchViews(newactive);
+	$('#section-work-talent-content').load('section-work.php');
+	$('.work-talent-titles').removeClass('talent-active');
+	$('.work-talent-titles').addClass('work-active');
+}
+function switchViews(newactive) {
+	$('.work-talent-title').removeClass('active');
+	newactive.addClass('active');
+	$('.work-talent-title:not(.active) .lead').toggleClass('fadeInUp');
+	$('.work-talent-title:not(.active) .lead').toggleClass('animated');
+	$('.work-talent-title').css('z-index', 9);
+	newactive.css('z-index', 1);
+}

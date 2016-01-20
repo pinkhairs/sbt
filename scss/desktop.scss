@@ -239,13 +239,6 @@
 		margin:0;
 		max-width:none;
 	}
-	.tal {
-		top:340px;
-		right:-160px;
-		img {
-			height:auto;
-		}
-	}
 	#industry-dropdown-container {
 		display:none !important;
 	}
@@ -286,6 +279,60 @@
 	.eat-bottom-margin {
 		margin-bottom:-80px;
 	}
+	.menu-container {
+		background:$solitude;
+		position:absolute;
+		top:0;
+		width:100%;
+		right:-100%;
+		display:block;
+		max-height:none;
+		text-align:right;
+		z-index:101;
+		opacity:0;
+	}
+	.menu-close-button {
+		margin-top:30px;
+		margin-bottom:80px;
+	}
+	.menu-links {
+		list-style:none;
+		background-position:top right;
+		a {
+			font-size:36px;
+			line-height:52px;
+		}
+		li:last-child {
+			background-position:bottom right;
+		}
+	}
+	.menu-link-heading {
+		font-size:64px;
+		line-height:91px;
+	}
+	.menu-container-expanded {
+		right:0;
+		opacity:1;
+	}
+	.talent-title {
+		position:relative;
+		left:-15%;
+	}
+	.talent-active {
+		transform:translate(-25%);
+	}
+	.work-active {
+		transform:translate(0);
+	}
+	.work-title:not(.active) {
+		right:auto;
+	}
+}
+@media (min-width:1024px) {
+	.talent-title {
+		position:relative;
+		left:-20%;
+	}
 }
 @media (min-width:1200px) {
 	.dropdown li {
@@ -294,8 +341,8 @@
 	.dropdown li:not(:last-child) {
 		margin-right:60px;
 	}
-	.tal {
-		top:50%;
-		right:20px;
+	.talent-title {
+		position:relative;
+		left:-24.5%;
 	}
 }

@@ -31,6 +31,7 @@
 	</div>
 </footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.mobile.custom.min.js" type="text/javascript"></script>
 <script src="custom.js" type="text/javascript"></script>
 </body>
 </html>
