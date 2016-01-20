@@ -14,7 +14,7 @@ body {
 	color:$black;
 	font:18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
 }
-.wrap {
+.wrap:not('.post .wrap') {
 	background:url('../images/water.png');
 	background-size:100% auto;
 	background-repeat:no-repeat;
@@ -505,6 +505,7 @@ hr {
 .position {
 	color:$stardust;
 	line-height:16px;
+	margin-top:6px;
 	display:block;
 }
 .post-hero {

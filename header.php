@@ -60,4 +60,4 @@
 		</div>
 	</div>
 </header>
-<div class="wrap">
+<div class="wrap <?php echo basename($_SERVER['PHP_SELF'], ".php"); ?>">
