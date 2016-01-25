@@ -27,7 +27,8 @@ a {
   padding: 10px 0; }
 
 .medium-section {
-  padding: 40px 0; }
+  padding: 40px 0;
+  text-align: center; }
 
 .section0 {
   padding: 0; }
@@ -556,8 +557,8 @@ hr {
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
+    -webkit-transform: translate3d(0%, 100%, 0);
+    transform: translate3d(0%, 100%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -566,22 +567,46 @@ hr {
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
+    -webkit-transform: translate3d(0%, 100%, 0);
+    transform: translate3d(0%, 100%, 0); }
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none; } }
 
 .animated {
-  -webkit-animation-duration: 400ms;
-  animation-duration: 400ms;
+  -webkit-animation-duration: 600ms;
+  animation-duration: 600ms;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp; }
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
 
 .work-talent-titles {
   overflow: hidden;
@@ -834,8 +859,7 @@ hr {
     display: block;
     max-height: none;
     text-align: right;
-    z-index: 101;
-    opacity: 0; }
+    z-index: 101; }
   .menu-close-button {
     margin-top: 30px;
     margin-bottom: 80px; }
@@ -851,8 +875,7 @@ hr {
     font-size: 64px;
     line-height: 91px; }
   .menu-container-expanded {
-    right: 0;
-    opacity: 1; }
+    right: 0; }
   .talent-title {
     position: relative;
     left: -15%; }

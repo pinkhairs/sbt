@@ -100,8 +100,12 @@ function makeWorkActive(newactive) {
 function switchViews(newactive) {
 	$('.work-talent-title').removeClass('active');
 	newactive.addClass('active');
-	$('.work-talent-title:not(.active) .lead').toggleClass('fadeInUp');
-	$('.work-talent-title:not(.active) .lead').toggleClass('animated');
+	$('.work-talent-title:not(.active) .lead').removeClass('fadeInUp');
+	$('.work-talent-title:not(.active) .arrow').removeClass('fadeInDown');
+	$('.work-talent-title:not(.active) .lead').removeClass('animated');
+	$('.work-talent-title.active .lead').addClass('fadeInUp');
+	$('.work-talent-title.active .arrow').addClass('fadeInDown');
+	$('.work-talent-title.active .lead').addClass('animated');
 	$('.work-talent-title').css('z-index', 9);
 	newactive.css('z-index', 1);
 }
