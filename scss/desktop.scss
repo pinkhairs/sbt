@@ -346,6 +346,11 @@
 	.menu-active {
 		overflow-y:scroll;
 	}
+	.social-links li {
+		padding-left:0;
+		padding-right:0;
+		float:left;
+	}
 }
 @media (min-width:1024px) {
 	.talent-title {

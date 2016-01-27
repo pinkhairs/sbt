@@ -20,7 +20,7 @@ NOT GIVING UP</h2>
 				<div class="small-12 large-2 large-offset-1 large-text-center columns">
 					<img src="images/avatar.jpg" alt="Portrait of Max Brown" class="avatar alignleft">
 					<span class="lead lead-small">Written By<br><span class="author-name">Max Brown</span><span class="position">Recruiter</span></span>
-					<hr width="40" class="mt0 small-hr">
+					<hr width="40" class="mt0 small-hr desktop-only">
 					<p class="date mt0">01.05.16</p>
 				</div>
 				<div class="small-12 large-8 large-offset-1 columns">

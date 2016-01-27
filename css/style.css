@@ -307,14 +307,15 @@ p > .button:first-child {
   margin-right: -10px;
   border-top: 1px #669DC9 solid;
   border-bottom: 1px #669DC9 solid;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
 
 .social-links li {
-  width: 25%;
   padding: 40px 0;
   text-align: center;
-  display: block;
-  float: left; }
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px; }
   .social-links li:not(:last-child) {
     border-right: 1px #669DC9 solid; }
 
@@ -901,7 +902,11 @@ hr {
       border-right: #669DC9 1px solid;
       padding: 0 40px 70px; }
   .menu-active {
-    overflow-y: scroll; } }
+    overflow-y: scroll; }
+  .social-links li {
+    padding-left: 0;
+    padding-right: 0;
+    float: left; } }
 
 @media (min-width: 1024px) {
   .talent-title {
