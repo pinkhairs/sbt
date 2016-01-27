@@ -548,6 +548,9 @@ hr {
 	position:relative;
 	z-index:200;
 	margin:0 20px 20px;
+	a {
+		vertical-align:top;
+	}
 }
 
 /* may not be necessary (for alt work page) */

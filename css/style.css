@@ -503,6 +503,8 @@ hr {
   position: relative;
   z-index: 200;
   margin: 0 20px 20px; }
+  .modal-button a {
+    vertical-align: top; }
 
 /* may not be necessary (for alt work page) */
 .card-container {
