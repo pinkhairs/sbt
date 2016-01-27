@@ -17,7 +17,7 @@ if (window.matchMedia('(max-width:40em)').matches) {
 $('#menu-button, .menu-close-button').click(function() {
 	$('#menu').toggleClass('menu-container-expanded');
 	$('.wrap,body').toggleClass('menu-active');
-	if ($('#menu').hasClass('menu-container-expanded')) {
+	if ($('#menu').hasClass('menu-container-expanded') && window.matchMedia('(min-width:768px)').matches) {
 		$('.wrap').height($('#menu').height() - 300);
 	} else {
 		$('.wrap').height('auto');

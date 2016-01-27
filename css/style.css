@@ -287,6 +287,12 @@ p > .button:first-child {
   color: #fff;
   text-align: center;
   padding-bottom: 40px; }
+  .site-footer .social-links {
+    text-align: left;
+    margin-top: 0; }
+    .site-footer .social-links li {
+      width: 25%;
+      float: left; }
 
 .colophon {
   display: block;

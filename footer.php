@@ -2,7 +2,7 @@
 <footer class="site-footer">
 	<div class="row large-collapse">
 		<div class="small-12 large-4 columns">
-			<div class="section large-pt color-section text-center large-text-left">
+			<div class="medium-section large-pt color-section text-center large-text-left">
 				<h4>Ready to find your next great gig?</h4>
 				<p><a href="#" class="button">Get started</a></p>
 			</div>
