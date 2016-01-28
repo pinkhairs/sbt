@@ -12,7 +12,7 @@ body {
 .post-alt.wrap {
   max-width: none; }
 
-* + p, * + h2, * + h3, * + nav, * + h5, * + h4 {
+* + p, * + h2, * + h3, * + nav, * + h5, * + h4, label {
   margin-top: 26px; }
 
 a {
@@ -221,14 +221,20 @@ h5 a {
   color: #000F2E; }
 
 label {
-  font-weight: 700;
-  color: #000F2E; }
+  font-weight: 400;
+  color: #000F2E;
+  display: block; }
+
+.dropdown-container label {
+  margin-top: 0; }
 
 /* buttons */
-p > .button:first-child {
-  margin-top: -6px;
-  margin-bottom: 6px;
-  /* optical adjustment */ }
+.button {
+  font-weight: 700; }
+  p > .button:first-child {
+    margin-top: -6px;
+    margin-bottom: 6px;
+    /* optical adjustment */ }
 
 .read-button {
   background: #9FBDD4 url("../images/right-arrow.svg") center right 11px no-repeat;
@@ -912,7 +918,9 @@ hr {
   .social-links li {
     padding-left: 0;
     padding-right: 0;
-    float: left; } }
+    float: left; }
+  label {
+    margin-top: 0; } }
 
 @media (min-width: 1024px) {
   .talent-title {

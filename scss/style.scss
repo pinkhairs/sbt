@@ -21,7 +21,7 @@ body {
 .post-alt.wrap {
 	max-width:none;
 }
-* + p, * + h2, * + h3, * + nav, * + h5, * + h4 {
+* + p, * + h2, * + h3, * + nav, * + h5, * + h4, label {
 	margin-top:26px;
 }
 a {
@@ -243,12 +243,17 @@ h5 {
 	}
 }
 label {
-	font-weight:700;
+	font-weight:400;
 	color:$midnight;
+	display:block;
+}
+.dropdown-container label {
+	margin-top:0;
 }
 
 /* buttons */
 .button {
+	font-weight:700;
 	@extend .load-more-button;
 	p > &:first-child {
 		margin-top:-6px;

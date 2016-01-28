@@ -25,55 +25,14 @@
 						<div class="dropdown-container">
 							<div class="dropdown-label">Work</div>
 							<ul class="dropdown">
-								<li class="active"><label><input type="radio" name="dropdown_eg" value="opt1"><p class="lead lead-small desktop-only">I'm looking for</p>Work</label></li>
-								<li><label><input type="radio" name="dropdown_eg"><p class="lead lead-small desktop-only">I'm looking for</p>Talent</label></li>
-								<li><label><input type="radio" name="dropdown_eg"><p class="lead lead-small desktop-only">Just a general</p>Inquiry</label></li>
+								<li class="active"><label><input value="work" type="radio" name="dropdown_eg" value="opt1"><p class="lead lead-small desktop-only">I'm Looking for </p>Work</label></li>
+								<li><label><input type="radio" value="talent" name="dropdown_eg"><p class="lead lead-small desktop-only">I'm Looking for </p>Talent</label></li>
+								<li><label><input type="radio" value="general" name="dropdown_eg"><p class="lead lead-small desktop-only">Just a General </p>Inquiry</label></li>
 							</ul>
 						</div>
 					</div>
-				<hr>
-				<h4 class="desktop-only text-center">Basic Information</h4>
-				<div class="row large-pt">
-					<div class="small-12 large-4 columns">
-						<p><label>Name
-							<input type="text">
-						</label></p>
-					</div>
-					<div class="small-12 large-4 columns">
-						<p><label>Phone Number
-							<input type="tel">
-						</label></p>
-					</div>
-					<div class="small-12 large-4 columns">
-						<p><label>Email Address
-							<input type="email">
-						</label></p>
-					</div>
-				</div>
-				<hr>
-				<div class="row large-pt">
-					<div class="small-12 large-4 columns">
-						<p><label>Upload Your Resume or Portfolio
-							<input type="file">
-						</label></p>
-						<p><label>LinkedIn Profile
-							<input type="url">
-						</label></p>
-					</div>
-					<div class="small-12 large-8 columns">
-						<p><label>Additional Links <span class="subtext">Post your online portfolios from sites like Behance, Dribbble, or your own hosted site.</span>
-							<textarea></textarea>
-						</label></p>
-					</div>
-				</div>
-				<hr class="desktop-only">
-				<div class="row large-pt">
-					<div class="small-12 large-centered large-8 columns">
-						<p class="large-text-center"><label class="large-text">How Can We Help You? <span class="subtext-block subtext">Let us know what type of work conditions, styles, etc you prefer.</span>
-							<textarea></textarea>
-						</label></p>
-						<p class="text-center"><button type="submit" class="button">Submit</button></p>
-					</div>
+				<div id="contact-form">
+
 				</div>
 			</form>
 		</div>
