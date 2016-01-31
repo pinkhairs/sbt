@@ -355,7 +355,8 @@ input[type="file"] {
   background-image: url("../images/dropdown_arrows_small.svg");
   background-position: right -2px center;
   background-repeat: no-repeat;
-  background-size: auto 102%; }
+  background-size: auto 102%;
+  cursor: pointer; }
 
 .dropdown-container {
   position: relative; }
@@ -764,6 +765,10 @@ hr {
       .site-footer h4 a, .site-footer .colophon a {
         font-size: 24px;
         line-height: 34px; }
+    .site-footer .social-links li {
+      width: auto; }
+    .site-footer .medium-section {
+      padding-bottom: 40px; }
   .read-button {
     font-size: 18px;
     line-height: 20px; }
