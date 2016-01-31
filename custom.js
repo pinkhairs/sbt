@@ -1,5 +1,6 @@
-$('.work-talent-titles').width($('body').width() * 2);
+
 $(window).resize(function() {
+	$('.work-talent-titles').width($('body').width() * 2);
 	if (window.matchMedia('only screen and (max-width: 40em)').matches) {
 		$('.logo').click(function() {
 			$('#menu').addClass('menu-container-expanded');
