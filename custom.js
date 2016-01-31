@@ -1,3 +1,4 @@
+	$('.work-talent-titles').width($('body').width() * 2);
 
 $(window).resize(function() {
 	$('.work-talent-titles').width($('body').width() * 2);
