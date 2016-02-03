@@ -2,8 +2,8 @@
 <div class="row">
 	<div class="small-12 columns">
 		<div class="section medium-section text-center">
-			<p class="lead">Finding new</p>
-			<h1>Work</h1>
+			<p class="lead">Looking for</p>
+			<h1>Talent</h1>
 			<p><img src="images/line.svg" alt=""></p>
 			<div class="tal"><a href="#"><img src="images/tal.svg" alt="Talent"></a></div>
 		</div>

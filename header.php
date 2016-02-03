@@ -18,7 +18,7 @@
 			</a>
 			<p class="lead midnight">I'm looking for</p>
 			<h2 class="menu-link-heading" id="menu-work-link"><a href="work.php">Work</a></h2>
-			<h2 class="menu=link-heading" id="menu-work-link"><a href="#talent-links">Talent</a></h2>
+			<h2 class="menu=link-heading" id="menu-work-link"><a href="talent.php">Talent</a></h2>
 			<nav id="talent-links">
 				<ul class="menu-links">
 					<li><a href="index.php">Home</a></li>
@@ -26,8 +26,7 @@
 					<li><a href="submit.php">Form Submitted</a></li>
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="blog.php">Blog</a></li>
-					<li><a href="post.php">Post</a></li>
-					<li><a href="post-alt.php">Post Alt</a></li>
+					<li><a href="post-alt.php">Post</a></li>
 					<li><a href="#">Jobs</a></li>
 					<li><a href="#">Referrals</a></li>
 					<li><a href="#">Press</a></li>
