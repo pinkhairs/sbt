@@ -12,8 +12,9 @@
 <div class="row">
 	<div class="small-12 large-8 large-centered columns">
 		<div class="section pt0 large-text large-text-center">
-			<h4 class="large-text">It's about the work.</h4>
-			<p>Perks and bonuses are important, but we understand what truly makes an opportunity great is the work you do and the impact you make. Today's engineers and developers don't need a traditional recruiter; they need an agent.</p>
+			<h4 class="large-text">It’s about the talent.</h4>
+			<p>Perks and bonuses are important, but we know what truly makes an opportunity great is the work you do and the impact you make. Let us help you find work that matters.</p>
+			<p>We specialize in placing individual contributors and executives through our divisions listed below:</p>
 		</div>
 	</div>
 </div>
