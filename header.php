@@ -39,10 +39,10 @@
 						<p class="lead">Follow us on</p>
 						<nav class="menu-social-links">
 							<ul class="flat-links">
-								<li><a href="#"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
-								<li><a href="#"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
-								<li><a href="#"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
-								<li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li>
+								<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
+								<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
+								<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
+								<!-- <li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li> -->
 							</ul>
 						</nav>
 					</div>
