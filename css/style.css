@@ -760,8 +760,7 @@ hr {
     width: auto;
     padding: 20px 0 0;
     text-align: center;
-    display: block;
-    float: left; }
+    display: block; }
   .site-footer {
     padding-bottom: 0; }
     .site-footer .section {
@@ -930,8 +929,7 @@ hr {
     overflow-y: scroll; }
   .social-links li {
     padding-left: 0;
-    padding-right: 0;
-    float: left; }
+    padding-right: 0; }
   label {
     margin-top: 0; } }
 
