@@ -18,7 +18,11 @@
 			</a>
 			<p class="lead midnight">I'm looking for</p>
 			<h2 class="menu-link-heading" id="menu-work-link"><a href="work.php">Work</a></h2>
+<<<<<<< HEAD
 			<h2 class="menu-link-heading" id="menu-work-link"><a href="talent.php">Talent</a></h2>
+=======
+			<h2 class="menu=link-heading" id="menu-work-link"><a href="talent.php">Talent</a></h2>
+>>>>>>> 04cf5584cccfbd6c202e4e9ea7eb125ad99602ce
 			<nav id="talent-links">
 				<ul class="menu-links">
 					<li><a href="index.php">Home</a></li>
@@ -26,8 +30,7 @@
 					<li><a href="submit.php">Form Submitted</a></li>
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="blog.php">Blog</a></li>
-					<li><a href="post.php">Post</a></li>
-					<li><a href="post-alt.php">Post Alt</a></li>
+					<li><a href="post-alt.php">Post</a></li>
 					<li><a href="#">Jobs</a></li>
 					<li><a href="#">Referrals</a></li>
 					<li><a href="#">Press</a></li>
@@ -40,10 +43,10 @@
 						<p class="lead">Follow us on</p>
 						<nav class="menu-social-links">
 							<ul class="flat-links">
-								<li><a href="#"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
-								<li><a href="#"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
-								<li><a href="#"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
-								<li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li>
+								<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
+								<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
+								<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
+								<!-- <li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li> -->
 							</ul>
 						</nav>
 					</div>

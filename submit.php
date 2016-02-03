@@ -13,7 +13,6 @@
 	<div class="small-12 columns">
 		<div class="section pt0">
 			<p>Thank you for your submission. We will respond to your message within the next 48 hours.</p>
-			<p>Thank you for your submission. We will respond to your message within the next 48 hours.</p>
 			<nav class="social-links b0">
 				<ul class="flat-links">
 					<li class="b0"><a href="#"><img src="images/twitter.svg" alt="Twitter"></a></li>
