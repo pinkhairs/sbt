@@ -181,7 +181,11 @@ a {
   line-height: 20px; }
 
 .lead.standalone, h5.standalone, .standalone.read-button, .standalone.back-read-button, .standalone.load-more-button, .standalone.button, .standalone.reverse-button, .standalone.view-all-button {
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: center; }
+
+.work-bg-content .standalone {
+  text-align: center; }
 
 h1 {
   font-weight: 300;
@@ -265,7 +269,8 @@ label {
   padding: 10px 20px;
   color: #FFFFFF;
   font-weight: 700;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  margin-bottom: 10px; }
 
 .view-all-button {
   background: #9E9E9E;
@@ -276,6 +281,7 @@ label {
   padding: 10px 20px;
   color: #FFFFFF;
   font-weight: 700;
+  margin-bottom: 10px;
   letter-spacing: 0; }
 
 .reverse-button {
@@ -821,10 +827,12 @@ hr {
       color: #669DC9 !important;
       font-size: 36px;
       font-weight: 700;
-      line-height: 36px; }
+      line-height: 36px;
+      text-align: left; }
     .work-bg-content .lead.standalone, .work-bg-content h5.standalone, .work-bg-content .standalone.read-button, .work-bg-content .standalone.back-read-button, .work-bg-content .standalone.load-more-button, .work-bg-content .standalone.button, .work-bg-content .standalone.reverse-button, .work-bg-content .standalone.view-all-button {
       color: #000F2E !important;
       margin-top: 10px;
+      text-align: left;
       font-weight: 400; }
   .work-bg-content .container {
     float: left;

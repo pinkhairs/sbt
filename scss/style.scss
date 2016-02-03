@@ -198,6 +198,10 @@ a {
 }
 .lead.standalone {
 	font-size:18px;
+	text-align:center;
+}
+.work-bg-content .standalone {
+	text-align:center;
 }
 h1 {
 	font-weight:300;
@@ -293,6 +297,7 @@ label {
 	color: #FFFFFF;
 	font-weight:700;
 	letter-spacing:0;
+	margin-bottom:10px;
 }
 .view-all-button {
 	background: $stardust;
@@ -304,6 +309,7 @@ label {
 	@extend .lead;
 	color: #FFFFFF;
 	font-weight:700;
+	margin-bottom:10px;
 	letter-spacing:0;
 }
 .reverse-button {

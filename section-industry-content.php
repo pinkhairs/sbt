@@ -50,7 +50,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>MANUFACTURING AND  QUALITY ENGINEERING</h5>
+					<h5>MANUFACTURING AND QUALITY ENGINEERING</h5>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>

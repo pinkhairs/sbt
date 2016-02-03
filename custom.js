@@ -103,6 +103,9 @@ $('input[name="dropdown_eg"]').change(function() {
 		$('#contact-form').load('section-general-inquiry.php');
 	}
 });
+if ($('.talent-title').hasClass('active')) {
+	makeTalentActive($('.talent-title'));
+}
 function makeTalentActive(newactive) {
 	switchViews(newactive);
 	$('#section-work-talent-content').load('section-talent.php');
