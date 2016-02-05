@@ -18,11 +18,7 @@
 			</a>
 			<p class="lead midnight">I'm looking for</p>
 			<h2 class="menu-link-heading" id="menu-work-link"><a href="work.php">Work</a></h2>
-<<<<<<< HEAD
 			<h2 class="menu-link-heading" id="menu-work-link"><a href="talent.php">Talent</a></h2>
-=======
-			<h2 class="menu=link-heading" id="menu-work-link"><a href="talent.php">Talent</a></h2>
->>>>>>> 04cf5584cccfbd6c202e4e9ea7eb125ad99602ce
 			<nav id="talent-links">
 				<ul class="menu-links">
 					<li><a href="index.php">Home</a></li>
