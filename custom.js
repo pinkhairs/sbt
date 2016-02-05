@@ -111,12 +111,14 @@ function makeTalentActive(newactive) {
 	$('#section-work-talent-content').load('section-talent.php');
 	$('.work-talent-titles').removeClass('work-active');
 	$('.work-talent-titles').addClass('talent-active');
+	history.pushState({}, null, "talent.php");
 }
 function makeWorkActive(newactive) {
 	switchViews(newactive);
 	$('#section-work-talent-content').load('section-work.php');
 	$('.work-talent-titles').removeClass('talent-active');
 	$('.work-talent-titles').addClass('work-active');
+	history.pushState({}, null, "work.php");
 }
 function switchViews(newactive) {
 	$('.work-talent-title').removeClass('active');
