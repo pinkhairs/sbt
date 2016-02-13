@@ -31,6 +31,7 @@ $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
 });	
 $(document).on('click', '.industry-card', function() {
+	$category = $(this).attr('id');
 	$('.industry-card').removeClass('active');
 	$(this).addClass('active');
 	if (window.matchMedia('only screen and (max-width: 960px)').matches) { 
@@ -47,7 +48,7 @@ $(document).on('click', '.industry-card', function() {
 		);
 		setTimeout(
 			function() {
-				$( "#industry-content" ).hide().load( "section-industry-content.php" ).fadeIn(600);
+				$( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
 			}, 1800
 		);
 		setTimeout(
@@ -58,7 +59,7 @@ $(document).on('click', '.industry-card', function() {
 	} else {
 		setTimeout(
 			function() {
-				$( "#industry-content" ).hide().load( "section-industry-content.php" ).fadeIn(600);
+				$( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
 			}, 300
 		);
 	}
