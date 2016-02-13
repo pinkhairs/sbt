@@ -730,4 +730,15 @@ body * {
 .work-active {
 	transform:translate(0);
 }
+.loading-screen {
+	position:absolute;
+	z-index:1001;
+	top:0;
+	left:0;
+	background: rgb(19,35,61); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%, rgba(10,24,47,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 @import "desktop.scss";

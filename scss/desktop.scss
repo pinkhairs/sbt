@@ -295,6 +295,7 @@
 		max-height:none;
 		text-align:right;
 		z-index:101;
+		height:0;
 	}
 	.menu-close-button {
 		margin-top:30px;
@@ -317,6 +318,7 @@
 	}
 	.menu-container-expanded {
 		right:0;
+		height:auto;
 	}
 	.talent-title {
 		position:relative;

@@ -660,6 +660,22 @@ body * {
 .work-active {
   transform: translate(0); }
 
+.loading-screen {
+  position: absolute;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  background: #13233d;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #13233d 0%, #0a182f 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #13233d 0%, #0a182f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #13233d 0%, #0a182f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
 @media (min-width: 40em) {
   body {
     background-position: top 80px center;
@@ -886,7 +902,8 @@ body * {
     display: block;
     max-height: none;
     text-align: right;
-    z-index: 101; }
+    z-index: 101;
+    height: 0; }
   .menu-close-button {
     margin-top: 30px;
     margin-bottom: 80px; }
@@ -902,7 +919,8 @@ body * {
     font-size: 64px;
     line-height: 91px; }
   .menu-container-expanded {
-    right: 0; }
+    right: 0;
+    height: auto; }
   .talent-title {
     position: relative;
     left: -15%; }
