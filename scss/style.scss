@@ -351,7 +351,7 @@ label {
 	}	
 }
 .flat-links li, .flat-links a {
-	display:inline-block;
+	display:inline-block !important;
 }
 .social-links {
 	margin-left:-10px;
@@ -661,7 +661,7 @@ hr {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.fadeInUp {
+body * {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
