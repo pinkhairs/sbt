@@ -1,4 +1,4 @@
-	$('.work-talent-titles').width($('body').width() * 2);
+$('.work-talent-titles').width($('body').width() * 2);
 
 $(window).resize(function() {
 	$('.work-talent-titles').width($('body').width() * 2);
@@ -132,3 +132,56 @@ function switchViews(newactive) {
 	$('.work-talent-title').css('z-index', 9);
 	newactive.css('z-index', 1);
 }
+
+$(function(){
+  jQuery.browser = {};
+  (function () {
+    jQuery.browser.msie = false;
+    jQuery.browser.version = 0;
+
+    if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+        jQuery.browser.msie = true;
+        jQuery.browser.version = RegExp.$1;
+    }
+  })();
+  
+   jQuery.getFeed({
+   url: 'http://crossorigin.me/https://sbtalent.crelate.com/portal/rss',
+     // success: function(feed){alert(feed);}
+     
+   success: function(feed) {
+
+        var html = '';
+
+        for(var i = 0; i < feed.items.length && i < 5; i++) {
+
+            var item = feed.items[i];
+
+            html += '<div class="card"><h2 class="text-left job-header">'
+            + '<a href="'
+            + item.link
+            + '">'
+            + item.title
+            + '</a>'
+            + '</h2>';
+
+            html += '<p class="updated text-left">'
+            + item.updated
+            + '</p>';
+
+            html += '<div class="job-description text-left">'
+            + item.description
+            + '</div>';
+          
+            html += '<a href="'
+            + item.link
+            + '" class="button">'
+            + 'Apply for this job'
+            + '</a>'
+            
+            html += '</div><br>'
+        }
+        jQuery('#result').append(html);
+    }    
+ });
+});
