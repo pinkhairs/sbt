@@ -7,11 +7,9 @@
 <link rel="stylesheet" href="css/foundation.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body>
-<div class="loading-screen">
-<div id="loading" class="">
+<body <?php if ($_COOKIE['preload'] != 1) echo 'class="loading-screen"'; ?>>
+<div id="loading">
 
-</div>
 </div>
 <div class="menu-container" id="menu">
 	<div class="row">
@@ -32,7 +30,7 @@
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="blog.php">Blog</a></li>
 					<li><a href="post-alt.php">Post</a></li>
-					<li><a href="#">Jobs</a></li>
+					<li><a href="jobs.php">Jobs</a></li>
 					<li><a href="#">Referrals</a></li>
 					<li><a href="#">Press</a></li>
 					<li><a href="#">Terms &amp; Privacy</a></li>

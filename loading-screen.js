@@ -63,9 +63,6 @@ var pathObj = {
 
 
  $(document).ready(function(){
-    if ($('#loading').length !== 0) {
-        $('body').addClass('hidebody');
-    }
     $('#loading').fadeIn().lazylinepainter( 
     {
         "svgData": pathObj,
@@ -74,6 +71,6 @@ var pathObj = {
         'strokeOpacity': 0,
         'strokeCap':'round',
         "onStrokeStart": function(data) { data.el.style.strokeOpacity = 1; },
-        "onComplete":function() { $('#loading').delay(300).fadeOut(); $('.loading-screen').delay(800).fadeOut(); $('body').removeClass('hidebody'); }
+        "onComplete":function() { $('#loading').fadeOut(); $('body').removeClass('loading-screen'); }
     }).lazylinepainter('paint'); 
  });

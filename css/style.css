@@ -602,7 +602,11 @@ hr {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-body * {
+.button, h1, h2, h3, h4, h5, h6, p {
+  -webkit-animation-duration: 600ms;
+  animation-duration: 600ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp; }
 
@@ -629,6 +633,26 @@ body * {
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeOutUp {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp; }
 
 .work-talent-titles {
   overflow: hidden;
@@ -661,10 +685,7 @@ body * {
   transform: translate(0); }
 
 .loading-screen {
-  position: absolute;
   z-index: 1001;
-  top: 0;
-  left: 0;
   background: #13233d;
   /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, #13233d 0%, #0a182f 100%);
@@ -675,12 +696,15 @@ body * {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
+  .loading-screen div:not(#loading), .loading-screen header, .loading-screen footer {
+    display: none; }
 
 #loading {
   position: absolute;
   width: 25%;
   top: 50%;
   left: 50%;
+  z-index: 1001;
   transform: translate(-50%, -50%); }
   #loading svg {
     padding: 10rem 0.75rem; }
