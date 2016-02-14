@@ -676,6 +676,15 @@ body * {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
 
+#loading {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  #loading svg {
+    padding: 0.5rem; }
+
 @media (min-width: 40em) {
   body {
     background-position: top 80px center;
@@ -949,7 +958,9 @@ body * {
     padding-left: 0;
     padding-right: 0; }
   label {
-    margin-top: 0; } }
+    margin-top: 0; }
+  #loading {
+    width: 10%; } }
 
 @media (min-width: 1024px) {
   .talent-title {

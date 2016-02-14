@@ -741,4 +741,14 @@ body * {
 	background: radial-gradient(ellipse at center,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+#loading {
+	position:absolute;
+	width:50%;
+	top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+	svg {
+		padding:0.5rem;
+	}
+}
 @import "desktop.scss";
