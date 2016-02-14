@@ -1,9 +1,5 @@
 $('.work-talent-titles').width($('body').width() * 2);
-$('.loading-screen').width($(window).width());
-$('.loading-screen').height($(window).height());
 $(window).resize(function() {
-	$('.loading-screen').width($(window).width());
-	$('.loading-screen').height($(window).height());
 	$('.work-talent-titles').width($('body').width() * 2);
 	if (window.matchMedia('only screen and (max-width: 40em)').matches) {
 		$('.logo').click(function() {

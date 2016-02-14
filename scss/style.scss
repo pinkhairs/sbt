@@ -743,12 +743,16 @@ body * {
 }
 #loading {
 	position:absolute;
-	width:50%;
+	width:25%;
 	top:50%;
     left:50%;
     transform: translate(-50%,-50%);
 	svg {
-		padding:0.5rem;
+		padding:10rem 0.75rem;
 	}
+}
+.hidebody {
+	height:0;
+	overflow:hidden;
 }
 @import "desktop.scss";

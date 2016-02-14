@@ -8,6 +8,11 @@
 <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
+<div class="loading-screen">
+<div id="loading" class="">
+
+</div>
+</div>
 <div class="menu-container" id="menu">
 	<div class="row">
 		<div class="small-12 columns">
