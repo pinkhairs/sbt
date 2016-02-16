@@ -1,5 +1,4 @@
-	$('.work-talent-titles').width($('body').width() * 2);
-
+$('.work-talent-titles').width($('body').width() * 2);
 $(window).resize(function() {
 	$('.work-talent-titles').width($('body').width() * 2);
 	if (window.matchMedia('only screen and (max-width: 40em)').matches) {
@@ -30,7 +29,12 @@ $('#menu-button, .menu-close-button').click(function() {
 $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
 });	
+<<<<<<< HEAD
 $(document).on('click', '.work-sbtdesign-content', function() {
+=======
+$(document).on('click', '.industry-card', function() {
+	$category = $(this).attr('id');
+>>>>>>> f700263b4e99d7a3d6b46bbd3e22614c6e76413c
 	$('.industry-card').removeClass('active');
 	$(this).addClass('active');
 	if (window.matchMedia('only screen and (max-width: 960px)').matches) { 
@@ -47,7 +51,11 @@ $(document).on('click', '.work-sbtdesign-content', function() {
 		);
 		setTimeout(
 			function() {
+<<<<<<< HEAD
 				$( "#industry-content" ).hide().load( "section-work-sbtdesign-content.php" ).fadeIn(600);
+=======
+				$( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
+>>>>>>> f700263b4e99d7a3d6b46bbd3e22614c6e76413c
 			}, 1800
 		);
 		setTimeout(
@@ -58,7 +66,11 @@ $(document).on('click', '.work-sbtdesign-content', function() {
 	} else {
 		setTimeout(
 			function() {
+<<<<<<< HEAD
 				$( "#industry-content" ).hide().load( "section-work-sbtdesign-content.php" ).fadeIn(600);
+=======
+				$( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
+>>>>>>> f700263b4e99d7a3d6b46bbd3e22614c6e76413c
 			}, 300
 		);
 	}
@@ -132,3 +144,56 @@ function switchViews(newactive) {
 	$('.work-talent-title').css('z-index', 9);
 	newactive.css('z-index', 1);
 }
+
+$(function(){
+  jQuery.browser = {};
+  (function () {
+    jQuery.browser.msie = false;
+    jQuery.browser.version = 0;
+
+    if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+        jQuery.browser.msie = true;
+        jQuery.browser.version = RegExp.$1;
+    }
+  })();
+  
+   jQuery.getFeed({
+   url: 'http://crossorigin.me/https://sbtalent.crelate.com/portal/rss',
+     // success: function(feed){alert(feed);}
+     
+   success: function(feed) {
+
+        var html = '';
+
+        for(var i = 0; i < feed.items.length && i < 5; i++) {
+
+            var item = feed.items[i];
+
+            html += '<div class="card"><h2 class="text-left job-header">'
+            + '<a href="'
+            + item.link
+            + '">'
+            + item.title
+            + '</a>'
+            + '</h2>';
+
+            html += '<p class="updated text-left">'
+            + item.updated
+            + '</p>';
+
+            html += '<div class="job-description text-left">'
+            + item.description
+            + '</div>';
+          
+            html += '<a href="'
+            + item.link
+            + '" class="button">'
+            + 'Apply for this job'
+            + '</a>'
+            
+            html += '</div><br>'
+        }
+        jQuery('#result').append(html);
+    }    
+ });
+});

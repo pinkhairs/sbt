@@ -10,7 +10,7 @@
 		<div class="small-12 columns">
 			<div class="section0 white-section">
 				<div class="industry-cards">
-					<div class="design-industry industry-card card-container">
+					<div class="design-industry industry-card card-container" id="design-industry">
 						<div class="card">
 							<h3><a href="#">SBT<strong>design</strong><br>
 							<span class="lead">Industry</span></h3>
@@ -18,7 +18,7 @@
 							<h5><a href="#">Open</a></h5>
 						</div>
 					</div>
-					<div class="ev-industry industry-card card-container">
+					<div class="ev-industry industry-card card-container" id="ev-industry">
 						<div class="card">
 							<h3><a href="#">SBT<strong>EV</strong><br>
 							<span class="lead">Industry</span></h3>
@@ -26,7 +26,7 @@
 							<h5><a href="#">Open</a></h5>
 						</div>
 					</div>
-					<div class="tech-industry industry-card card-container">
+					<div class="tech-industry industry-card card-container" id="tech-industry">
 						<div class="card">
 							<h3><a href="#">SBT<strong>tech</strong><br>
 							<span class="lead">Industry</span></h3>

@@ -31,7 +31,15 @@
 	</div>
 </footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<?php if ($_COOKIE['preload'] != 1) { ?>
+<script src="preload.js" type="text/javascript"></script>
+<script src="jquery.lazylinepainter-1.7.0.min.js" type="text/javascript"></script>
+<script src="loading-screen.js" type="text/javascript"></script>
+<?php } ?>
 <script src="jquery.mobile.custom.min.js" type="text/javascript"></script>
+<script src="jfeed.js" type="text/javascript"></script>
+<script src="jrss.js" type="text/javascript"></script>
 <script src="custom.js" type="text/javascript"></script>
+<script src="jfeeditem.js" type="text/javascript"></script>
 </body>
 </html>

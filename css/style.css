@@ -318,7 +318,7 @@ label {
     font-weight: 700; }
 
 .flat-links li, .flat-links a {
-  display: inline-block; }
+  display: inline-block !important; }
 
 .social-links {
   margin-left: -10px;
@@ -602,7 +602,11 @@ hr {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-.fadeInUp {
+.button, h1, h2, h3, h4, h5, h6, p {
+  -webkit-animation-duration: 600ms;
+  animation-duration: 600ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp; }
 
@@ -629,6 +633,26 @@ hr {
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeOutUp {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp; }
 
 .work-talent-titles {
   overflow: hidden;
@@ -659,6 +683,35 @@ hr {
 
 .work-active {
   transform: translate(0); }
+
+.loading-screen {
+  z-index: 1001;
+  background: #13233d;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #13233d 0%, #0a182f 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #13233d 0%, #0a182f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #13233d 0%, #0a182f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .loading-screen div:not(#loading), .loading-screen header, .loading-screen footer {
+    display: none; }
+
+#loading {
+  position: absolute;
+  width: 25%;
+  top: 50%;
+  left: 50%;
+  z-index: 1001;
+  transform: translate(-50%, -50%); }
+  #loading svg {
+    padding: 10rem 0.75rem; }
+
+.hidebody {
+  height: 0;
+  overflow: hidden; }
 
 @media (min-width: 40em) {
   body {
@@ -886,7 +939,8 @@ hr {
     display: block;
     max-height: none;
     text-align: right;
-    z-index: 101; }
+    z-index: 101;
+    height: 0; }
   .menu-close-button {
     margin-top: 30px;
     margin-bottom: 80px; }
@@ -902,7 +956,8 @@ hr {
     font-size: 64px;
     line-height: 91px; }
   .menu-container-expanded {
-    right: 0; }
+    right: 0;
+    height: auto; }
   .talent-title {
     position: relative;
     left: -15%; }
@@ -931,7 +986,9 @@ hr {
     padding-left: 0;
     padding-right: 0; }
   label {
-    margin-top: 0; } }
+    margin-top: 0; }
+  #loading {
+    width: 10%; } }
 
 @media (min-width: 1024px) {
   .talent-title {

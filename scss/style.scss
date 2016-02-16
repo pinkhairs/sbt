@@ -351,7 +351,7 @@ label {
 	}	
 }
 .flat-links li, .flat-links a {
-	display:inline-block;
+	display:inline-block !important;
 }
 .social-links {
 	margin-left:-10px;
@@ -661,9 +661,14 @@ hr {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.fadeInUp {
+.button, h1, h2, h3, h4, h5, h6, p {
+  -webkit-animation-duration: 600ms;
+  animation-duration: 600ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+
 }
 @-webkit-keyframes fadeInDown {
   from {
@@ -697,6 +702,34 @@ hr {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
+@-webkit-keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
 .work-talent-titles {
 	overflow:hidden;
 	position:relative;
@@ -729,5 +762,31 @@ hr {
 }
 .work-active {
 	transform:translate(0);
+}
+.loading-screen {
+	z-index:1001;
+	background: rgb(19,35,61); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%, rgba(10,24,47,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	div:not(#loading), header, footer {
+		display:none;
+	}
+}
+#loading {
+	position:absolute;
+	width:25%;
+	top:50%;
+    left:50%;
+    z-index:1001;
+    transform: translate(-50%,-50%);
+	svg {
+		padding:10rem 0.75rem;
+	}
+}
+.hidebody {
+	height:0;
+	overflow:hidden;
 }
 @import "desktop.scss";
