@@ -39,7 +39,7 @@
 		</div>
 	</div>
 	<div id="industry-dropdown-container"></div>
-	<div id="industry-content"></div>
+	<div id="work-sbtdesign-content"></div>
 	<div class="section large-mt gradient-section large-work-bg">
 		<div class="row collapse full-width-row">
 			<div class="small-12 large-6 large-offset-6 columns">

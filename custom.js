@@ -30,24 +30,24 @@ $('#menu-button, .menu-close-button').click(function() {
 $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
 });	
-$(document).on('click', '.industry-card', function() {
+$(document).on('click', '.work-sbtdesign-content', function() {
 	$('.industry-card').removeClass('active');
 	$(this).addClass('active');
 	if (window.matchMedia('only screen and (max-width: 960px)').matches) { 
 		$('.industry-card .card').css('opacity', '0');
 		setTimeout(
 			function() {
-				$('.industry-card').css('opacity', '0');
+				$('.section-work-sbtdesign-content').css('opacity', '0');
 			}, 600
 		);
 		setTimeout(
 			function() {
-				$( "#industry-dropdown-container" ).hide().load( "section-industry-dropdown.php" ).fadeIn(600);
+				$( "#industry-dropdown-container" ).hide().load( "section-work-sbtdesign-dropdown.php" ).fadeIn(600);
 			}, 1200
 		);
 		setTimeout(
 			function() {
-				$( "#industry-content" ).hide().load( "section-industry-content.php" ).fadeIn(600);
+				$( "#industry-content" ).hide().load( "section-work-sbtdesign-content.php" ).fadeIn(600);
 			}, 1800
 		);
 		setTimeout(
@@ -58,7 +58,7 @@ $(document).on('click', '.industry-card', function() {
 	} else {
 		setTimeout(
 			function() {
-				$( "#industry-content" ).hide().load( "section-industry-content.php" ).fadeIn(600);
+				$( "#industry-content" ).hide().load( "section-work-sbtdesign-content.php" ).fadeIn(600);
 			}, 300
 		);
 	}
