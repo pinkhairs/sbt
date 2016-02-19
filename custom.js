@@ -29,12 +29,10 @@ $('#menu-button, .menu-close-button').click(function() {
 $('#close-button').click(function() {
 	$('#menu').removeClass('menu-container-expanded');
 });	
-<<<<<<< HEAD
-$(document).on('click', '.work-sbtdesign-content', function() {
-=======
+
 $(document).on('click', '.industry-card', function() {
 	$category = $(this).attr('id');
->>>>>>> f700263b4e99d7a3d6b46bbd3e22614c6e76413c
+
 	$('.industry-card').removeClass('active');
 	$(this).addClass('active');
 	if (window.matchMedia('only screen and (max-width: 960px)').matches) { 
@@ -51,11 +49,7 @@ $(document).on('click', '.industry-card', function() {
 		);
 		setTimeout(
 			function() {
-<<<<<<< HEAD
-				$( "#industry-content" ).hide().load( "section-work-sbtdesign-content.php" ).fadeIn(600);
-=======
 				$( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
->>>>>>> f700263b4e99d7a3d6b46bbd3e22614c6e76413c
 			}, 1800
 		);
 		setTimeout(
@@ -66,11 +60,7 @@ $(document).on('click', '.industry-card', function() {
 	} else {
 		setTimeout(
 			function() {
-<<<<<<< HEAD
-				$( "#industry-content" ).hide().load( "section-work-sbtdesign-content.php" ).fadeIn(600);
-=======
 				$( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
->>>>>>> f700263b4e99d7a3d6b46bbd3e22614c6e76413c
 			}, 300
 		);
 	}

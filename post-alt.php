@@ -41,7 +41,7 @@ NOT GIVING UP</h2>
 							<nav class="social-links b0">
 								<ul class="flat-links space-out">
 									<li class="b0"><a href="https://twitter.com/loveyourworkca"><img src="images/twitter-azure.svg" alt="Twitter"></a></li>
-									<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/linkedin-azure.svg" alt="Facebook"></a></li>
+									<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook-azure.svg" alt="Facebook"></a></li>
 									<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/tumblr-azure.svg" alt="Facebook"></a></li>
 									<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/pinterest-azure.svg" alt="Facebook"></a></li>
 									<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook-azure.svg" alt="Facebook"></a></li>
