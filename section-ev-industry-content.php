@@ -1,7 +1,7 @@
 <div class="section large-industry-content white-section pt0 large-pt text-center">
 	<div class="row">
 		<div class="small-12 large-8 large-centered columns">
-			<p>Specializing in creative design professionals for automotive, web, and mobile applications. Our clients range from young and recently funded startups to established design centers and agencies. Recruiting specialties include:
+			<p>Specializing in the Electric Vehicle Industry. Clients include both start-up and middle-large OEMs. Recruiting Specialties include:
 </p>
 		</div>
 	</div>
@@ -11,7 +11,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5> UX / UI <br> Design</h5>
+					<h5> Design &<br> Studio Engineering</h5>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -19,7 +19,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Automotive <br>Design</h5>
+					<h5>Vehicle <br>Engineering</h5>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -27,7 +27,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Environmental <br> Design </br></h5>
+					<h5>Battery <br> Engineering </br></h5>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -35,7 +35,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Brand & Graphic <br>Design</h5>
+					<h5>Powertrain <br>Engineering</h5>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -43,19 +43,19 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Product <br>Design</h5>
+					<h5>Firmware <br>Engineering</h5>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
 		</div>
-		<!-- <div class="small-6 large-4 columns">
+		 <div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>MANUFACTURING AND QUALITY ENGINEERING</h5>
+					<h5>Manufacturing & <br> Quality Engineering</h5>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
-		</div> -->
+		</div>
 	</div>
 </div>
 <div class="section white-section large-pb eat-bottom-margin short-section text-center">
