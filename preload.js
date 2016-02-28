@@ -14,14 +14,14 @@ $.fn.preload = function (callback) {
   });
 };
 $('img').preload(function(perc, done) {
-  console.log(this, perc, done);
+  //console.log(this, perc, done);
 });
 
 
 
 
 
-//createCookie('preload', 1, 365);
+createCookie('preload', 1, 365);
 
 
 

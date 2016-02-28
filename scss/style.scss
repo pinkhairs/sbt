@@ -128,6 +128,7 @@ a {
 .menu-container-expanded {
 	margin-bottom:-100px;
 	max-height:100em;
+	z-index:10000;
 }
 .menu-label {
 	width:80px;
@@ -219,6 +220,9 @@ h2 {
 	text-transform:uppercase;
 	.lead + & {
 		margin-top:0;
+	}
+	.highlight {
+		color:$azure;
 	}
 }
 h3 {
@@ -789,4 +793,36 @@ hr {
 	height:0;
 	overflow:hidden;
 }
+.pattern-section {
+	background:url('../images/logo-bg.png') repeat-x;
+}
+@mixin horizontal-center($x:-50%) {
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translateX($x);
+  -ms-transform: translateX($x);
+  transform: translateX($x);
+}
+
+@mixin absolute-center($x:-50%,$y:-50%) {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate($x,$y);
+  -ms-transform: translate($x,$y);
+  transform: translate($x,$y);
+}
+
+@mixin transition($time: 250ms, $type:all, $style:cubic-bezier(.14, .62, .39, 1), $delay:0s) {
+  -webkit-transition: $type $time $style $delay;
+  -moz-transition: $type $time $style $delay;
+  -o-transition: $type $time $style $delay;
+  transition: $type $time $style $delay;
+}
+
+$mqm: 960px;
+$mql: 1200px;
+
+$font-family-sansserif: "brandon-grotesque", helvetica, arial, sans-serif;
+
 @import "desktop.scss";

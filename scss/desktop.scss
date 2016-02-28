@@ -319,6 +319,7 @@
 	.menu-container-expanded {
 		right:0;
 		height:auto;
+		z-index:10001;
 	}
 	.talent-title {
 		position:relative;
@@ -363,6 +364,229 @@
 	}
 	#loading {
 		width:10%;
+	}
+	.map-section {
+		background-image:url('../images/map.png');
+		background-position:right center;
+		background-repeat:no-repeat;
+		background-size:50% auto;
+	}
+	.interactive-hero {
+	  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/025-sbt-desktop-home-2.jpg') no-repeat left top scroll;
+	  background-size: cover;
+	  height: 667px;
+	  overflow: hidden;
+	  position: relative;
+	  width: 100%;
+	  &:after {
+	    background: #fff;
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    height: 100%;
+	    content: "";
+	    position: absolute;
+	    z-index: 9;
+	    mix-blend-mode: overlay;
+	  }
+	  @media screen and (min-width: $mqm){
+	    background-size: 1920px 981px;
+	    height: 888px;
+	  }
+	}
+
+	.beach-layer {
+	  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/sbt-hero-sand.png') no-repeat;
+	  background-size: 1920px auto;
+	  bottom: 0;
+	  height: 242px;
+	  position: absolute;
+	  width: 100%;
+	  z-index: 101;
+	}
+
+	.lineart-layer {
+	  display: none;
+	  height: 981px;
+	  opacity: 0.7;
+	  position: relative;
+	  top: 0px;
+	  width: 1920px;
+	  @media screen and (min-width: $mqm){
+	    display: block;
+	  }
+	  svg {
+	    padding-bottom: 100%;
+	    height: 981px;
+	    position: absolute;
+	    width: 1920px;
+	    left: 0;
+	    top: 0;
+	    right: 0;
+	    overflow: visible;
+	  }
+	}
+
+	.text-layer {
+	  height: 100%;
+	  -moz-height: auto;
+	  left: 0;
+	  position: absolute;
+	  top: 150px;
+	  width: 100%;
+	  z-index: 99;
+	  @media screen and (min-width: $mqm){
+	    top: 0;
+	  }
+	}
+
+	.text-col {
+	  float: left;
+	  height: 260px;
+	  padding: 20px;
+	  position: relative;
+	  width: 100%;
+	  &:hover {
+	    @media screen and (min-width: $mqm){
+	      .text-container, a.btn, .sub-paths {
+	        opacity: 1;
+	      }
+	      a.btn, .sub-paths {
+	        transform: translateY(0);
+	      }
+	    }
+	  }
+	  body:not(.has-menu) &:before {
+	    opacity: 0;
+	    @media screen and (min-width: $mqm){
+	      @include transition($time: 400ms);
+	      background-image: linear-gradient(-180deg, #055BEF 50%, rgba(255,255,255,0.00) 100%);
+	      // background-color: #055BEF;
+	      content: "";
+	      height: 100%;
+	      // mix-blend-mode: overlay;
+	      opacity: 0.1;
+	      position: absolute;
+	      top: 0;
+	      width: 150%;
+	      z-index:-1
+	    }
+	  }
+	  @media screen and (min-width: $mqm){
+	    height: 100%;
+	    width: 50%;
+	  }
+	}
+
+	.text-left {
+	  &:before {
+	    transform: translateX(-1500px) skew(10deg);
+	    right: 0;
+	  }
+	  &:hover {
+	    &:before {
+	      transform: translateX(0) skew(10deg);
+	    }
+	  }
+	}
+
+	.text-right {
+	  &:before {
+	    transform: translateX(1500px) skew(10deg);
+	    left: 0;
+	  }
+	  &:hover {
+	    &:before {
+	      transform: translateX(0) skew(10deg);
+	    }
+	  }
+	}
+
+	.text-container {
+	  @include transition;
+	  @include absolute-center;
+	  color: #fff;
+	  opacity: 1;
+	  text-transform: uppercase;
+	  width: 80%;
+	  @media screen and (min-width: $mqm){
+	    @include absolute-center(-50%,-80%);
+	    opacity: 0.5;
+	    width: 310px;
+	  }
+	  a {
+	    color: #669DC9;
+	    text-decoration: none;
+	  }
+	}
+
+	.sub-text {
+	  color: #B5CEE1;
+	  font-size: 14px;
+	  letter-spacing: 2px;
+	}
+
+	.text-header {
+	  font-size: 32px;
+	  font-weight: 100;
+	  line-height: 40px;
+	  letter-spacing: 2px;
+	  margin: 5px 0 20px;
+	}
+
+	a.btn {
+	  @include transition($delay: 200ms);
+	  background: #669DC9;
+	  border-radius: 2px;
+	  color: #fff;
+	  display: inline-block;
+	  letter-spacing: 2px;
+	  opacity: 1;
+	  padding: 5px 20px;
+	  transform: translateY(10px);
+	  @media screen and (min-width: $mqm){
+	    opacity: 0;
+	  }
+	}
+
+	.sub-paths {
+	  @include transition($delay: 300ms);
+	  list-style: none;
+	  margin: 20px 0;
+	  opacity: 1;
+	  padding: 0;
+	  transform: translateY(10px);
+	  @media screen and (min-width: $mqm){
+	    opacity: 0;
+	  }
+	}
+
+	.sub-path-item {
+	  color: #669DC9;
+	  display: inline-block;
+	  padding: 0 10px 0 0;
+	}
+
+	.sub-path-link {
+	  font-size: 14px;
+	  letter-spacing: 2px;  
+	}
+
+	.video-layer {
+	  height: 242px;
+	  width: 1920px;
+	  bottom: 0;
+	  left: 0;
+	  position: absolute;
+	  right: 0;
+	  z-index: 100;
+	  text-align: left;
+	  video {
+	    position: absolute;
+	    left: 0;
+	  }
 	}
 }
 @media (min-width:1024px) {
