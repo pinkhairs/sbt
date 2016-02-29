@@ -41,6 +41,11 @@ a {
   background: #000F2E;
   color: #fff; }
 
+.home-dark-section {
+  background: #091531; }
+  .home-dark-section .lead, .home-dark-section h5, .home-dark-section .read-button, .home-dark-section .back-read-button, .home-dark-section .load-more-button, .home-dark-section .button, .home-dark-section .reverse-button, .home-dark-section .view-all-button {
+    color: #B5CEE1; }
+
 .color-section {
   background: #315BA6;
   color: #fff; }
@@ -719,6 +724,23 @@ hr {
 .pattern-section {
   background: url("../images/logo-bg.png") repeat-x; }
 
+.video-layer {
+  display: none;
+  height: auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  text-align: left; }
+  @media screen and (min-width: 960px) {
+    .video-layer {
+      display: block;
+      width: 1450px; } }
+  .video-layer video {
+    width: 100%; }
+
 @media (min-width: 40em) {
   body {
     background-position: top 80px center;
@@ -751,7 +773,7 @@ hr {
     line-height: 20px; }
   h1 {
     font-size: 144px;
-    line-height: 206px; }
+    line-height: 176px; }
   body {
     font-size: 24px;
     line-height: 32px; }
@@ -1003,9 +1025,9 @@ hr {
     background-repeat: no-repeat;
     background-size: 50% auto; }
   .interactive-hero {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/025-sbt-desktop-home-2.jpg") no-repeat left top scroll;
+    background: url("../images/beach.jpg") no-repeat left top scroll;
     background-size: cover;
-    height: 667px;
+    height: 900px;
     overflow: hidden;
     position: relative;
     width: 100%; }
@@ -1017,7 +1039,6 @@ hr {
       right: 0;
       bottom: 0;
       height: 100%;
-      content: "";
       position: absolute;
       z-index: 9;
       mix-blend-mode: overlay; } }
@@ -1063,7 +1084,7 @@ hr {
     position: absolute;
     top: 150px;
     width: 100%;
-    z-index: 99; } }
+    z-index: 10000; } }
   @media screen and (min-width: 40em) and (min-width: 960px) {
     .text-layer {
       top: 0; } }
@@ -1109,11 +1130,13 @@ hr {
     right: 0; }
   .text-left:hover:before {
     transform: translateX(0) skew(10deg); }
-  .text-right:before {
-    transform: translateX(1500px) skew(10deg);
-    left: 0; }
-  .text-right:hover:before {
-    transform: translateX(0) skew(10deg); }
+  .text-right {
+    text-align: left !important; }
+    .text-right:before {
+      transform: translateX(1500px) skew(10deg);
+      left: 0; }
+    .text-right:hover:before {
+      transform: translateX(0) skew(10deg); }
   .text-container {
     -webkit-transition: all 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
     -moz-transition: all 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
@@ -1205,7 +1228,9 @@ hr {
     text-align: left; }
     .video-layer video {
       position: absolute;
-      left: 0; } }
+      left: 0; }
+  .home-dark-section h2 {
+    line-height: 48px; } }
 
 @media (min-width: 1024px) {
   .talent-title {

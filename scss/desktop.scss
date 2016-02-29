@@ -39,7 +39,7 @@
 	}
 	h1 {
 		font-size:144px;
-		line-height:206px;
+		line-height:176px;
 	}
 	body {
 		font-size:24px;
@@ -373,9 +373,9 @@
 		background-size:50% auto;
 	}
 	.interactive-hero {
-	  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/025-sbt-desktop-home-2.jpg') no-repeat left top scroll;
+	  background: url('../images/beach.jpg') no-repeat left top scroll;
 	  background-size: cover;
-	  height: 667px;
+	  height: 900px;
 	  overflow: hidden;
 	  position: relative;
 	  width: 100%;
@@ -387,7 +387,7 @@
 	    right: 0;
 	    bottom: 0;
 	    height: 100%;
-	    content: "";
+	    //content: "";
 	    position: absolute;
 	    z-index: 9;
 	    mix-blend-mode: overlay;
@@ -437,7 +437,7 @@
 	  position: absolute;
 	  top: 150px;
 	  width: 100%;
-	  z-index: 99;
+	  z-index: 10000;
 	  @media screen and (min-width: $mqm){
 	    top: 0;
 	  }
@@ -494,6 +494,7 @@
 	}
 
 	.text-right {
+		text-align:left !important;
 	  &:before {
 	    transform: translateX(1500px) skew(10deg);
 	    left: 0;
@@ -588,6 +589,11 @@
 	    position: absolute;
 	    left: 0;
 	  }
+	}
+	.home-dark-section {
+		h2 {
+			line-height:48px;
+		}
 	}
 }
 @media (min-width:1024px) {

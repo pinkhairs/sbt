@@ -52,6 +52,12 @@ a {
 	background:$midnight;
 	color:#fff;
 }
+.home-dark-section  {
+	background:#091531;
+	.lead {
+		color:$lightsteelblue;
+	}
+}
 .color-section {
 	background:$azure;
 	color:#fff;
@@ -824,5 +830,24 @@ $mqm: 960px;
 $mql: 1200px;
 
 $font-family-sansserif: "brandon-grotesque", helvetica, arial, sans-serif;
+
+.video-layer {
+  display: none;
+  height: auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  text-align: left;
+  @media screen and (min-width: $mqm){
+    display: block;
+    width: 1450px;
+  }
+  video {
+    width: 100%;
+  }
+}
 
 @import "desktop.scss";
