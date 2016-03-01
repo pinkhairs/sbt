@@ -18,6 +18,9 @@ body {
 	font:300 18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
 	overflow-x:hidden;
 }
+strong {
+	font-weight:500;
+}
 .post-alt.wrap {
 	max-width:none;
 }
@@ -205,10 +208,6 @@ a {
 }
 .lead.standalone {
 	font-size:18px;
-	text-align:center;
-}
-.work-bg-content .standalone {
-	text-align:center;
 }
 h1 {
 	font-weight:300;
@@ -636,6 +635,9 @@ hr {
 }
 .large-industry-content .small-6:nth-child(2n+1) {
 	clear:both;
+}
+.lowercase {
+	text-transform:lowercase;
 }
 
 @-webkit-keyframes fadeInUp {

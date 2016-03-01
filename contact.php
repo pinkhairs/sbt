@@ -25,12 +25,13 @@
 						<div class="dropdown-container">
 							<div class="dropdown-label">Work</div>
 							<ul class="dropdown">
-								<li class="active"><label><input value="work" type="radio" name="dropdown_eg" value="opt1"><p class="lead lead-small desktop-only">I'm Looking for </p>Work</label></li>
-								<li><label><input type="radio" value="talent" name="dropdown_eg"><p class="lead lead-small desktop-only">I'm Looking for </p>Talent</label></li>
-								<li><label><input type="radio" value="general" name="dropdown_eg"><p class="lead lead-small desktop-only">Just a General </p>Inquiry</label></li>
+								<li class="active"><label><input value="work" type="radio" name="dropdown_eg" value="opt1"><p class="lead lead-small desktop-only mt0">I'm Looking for </p>Work</label></li>
+								<li><label><input type="radio" value="talent" name="dropdown_eg"><p class="lead lead-small desktop-only mt0">I'm Looking for </p>Talent</label></li>
+								<li><label><input type="radio" value="general" name="dropdown_eg"><p class="lead lead-small desktop-only mt0">Just a General </p>Inquiry</li>
 							</ul>
 						</div>
-					</div>
+					</label>
+				</div>
 				<div id="contact-form">
 
 				</div>

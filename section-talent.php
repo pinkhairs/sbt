@@ -53,10 +53,10 @@
 
 					<p>We specialize in placing individual contributors and executives through our divisions with one simple goal in mind:</p>
 
-					<div class="section small-text-center pb0">
-						<h1 class="standalone reverse">Love <br class="mobile-only">Your <br class="mobile-only">Work</h1>
-						<p class="lead standalone reverse mobile-only">We can help</p>
-						<p class="lead standalone reverse desktop-only">READY TO FIND YOUR NEXT GIG?</p>
+					<div class="section small-text-center small-love pb0">
+						<h1 class="standalone reverse text-left">Love <br class="mobile-only">Your <br class="mobile-only">Work</h1>
+						<p class="lead standalone reverse mobile-only text-left">We can help</p>
+						<p class="lead standalone reverse desktop-only text-left">READY TO FIND YOUR NEXT GIG?</p>
 					</div>
 				</div>
 			</div>

@@ -9,6 +9,9 @@ body {
   font: 300 18px/26px 'Brandon Grotesque', helvetica, arial, sans-serif;
   overflow-x: hidden; }
 
+strong {
+  font-weight: 500; }
+
 .post-alt.wrap {
   max-width: none; }
 
@@ -187,11 +190,7 @@ a {
   line-height: 20px; }
 
 .lead.standalone, h5.standalone, .standalone.read-button, .standalone.back-read-button, .standalone.load-more-button, .standalone.button, .standalone.reverse-button, .standalone.view-all-button {
-  font-size: 18px;
-  text-align: center; }
-
-.work-bg-content .standalone {
-  text-align: center; }
+  font-size: 18px; }
 
 h1 {
   font-weight: 300;
@@ -584,6 +583,9 @@ hr {
 .large-industry-content .small-6:nth-child(2n+1) {
   clear: both; }
 
+.lowercase {
+  text-transform: lowercase; }
+
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
@@ -745,6 +747,9 @@ hr {
   body {
     background-position: top 80px center;
     background-size: auto 139px; }
+  .about-page-bg {
+    background: url("../images/about-bg.png") top right no-repeat;
+    background-size: auto 100%; }
   .desktop-only {
     display: block; }
   .mobile-only {
@@ -807,7 +812,7 @@ hr {
     border: 0;
     border-radius: 2px;
     line-height: 56px;
-    padding: 5px 20px 20px;
+    padding: 20px;
     text-transform: uppercase;
     margin-bottom: 40px;
     margin-left: auto;
@@ -903,17 +908,15 @@ hr {
     background: rgba(233, 236, 240, 0.9);
     overflow: hidden;
     padding: 80px 40px; }
-    .work-bg-content h1.standalone {
-      color: #669DC9 !important;
-      font-size: 36px;
-      font-weight: 700;
-      line-height: 36px;
-      text-align: left; }
-    .work-bg-content .lead.standalone, .work-bg-content h5.standalone, .work-bg-content .standalone.read-button, .work-bg-content .standalone.back-read-button, .work-bg-content .standalone.load-more-button, .work-bg-content .standalone.button, .work-bg-content .standalone.reverse-button, .work-bg-content .standalone.view-all-button {
-      color: #000F2E !important;
-      margin-top: 10px;
-      text-align: left;
-      font-weight: 400; }
+  .small-love h1.standalone {
+    color: #669DC9 !important;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px; }
+  .small-love .lead.standalone, .small-love h5.standalone, .small-love .standalone.read-button, .small-love .standalone.back-read-button, .small-love .standalone.load-more-button, .small-love .standalone.button, .small-love .standalone.reverse-button, .small-love .standalone.view-all-button {
+    color: #000F2E !important;
+    margin-top: 10px;
+    font-weight: 400; }
   .work-bg-content .container {
     float: left;
     width: 500px; }

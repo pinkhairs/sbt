@@ -3,6 +3,10 @@
 		background-position:top 80px center;
 		background-size:auto 139px;
 	}
+	.about-page-bg {
+		background:url('../images/about-bg.png') top right no-repeat;
+		background-size:auto 100%;
+	}
 	.desktop-only {
 		display:block;
 	}
@@ -83,7 +87,7 @@
 		border:0;
 		border-radius: 2px;
 		line-height: 56px;
-		padding:5px 20px 20px;
+		padding:20px;
 		text-transform:uppercase;
 		margin-bottom:40px;
 		margin-left:auto;
@@ -212,17 +216,17 @@
 		background:rgba(233,236,240,.9);
 		overflow:hidden;
 		padding:80px 40px;
+	}
+	.small-love {
 		h1.standalone {
 			color:$bluegrey !important;
 			font-size:36px;
 			font-weight:700;
 			line-height:36px;
-			text-align:left;
 		}
 		.lead.standalone {
 			color:$midnight !important;
 			margin-top:10px;
-			text-align:left;
 			font-weight:400;
 		}
 	}
