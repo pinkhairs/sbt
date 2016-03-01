@@ -134,7 +134,9 @@ function switchViews(newactive) {
 	$('.work-talent-title').css('z-index', 9);
 	newactive.css('z-index', 1);
 }
-
+$('.dropdown-has-child').click(function() {
+	$(this).find('ul').toggle();
+});
 $(function(){
   jQuery.browser = {};
   (function () {

@@ -1233,7 +1233,26 @@ hr {
       position: absolute;
       left: 0; }
   .home-dark-section h2 {
-    line-height: 48px; } }
+    line-height: 48px; }
+  .standalone-dropdown-options .dropdown-has-child {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    position: relative; }
+    .standalone-dropdown-options .dropdown-has-child ul {
+      display: none;
+      position: absolute;
+      top: 120px;
+      z-index: 10; }
+      .standalone-dropdown-options .dropdown-has-child ul li {
+        background: #3360a4;
+        font-size: 1rem;
+        margin-bottom: 0; }
+        .standalone-dropdown-options .dropdown-has-child ul li a {
+          padding: 10px 0;
+          color: #fff; }
+    .standalone-dropdown-options .dropdown-has-child label {
+      padding: 30px 0; } }
 
 @media (min-width: 1024px) {
   .talent-title {

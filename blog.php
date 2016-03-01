@@ -25,7 +25,13 @@
 				<ul class="dropdown standalone-dropdown-options short-standalone">
 					<li class="active"><a href="#" class="reverse">Recent</a></li>
 					<li><a href="#">Popular</a></li>
-					<li><a href="#">Design</a></li>
+						<li class="dropdown-has-child"><label>Design
+							<ul>
+								<li><a href="#">Electric Vehicle</a></li>
+								<li><a href="#">Technology</a></li>
+							</ul>
+						</label>
+					</li>
 				</ul>
 			</div>
 		</div>
