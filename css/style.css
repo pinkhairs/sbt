@@ -1024,7 +1024,7 @@ hr {
     width: 10%; }
   .map-section {
     background-image: url("../images/map.png");
-    background-position: right center;
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: 50% auto; }
   .interactive-hero {
