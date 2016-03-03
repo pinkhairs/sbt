@@ -1,8 +1,5 @@
 @media (min-width:40em) {
-	body {
-		background-position:top 80px center;
-		background-size:auto 139px;
-	}
+
 	.about-page-bg {
 		background:url('../images/about-bg.png') top right no-repeat;
 		background-size:auto 100%;
@@ -291,16 +288,23 @@
 	}
 	.menu-container {
 		background:$solitude;
-		position:absolute;
+		position:fixed;
+		bottom: 0;
 		top:0;
 		width:100%;
-		right:-100%;
+		@include translate(100%,0%);
 		display:block;
-		max-height:none;
 		text-align:right;
-		z-index:101;
-		height:0;
+		z-index: 1000;
+		height: 100%;
+		overflow: scroll;
 	}
+	.menu-container-expanded {
+		@include translate(0%,0%);
+		height: 100%;
+		z-index: 1000;
+	}
+
 	.menu-close-button {
 		margin-top:30px;
 		margin-bottom:80px;
@@ -320,12 +324,7 @@
 		font-size:64px;
 		line-height:91px;
 	}
-	.menu-container-expanded {
-		right:0;
-		height:auto;
-		padding-bottom:100px;
-		z-index:10001;
-	}
+	
 	.talent-title {
 		position:relative;
 		left:-15%;
@@ -498,7 +497,7 @@
 	}
 
 	.text-right {
-		text-align:left !important;
+		text-align:right;
 	  &:before {
 	    transform: translateX(1500px) skew(10deg);
 	    left: 0;
