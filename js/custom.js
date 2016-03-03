@@ -18,11 +18,11 @@ global.main = {
     $('#menu-button, .menu-close-button').click(function() {
       $('#menu').toggleClass('menu-container-expanded');
       $('.wrap,body').toggleClass('menu-active');
-      if ($('#menu').hasClass('menu-container-expanded') && window.matchMedia('only screen and (min-width: 768px)').matches) {
-        $('.wrap').height(0);
-      } else {
-        $('.wrap').height('auto');
-      }
+      // if ($('#menu').hasClass('menu-container-expanded') && window.matchMedia('only screen and (min-width: 768px)').matches) {
+      //   $('.wrap').height(0);
+      // } else {
+      //   $('.wrap').height('auto');
+      // }
     });
     $('#close-button').click(function() {
       $('#menu').removeClass('menu-container-expanded');
@@ -221,27 +221,25 @@ global.main = {
   formSubmit: function () {
     // Get the form.
     var form = $('#inquiry-general');
+
     // Get the messages div.
     var formMessages = $('#form-messages');
+
     // Event Listener
     $(form).submit(function(event) {
-        // Stop the browser from submitting the form.
-        event.preventDefault();
-    });
+
     // Serialize the form data.
     var formData = $(form).serialize();
+    
     // Submit the form using AJAX.
     $.ajax({
         type: 'POST',
         url: $(form).attr('action'),
         data: formData
     }).done(function(response) {
-      // Make sure that the formMessages div has the 'success' class.
-      $(formMessages).removeClass('error');
-      $(formMessages).addClass('success');
 
       // Set the message text.
-      $(formMessages).text(response);
+      $('#form-messages').html('<p class="error">'+response+'</p>');
 
       // Clear the form.
       $('#name').val('');
@@ -258,6 +256,12 @@ global.main = {
       } else {
           $(formMessages).text('Oops! An error occured and your message could not be sent.');
       }
+    }).success(function() {
+      //window.location.assign('submit.php');
+    });
+
+        // Stop the browser from submitting the form.
+        event.preventDefault();
     });
   },
 

@@ -13,6 +13,10 @@
       background-position:top 80px center;
       background-size:auto 139px;
     }
+
+    &.menu-active {
+      overflow: hidden;
+    }
   }
 
   * + p, * + h2, * + h3, * + nav, * + h5, * + h4, label {
@@ -182,7 +186,7 @@
   .full-width-button {
     width:100%;
   }
-  
+
 // Form Elements
 
   input[type="text"],input[type="url"],input[type="email"],input[type="tel"], textarea, .dropdown-label, .dropdown li, input[type="file"] {
@@ -267,6 +271,14 @@
 
   .dropdown input[type="radio"] {
     display:none;
+  }
+
+  .error {
+    margin-top:1.5rem;
+    background:#edc233;
+    color:#fff;
+    padding:0.5rem 1rem;
+    border-radius:4px;
   }
 
 // Miscellenous
