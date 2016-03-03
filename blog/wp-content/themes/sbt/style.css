@@ -11,4 +11,20 @@ Tags: sbt
 */
 
 
-@import url("../../../../css/style.css");
+body {
+    background-image: none;
+}
+
+.post-navigation {
+	display: none;
+}
+
+@media (min-width: 40em){
+	.site-header {
+		height: 80px;
+		padding: 8px 0;
+	}
+	.menu-label {
+		margin-top: 20px;
+	}
+}

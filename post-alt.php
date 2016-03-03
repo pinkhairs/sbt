@@ -1,8 +1,5 @@
 <?php include 'header.php'; ?>
-<div class="hero post-hero" style="
-  background: -moz-linear-gradient(top,  rgba(233,236,240,0) 50%, rgba(233,236,240,1) 100%), url('images/post1.jpg') no-repeat; background-size:cover;;
-background: -webkit-linear-gradient(top,  rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('images/post1.jpg') no-repeat; background-size:cover;;
-background: linear-gradient(to bottom,  rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('images/post1.jpg') no-repeat; background-size:cover;">
+<div class="hero post-hero" style="background: -moz-linear-gradient(top, rgba(233,236,240,0) 50%, rgba(233,236,240,1) 100%), url('images/post1.jpg') no-repeat; background-size:cover; background: -webkit-linear-gradient(top,  rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('images/post1.jpg') no-repeat; background-size:cover; background: linear-gradient(to bottom,  rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('images/post1.jpg') no-repeat; background-size:cover;">
 	<div class="section text-center">
 		<div class="row">
 			<div class="small-12 large-10 large-centered columns">

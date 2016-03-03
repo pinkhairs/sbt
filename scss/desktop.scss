@@ -2,6 +2,7 @@
 	body {
 		background-position:top 80px center;
 		background-size:auto 139px;
+		padding-top: 80px;
 	}
 	.about-page-bg {
 		background:url('../images/about-bg.png') top right no-repeat;
@@ -14,9 +15,12 @@
 		display:none;
 	}
 	.site-header {
-		position:relative;
+		position: fixed;
 		z-index:100;
 		background:$midnight;
+		width: 100%;
+		top: 0;
+		left: 0;
 	}
 	.logo {
 		background:url('../images/sbt-full-logo.svg') left center no-repeat;

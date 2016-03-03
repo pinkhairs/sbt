@@ -746,7 +746,8 @@ hr {
 @media (min-width: 40em) {
   body {
     background-position: top 80px center;
-    background-size: auto 139px; }
+    background-size: auto 139px;
+    padding-top: 80px; }
   .about-page-bg {
     background: url("../images/about-bg.png") top right no-repeat;
     background-size: auto 100%; }
@@ -755,9 +756,12 @@ hr {
   .mobile-only {
     display: none; }
   .site-header {
-    position: relative;
+    position: fixed;
     z-index: 100;
-    background: #000F2E; }
+    background: #000F2E;
+    width: 100%;
+    top: 0;
+    left: 0; }
   .logo {
     background: url("../images/sbt-full-logo.svg") left center no-repeat;
     width: 100%; }

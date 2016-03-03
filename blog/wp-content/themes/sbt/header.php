@@ -1,13 +1,27 @@
+<?php
+/**
+ * The template for displaying the header
+ *
+ * Displays all of the head element and everything up until the "site-content" div.
+ *
+ * @package WordPress
+ * @subpackage SBT
+ * @since SBT 1.0
+ */
+
+?>
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?> class="no-js">
 <head>
-<meta charset="UTF-8">
-<title>Silicon Beach Talent</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../css/foundation.css" type="text/css">
-<link rel="stylesheet" href="../css/style.css" type="text/css">
+	<meta charset="UTF-8">
+	<title>Silicon Beach Talent</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://localhost:8888/sbt/css/foundation.css" type="text/css">
+	<link rel="stylesheet" href="http://localhost:8888/sbt/css/style.css" type="text/css">
+	<?php wp_head(); ?>
 </head>
-<body <?php if ($_COOKIE['preload'] != 1) echo 'class="loading-screen"'; ?>>
+
+<body <?php if ($_COOKIE['preload'] != 1) echo 'class="loading-screen"'; ?> <?php body_class(); ?>>
 <div id="loading">
 
 </div>
@@ -57,7 +71,7 @@
 <header class="site-header">
 	<div class="row">
 		<div class="small-12 large-6 columns">
-			<a href="index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
+			<a href="http://localhost:8888/sbt/index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
 				<img src="images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
 			</a>
 		</div>
