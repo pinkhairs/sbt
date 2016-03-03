@@ -292,7 +292,7 @@
 		bottom: 0;
 		top:0;
 		width:100%;
-		transform: translateX(100%);
+		@include translate(100%,0%);
 		display:block;
 		text-align:right;
 		z-index: 1000;
@@ -300,7 +300,7 @@
 		overflow: scroll;
 	}
 	.menu-container-expanded {
-		transform: translateX(0%);
+		@include translate(0%,0%);
 		height: 100%;
 		z-index: 1000;
 	}

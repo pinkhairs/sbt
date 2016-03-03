@@ -1,22 +1,12 @@
 // Mixins
 
-// Horizontal Center
-  @mixin horizontal-center($x:-50%) {
-    left: 50%;
-    position: absolute;
-    -webkit-transform: translateX($x);
-    -ms-transform: translateX($x);
-    transform: translateX($x);
-  }
-
-// Absolute Center
-  @mixin absolute-center($x:-50%,$y:-50%) {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate($x,$y);
-    -ms-transform: translate($x,$y);
-    transform: translate($x,$y);
+// Transform
+  @mixin transform($transforms) {
+       -moz-transform: $transforms;
+         -o-transform: $transforms;
+        -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+            transform: $transforms;
   }
 
 // Transitions
@@ -25,4 +15,39 @@
     -moz-transition: $type $time $style $delay;
     -o-transition: $type $time $style $delay;
     transition: $type $time $style $delay;
+  }
+
+// Rotate
+  @mixin rotate ($deg) {
+    @include transform(rotate(#{$deg}deg));
+  }
+
+// Scale
+  @mixin scale($scale) {
+     @include transform(scale($scale));
+  } 
+
+// Translate
+  @mixin translate ($x, $y) {
+    @include transform(translate($x, $y));
+  }
+
+// Skew
+  @mixin skew ($x, $y) {
+     @include transform(skew(#{$x}deg, #{$y}deg));
+  }
+
+// Horizontal Center
+  @mixin horizontal-center($x:-50%) {
+    left: 50%;
+    position: absolute;
+    @include translate($x);
+  }
+
+// Absolute Center
+  @mixin absolute-center($x:-50%,$y:-50%) {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    @include translate($x,$y);
   }

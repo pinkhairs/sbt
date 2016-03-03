@@ -986,14 +986,22 @@ input[type="file"] {
     bottom: 0;
     top: 0;
     width: 100%;
-    transform: translateX(100%);
+    -moz-transform: translate(100%, 0%);
+    -o-transform: translate(100%, 0%);
+    -ms-transform: translate(100%, 0%);
+    -webkit-transform: translate(100%, 0%);
+    transform: translate(100%, 0%);
     display: block;
     text-align: right;
     z-index: 1000;
     height: 100%;
     overflow: scroll; }
   .menu-container-expanded {
-    transform: translateX(0%);
+    -moz-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
     height: 100%;
     z-index: 1000; }
   .menu-close-button {
@@ -1167,8 +1175,10 @@ input[type="file"] {
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #fff;
     opacity: 1;
@@ -1179,8 +1189,10 @@ input[type="file"] {
       left: 50%;
       position: absolute;
       top: 50%;
-      -webkit-transform: translate(-50%, -80%);
+      -moz-transform: translate(-50%, -80%);
+      -o-transform: translate(-50%, -80%);
       -ms-transform: translate(-50%, -80%);
+      -webkit-transform: translate(-50%, -80%);
       transform: translate(-50%, -80%);
       opacity: 0.5;
       width: 310px; } }
