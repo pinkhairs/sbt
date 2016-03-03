@@ -982,15 +982,20 @@ input[type="file"] {
     margin-bottom: -80px; }
   .menu-container {
     background: #E9ECF0;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     top: 0;
     width: 100%;
-    right: -100%;
+    transform: translateX(100%);
     display: block;
-    max-height: none;
     text-align: right;
-    z-index: 101;
-    height: 0; }
+    z-index: 1000;
+    height: 100%;
+    overflow: scroll; }
+  .menu-container-expanded {
+    transform: translateX(0%);
+    height: 100%;
+    z-index: 1000; }
   .menu-close-button {
     margin-top: 30px;
     margin-bottom: 80px; }
@@ -1005,11 +1010,6 @@ input[type="file"] {
   .menu-link-heading {
     font-size: 64px;
     line-height: 91px; }
-  .menu-container-expanded {
-    right: 0;
-    height: auto;
-    padding-bottom: 100px;
-    z-index: 10001; }
   .talent-title {
     position: relative;
     left: -15%; }
@@ -1153,7 +1153,7 @@ input[type="file"] {
   .text-left:hover:before {
     transform: translateX(0) skew(10deg); }
   .text-right {
-    text-align: left !important; }
+    text-align: right; }
     .text-right:before {
       transform: translateX(1500px) skew(10deg);
       left: 0; }
