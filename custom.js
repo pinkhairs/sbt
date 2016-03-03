@@ -237,3 +237,19 @@ $(function() {
     }
   });
 });
+
+// Jobs Filter Waypoints
+function jobFilterWaypoint() {
+  var $stickyElement = $('.job-filter-container')
+  var sticky
+
+  if ($stickyElement.length) {
+    sticky = new Waypoint.Sticky({
+      element: $stickyElement[0],
+      wrapper: '<div class="sticky-wrapper waypoint" />'
+    })
+  }
+}
+$(window).on('load', function() {
+   jobFilterWaypoint();
+});

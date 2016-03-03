@@ -41,5 +41,7 @@
 <script src="jrss.js" type="text/javascript"></script>
 <script src="custom.js" type="text/javascript"></script>
 <script src="jfeeditem.js" type="text/javascript"></script>
+<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="js/sticky.min.js" type="text/javascript"></script>
 </body>
 </html>

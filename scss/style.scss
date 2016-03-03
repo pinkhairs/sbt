@@ -852,4 +852,44 @@ $font-family-sansserif: "brandon-grotesque", helvetica, arial, sans-serif;
   }
 }
 
+.job-filter-container {
+	&.stuck {
+		@media (min-width:40em) {
+			position: fixed;
+  		top: 20px;
+		}
+		@media (min-width:1200px) {
+  		width: 369px;
+		}
+	}
+}
+.job-filter {
+	list-style: none;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+	&> li {
+		margin: 0 0 10px 0;
+	}
+	h4 {
+		border-bottom: 1px solid darken($solitude, 5%);
+		padding: 0 0 5px 0;
+		margin: 0 0 10px 0;
+		width: 100%;
+	}
+}
+.job-filter-actions {
+	&> li {
+		display: inline-block;
+		padding: 0 10px 0 0;
+		@media (min-width:40em) {
+			display: block;
+			padding: 0 0 10px 0;
+		}
+		&.active {
+			font-weight: 400;
+		}
+	}
+}
+
 @import "desktop.scss";

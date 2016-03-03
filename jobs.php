@@ -5,7 +5,37 @@
 	<p><img src="images/line.svg" class="fadeInDown animated arrow" alt=""></p>
 </div>
 <div class="row">
-	<div class="small-12 large-8 large-centered columns">
+  <div class="small-12 large-4 columns">
+
+    <aside class="job-filter-container">
+      <h3>Filter by:</h3>
+
+      <ul class="job-filter">
+        <li>
+          <ul class="job-filter-actions">
+            <li class="active">Show All Jobs</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Date</h4>
+          <ul class="job-filter-actions">
+            <li><a href="#">Newer</a></li>
+            <li><a href="#">Older</a></li>
+          </ul>
+        </li>
+        <li>
+          <h4>Type</h4>
+          <ul class="job-filter-actions">
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Electric Vehicle</a></li>
+            <li><a href="#">Technology</a></li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+
+  </div>
+	<div class="small-12 large-8 columns">
 		<div id="result"></div>
 	</div>
 </div>
