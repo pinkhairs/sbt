@@ -1,0 +1,296 @@
+// Base
+
+  body {
+    background:$solitude url('../images/water.png');
+    background-size:200% auto;
+    background-repeat:no-repeat;
+    background-position:top center;
+    color:$black;
+    font:$fontPrimary;
+    overflow-x:hidden;
+
+    @media (min-width:40em) {
+      background-position:top 80px center;
+      background-size:auto 139px;
+    }
+  }
+
+  * + p, * + h2, * + h3, * + nav, * + h5, * + h4, label {
+    margin-top:26px;
+  }
+
+  hr {
+    border:0;
+    background:#CED5E0;
+    height:1px;
+    margin:1.5rem 0 0;
+  }
+
+// Typography
+
+  a {
+    text-decoration:none;
+    color:$azure;
+  }
+
+  h1 {
+    font-weight:300;
+    font-size:64px;
+    letter-spacing:6px;
+    line-height:91px;
+    text-transform:uppercase;
+    color:$midnight;
+  }
+
+  h2 {
+    font-weight:300;
+    font-size:48px;
+    letter-spacing:6px;
+    line-height:68px;
+    text-transform:uppercase;
+    .lead + & {
+      margin-top:0;
+    }
+    .highlight {
+      color:$azure;
+    }
+  }
+
+  h3 {
+    font-size:24px;
+    line-height:34px;
+    text-transform:uppercase;
+    font-weight:300;
+    letter-spacing:2px;
+  }
+
+  h4 {
+    font-size:24px;
+    line-height:24px;
+    font-weight:400;
+    text-shadow:0 1px 0 rgba(0,0,0,.1);
+    .site-footer & {
+      font-weight:400;
+    }
+    .gradient-section & {
+      color:$midnight;
+    }
+  }
+
+  h5 {
+    @extend .lead;
+    a {
+      color:$midnight;  
+    }
+  }
+
+  label {
+    font-weight:400;
+    color:$midnight;
+    display:block;
+  }
+
+  strong {
+    font-weight:500;
+  }
+
+  .dropdown-container label {
+    margin-top:0;
+  }
+
+  .subtext {
+    font-size:16px;
+    font-weight:400;
+    font-style:italic;
+  }
+
+  .lead {
+    font-size:14px;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    color:$azure;
+    line-height:20px;
+  }
+  .lead.standalone {
+    font-size:18px;
+  }
+
+// Buttons
+  .button {
+    font-weight:700;
+    @extend .load-more-button;
+    p > &:first-child {
+      margin-top:-6px;
+      margin-bottom:6px; /* optical adjustment */
+    }
+  }
+  .read-button {
+    background:#9FBDD4 url('../images/right-arrow.svg') center right 11px no-repeat;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    @extend .lead;
+    color:$midnight;
+    font-weight:700;
+    padding:7px 0;
+  }
+  .back-read-button {
+    background:$lightsteelblue url('../images/left-arrow.svg') center left 11px no-repeat;
+    display:inline-block;
+    width:100%;
+    font-size:16px !important;
+    line-height:20px !important;
+    text-align:center;
+    @extend .lead;
+    color:$midnight;
+    font-weight:700;
+    padding:7px 0;
+  }
+  .load-more-button {
+    background: $bluegrey;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 20px;
+    display:inline-block;
+    padding:10px 20px;
+    @extend .lead;
+    color: #FFFFFF;
+    font-weight:700;
+    letter-spacing:0;
+    margin-bottom:10px;
+  }
+  .view-all-button {
+    background: $stardust;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 20px;
+    display:inline-block;
+    padding:10px 20px;
+    @extend .lead;
+    color: #FFFFFF;
+    font-weight:700;
+    margin-bottom:10px;
+    letter-spacing:0;
+  }
+  .reverse-button {
+    @extend .load-more-button;
+    background:#b8cee0;
+    color:$azure;
+    border-radius:0;
+    box-shadow:none;
+  }
+  .full-width-button {
+    width:100%;
+  }
+  
+// Form Elements
+
+  input[type="text"],input[type="url"],input[type="email"],input[type="tel"], textarea, .dropdown-label, .dropdown li, input[type="file"] {
+    display:block;
+    font:inherit;
+    font-weight:400;
+    width:100%;
+    background: $whitehaze;
+    border: 1px solid #CED5E0;
+    box-shadow: inset 0px 1px 1px 0px rgba(163,170,179,0.50);
+    border-radius: 2px;
+    line-height: 34px;
+    padding-left:0.5rem;
+  }
+
+  input[type="file"] {
+    font-size:18px;
+    font-weight:700;
+    line-height:18px;
+    padding:8px 10px;
+  }
+
+  .dropdown-label {
+    box-shadow:none;
+    background-image:url('../images/dropdown_arrows_small.svg');
+    background-position:right -2px center;
+    background-repeat:no-repeat;
+    background-size:auto 102%;
+    cursor:pointer;
+  }
+
+  .dropdown-container {
+    position:relative;
+  }
+
+  .dropdown {
+    position:absolute;
+    top:36px;
+    left:0;
+    width:100%;
+    cursor:pointer;
+    display:none;
+    z-index:99;
+  }
+
+  .standalone-dropdown-options {
+    top:104px;
+    a {
+      padding:30px 0;
+      display:block;
+      color:$midnight;
+      .lead {
+        color:$azure;
+      }
+    }
+  }
+
+  .short-standalone {
+    top:81px;
+  }
+
+  .standalone-dropdown {
+    padding:30px 0;
+    background-image:url('../images/dropdown_arrow_big.svg');
+  }
+
+  .dropdown li {
+    box-shadow:none;
+    margin-top:-1px;
+    label {
+      cursor:pointer;
+      font-weight:400;
+      display:block;
+    }
+  }
+
+  .standalone-dropdown, .standalone-dropdown-options li {
+    font-size:24px;
+    line-height:20px;
+    text-transform:uppercase;
+  }
+
+  .dropdown input[type="radio"] {
+    display:none;
+  }
+
+// Miscellenous
+  .reverse {
+    color:#fff !important;
+  }
+  .midnight {
+    color:$midnight !important;
+  }
+  .hide {
+    display:none;
+  }
+  .pt0 {
+    padding-top:0;
+  }
+  .mt0 {
+    margin-top:0;
+  }
+  .pb0 {
+    padding-bottom:0;
+  }
+  .pt0 {
+    padding-top:0;
+  }
+  .b0 {
+    border:0 !important;
+  }
