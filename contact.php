@@ -1,7 +1,7 @@
 <?php
 // OPTIONS - PLEASE CONFIGURE THESE BEFORE USE!
 if (isset($_POST['name'])) {
-$yourEmail = "me@diana.nu"; // the email address you wish to receive these mails through
+$yourEmail = "general@madebyporter.com"; // the email address you wish to receive these mails through
 $yourWebsite = "Silicon Beach Talent"; // the name of your website
 $thanksPage = 'submit.php'; // URL to 'thanks for sending mail' page; leave empty to keep message on the same page 
 $maxPoints = 4; // max points a person can hit before it refuses to submit - recommend 4
