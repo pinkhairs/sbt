@@ -295,14 +295,13 @@
 		@include translate(100%,0%);
 		display:block;
 		text-align:right;
-		z-index: 1000;
+		z-index: 1000000;
 		height: 100%;
 		overflow: scroll;
 	}
 	.menu-container-expanded {
 		@include translate(0%,0%);
 		height: 100%;
-		z-index: 1000;
 	}
 
 	.menu-close-button {

@@ -15,17 +15,15 @@ global.main = {
 
   // List Functions
   navMenu: function () {
-    $('#menu-button, .menu-close-button').click(function() {
-      $('#menu').toggleClass('menu-container-expanded');
-      $('.wrap,body').toggleClass('menu-active');
-      // if ($('#menu').hasClass('menu-container-expanded') && window.matchMedia('only screen and (min-width: 768px)').matches) {
-      //   $('.wrap').height(0);
-      // } else {
-      //   $('.wrap').height('auto');
-      // }
-    });
-    $('#close-button').click(function() {
-      $('#menu').removeClass('menu-container-expanded');
+    $('#menu-button, .menu-close-button, #close-button').click(function() {
+      if ($('.menu-container').hasClass('menu-container-expanded')){
+        $('.menu-container').removeClass('menu-container-expanded');
+        $('.wrap,body').removeClass('menu-active');
+      }
+      else {
+        $('.menu-container').addClass('menu-container-expanded');
+        $('.wrap,body').addClass('menu-active');
+      }
     });
   },
 
