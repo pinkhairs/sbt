@@ -49,10 +49,16 @@ global.main = {
     });
 
     doc.on('click', '.industry-card', function() {
+      // Grab ID from Card
       $category = $(this).attr('id');
 
+      // Remove active class from all cards
       $('.industry-card').removeClass('active');
+
+      // Add active class to clicked card
       $(this).addClass('active');
+
+      // Animate/Load Desktop Card Design
       if (window.matchMedia('only screen and (max-width: 960px)').matches) {
         $('.industry-card .card').css('opacity', '0');
         setTimeout(
@@ -78,7 +84,7 @@ global.main = {
       } else {
         setTimeout(
           function() {
-            $( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
+            $( "#work-sbtdesign-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
           }, 300
         );
       }
@@ -97,6 +103,7 @@ global.main = {
       return false;
     });
 
+    // Work Talent Switch
     $('#section-work-talent-content').load('section-work.php');
     $('.work-talent-title').click(function() {
       if ($(this).hasClass('talent-title')) {
@@ -281,6 +288,7 @@ global.main = {
   }
 };
 
+// Run Functions on Doc Ready
 doc.ready(function () {
   global.main.init();
 });
