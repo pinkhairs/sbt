@@ -1,4 +1,14 @@
-<?php include 'header.php'; ?>
+<?php 
+// Define variables for SEO
+$pageName = 'talent';
+$pageBodyClass = $pageName;
+$pageTitle = 'Silicon Beach Talent | Find Talent';
+$pageDescription = 'We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.';
+$pageKeywords = 'silicon, beach, recruiting, california, southern california, los angeles, san diego, design, developer, electric vehicle';
+$pageCanonical = 'http://www.siliconbeachtalent.com';
+// $pageRobots = 'noindex,nofollow';
+
+include 'header.php'; ?>
 <div class="work-talent-titles">
 	<div class="work-talent-title work-title">
 		<div class="section medium-section">

@@ -134,10 +134,17 @@ function get_data($var) {
 }
 ?>
 
+<?php 
+// Define variables for SEO
+$pageName = 'contactus';
+$pageBodyClass = $pageName;
+$pageTitle = 'Silicon Beach Talent | Contact Us';
+$pageDescription = 'We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.';
+$pageKeywords = 'silicon, beach, recruiting, california, southern california, los angeles, san diego, design, developer, electric vehicle';
+$pageCanonical = 'http://www.siliconbeachtalent.com';
+// $pageRobots = 'noindex,nofollow';
 
-<?php include 'header.php'; ?>
-
-
+include 'header.php'; ?>
 
 <div class="row">
 	<div class="small-12 columns">

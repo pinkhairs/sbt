@@ -2,12 +2,29 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Silicon Beach Talent</title>
+<title><?php echo $pageTitle; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="<?php echo $pageDescription; ?>">
+<meta name="keywords" content="<?php echo $pageKeywords; ?>">
+
+<?php
+// If canonical URL is specified, include canonical link element
+if($pageCanonical)
+{
+echo '<link rel="canonical" href="' . $pageCanonical . '">';
+}
+// If meta robots content is specified, include robots meta tag
+if($pageRobots)
+{
+echo '<meta name="robots" content="' . $pageRobots . '">';
+}
+?>
+
 <link rel="stylesheet" href="css/foundation.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body <?php if ($_COOKIE['preload'] != 1) echo 'class="loading-screen"'; ?>>
+<body <?php if ($_COOKIE['preload'] != 1) echo 'class="loading-screen"'; ?> class="<?php echo $pageBodyClass; ?>">
 <div id="loading">
 
 </div>
