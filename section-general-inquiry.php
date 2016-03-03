@@ -1,6 +1,5 @@
-				<hr>
+<?php include 'form-functions.php'; ?>				<hr>
 
-					<div id="form-messages"></div>
 
 					<h4 class="desktop-only text-center">Basic Information</h4>
 					<div class="row large-pt">
@@ -29,5 +28,6 @@
 								</textarea>
 							</label></p>
 							<p class="text-center"><button class="button" type="submit" name="submit" id="submit" value="Send" <?php if (isset($disable) && $disable === true) echo ' disabled="disabled"'; ?>>Submit</button></p>
+					<div id="form-messages" class="text-center"></div>
 						</div>
 					</div>

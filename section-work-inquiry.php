@@ -1,4 +1,4 @@
-
+<?php include 'form-functions.php'; ?>
 				<hr>
 				<h4 class="desktop-only text-center">Basic Information</h4>
 				<div class="row large-pt">
@@ -40,6 +40,7 @@
 						<p class="large-text-center"><label class="large-text">How Can We Help You? <span class="subtext-block subtext">Let us know what type of work conditions, styles, etc you prefer.</span>
 							<textarea name="comments" id="comments"><?php get_data("comments"); ?></textarea>
 						</label></p>
-						<p class="text-center"><button type="submit" class="button">Submit</button></p>
-					</div>
+						<p class="text-center"><button type="submit" class="button" name="submit">Submit</button></p>
+									<div id="form-messages" class="text-center"></div>
+	</div>
 				</div>

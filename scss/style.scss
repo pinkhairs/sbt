@@ -891,5 +891,12 @@ $font-family-sansserif: "brandon-grotesque", helvetica, arial, sans-serif;
 		}
 	}
 }
+.error {
+	margin-top:1.5rem;
+	background:#edc233;
+	color:#fff;
+	padding:0.5rem 1rem;
+	border-radius:4px;
+}
 
 @import "desktop.scss";

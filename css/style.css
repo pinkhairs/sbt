@@ -774,6 +774,13 @@ hr {
   .job-filter-actions > li.active {
     font-weight: 400; }
 
+.error {
+  margin-top: 1.5rem;
+  background: #edc233;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px; }
+
 @media (min-width: 40em) {
   body {
     background-position: top 80px center;
