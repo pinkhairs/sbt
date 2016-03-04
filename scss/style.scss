@@ -260,9 +260,18 @@
 	      transform: translateX(0) skew(10deg);
 	    }
 	  }
+	  .sub-paths {
+	  	display: none;
+	  }
+	  @media screen and (min-width: $mqm){
+	  	.sub-paths {
+	  		display: block;
+	  	}
+	  }
 	}
 
 	.text-right {
+		text-align: left;
 	  &:before {
 	    transform: translateX(1500px) skew(10deg);
 	    left: 0;
