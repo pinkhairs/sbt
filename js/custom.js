@@ -188,34 +188,12 @@ global.main = {
 
         success: function(feed) {
             var html = '';
-
+            console.log(feed.items);
             for(var i = 0; i < feed.items.length && i < 5; i++) {
 
                 var item = feed.items[i];
-
-                html += '<div class="card"><h2 class="text-left job-header">'
-                + '<a href="'
-                + item.link
-                + '">'
-                + item.title
-                + '</a>'
-                + '</h2>';
-
-                html += '<p class="updated text-left">'
-                + item.updated
-                + '</p>';
-
-                html += '<div class="job-description text-left">'
-                + item.description
-                + '</div>';
-
-                html += '<a href="'
-                + item.link
-                + '" class="button">'
-                + 'Apply for this job'
-                + '</a>'
-
-                html += '</div><br>'
+                var template = $('#job-posting').html();
+                html += Mustache.render(template, item);
             }
             jQuery('#result').append(html);
         }
@@ -235,7 +213,7 @@ global.main = {
 
     // Serialize the form data.
     var formData = $(form).serialize();
-    
+
     // Submit the form using AJAX.
     $.ajax({
         type: 'POST',

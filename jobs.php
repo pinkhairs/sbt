@@ -1,4 +1,4 @@
-<?php 
+<?php
 // Define variables for SEO
 $pageName = 'jobs';
 $pageBodyClass = $pageName;
@@ -9,7 +9,14 @@ $pageCanonical = 'http://www.siliconbeachtalent.com';
 // $pageRobots = 'noindex,nofollow';
 
 include 'header.php'; ?>
-
+<script type="text/html" id="job-posting">
+	<div class="card">
+    <h2 class="text-left job-header"><a href="{{link}}">{{title}}</a></h2>
+    <p class="updated text-left">{{updated}}</p>
+    <div class="job-description text-left">{{{description}}}</div>
+	<a href="{{link}}" class="button">Apply for this job</a>
+</div>
+</script>
 <div class="section medium-section">
 	<p class="lead animated fadeInUp">I'm looking for</p>
 	<h1>Jobs</h1>
