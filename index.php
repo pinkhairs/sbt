@@ -15,12 +15,12 @@ include 'header.php'; ?>
     <div class="text-left text-col">
       <div class="text-container">
         <div class="sub-text">
-          I'm looking for work
+          FIND WORK
         </div>
         <h2 class="text-header">
-          Tell me about my dream <strong>job</strong>
+          Find a Career You <strong>Love</strong>
         </h2>
-        <a class="btn" href="#">Get Work</a>
+        <a class="btn" href="#">Find Work</a>
         <ul class="sub-paths">
           <li class="sub-path-item">
             <a class="sub-path-link" href="#">Learn about SBT</a>
@@ -37,12 +37,12 @@ include 'header.php'; ?>
     <div class="text-right text-col">
       <div class="text-container">
         <div class="sub-text">
-          I'm looking for talent
+          HIRE TALENT
         </div>
         <h2 class="text-header">
-          Help us find new <strong>creatives</strong>
+          Partner with SBT to Build Your<strong> Dream Team</strong>
         </h2>
-        <a class="btn" href="#">Get Talent</a>
+        <a class="btn" href="#">Hire Talent</a>
         <ul class="sub-paths">
           <li class="sub-path-item">
             <a class="sub-path-link" href="#">Learn about SBT</a>
