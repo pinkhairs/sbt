@@ -70,9 +70,9 @@ include 'header.php'; ?>
 			<h2 class="reverse"><span class="lead">Made for</span><br>California</h2>
 			<p>We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.</p>
 
-			<p>We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California. </p>
+			<p>Perks and bonuses are important, but we understand that what truly makes an opportunity great is the work you do and the impact you make. </p>
 
-			<p>We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.</p>
+			<p>That is why our recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work. </p>
 			<p><a href="#" class="button">Get work</a> <a href="#" class="button">Get talent</a></p>
 		</div>
 	</div>
@@ -82,8 +82,6 @@ include 'header.php'; ?>
 		<div class="small-12 large-6 large-centered text-center columns">
 			<h2><span class="highlight">LOVE</span> YOUR WORK</h2>
 			<p>Silicon Beach Talent was founded on the idea that the world really becomes a better place when people love what they do. Let us help get you there.</p> 
-
-			<p>Silicon Beach Talent was founded on the idea that the world really becomes a better place when people love what they do. Let us help get you there.</p>
 			<p><a href="#" class="button">About SBT</a></p>
 		</div>
 	</div>
