@@ -188,7 +188,7 @@ global.main = {
 
         success: function(feed) {
             var html = '';
-            console.log(feed.items);
+            
             for(var i = 0; i < feed.items.length && i < 5; i++) {
 
                 var item = feed.items[i];
