@@ -290,31 +290,38 @@ global.main = {
 
   mastheadWaypoints: function () {
     function mhwp() {
-      var $things = $('.wrap > div:nth-child(2)');
-
+      var $things = $('.wrap > div:nth-child(odd)');
+  
       $things.waypoint(function(direction) {
-        if (direction === 'down') {
-         $('.site-header').addClass('scrolled');
-         setTimeout(
-           function() {
-             $('.site-header').addClass('slideDown');
-           }, 500
-         );
-        }
+        setTimeout(
+          function() {
+            if (direction === 'down') {
+              stop();
+              $('.site-header').removeClass('slideUp').addClass('scrolled');
+              setTimeout(
+                function() {
+                  $('.site-header').addClass('slideDown');
+                }, 20
+              );
+            }
+          }, 
+        20);
       }, {
-        // offset: '50%'
+        offset: '-75%'
       });
 
       $things.waypoint(function(direction) {
         if (direction === 'up') {
+          stop();
+          $('.site-header').removeClass('slideDown').addClass('slideUp'); 
           setTimeout(
             function() {
-              $('.site-header').removeClass('scrolled').removeClass('slideDown');
-            }, 1000
-          );
+              $('.site-header').removeClass('scrolled slideUp');
+            } ,
+          500);  
         }
       }, {
-        // offset: '75%'
+        offset: '-125%'
       });
     }
     $(window).on('load', function() {

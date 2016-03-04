@@ -68,9 +68,12 @@
 			@include translate(0, -120px);
 		}
 		&.slideDown {
-			z-index: 100000;
 			@include translate(0, 0px);
-			@include animation(slideDown 200ms $cubic);
+			@include transition($type: transform);
+		}
+		&.slideUp {
+			@include translate(0, -120px);
+			@include transition($type: transform);
 		}
 		@media (min-width:40em) {
 			background: $midnight;
@@ -539,7 +542,7 @@
 	.card {
 		background:#fff;
 		box-shadow:0 2px 4px 0 rgba(0,0,0,.2);
-		padding:60px 40px 20px;
+		padding:60px 20px 20px;
 		text-align:center;
 		transition:all 600ms ease-in-out;
 		h3 a {
@@ -581,6 +584,10 @@
 	.large-industry-content .small-6:nth-child(2n+1) {
 		clear:both;
 	}
+	div.large-industry-content div.columns:last-child:not(:first-child) {
+		float: left;
+	}
+
 	.lowercase {
 		text-transform:lowercase;
 	}

@@ -440,16 +440,25 @@ input[type="file"] {
     -webkit-transform: translate(0, -120px);
     transform: translate(0, -120px); }
   .site-header.slideDown {
-    z-index: 100000;
     -moz-transform: translate(0, 0px);
     -o-transform: translate(0, 0px);
     -ms-transform: translate(0, 0px);
     -webkit-transform: translate(0, 0px);
     transform: translate(0, 0px);
-    -webkit-animation: slideDown 200ms cubic-bezier(0.14, 0.62, 0.39, 1);
-    -moz-animation: slideDown 200ms cubic-bezier(0.14, 0.62, 0.39, 1);
-    -o-animation: slideDown 200ms cubic-bezier(0.14, 0.62, 0.39, 1);
-    animation: slideDown 200ms cubic-bezier(0.14, 0.62, 0.39, 1); }
+    -webkit-transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -moz-transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -o-transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
+  .site-header.slideUp {
+    -moz-transform: translate(0, -120px);
+    -o-transform: translate(0, -120px);
+    -ms-transform: translate(0, -120px);
+    -webkit-transform: translate(0, -120px);
+    transform: translate(0, -120px);
+    -webkit-transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -moz-transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -o-transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
   @media (min-width: 40em) {
     .site-header {
       background: #000F2E; } }
@@ -892,7 +901,7 @@ a.btn {
 .card {
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  padding: 60px 40px 20px;
+  padding: 60px 20px 20px;
   text-align: center;
   transition: all 600ms ease-in-out; }
   .card h3 a {
@@ -930,6 +939,9 @@ a.btn {
 
 .large-industry-content .small-6:nth-child(2n+1) {
   clear: both; }
+
+div.large-industry-content div.columns:last-child:not(:first-child) {
+  float: left; }
 
 .lowercase {
   text-transform: lowercase; }
