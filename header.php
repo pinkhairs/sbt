@@ -50,7 +50,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 					<li><a href="jobs.php">Jobs</a></li>
 					<li><a href="#">Referrals</a></li>
 					<li><a href="#">Press</a></li>
-					<li><a href="#">Terms &amp; Privacy</a></li>
+					<li><a href="terms.php">Terms &amp; Privacy</a></li>
 				</ul>
 			</nav>
 			<div class="row">
