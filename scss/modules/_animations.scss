@@ -103,3 +103,23 @@
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
 }
+
+@-webkit-keyframes slideDown {
+  from {
+    @include translate(0,-120px);
+  }
+
+  to {
+    @include translate(0,0%);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    @include translate(0,-120px);
+  }
+
+  to {
+    @include translate(0,0%);
+  }
+}

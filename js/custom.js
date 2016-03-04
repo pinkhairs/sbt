@@ -11,6 +11,7 @@ global.main = {
     this.jFeed();
     this.formSubmit();
     this.jobFilterWaypoints();
+    this.mastheadWaypoints();
   },
 
   // List Functions
@@ -262,7 +263,7 @@ global.main = {
           $(formMessages).text('Oops! An error occured and your message could not be sent.');
       }
     }).success(function() {
-      //window.location.assign('submit.php');
+      window.location.assign('submit.php');
     });
 
         // Stop the browser from submitting the form.
@@ -284,6 +285,40 @@ global.main = {
     }
     $(window).on('load', function() {
        jobFilterWaypoint();
+    });
+  },
+
+  mastheadWaypoints: function () {
+    function mhwp() {
+      var $things = $('.wrap > div:nth-child(2)');
+
+      $things.waypoint(function(direction) {
+        if (direction === 'down') {
+         $('.site-header').addClass('scrolled');
+         setTimeout(
+           function() {
+             $('.site-header').addClass('slideDown');
+           }, 500
+         );
+        }
+      }, {
+        // offset: '50%'
+      });
+
+      $things.waypoint(function(direction) {
+        if (direction === 'up') {
+          setTimeout(
+            function() {
+              $('.site-header').removeClass('scrolled').removeClass('slideDown');
+            }, 1000
+          );
+        }
+      }, {
+        // offset: '75%'
+      });
+    }
+    $(window).on('load', function() {
+       mhwp();
     });
   }
 };

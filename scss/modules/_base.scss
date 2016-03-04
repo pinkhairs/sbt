@@ -122,10 +122,20 @@
 // Buttons
   .button {
     font-weight:700;
+    text-transform: uppercase;
     @extend .load-more-button;
     p > &:first-child {
       margin-top:-6px;
       margin-bottom:6px; /* optical adjustment */
+    }
+    &+ .button {
+      margin-left: 10px;
+    }
+  }
+  a.button-dark {
+    background: $azure;
+    &:hover {
+      background: lighten($azure,5%);
     }
   }
   .read-button {
@@ -157,11 +167,14 @@
     line-height: 20px;
     display:inline-block;
     padding:10px 20px;
-    @extend .lead;
+    // @extend .lead;
     color: #FFFFFF;
     font-weight:700;
     letter-spacing:0;
     margin-bottom:10px;
+    &:hover {
+      background: lighten($bluegrey,5%);
+    }
   }
   .view-all-button {
     background: $stardust;

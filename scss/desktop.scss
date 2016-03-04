@@ -10,11 +10,6 @@
 	.mobile-only {
 		display:none;
 	}
-	.site-header {
-		position:relative;
-		z-index:100;
-		background:$midnight;
-	}
 	.logo {
 		background:url('../images/sbt-full-logo.svg') left center no-repeat;
 		width:100%;
@@ -372,7 +367,7 @@
 		background-image:url('../images/map.png');
 		background-position:right top;
 		background-repeat:no-repeat;
-		background-size:50% auto;
+		background-size: auto 870px;
 	}
 	
 	.home-dark-section {

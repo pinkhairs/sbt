@@ -14,6 +14,12 @@
 	.section {
 		padding:60px 0;
 	}
+	.xl-section {
+		padding:120px 0;
+	}
+	.xxl-section {
+		padding:240px 0;
+	}
 	.section0 {
 		padding:0;
 	}
@@ -50,7 +56,33 @@
 
 // Header
 	.site-header {
-		text-align:center;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		z-index: 100000;
+		@include transition($type: background);
+		&.scrolled {
+			z-index: 1;
+			position: fixed;
+			@include translate(0, -120px);
+		}
+		&.slideDown {
+			z-index: 100000;
+			@include translate(0, 0px);
+			@include animation(slideDown 200ms $cubic);
+		}
+		@media (min-width:40em) {
+			background: $midnight;
+		}
+	}
+	.home .site-header {
+		@media (min-width:40em) {
+			background: transparent;
+			&.scrolled {
+				background: $midnight;
+			}
+		}
 	}
 	.site-title {
 		padding:10px;
@@ -151,7 +183,7 @@
     width: 100%;
     @media screen and (min-width: $mqm){
       background-size: 1920px 981px;
-      height: 740px;
+      height: 900px;
     }
 	}
 
@@ -250,11 +282,7 @@
 	  @media screen and (min-width: $mqm){
 	    @include absolute-center(-50%,-80%);
 	    opacity: 0.5;
-	    width: 310px;
-	  }
-	  a {
-	    color: #669DC9;
-	    text-decoration: none;
+	    width: 440px;
 	  }
 	}
 
@@ -300,9 +328,12 @@
 	}
 
 	.sub-path-item {
-	  color: #669DC9;
 	  display: inline-block;
 	  padding: 0 10px 0 0;
+	  a {
+	  	color: #669DC9;
+	  	font-weight: 400;
+	  }
 	}
 
 	.sub-path-link {
@@ -322,7 +353,7 @@
 	  text-align: left;
 	  @media screen and (min-width: $mqm){
 	    display: block;
-	    width: 1450px;
+	    width: 1920px;
 	  }
 	  video {
 	    width: 100%;

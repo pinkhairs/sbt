@@ -51,3 +51,11 @@
     top: 50%;
     @include translate($x,$y);
   }
+
+// Animations
+  @mixin animation($x) {
+    -webkit-animation: $x;
+    -moz-animation: $x;
+    -o-animation: $x;
+    animation: $x;
+  }

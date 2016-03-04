@@ -18,9 +18,9 @@ include 'header.php'; ?>
           FIND WORK
         </div>
         <h2 class="text-header">
-          Find a Career You <strong>Love</strong>
+          Find a Career <br />You <strong>Love</strong>
         </h2>
-        <a class="btn" href="work.php">Find Work</a>
+        <a class="button" href="work.php">Find Work</a>
         <ul class="sub-paths">
           <li class="sub-path-item">
             <a class="sub-path-link" href="about.php">Learn about SBT</a>
@@ -40,9 +40,9 @@ include 'header.php'; ?>
           HIRE TALENT
         </div>
         <h2 class="text-header">
-          Partner with SBT to Build Your<strong> Dream Team</strong>
+          Partner with SBT to Build Your <strong>Dream Team</strong>
         </h2>
-        <a class="btn" href="talent.php">Hire Talent</a>
+        <a class="button" href="talent.php">Hire Talent</a>
         <ul class="sub-paths">
           <li class="sub-path-item">
             <a class="sub-path-link" href="about.php">Learn about SBT</a>
@@ -64,7 +64,7 @@ include 'header.php'; ?>
     </video>
   </div>
 </div>
-<div class="section dark-section home-dark-section map-section">
+<div class="xl-section dark-section home-dark-section map-section">
 	<div class="row">
 		<div class="small-12 large-5 large-end columns">
 			<h2 class="reverse"><span class="lead">Made for</span><br>California</h2>
@@ -73,11 +73,11 @@ include 'header.php'; ?>
 			<p>Perks and bonuses are important, but we understand that what truly makes an opportunity great is the work you do and the impact you make. </p>
 
 			<p>That is why our recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work. </p>
-			<p><a href="work.php" class="button">Get work</a> <a href="talent.php" class="button">Get talent</a></p>
+			<p><a href="work.php" class="button button-dark">Get work</a> <a href="talent.php" class="button">Get talent</a></p>
 		</div>
 	</div>
 </div>
-<div class="section pattern-section">
+<div class="xxl-section pattern-section">
 	<div class="row">
 		<div class="small-12 large-6 large-centered text-center columns">
 			<h2><span class="highlight">LOVE</span> YOUR WORK</h2>
