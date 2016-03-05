@@ -12,7 +12,7 @@ include 'header.php'; ?>
 
 <div class="interactive-hero">
   <div class="text-layer">
-    <div class="text-left text-col">
+    <div class="text-layer-left text-col">
       <div class="text-container">
         <div class="sub-text">
           FIND WORK
@@ -34,7 +34,7 @@ include 'header.php'; ?>
         </ul>
       </div>
     </div>
-    <div class="text-right text-col">
+    <div class="text-layer-right text-col">
       <div class="text-container">
         <div class="sub-text">
           HIRE TALENT

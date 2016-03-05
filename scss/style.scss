@@ -55,6 +55,15 @@
 	}
 
 // Header
+	.home > .site-header {
+		@media (min-width:40em) {
+			background: transparent;
+			&.scrolled {
+				background: $midnight;
+			}
+		}
+	}
+	
 	.site-header {
 		position: absolute;
 		text-align: center;
@@ -78,14 +87,7 @@
 			background: $midnight;
 		}
 	}
-	.home .site-header {
-		@media (min-width:40em) {
-			background: transparent;
-			&.scrolled {
-				background: $midnight;
-			}
-		}
-	}
+	
 	.site-title {
 		padding:10px;
 	}
@@ -136,7 +138,7 @@
 		width: 100%;
 		z-index: 100000;
 		@include transition;
-		@include translate(0%,-100%);
+		@include translate(0%,-150%);
 		h2 + h2 {
 			margin-top:0;
 		}
@@ -250,7 +252,7 @@
 	  }
 	}
 
-	.text-left {
+	.text-layer-left {
 	  &:before {
 	    transform: translateX(-1500px) skew(10deg);
 	    right: 0;
@@ -270,7 +272,7 @@
 	  }
 	}
 
-	.text-right {
+	.text-layer-right {
 		text-align: left;
 	  &:before {
 	    transform: translateX(1500px) skew(10deg);

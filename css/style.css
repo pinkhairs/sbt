@@ -430,6 +430,12 @@ input[type="file"] {
   background-repeat: no-repeat;
   color: #fff; }
 
+@media (min-width: 40em) {
+  .home > .site-header {
+    background: transparent; }
+    .home > .site-header.scrolled {
+      background: #000F2E; } }
+
 .site-header {
   position: absolute;
   text-align: center;
@@ -469,12 +475,6 @@ input[type="file"] {
     transition: transform 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
   @media (min-width: 40em) {
     .site-header {
-      background: #000F2E; } }
-
-@media (min-width: 40em) {
-  .home .site-header {
-    background: transparent; }
-    .home .site-header.scrolled {
       background: #000F2E; } }
 
 .site-title {
@@ -525,11 +525,11 @@ input[type="file"] {
   -moz-transition: all 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   -o-transition: all 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   transition: all 250ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
-  -moz-transform: translate(0%, -100%);
-  -o-transform: translate(0%, -100%);
-  -ms-transform: translate(0%, -100%);
-  -webkit-transform: translate(0%, -100%);
-  transform: translate(0%, -100%); }
+  -moz-transform: translate(0%, -150%);
+  -o-transform: translate(0%, -150%);
+  -ms-transform: translate(0%, -150%);
+  -webkit-transform: translate(0%, -150%);
+  transform: translate(0%, -150%); }
   .menu-container h2 + h2 {
     margin-top: 0; }
 
@@ -634,26 +634,26 @@ input[type="file"] {
       height: 100%;
       width: 50%; } }
 
-.text-left:before {
+.text-layer-left:before {
   transform: translateX(-1500px) skew(10deg);
   right: 0; }
 
-.text-left:hover:before {
+.text-layer-left:hover:before {
   transform: translateX(0) skew(10deg); }
 
-.text-left .sub-paths {
+.text-layer-left .sub-paths {
   display: none; }
 
 @media screen and (min-width: 960px) {
-  .text-left .sub-paths {
+  .text-layer-left .sub-paths {
     display: block; } }
 
-.text-right {
+.text-layer-right {
   text-align: left; }
-  .text-right:before {
+  .text-layer-right:before {
     transform: translateX(1500px) skew(10deg);
     left: 0; }
-  .text-right:hover:before {
+  .text-layer-right:hover:before {
     transform: translateX(0) skew(10deg); }
 
 .text-container {
