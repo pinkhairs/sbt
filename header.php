@@ -55,7 +55,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 			</nav>
 			<div class="row">
 				<div class="small-12 columns">
-					<div class="section pt0">
+					<div class="short-section pt0">
 						<p class="lead">Follow us on</p>
 						<nav class="menu-social-links">
 							<ul class="flat-links">

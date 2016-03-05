@@ -63,7 +63,6 @@
 		z-index: 100000;
 		@include transition($type: background);
 		&.scrolled {
-			z-index: 1;
 			position: fixed;
 			@include translate(0, -120px);
 		}
@@ -130,9 +129,10 @@
 		background:$solitude url('../images/water.png');
 		background-size:100% auto;
 		background-repeat:no-repeat;
-		text-align:center;
+		height: 100%;
 		overflow: scroll;
 		position: fixed;
+		text-align:center;
 		width: 100%;
 		z-index: 100000;
 		@include transition;
@@ -378,6 +378,11 @@
 		color:#fff;
 		text-align:center;
 		padding-bottom:40px;
+		position: fixed;
+		bottom: 0;
+		height: 177px;
+		width: 100%;
+		z-index: 1;
 		.social-links {
 			text-align:left;
 			margin-top:0;
@@ -623,16 +628,19 @@
 		}
 	}
 	.talent-title:not(.active) {
-		right:16%;
+		right: 11%;
 	}
 	.work-title:not(.active) {
-		right:-16%;
+		right: -11%;
 	}
 	.talent-active {
 		transform:translate(-50%);
 	}
 	.work-active {
 		transform:translate(0);
+	}
+	.work-bg-content {
+		padding: 10px;
 	}
 
 // Loading Screen

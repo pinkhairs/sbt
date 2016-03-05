@@ -318,7 +318,7 @@ global.main = {
             function() {
               $('.site-header').removeClass('scrolled slideUp');
             } ,
-          500);  
+          200);  
         }
       }, {
         offset: '-125%'
