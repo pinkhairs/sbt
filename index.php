@@ -60,14 +60,15 @@ include 'header.php'; ?>
   <div class="beach-layer"></div>
   <div class="video-layer">
     <video autoplay="autoplay" id="video" loop="loop">
-      <source src="https://dl.dropboxusercontent.com/u/80054631/sbt/sbt-hero-video_4.mp4" type="video/mp4" /><source src="https://dl.dropboxusercontent.com/u/80054631/sbt/sbt-hero-video.webm" type="video/webm" />
+      <source src="video/sbt-hero-video_6_1.mp4" type="video/mp4" />
+      <source src="video/sbt-hero-video_5.webm" type="video/webm" />
     </video>
   </div>
 </div>
 <div class="xl-section dark-section home-dark-section map-section">
 	<div class="row">
 		<div class="small-12 large-5 large-end columns">
-			<h2 class="reverse"><span class="lead">Made for</span><br>California</h2>
+			<h2 class="reverse tight-leading"><span class="lead">Made for</span><br>California</h2>
 			<p>We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.</p>
 
 			<p>Perks and bonuses are important, but we understand that what truly makes an opportunity great is the work you do and the impact you make. </p>

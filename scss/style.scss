@@ -55,11 +55,14 @@
 	}
 
 // Header
-	.home > .site-header {
-		@media (min-width:40em) {
+	.home {
+		background: transparent;
+		&>.site-header {
+			@media (min-width:40em) {
 			background: transparent;
-			&.scrolled {
-				background: $midnight;
+				&.scrolled {
+					background: $midnight;
+				}
 			}
 		}
 	}
@@ -136,7 +139,7 @@
 		position: fixed;
 		text-align:center;
 		width: 100%;
-		z-index: 100000;
+		z-index: 1000000;
 		@include transition;
 		@include translate(0%,-150%);
 		h2 + h2 {
@@ -147,16 +150,17 @@
 		@include translate(0%,0%);
 	}
 	.menu-label {
-		width:80px;
-		margin:0 auto;
-		font-size:14px;
-		display:block;
-		background:$bluegrey;
-		color:#fff;
-		letter-spacing:6px;
-		text-transform:uppercase;
-		line-height:20px;
-		text-indent:3px;
+		width: 80px;
+		margin: 0 auto;
+		font-size: 14px;
+		display: block;
+		background: $bluegrey;
+		color: #fff;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		line-height: 20px;
+		text-indent: 6px;
+		padding: 10px 0;
 	}
 	.menu-social-links li {
 		margin:0 14px;
@@ -292,7 +296,7 @@
 	  font-family: $fontPrimary;
 	  opacity: 1;
 	  text-transform: uppercase;
-	  width: 80%;
+	  width: 90%;
 	  @media screen and (min-width: $mqm){
 	    @include absolute-center(-50%,-80%);
 	    opacity: 0.5;
@@ -378,13 +382,18 @@
 	.site-footer {
 		background:$azure;
 		color:#fff;
-		text-align:center;
-		padding-bottom:40px;
-		position: fixed;
+		text-align: center;
+		position: relative;
 		bottom: 0;
-		height: 177px;
+		height: 443px;
 		width: 100%;
 		z-index: 1;
+
+		@media screen and (min-width: $mqm){
+		  height: 177px;
+		  position: fixed;
+		}
+
 		.social-links {
 			text-align:left;
 			margin-top:0;
