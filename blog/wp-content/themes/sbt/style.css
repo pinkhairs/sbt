@@ -1,0 +1,30 @@
+/*
+Theme Name: SBT
+Theme URI: https://www.siliconbeachtalent.com
+Author: Made by Porter
+Author URI: https://www.madebyporter.com
+Description: Silicon Beach Talent Blog Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: sbt
+*/
+
+
+body {
+    background-image: none;
+}
+
+.post-navigation {
+	display: none;
+}
+
+@media (min-width: 40em){
+	.site-header {
+		height: 80px;
+		padding: 8px 0;
+	}
+	.menu-label {
+		margin-top: 20px;
+	}
+}
