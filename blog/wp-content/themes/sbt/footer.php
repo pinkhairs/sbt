@@ -44,14 +44,17 @@
 		</footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <?php if ($_COOKIE['preload'] != 1) { ?>
-<script src="http://localhost:8888/sbt/preload.js" type="text/javascript"></script>
-<script src="http://localhost:8888/sbt/jquery.lazylinepainter-1.7.0.min.js" type="text/javascript"></script>
-<script src="http://localhost:8888/sbt/loading-screen.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/preload.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/jquery.lazylinepainter-1.7.0.min.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/loading-screen.js" type="text/javascript"></script>
 <?php } ?>
-<script src="http://localhost:8888/sbt/jquery.mobile.custom.min.js" type="text/javascript"></script>
-<script src="http://localhost:8888/sbt/jfeed.js" type="text/javascript"></script>
-<script src="http://localhost:8888/sbt/jrss.js" type="text/javascript"></script>
-<script src="http://localhost:8888/sbt/custom.js" type="text/javascript"></script>
-<script src="http://localhost:8888/sbt/jfeeditem.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/jquery.mobile.custom.min.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/jfeed.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/jrss.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/sticky.min.js" type="text/javascript"></script>
+<script src="http://localhost:8888/sbt/js/jfeeditem.js" type="text/javascript"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script src="http://localhost:8888/sbt/js/custom.js" type="text/javascript"></script>
 </body>
 </html>

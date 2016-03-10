@@ -1,6 +1,6 @@
 <?php 
 // Define variables for SEO
-$pageName = 'home';
+$pageName = 'site-home';
 $pageBodyClass = $pageName;
 $pageTitle = 'Silicon Beach Talent';
 $pageDescription = 'We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.';

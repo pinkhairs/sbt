@@ -19,34 +19,74 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php if ( have_posts() ) : ?>
+			<div class="row">
+			 	<div class="small-12 columns">
+					<div class="section medium-section text-center">
+						<h1>Blog</h1>
+						<p class="lead mt0">Silicon Beach Talent</p>
+						<p><img src="http://localhost:8888/sbt/images/line.svg" alt=""></p>
+					</div>
+				</div>
+			</div>
 
-			<?php if ( is_home() && ! is_front_page() ) : ?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-			<?php endif; ?>
+			<div class="row">
+			 	<div class="small-12 columns">
+					<div class="section pt0 pb0 text-center">
+						<div class="dropdown-container mobile-only">
+							<div class="dropdown-label standalone-dropdown ">Most Recent</div>
+							<ul class="dropdown standalone-dropdown-options short-standalone">
+								<li><a href="#">Popular</a></li>
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Design</a></li>
+								<li><a href="#">Electric Vehicle</a></li>
+								<li><a href="#">Technology</a></li>
+							</ul>
+						</div>
+						<div class="dropdown-container desktop-only">
+							<ul class="dropdown standalone-dropdown-options short-standalone">
+								<li class="active"><a href="#" class="reverse">Recent</a></li>
+								<li><a href="#">Popular</a></li>
+									<li class="dropdown-has-child"><label>Design
+										<ul>
+											<li><a href="#">Electric Vehicle</a></li>
+											<li><a href="#">Technology</a></li>
+										</ul>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<?php if ( have_posts() ) : ?>
 
-			<?php
-			// Start the loop.
-			while ( have_posts() ) : the_post();
+				<?php if ( is_home() && ! is_front_page() ) : ?>
+					<header>
+						<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					</header>
+				<?php endif; ?>
 
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_format() );
+				<?php
+				// Start the loop.
+				while ( have_posts() ) : the_post();
 
-			// End the loop.
-			endwhile;
+					/*
+					 * Include the Post-Format-specific template for the content.
+					 * If you want to override this in a child theme, then include a file
+					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+					 */
+					get_template_part( 'template-parts/content', get_post_format() );
 
-		// If no content, include the "No posts found" template.
-		else :
-			get_template_part( 'template-parts/content', 'none' );
+				// End the loop.
+				endwhile;
 
-		endif;
-		?>
+			// If no content, include the "No posts found" template.
+			else :
+				get_template_part( 'template-parts/content', 'none' );
+
+			endif;
+			?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->

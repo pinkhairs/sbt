@@ -12,9 +12,15 @@ global.main = {
     this.formSubmit();
     this.jobFilterWaypoints();
     this.mastheadWaypoints();
+    this.blogFilterSort();
+  },
+  // List Functions
+
+  blogFilterSort: function () {
+    var index = $('.blog-index');
+    index.mixItUp();
   },
 
-  // List Functions
   navMenu: function () {
     $('#menu-button, .menu-close-button, #close-button').click(function() {
       if ($('.menu-container').hasClass('menu-container-expanded')){
@@ -149,7 +155,7 @@ global.main = {
       newactive.css('z-index', 1);
     }
     $('.dropdown-has-child').click(function() {
-      $(this).find('ul').toggle();
+      $(this).find('ul').toggleClass('active');
     });
   },
 

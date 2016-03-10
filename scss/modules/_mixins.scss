@@ -59,3 +59,13 @@
     -o-animation: $x;
     animation: $x;
   }
+
+// Dropdown Animation
+  @mixin ddAnimation {
+    @for $i from 1 through 4 {
+      &:nth-child(#{$i}) {
+        @include translate(0, #{$i * -100}px);
+        @include transition($delay: #{$i * 100}ms);
+      }
+    }
+  }

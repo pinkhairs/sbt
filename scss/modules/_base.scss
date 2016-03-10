@@ -32,7 +32,7 @@
 
   .wrap {
     background: $solitude;
-    margin: 0 0 0 0;
+    margin: 80px 0 0 0;
     position: relative;
     z-index: 10;
     @media (min-width:40em) {
@@ -264,14 +264,6 @@
 
   .standalone-dropdown-options {
     top:104px;
-    a {
-      padding:30px 0;
-      display:block;
-      color:$midnight;
-      .lead {
-        color:$azure;
-      }
-    }
   }
 
   .short-standalone {
@@ -312,8 +304,42 @@
   }
 
 // Miscellenous
-  .reverse {
-    color:#fff !important;
+  .short-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .medium-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align:center;
+  }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .xl-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .xxl-section {
+    padding-top: 240px;
+    padding-bottom: 240px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section0 {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
   .midnight {
     color:$midnight !important;

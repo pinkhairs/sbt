@@ -28,9 +28,9 @@
 <div class="menu-container" id="menu">
 	<div class="row">
 		<div class="small-12 columns">
-			<p class="text-right menu-close-button desktop-only"><a href="#"><img src="images/close-modal.svg" alt=""></a></p>
+			<p class="text-right menu-close-button desktop-only"><a href="#"><img src="http://localhost:8888/sbt/images/close-modal.svg" alt=""></a></p>
 			<a href="#" class="logo mobile-only" id="close-button">
-				<img src="images/close.svg" alt="" class="close-title">
+				<img src="http://localhost:8888/sbt/images/close.svg" alt="" class="close-title">
 				<span class="menu-label">Close</span>
 			</a>
 			<p class="lead midnight">I'm looking for</p>
@@ -56,9 +56,9 @@
 						<p class="lead">Follow us on</p>
 						<nav class="menu-social-links">
 							<ul class="flat-links">
-								<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
-								<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
-								<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
+								<li><a href="https://twitter.com/loveyourworkca"><img src="http://localhost:8888/sbt/images/twitter_bluegrey.svg" alt="Twitter"></a></li>
+								<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://localhost:8888/sbt/images/facebook_bluegrey.svg" alt="Facebook"></a></li>
+								<li><a href="https://www.linkedin.com/company/6390835"><img src="http://localhost:8888/sbt/images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
 								<!-- <li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li> -->
 							</ul>
 						</nav>
@@ -72,7 +72,7 @@
 	<div class="row">
 		<div class="small-12 large-6 columns">
 			<a href="http://localhost:8888/sbt/index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
-				<img src="images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
+				<img src="http://localhost:8888/sbt/images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
 			</a>
 		</div>
 		<div class="small-12 large-6 columns">

@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
- <div class="row">
+<div class="row">
  	<div class="small-12 columns">
 		<div class="section medium-section text-center">
 			<h1>Blog</h1>
@@ -8,7 +8,7 @@
 		</div>
 	</div>
 </div>
- <div class="row">
+<div class="row">
  	<div class="small-12 columns">
 		<div class="section pt0 pb0 text-center">
 			<div class="dropdown-container mobile-only">
@@ -37,7 +37,7 @@
 		</div>
 	</div>
 </div>
- <div class="row">
+<div class="row">
  	<div class="small-12 columns">
 		<div class="section pb0 pt0">
 			<div class="row">
