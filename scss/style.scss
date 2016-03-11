@@ -57,16 +57,22 @@
 		z-index: 100000;
 		@include transition($type: background);
 		&.scrolled {
-			position: fixed;
-			@include translate(0, -120px);
+			@media (min-width:$mqm) {
+				position: fixed;
+				@include translate(0, -120px);
+			}
 		}
 		&.slideDown {
-			@include translate(0, 0px);
-			@include transition($type: transform);
+			@media (min-width:$mqm) {
+				@include translate(0, 0px);
+				@include transition($type: transform);
+			}
 		}
 		&.slideUp {
-			@include translate(0, -120px);
-			@include transition($type: transform);
+			@media (min-width:$mqm) {
+				@include translate(0, -120px);
+				@include transition($type: transform);
+			}
 		}
 		@media (min-width:40em) {
 			background: $midnight;
@@ -499,15 +505,13 @@
 	}
 	.color-card {
 		background:$solitude;
-		padding-left:10px;
-		padding-right:10px;
+		padding: 20px;
 		min-height:90px;
 		.sub-industry & {
 			display:table;
 			width:100%;
 		}
 		h5 {
-			line-height:14px;
 			letter-spacing:2px;
 			color:$midnight;
 			display:table-cell;
@@ -604,7 +608,7 @@
 	.service-module {
 		background: darken(#E9ECF0, 5%);
 		margin: 20px 0;
-		padding: 20px 0;
+		padding: 20px 0 0;
 		text-align: center;
 	}
 	.service-list {
@@ -617,7 +621,7 @@
 		li {
 			font-size: 18px;
 			line-height: 26px;
-			margin: 0 auto 10px;
+			margin: 0 auto;
 			padding: 5px 20px;
 			text-align: center;
 			width: 100%;
@@ -625,7 +629,7 @@
 				padding: 5px 20px;
 			}
 			@media screen and (min-width: $mqm){
-				padding: 5px 100px;
+				padding: 10px 100px;
 			}
 			&:nth-child(even){
 				background: darken(#E9ECF0, 10%);
@@ -636,21 +640,34 @@
 	.post-alt.wrap {
 		max-width:none;
 	}
-	.card-container {
-		background-size:cover;
-		padding:40px;
-	}
+
 	.industry-card {
+		cursor: pointer;
+		width:33.3%;
+		float: left;
+		padding: 40px;
+		position: relative;
 		@include transition;
-		@media screen and (min-width: $mqm){
-			width:33.3%;
-			float:left;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			background: transparent;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			@include transition;
+		}
+		&.active {
+			&:before {
+				background: #fff;
+			}
 		}
 	}
 	.card {
-		background:#fff;
-		box-shadow:0 2px 4px 0 rgba(0,0,0,.2);
-		padding:60px 20px 20px;
+		background: #fff;
+		padding: 40px;
 		text-align:center;
 		transition:all 600ms ease-in-out;
 		h3 a {
@@ -665,14 +682,18 @@
 		}
 	}
 	.design-industry {
-		background-image:url('../images/design_industry.png');
+		background: url('../images/design_industry.png') #fff;
+		background-size: cover;
 	}
 	.ev-industry {
-		background-image:url('../images/ev.png');
+		background: url('../images/ev.png') #fff;
+		background-size: cover;
 	}
 	.tech-industry {
-		background-image:url('../images/tech.png');
+		background: url('../images/tech.png') #fff;
+		background-size: cover;
 	}
+
 	.sub-industry {
 		overflow:hidden;
 		margin-bottom:20px;
@@ -825,7 +846,7 @@
 		border-radius: 2px;
 		position: relative;
 		margin: 0 0 0 0;
-		@media (min-width:$mqs) {
+		@media (min-width:$mqm) {
 			display: inline-block;
 			margin: 0 auto 10px;
 			margin-right: 2%;

@@ -82,7 +82,7 @@ global.main = {
 
       // Animate/Load Desktop Card Design
       if (window.matchMedia('only screen and (max-width: 960px)').matches) {
-        $('.industry-card .card').css('opacity', '0');
+        // $('.industry-card .card').css('opacity', '0');
         setTimeout(
           function() {
             $('.section-work-sbtdesign-content').css('opacity', '0');

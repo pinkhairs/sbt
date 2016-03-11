@@ -1,7 +1,7 @@
 	<div class="row">
 		<div class="small-12 large-8 large-centered columns">
 			<div class="section pt0 large-text large-text-center">
-				<h4 class="large-text">It's about the work.</h4>
+				<h2>It's about the work.</h2>
 				<p>Perks and bonuses are important, but we understand what truly makes an opportunity great is the work you do and the impact you make. Today's engineers and developers don't need a traditional recruiter; they need an agent.</p>
 			</div>
 		</div>
@@ -9,11 +9,11 @@
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="section pt0 large-text-center">
-				<h4 class="large-text">Our Service offerings</h4>
+				<h2>Our Service offerings</h2>
 				<div class="row">
 					<div class="small-12 large-6 columns">
 						<div class="service-module">
-							<h5>Full Engagement</h5>
+							<h3>Full Engagement</h3>
 							<ul class="service-list">
 								<li>SOW includes department, number of positions to be filled, and estimated timeline</li>
 								<li>Positions can be up to Manager level</li>
@@ -27,7 +27,7 @@
 					</div>
 					<div class="small-12 large-6 columns">
 						<div class="service-module">
-							<h5>Proactive Engagement</h5>
+							<h3>Proactive Engagement</h3>
 							<ul class="service-list">
 								<li>SBT will submit candidates for agreed upon roles on a one-off, proactive basis</li>
 								<li>No dedicated SBT recruiter</li>
@@ -38,7 +38,7 @@
 					</div>
 					<div class="small-12 large-6 columns">
 						<div class="service-module">
-							<h5>Executive Search</h5>
+							<h3>Executive Search</h3>
 							<ul class="service-list">
 								<li>Positions at Director level or above</li>
 								<li>Fee structure and engagement details vary by position</li>
@@ -47,7 +47,7 @@
 					</div>
 					<div class="small-12 large-6 columns">
 						<div class="service-module">
-							<h5>Small business workshop</h5>
+							<h3>Small business workshop</h3>
 						</div>
 					</div>
 				</div>
@@ -58,28 +58,31 @@
 		<div class="small-12 columns">
 			<div class="section0 white-section">
 				<div class="industry-cards">
-					<div class="design-industry industry-card card-container" id="design-industry">
+					<div class="design-industry industry-card card-container industry-trigger" id="design-industry">
 						<div class="card">
-							<h3><a href="#">SBT<strong>design</strong><br>
-							<span class="lead">Industry</span></h3>
-							<p class="mt0"><img src="images/small_line.svg" alt=""></p>
-							<h5><a href="#">Open</a></h5>
+							<h2>
+								SBT<span class="lowercase">design</span>
+								<span class="lead">Industry</span>
+							</h2>
+							<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 						</div>
 					</div>
-					<div class="ev-industry industry-card card-container" id="ev-industry">
+					<div class="ev-industry industry-card card-container industry-trigger" id="ev-industry">
 						<div class="card">
-							<h3><a href="#">SBT<strong>EV</strong><br>
-							<span class="lead">Industry</span></h3>
-							<p class="mt0"><img src="images/small_line.svg" alt=""></p>
-							<h5><a href="#">Open</a></h5>
+							<h2>
+								SBT<span class="lowercase">EV</span>
+								<span class="lead">Industry</span>
+							</h2>
+							<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 						</div>
 					</div>
-					<div class="tech-industry industry-card card-container" id="tech-industry">
+					<div class="tech-industry industry-card card-container industry-trigger" id="tech-industry">
 						<div class="card">
-							<h3><a href="#">SBT<strong>tech</strong><br>
-							<span class="lead">Industry</span></h3>
-							<p class="mt0"><img src="images/small_line.svg" alt=""></p>
-							<h5><a href="#">Open</a></h5>
+							<h2>
+								SBT<span class="lowercase">tech</span>
+								<span class="lead">Industry</span>
+							</h2>
+							<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 						</div>
 					</div>
 				</div>
