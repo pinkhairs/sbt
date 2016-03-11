@@ -60,29 +60,16 @@ global.main = {
           return false;
         });
         
-        // $('.dropdown input').change(function() {
-        //   theparent = $(this).closest('.dropdown-container');
-        //   thelabel = $(this).parent().text();
-        //   theparent.find('.dropdown').hide();
-        //   theparent.find('.dropdown-label').text(thelabel);
-        // });
+        $('.dropdown input').change(function() {
+          theparent = $(this).closest('.dropdown-container');
+          thelabel = $(this).parent().text();
+          theparent.find('.dropdown').hide();
+          theparent.find('.dropdown-label').text(thelabel);
+        });
       }
     });
 
-    $('.dropdown-label').click(function() {
-      var dd = $('.dropdown');
-      if(dd.hasClass('active')){
-        dd.removeClass('active');
-      } else {
-        dd.addClass('active');
-      }
-    });
-
-    $('.dropdown .dropdown-ele').click(function(){
-      $('.dropdown').removeClass('active');
-    });
-
-    doc.on('click', '.industry-card', function() {
+    doc.on('click', '.industry-trigger', function() {
       // Grab ID from Card
       $category = $(this).attr('id');
 
@@ -90,6 +77,7 @@ global.main = {
       $('.industry-card').removeClass('active');
 
       // Add active class to clicked card
+      $('.industry-trigger').removeClass('active');
       $(this).addClass('active');
 
       // Animate/Load Desktop Card Design
@@ -98,27 +86,22 @@ global.main = {
         setTimeout(
           function() {
             $('.section-work-sbtdesign-content').css('opacity', '0');
-          }, 600
-        );
-        setTimeout(
-          function() {
-            $( "#industry-dropdown-container" ).hide().load( "section-work-sbtdesign-dropdown.php" ).fadeIn(600);
-          }, 1200
+          }, 100
         );
         setTimeout(
           function() {
             $( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
-          }, 1800
+          }, 300
         );
         setTimeout(
           function() {
             $('.industry-card').hide();
-          }, 1900
+          }, 900
         );
       } else {
         setTimeout(
           function() {
-            $( "#work-sbtdesign-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
+            $( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
           }, 300
         );
       }
@@ -181,6 +164,22 @@ global.main = {
       $('.work-talent-title').css('z-index', 9);
       newactive.css('z-index', 1);
     }
+
+    doc.on('click', '.dropdown-label', function() {
+      var dd = $('.dropdown');
+      if(dd.hasClass('active')){
+        dd.removeClass('active');
+      } else {
+        dd.addClass('active');
+      }
+    });
+
+    doc.on('click', '.dropdown .dropdown-ele', function(){
+      $('.dropdown').removeClass('active');
+      ddele = $(this).children('span').text();
+      ddlabel = $('.dropdown-label label');
+      ddlabel.text(ddele);
+    });
   },
 
   contactFormAJAX: function () {

@@ -1,4 +1,4 @@
-<div class="section large-industry-content white-section pt0 large-pt text-center">
+<div class="section large-industry-content white-section large-pt text-center">
 	<div class="row">
 		<div class="small-12 large-8 large-centered columns">
 			<p>Specializing in creative design professionals for automotive, web, and mobile applications. Our clients range from young and recently funded startups to established design centers and agencies. Recruiting specialties include:

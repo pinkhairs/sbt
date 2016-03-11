@@ -281,7 +281,7 @@ a.button-dark {
 .full-width-button {
   width: 100%; }
 
-input[type="text"], input[type="url"], input[type="email"], input[type="tel"], textarea, .dropdown-label, input[type="file"] {
+input[type="text"], input[type="url"], input[type="email"], input[type="tel"], textarea, input[type="file"] {
   display: block;
   font: inherit;
   font-weight: 400;
@@ -301,6 +301,7 @@ input[type="file"] {
 
 .dropdown-label {
   box-shadow: none;
+  background-color: #fff;
   background-image: url("../images/dropdown_arrows_small.svg");
   background-position: right -2px center;
   background-repeat: no-repeat;
@@ -330,8 +331,7 @@ input[type="file"] {
   background-image: url("../images/dropdown_arrow_big.svg"); }
 
 .dropdown li {
-  box-shadow: none;
-  margin-top: -1px; }
+  box-shadow: none; }
   .dropdown li label {
     cursor: pointer;
     font-weight: 400;
@@ -825,6 +825,48 @@ a.btn {
   .social-links li:not(:last-child) {
     border-right: 1px #669DC9 solid; }
 
+.about-divisions {
+  margin: 20px 0;
+  text-align: center; }
+  .about-divisions li {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    width: 100%; }
+    @media screen and (min-width: 960px) {
+      .about-divisions li {
+        width: 27%; } }
+  .about-divisions a {
+    background: #fff;
+    color: #000F2E;
+    display: block;
+    height: 100%;
+    padding: 20px 10px;
+    width: 100%; }
+
+.work .dropdown-label {
+  display: block; }
+  @media screen and (min-width: 960px) {
+    .work .dropdown-label {
+      display: none; } }
+
+@media screen and (min-width: 960px) {
+  .work .dropdown {
+    display: block;
+    position: static;
+    margin-top: 40px; } }
+
+.work .industry-dropdown-container {
+  display: block; }
+  @media screen and (min-width: 960px) {
+    .work .industry-dropdown-container {
+      display: none; } }
+
+.work .industry-cards {
+  display: none; }
+  @media screen and (min-width: 960px) {
+    .work .industry-cards {
+      display: block; } }
+
 .blog-post-list {
   list-style: none; }
 
@@ -1154,6 +1196,9 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
   .dropdown-ele.active > span {
     background: #315BA6;
     color: #fff; }
+  .dropdown-ele.active:hover > span {
+    background: #315BA6;
+    color: #fff; }
   .dropdown-ele.active label {
     color: #fff; }
   .dropdown-ele.active .lead, .dropdown-ele.active h5, .dropdown-ele.active .read-button, .dropdown-ele.active .back-read-button, .dropdown-ele.active .view-all-button {
@@ -1357,12 +1402,6 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     margin-top: 80px; }
   .large-pb {
     padding-bottom: 80px; }
-  .dropdown-label {
-    display: none; }
-  .dropdown {
-    display: block;
-    position: static;
-    margin-top: 40px; }
   hr {
     clear: both; }
   form h4 {
@@ -1467,8 +1506,6 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
   .full-width-row {
     margin: 0;
     max-width: none; }
-  #industry-dropdown-container {
-    display: none !important; }
   .color-card {
     padding: 40px 35px; }
     .color-card h5 {

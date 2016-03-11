@@ -219,7 +219,7 @@
 
 // Form Elements
 
-  input[type="text"],input[type="url"],input[type="email"],input[type="tel"], textarea, .dropdown-label, input[type="file"] {
+  input[type="text"],input[type="url"],input[type="email"],input[type="tel"], textarea, input[type="file"] {
     display:block;
     font:inherit;
     font-weight:400;
@@ -241,6 +241,7 @@
 
   .dropdown-label {
     box-shadow:none;
+    background-color: #fff;
     background-image:url('../images/dropdown_arrows_small.svg');
     background-position:right -2px center;
     background-repeat:no-repeat;
@@ -277,7 +278,6 @@
 
   .dropdown li {
     box-shadow:none;
-    margin-top:-1px;
     label {
       cursor:pointer;
       font-weight:400;

@@ -419,6 +419,56 @@
 		}
 	}
 
+// About
+	.about-divisions {
+		margin: 20px 0;
+		text-align: center;
+		li {
+			display: inline-block;
+			margin: 0 0 10px 0;
+			width: 100%;
+			@media screen and (min-width: $mqm){
+				width: 27%;
+			}
+		}
+		a {
+			background: #fff;
+			color: $black;
+			display: block;
+			height: 100%;
+			padding: 20px 10px;
+			width: 100%;
+		}
+	}
+// Work
+	.work {
+		.dropdown-label {
+			display: block;
+			@media screen and (min-width: $mqm){
+				display: none;
+			}
+		}
+		.dropdown {
+			@media screen and (min-width: $mqm){
+				display:block;
+				position:static;
+				margin-top:40px;
+			}
+		}
+		.industry-dropdown-container {
+			display: block;
+			@media screen and (min-width: $mqm){
+				display: none;
+			}
+		}
+		.industry-cards {
+			display: none;
+			@media screen and (min-width: $mqm){
+				display: block;
+			}
+		}
+	}
+	
 // Blog Index 
 	.blog-post-list {
 		list-style: none;
@@ -793,6 +843,12 @@
 			& > span {
 				background:$azure;
 				color: #fff;
+			}
+			&:hover {
+				& > span {
+					background:$azure;
+					color: #fff;
+				}
 			}
 			label {
 				color: #fff;

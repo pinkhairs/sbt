@@ -45,7 +45,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 					<li><a href="contact.php">Contact Us</a></li>
 					<li><a href="submit.php">Form Submitted</a></li>
 					<li><a href="about.php">About Us</a></li>
-					<li><a href="blog.php">Blog</a></li>
+					<li><a href="blog">Blog</a></li>
 					<li><a href="post-alt.php">Post</a></li>
 					<li><a href="jobs.php">Jobs</a></li>
 					<li><a href="#">Referrals</a></li>

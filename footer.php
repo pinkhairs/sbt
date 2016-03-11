@@ -29,6 +29,7 @@
 			<a href="terms.php">Terms &amp; Conditions</a></span>
 		</div>
 	</div>
+</footer>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,7 +40,6 @@
   ga('send', 'pageview');
 
 </script>
-</footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <?php if ($_COOKIE['preload'] != 1) { ?>
 <script src="js/preload.js" type="text/javascript"></script>
@@ -52,6 +52,7 @@
 <script src="js/jfeeditem.js" type="text/javascript"></script>
 <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
 <script src="js/sticky.min.js" type="text/javascript"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
 <script src="js/custom.js" type="text/javascript"></script>
 </body>
 </html>

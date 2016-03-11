@@ -86,8 +86,13 @@
 			</div>
 		</div>
 	</div>
-	<div id="industry-dropdown-container"></div>
-	<div id="work-sbtdesign-content"></div>
+	<div id="industry-dropdown-container" class="industry-dropdown-container">
+		<?php include 'section-industry-dropdown.php'; ?>
+	</div>
+	<!-- <div id="work-sbtdesign-content"></div> -->
+	<div id="industry-content">
+		<?php include 'section-design-industry-content.php'; ?>
+	</div>
 	<div class="section large-mt gradient-section large-work-bg">
 		<div class="row collapse full-width-row">
 			<div class="small-12 large-6 large-offset-6 columns">
