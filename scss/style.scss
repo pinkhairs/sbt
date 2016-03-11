@@ -550,6 +550,39 @@
 	}
 
 // Organize Later
+	
+	.service-module {
+		background: darken(#E9ECF0, 5%);
+		margin: 20px 0;
+		padding: 20px 0;
+		text-align: center;
+	}
+	.service-list {
+		list-style: none;
+		margin: 10px 0 0;
+		width: 100%;
+		h5 {
+			font-size: 24px;
+		}
+		li {
+			font-size: 18px;
+			line-height: 26px;
+			margin: 0 auto 10px;
+			padding: 5px 20px;
+			text-align: center;
+			width: 100%;
+			@media screen and (min-width: $mqs){
+				padding: 5px 20px;
+			}
+			@media screen and (min-width: $mqm){
+				padding: 5px 100px;
+			}
+			&:nth-child(even){
+				background: darken(#E9ECF0, 10%);
+			}
+		}
+	}
+
 	.post-alt.wrap {
 		max-width:none;
 	}
@@ -558,7 +591,11 @@
 		padding:40px;
 	}
 	.industry-card {
-		transition:all 600ms ease-in-out;
+		@include transition;
+		@media screen and (min-width: $mqm){
+			width:33.3%;
+			float:left;
+		}
 	}
 	.card {
 		background:#fff;

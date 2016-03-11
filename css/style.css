@@ -942,6 +942,34 @@ a.btn {
   .modal-button a {
     vertical-align: top; }
 
+.service-module {
+  background: #dadfe6;
+  margin: 20px 0;
+  padding: 20px 0;
+  text-align: center; }
+
+.service-list {
+  list-style: none;
+  margin: 10px 0 0;
+  width: 100%; }
+  .service-list h5 {
+    font-size: 24px; }
+  .service-list li {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 auto 10px;
+    padding: 5px 20px;
+    text-align: center;
+    width: 100%; }
+    @media screen and (min-width: 640px) {
+      .service-list li {
+        padding: 5px 20px; } }
+    @media screen and (min-width: 960px) {
+      .service-list li {
+        padding: 5px 100px; } }
+    .service-list li:nth-child(even) {
+      background: #cbd2db; }
+
 .post-alt.wrap {
   max-width: none; }
 
@@ -950,7 +978,14 @@ a.btn {
   padding: 40px; }
 
 .industry-card {
-  transition: all 600ms ease-in-out; }
+  -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
+  @media screen and (min-width: 960px) {
+    .industry-card {
+      width: 33.3%;
+      float: left; } }
 
 .card {
   background: #fff;
@@ -1391,11 +1426,8 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     float: none; }
     .space-out li:not(:last-child) {
       margin-right: 40px; }
-  .industry-card {
-    width: 33.3%;
-    float: left; }
-    .industry-card h3 a {
-      font-size: 48px; }
+  .industry-card h3 a {
+    font-size: 48px; }
   .industry-cards {
     overflow: hidden; }
   h3 strong {
