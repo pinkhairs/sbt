@@ -23,29 +23,21 @@ Template Name: All posts
     <div class="row">
       <div class="small-12 columns">
         <div class="section pt0 pb0 text-center">
-          <div class="dropdown-container mobile-only">
-            <div class="dropdown-label standalone-dropdown">Most Recent</div>
+          <div class="dropdown-container">
+            <div class="dropdown-label standalone-dropdown"><span>Most Recent</span></div>
             <ul class="dropdown standalone-dropdown-options short-standalone">
-              <li class="sort" data-sort="myorder:desc"><a href="#">Most Recent</a></li>
-              <li class="filter" data-filter=".popular"><a href="#">Popular</a></li>
-              <li class="filter" data-filter=".career"><a href="#">Career</a></li>
-              <li class="filter" data-filter=".design"><a href="#">Design</a></li>
-              <li class="filter" data-filter=".electric-vehicle"><a href="#">Electric Vehicle</a></li>
-              <li class="filter" data-filter=".technology"><a href="#">Technology</a></li>
-            </ul>
-          </div>
-          <div class="dropdown-container desktop-only">
-            <ul class="dropdown standalone-dropdown-options short-standalone">
-              <li class="active filter" data-filter="all"><span class="reverse">Recent</span></li>
-              <li class="filter" data-filter=".popular"><span>Popular</span></li>
-                <li class="dropdown-has-child"><label><span>Career</span>
-                  <ul>
-                    <li class="filter" data-filter=".career"><span>Career</span></li>
-                    <li class="filter" data-filter=".design"><span>Design</span></li>
-                    <li class="filter" data-filter=".electric-vehicle"><span>Electric Vehicle</span></li>
-                    <li class="filter" data-filter=".technology"><span>Technology</span></li>
-                  </ul>
-                </label>
+              <li class="dropdown-ele filter" data-filter="all"><span>All</span></li>
+              <li class="dropdown-ele desktop-dropdown-trigger"><span class="label">Type</span>
+                <ul class="desktop-dropdown">
+                  <?php $category_ids = get_all_category_ids(); ?> 
+                  <?php $args = array( 'orderby' => 'slug', 'parent' => 0 ); $categories = get_categories( $args ); foreach ( $categories as $category ) { echo '<li class="dropdown-ele filter" data-filter=".' . $category->slug . '"><span>' . $category->name . '</span></li>'; } 
+                  ?>
+
+                  <!-- <li class="dropdown-ele filter" data-filter=".career"><span>Career</span></li>
+                  <li class="dropdown-ele filter" data-filter=".design"><span>Design</span></li>
+                  <li class="dropdown-ele filter" data-filter=".electric-vehicle"><span>Electric Vehicle</span></li>
+                  <li class="dropdown-ele filter" data-filter=".technology"><span>Technology</span></li> -->
+                </ul>
               </li>
             </ul>
           </div>
@@ -73,7 +65,7 @@ Template Name: All posts
             <?php endif; ?> 
             <ol start = "<?php echo $nextpost; ?>" class="blog-post-list">
               <?php $current_date=$date; endif; ?>
-              <li class="small-12 large-4 columns end mix <?php $category = get_the_category( $post->ID ); echo $category[0]->slug;?>" data-myorder="<?php global $post; echo $post->ID; ?>">
+              <li class="small-12 large-4 columns end mix <?php $category = get_the_category( $post->ID ); echo $category[0]->slug;?>" data-myorder="<?php echo getPostViews(get_the_ID()); ?>">
                 <div class="post">
                   <div class="post-container">
                     <?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>

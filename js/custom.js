@@ -18,7 +18,23 @@ global.main = {
 
   blogFilterSort: function () {
     var index = $('.blog-index');
-    index.mixItUp();
+    index.mixItUp({
+      controls: {
+        live: true
+      },
+      callbacks: {
+        onMixStart: function(state){
+          if($('.desktop-dropdown > .dropdown-ele').hasClass('active')) {
+            $('.desktop-dropdown-trigger').addClass('active');
+          } else {
+            $('.desktop-dropdown-trigger').removeClass('active');
+          }
+        },
+        onMixLoad: function(state){
+          $('.dropdown  > .dropdown-ele:first-child').addClass('active');
+        }
+      },
+    });
   },
 
   navMenu: function () {
@@ -43,16 +59,27 @@ global.main = {
           $('#menu').addClass('menu-container-expanded');
           return false;
         });
-        $(document).on('click', '.dropdown-label', function() {
-          $(this).parent().find('.dropdown').toggle();
-        });
-        $('.dropdown input').change(function() {
-          theparent = $(this).closest('.dropdown-container');
-          thelabel = $(this).parent().text();
-          theparent.find('.dropdown').hide();
-          theparent.find('.dropdown-label').text(thelabel);
-        });
+        
+        // $('.dropdown input').change(function() {
+        //   theparent = $(this).closest('.dropdown-container');
+        //   thelabel = $(this).parent().text();
+        //   theparent.find('.dropdown').hide();
+        //   theparent.find('.dropdown-label').text(thelabel);
+        // });
       }
+    });
+
+    $('.dropdown-label').click(function() {
+      var dd = $('.dropdown');
+      if(dd.hasClass('active')){
+        dd.removeClass('active');
+      } else {
+        dd.addClass('active');
+      }
+    });
+
+    $('.dropdown .dropdown-ele').click(function(){
+      $('.dropdown').removeClass('active');
     });
 
     doc.on('click', '.industry-card', function() {
@@ -154,9 +181,6 @@ global.main = {
       $('.work-talent-title').css('z-index', 9);
       newactive.css('z-index', 1);
     }
-    $('.dropdown-has-child').click(function() {
-      $(this).find('ul').toggleClass('active');
-    });
   },
 
   contactFormAJAX: function () {

@@ -10,7 +10,7 @@
   }
 
 // Transitions
-  @mixin transition($time: 250ms, $type:all, $style:cubic-bezier(.14, .62, .39, 1), $delay:0s) {
+  @mixin transition($time: 350ms, $type:all, $style:cubic-bezier(.14, .62, .39, 1), $delay:0s) {
     -webkit-transition: $type $time $style $delay;
     -moz-transition: $type $time $style $delay;
     -o-transition: $type $time $style $delay;
@@ -61,10 +61,18 @@
   }
 
 // Dropdown Animation
-  @mixin ddAnimation {
+  @mixin ddAnimationIn {
     @for $i from 1 through 4 {
       &:nth-child(#{$i}) {
         @include translate(0, #{$i * -100}px);
+        @include transition($time: 1600ms, $delay: #{$i * 100}ms);
+      }
+    }
+  }
+  @mixin ddAnimationOut {
+    @for $i from 1 through 4 {
+      &:nth-child(#{$i}) {
+        @include translate(0,0);
         @include transition($delay: #{$i * 100}ms);
       }
     }

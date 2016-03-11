@@ -11,27 +11,15 @@
 <div class="row">
  	<div class="small-12 columns">
 		<div class="section pt0 pb0 text-center">
-			<div class="dropdown-container mobile-only">
+			<div class="dropdown-container">
 				<div class="dropdown-label standalone-dropdown ">Most Recent</div>
-				<ul class="dropdown standalone-dropdown-options short-standalone">
+				<ul class="dropdown">
+					<li><a href="#">Most Recent</a></li>
 					<li><a href="#">Popular</a></li>
 					<li><a href="#">Career</a></li>
 					<li><a href="#">Design</a></li>
 					<li><a href="#">Electric Vehicle</a></li>
 					<li><a href="#">Technology</a></li>
-				</ul>
-			</div>
-			<div class="dropdown-container desktop-only">
-				<ul class="dropdown standalone-dropdown-options short-standalone">
-					<li class="active"><a href="#" class="reverse">Recent</a></li>
-					<li><a href="#">Popular</a></li>
-						<li class="dropdown-has-child"><label>Design
-							<ul>
-								<li><a href="#">Electric Vehicle</a></li>
-								<li><a href="#">Technology</a></li>
-							</ul>
-						</label>
-					</li>
 				</ul>
 			</div>
 		</div>
