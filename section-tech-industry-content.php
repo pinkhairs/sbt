@@ -1,8 +1,7 @@
-<div class="section large-industry-content white-section large-pt text-center">
+<div class="section large-industry-content large-pt text-center">
 	<div class="row">
-		<div class="small-12 large-8 large-centered columns">
-			<p>Specializing in engineering and development professionals for companies creating innovative software, mobile and hardware solutions. Recruiting specialties include:
-</p>
+		<div class="small-12 large-8 large-centered large-text columns">
+			<p>Specializing in engineering and development professionals for companies creating innovative software, mobile and hardware solutions. Recruiting specialties include:</p>
 		</div>
 	</div>
 </div>
@@ -11,7 +10,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5> Full Stack <br> Developers</h5>
+					<span class="card-text">Full Stack Developers</span>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -19,7 +18,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>QA and <br>Test Engineering</h5>
+					<span class="card-text">QA &amp; Test Engineering</span>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -27,7 +26,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Product <br> Managers</br></h5>
+					<span class="card-text">Product Managers</br></span>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -35,7 +34,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Mechanical Hardware <br>Design</h5>
+					<span class="card-text">Mechanical Hardware Design</span>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -43,7 +42,7 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Electrical Hardware <br>Design</h5>
+					<span class="card-text">Electrical Hardware Design</span>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
@@ -51,20 +50,17 @@
 		<div class="small-6 large-4 columns">
 			<div class="sub-industry">
 				<div class="color-card">
-					<h5>Program Management & <br> Integration</h5>
+					<span class="card-text">Program Management &amp; Integration</span>
 				</div>
 				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="section white-section large-pb eat-bottom-margin short-section text-center">
+<div class="white-section short-section text-center">
 	<div class="row">
-		<div class="small-12 large-6  columns large-text-right">
-			<p><a href="#" class="load-more-button">SEE CURRENT EV OPENINGS</a></p>
-		</div>
-		<div class="small-12 large-6 columns large-text-left">
-			<p><a href="#" class="view-all-button">LEARN MORE ABOUT SBT(design)</a></p>
+		<div class="small-12 columns large-text-center">
+			<p><a href="#" class="button">View current tech openings</a></p>
 		</div>
 	</div>
 </div>

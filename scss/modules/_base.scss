@@ -1,19 +1,9 @@
 // Base
 
   body {
-    background:$solitude url('../images/water.png');
-    background-size:200% auto;
-    background-repeat:no-repeat;
-    background-position:top center;
-    color:$black;
-    font:$fontPrimary;
-    overflow-x:hidden;
-
-    @media (min-width:40em) {
-      background-position:top 80px center;
-      background-size:auto 139px;
-    }
-
+    color: $black;
+    font: $fontPrimary;
+    overflow-x: hidden;
     &.menu-active {
       overflow: hidden;
     }
@@ -31,12 +21,15 @@
   }
 
   .wrap {
-    background: $solitude;
-    margin: 80px 0 0 0;
+    background: url('../images/water.png') $solitude top center no-repeat;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 120px 0 0 0;
     position: relative;
     z-index: 10;
-    @media (min-width:40em) {
-      margin: 0 0 177px 0;
+    @media (min-width: $mqm) {
+      margin: 80px 0 177px 0; // 177px for footer
+      padding: 80px 0 0 0;
     }
   }
 
@@ -56,13 +49,13 @@
     color:$midnight;
     font-weight: 400;
     letter-spacing: .01em;
-    text-transform: uppercase;
   }
 
   h1 {
     font-size: 64px;
     font-weight: 300;
     line-height: 72px;
+    text-transform: uppercase;
     @media (min-width:$mqm) {
       font-size: 120px;
       font-weight: 300;
@@ -341,11 +334,10 @@
     padding-bottom: 40px;
     padding-left: 0;
     padding-right: 0;
-    text-align:center;
   }
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 0;
     padding-right: 0;
   }

@@ -93,11 +93,6 @@ global.main = {
             $( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
           }, 300
         );
-        setTimeout(
-          function() {
-            $('.industry-card').hide();
-          }, 900
-        );
       } else {
         setTimeout(
           function() {
@@ -161,8 +156,6 @@ global.main = {
       $('.work-talent-title.active .lead').addClass('fadeInUp');
       $('.work-talent-title.active .arrow').addClass('fadeInDown');
       $('.work-talent-title.active .lead').addClass('animated');
-      $('.work-talent-title').css('z-index', 9);
-      newactive.css('z-index', 1);
     }
 
     doc.on('click', '.dropdown-label', function() {

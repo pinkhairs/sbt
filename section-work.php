@@ -11,7 +11,7 @@
 			<div class="section pt0 large-text-center">
 				<h2>Our Service offerings</h2>
 				<div class="row">
-					<div class="small-12 large-6 columns">
+					<div class="small-12 large-8 large-offset-2 columns">
 						<div class="service-module">
 							<h3>Full Engagement</h3>
 							<ul class="service-list">
@@ -56,9 +56,9 @@
 	</div>
 	<div class="row small-collapse large-uncollapse">
 		<div class="small-12 columns">
-			<div class="section0 white-section">
+			<div class="section0">
 				<div class="industry-cards">
-					<div class="design-industry industry-card card-container industry-trigger" id="design-industry">
+					<div class="design-industry industry-card card-container industry-trigger active" id="design-industry">
 						<div class="card">
 							<h2>
 								SBT<span class="lowercase">design</span>
@@ -92,16 +92,17 @@
 	<div id="industry-dropdown-container" class="industry-dropdown-container">
 		<?php include 'section-industry-dropdown.php'; ?>
 	</div>
-	<!-- <div id="work-sbtdesign-content"></div> -->
-	<div id="industry-content">
-		<?php include 'section-design-industry-content.php'; ?>
+	<div class="section white-section industry-content-container">
+		<div id="industry-content">
+			<?php include 'section-design-industry-content.php'; ?>
+		</div>
 	</div>
-	<div class="section large-mt gradient-section large-work-bg">
+	<div class="section gradient-section large-work-bg">
 		<div class="row collapse full-width-row">
 			<div class="small-12 large-6 large-offset-6 columns">
 				<div class="work-bg-content">
 					<div class="container">
-						<h4>We're not your typical recruiters.</h4>
+						<h2>We're not your typical recruiters.</h2>
 						<p>At Silicon Beach Talent, we partner with fun, innovative companies who need talent to help them tackle insane challenges and meet aggressive goals. </p>
 
 						<p>We spend time onsite with all our clients to identify the intangibles that fortify connections.</p>
