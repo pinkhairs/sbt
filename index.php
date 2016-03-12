@@ -65,10 +65,10 @@ include 'header.php'; ?>
     </video>
   </div>
 </div>
-<div class="xl-section dark-section home-dark-section map-section">
+<div class="xl-section dark-section home-dark-section map-section large-text">
 	<div class="row">
-		<div class="small-12 large-5 large-end columns">
-			<h2 class="reverse tight-leading"><span class="lead">Made for</span><br>California</h2>
+		<div class="small-12 medium-8 large-4 large-end columns">
+			<h2 class="tight-leading"><span class="lead">Made for</span>California</h2>
 			<p>We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.</p>
 
 			<p>Perks and bonuses are important, but we understand that what truly makes an opportunity great is the work you do and the impact you make. </p>
@@ -78,12 +78,13 @@ include 'header.php'; ?>
 		</div>
 	</div>
 </div>
-<div class="xxl-section pattern-section">
+<div class="xxl-section pattern-section large-text">
 	<div class="row">
 		<div class="small-12 large-6 large-centered text-center columns">
-			<h2><span class="highlight">LOVE</span> YOUR WORK</h2>
+			<h2 class="home-slogan"><span class="highlight">
+        L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>VE</span> YOUR WORK</h2>
 			<p>Silicon Beach Talent was founded on the idea that the world really becomes a better place when people love what they do. Let us help get you there.</p> 
-			<p><a href="about.php" class="button">About SBT</a></p>
+			<a href="about.php" class="button">About SBT</a>
 		</div>
 	</div>
 </div>

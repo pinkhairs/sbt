@@ -4,7 +4,7 @@
 		<div class="small-12 large-4 columns">
 			<div class="medium-section large-pt color-section text-center large-text-left">
 				<h4>Ready to find your next great gig?</h4>
-				<p><a href="contact.php" class="button">Get started</a></p>
+				<a href="contact.php" class="button">Get started</a>
 			</div>
 		</div>
 		<div class="small-12 large-4 large-text-left columns">

@@ -173,14 +173,20 @@ include 'header.php'; ?>
 				
 				<div class="large-text-center">
 					<label class="large-text">Reason for Contact</label>
-						<div class="dropdown-container">
-							<div class="dropdown-label">Work</div>
-							<ul class="dropdown">
-								<li class="active"><label><input value="work" type="radio" name="dropdown_eg" value="opt1"><p class="lead lead-small desktop-only mt0">I'm Looking for </p>Work</label></li>
-								<li><label><input type="radio" value="talent" name="dropdown_eg"><p class="lead lead-small desktop-only mt0">I'm Looking for </p>Talent</label></li>
-								<li><label><input type="radio" value="general" name="dropdown_eg"><p class="lead lead-small desktop-only mt0">Just a General </p>Inquiry</li>
-							</ul>
-						</div>
+						<ul class="contact-select">
+              <li class="contact-select-ele active">
+                <input value="work" type="radio" name="dropdown_eg" id="contact-select-work">
+                <label for="contact-select-work">I'm Looking for Work</label>
+              </li>
+              <li class="contact-select-ele">
+                <input type="radio" value="talent" name="dropdown_eg" id="contact-select-talent">
+                <label for="contact-select-talent">I'm Looking for Talent</label>
+              </li>
+              <li class="contact-select-ele">
+                <input type="radio" value="general" name="dropdown_eg" id="contact-select-general">
+                <label for="contact-select-general">Just a General Inquiry</label>
+              </li>
+            </ul>
 					</label>
 				</div>
 				<div id="contact-form">

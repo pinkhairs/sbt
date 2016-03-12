@@ -54,21 +54,7 @@
 		margin-top:10px;
 		margin-bottom:20px;
 	}
-	.social-links {
-	    margin:0;
-	    border:0;
-	    overflow: hidden;
-	}
-	.social-links li:not(:last-child) {
-	    border:0;
-	    margin-right:20px;
-	}
-	.social-links li {
-	    width: auto;
-	    padding:20px 0 0;
-	    text-align: center;
-	    display: block;
-	}
+	
 	.site-footer {
 		padding-bottom:0;
 		.section {
@@ -294,11 +280,6 @@
 		background-size: auto 870px;
 	}
 	
-	.home-dark-section {
-		h2 {
-			line-height:48px;
-		}
-	}
 	// .standalone-dropdown-options .dropdown-has-child {
 	// 	padding-left:0;
 	// 	padding-right:0;

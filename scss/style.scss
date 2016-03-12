@@ -13,6 +13,9 @@
 	.dark-section {
 		background:$midnight;
 		color:#fff;
+		h1, h2, h3, h4, h5, h6 {
+			color: #fff;
+		}
 	}
 	.home-dark-section  {
 		background:#091531;
@@ -46,6 +49,10 @@
 					background: $midnight;
 				}
 			}
+		}
+		.wrap {
+			margin: 0;
+			padding: 0;
 		}
 	}
 	
@@ -119,19 +126,23 @@
 		}
 	}
 	.menu-container {
-		background:$solitude url('../images/water.png');
-		background-size:100% auto;
-		background-repeat:no-repeat;
+		background: $solitude;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
 		height: 100%;
 		overflow: scroll;
+		padding: 0 0 20px 0;
 		position: fixed;
-		text-align:center;
+		text-align: center;
 		width: 100%;
 		z-index: 1000000;
 		@include transition;
 		@include translate(0%,-150%);
-		h2 + h2 {
-			margin-top:0;
+		h2 {
+			text-transform: uppercase;
+		}
+		.logo.mobile-only {
+			margin-bottom: 20px;
 		}
 	}
 	.menu-container-expanded {
@@ -174,13 +185,13 @@
 	.interactive-hero {
 	  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/025-sbt-desktop-home-2.jpg') no-repeat left top scroll;
     background-size: cover;
-    height: 667px;
-    overflow: hidden;
+    height: 807px;
     position: relative;
     width: 100%;
     @media screen and (min-width: $mqm){
       background-size: 1920px 981px;
       height: 900px;
+    	overflow: hidden;
     }
 	}
 
@@ -205,14 +216,22 @@
 	  @media screen and (min-width: $mqm){
 	    top: 0;
 	  }
+	  .text-header {
+	  	color: #fff;
+	  }
 	}
 
 	.text-col {
 	  float: left;
 	  height: 260px;
-	  padding: 20px;
+	  padding: 20px 10px;
 	  position: relative;
 	  width: 100%;
+	  @media screen and (min-width: $mqm){
+	    height: 100%;
+	    padding: 20px;
+	    width: 50%;
+	  }
 	  &:hover {
 	    @media screen and (min-width: $mqm){
 	      .text-container, a.btn, .sub-paths {
@@ -237,10 +256,6 @@
 	      top: 0;
 	      width: 150%;
 	    }
-	  }
-	  @media screen and (min-width: $mqm){
-	    height: 100%;
-	    width: 50%;
 	  }
 	}
 
@@ -279,7 +294,6 @@
 
 	.text-container {
 	  @include transition;
-	  @include absolute-center;
 	  color: #fff;
 	  font-family: $fontPrimary;
 	  opacity: 1;
@@ -373,22 +387,17 @@
 		text-align: center;
 		position: relative;
 		bottom: 0;
-		height: 443px;
+		height: 411px;
 		width: 100%;
 		z-index: 1;
 
-		@media screen and (min-width: $mqm){
-		  height: 177px;
+		@media screen and (min-width: $mqs){
+		  height: 171px;
 		  position: fixed;
 		}
 
-		.social-links {
-			text-align:left;
-			margin-top:0;
-			li {
-				width:25%;
-				float:left;
-			}
+		h4 {
+			color: $lightsteelblue;
 		}
 	}
 	.colophon {
@@ -407,21 +416,64 @@
 		display:inline-block !important;
 	}
 	.social-links {
+		text-align:left;
+		margin-top:0;
 		margin-left:-10px;
 		margin-right:-10px;
 		border-top:1px $bluegrey solid;
 		border-bottom:1px $bluegrey solid;
 		overflow:hidden;
 		text-align:center;
+		@media screen and (min-width: $mqm){
+			margin:0;
+			border:0;
+			overflow: hidden;
+		}
 	}
 	.social-links li {
-		padding:40px 0;
-		text-align:center;
-		display:inline-block;
-		padding-left:10px;
-		padding-right:10px;
+		text-align: center;
+		display: inline-block;
+		width: 25%;
+		float: left;
+		padding: 30px 0;
+		@media screen and (min-width: $mqs){
+			padding: 0;
+		}
 		&:not(:last-child) {
 			border-right:1px $bluegrey solid;
+			@media screen and (min-width: $mqs){
+				border: 0;
+				margin-right: 20px;
+			}
+		}
+	}
+	// .social-links li {
+	//     width: auto;
+	//     padding:20px 0 0;
+	//     text-align: center;
+	//     display: block;
+	// }
+
+// Home
+	.map-section {
+		h2 {
+			font-size: 48px;
+			line-height: 56px;
+			text-transform: uppercase;
+			@media screen and (min-width: $mqm){
+				font-size: 64px;
+				line-height: 72px;
+			}
+		}
+	}
+	.home-slogan {
+		.sbtsvg {
+			display: inline-block;
+			vertical-align: bottom;
+			width: 40px;
+			svg {
+				width: 100%;
+			}
 		}
 	}
 
@@ -446,8 +498,9 @@
 			width: 100%;
 		}
 	}
-// Work
-	.work {
+
+// Work/Talent
+	.work, .talent {
 		.dropdown-label {
 			display: block;
 			@media screen and (min-width: $mqm){
@@ -475,8 +528,45 @@
 		}
 	}
 
-	.work-bg-content .container {
+	.work-bg-content {
+		.container {
+			width: 100%;
+			@media screen and (min-width: $mqm){
+				width: 60%;
+			}
+		}
+	}
+
+	.service-module {
+		background: darken(#E9ECF0, 5%);
+		margin: 20px 0;
+		padding: 20px 0 0;
+		text-align: center;
+	}
+	.service-list {
+		list-style: none;
+		margin: 10px 0 0;
 		width: 100%;
+		h5 {
+			font-size: 24px;
+		}
+		li {
+			font-size: 18px;
+			line-height: 26px;
+			margin: 0 auto;
+			padding: 5px 20px;
+			text-align: center;
+			width: 100%;
+			@media screen and (min-width: $mqs){
+				padding: 5px 20px;
+			}
+			@media screen and (min-width: $mqm){
+				padding: 10px 100px;
+			}
+			&:nth-child(even){
+				background: darken(#E9ECF0, 10%);
+			}
+		}
 	}
 	
 // Blog Index 
@@ -613,35 +703,37 @@
 
 // Organize Later
 	
-	.service-module {
-		background: darken(#E9ECF0, 5%);
-		margin: 20px 0;
-		padding: 20px 0 0;
+	.slogan {
+		padding: 20px;
 		text-align: center;
-	}
-	.service-list {
-		list-style: none;
-		margin: 10px 0 0;
+		text-transform: uppercase;
 		width: 100%;
-		h5 {
-			font-size: 24px;
+		@media screen and (min-width: $mqm){
+			padding: 20px 0;
+			text-align: left;
 		}
-		li {
-			font-size: 18px;
-			line-height: 26px;
-			margin: 0 auto;
-			padding: 5px 20px;
-			text-align: center;
-			width: 100%;
-			@media screen and (min-width: $mqs){
-				padding: 5px 20px;
-			}
-			@media screen and (min-width: $mqm){
-				padding: 10px 100px;
-			}
-			&:nth-child(even){
-				background: darken(#E9ECF0, 10%);
-			}
+	}
+	.slogan-large {
+		color: #fff;
+		display: block;
+		font-size: 64px;
+		font-weight: 600;
+		letter-spacing: .2em;
+		line-height: 84px;
+		width: 100%;
+		@media screen and (min-width: $mqm){
+			color: #669DC9;
+			font-size: 32px;
+			line-height: 40px;
+		}
+	}
+	.slogan-small {
+		display: block;
+		font-size: 18px;
+		line-height: 26px;
+		letter-spacing: .2em;
+		@media screen and (min-width: $mqm){
+			color: #000F2E;
 		}
 	}
 
@@ -852,7 +944,6 @@
 	}
 
 // Dropdown
-
 	.dropdown-container {
 		margin-bottom: 20px;
 	}
@@ -866,7 +957,7 @@
 		border: 0;
 		border-radius: 2px;
 		position: relative;
-		margin: 0 0 0 0;
+		margin: 0;
 		@media (min-width:$mqm) {
 			display: inline-block;
 			margin: 0 auto 10px;
@@ -982,6 +1073,35 @@
 				font-size: 18px;
 				line-height: 26px;
 			}
+		}
+	}
+
+// Contact
+	.contact-select {
+		margin: 10px 0;
+		list-style: none;
+	}
+	.contact-select-ele {
+		background: #fff;
+		cursor: pointer;
+		margin: 0 0 10px 0;
+		text-align: center;
+		width: 100%;
+		&:hover {
+			background: $whitehaze;
+		}
+		&.active {
+			background: $azure;
+			label {
+				color: #fff;
+			}
+		}
+		input {
+			display: none;
+		}
+		label {
+			cursor: pointer;
+			padding: 20px;
 		}
 	}
 @import "desktop.scss";

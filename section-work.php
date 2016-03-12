@@ -101,7 +101,7 @@
 		<div class="row collapse full-width-row">
 			<div class="small-12 large-6 large-offset-6 columns">
 				<div class="work-bg-content">
-					<div class="container">
+					<div class="container large-text">
 						<h2>We're not your typical recruiters.</h2>
 						<p>At Silicon Beach Talent, we partner with fun, innovative companies who need talent to help them tackle insane challenges and meet aggressive goals. </p>
 
@@ -109,10 +109,9 @@
 
 						<p>We specialize in placing individual contributors and executives through our divisions with one simple goal in mind:</p>
 
-						<div class="section small-text-center small-love pb0">
-							<h1 class="standalone reverse text-left">Love <br class="mobile-only">Your <br class="mobile-only">Work</h1>
-							<p class="lead standalone reverse mobile-only text-left">We can help</p>
-							<p class="lead standalone reverse desktop-only text-left">READY TO FIND YOUR NEXT GIG?</p>
+						<div class="section pb0 slogan">
+							<span class="slogan-large">Love Your Work</span>
+							<span class="slogan-small">We can help</span>
 						</div>
 					</div>
 				</div>

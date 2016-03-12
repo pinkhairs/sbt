@@ -27,10 +27,20 @@
     padding: 120px 0 0 0;
     position: relative;
     z-index: 10;
-    @media (min-width: $mqm) {
-      margin: 80px 0 177px 0; // 177px for footer
+    @media (min-width: $mqs) {
+      margin: 80px 0 171px 0; // 171px for footer
       padding: 80px 0 0 0;
     }
+  }
+
+  .large-pt {
+    padding-top:40px;
+  }
+  .large-mt {
+    margin-top:80px;
+  }
+  .large-pb {
+    padding-bottom:80px;
   }
 
 // Typography
@@ -43,12 +53,14 @@
   p {
     font-size: 18px;
     line-height: 26px;
+    margin: 0 0 20px 0;
   }
 
   h1, h2, h3, h4, h5, h6 {
     color:$midnight;
     font-weight: 400;
     letter-spacing: .01em;
+    margin: 0 0 10px 0;
   }
 
   h1 {
