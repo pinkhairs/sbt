@@ -1506,6 +1506,15 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     cursor: pointer;
     padding: 20px; }
 
+.contact-form-content {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden; }
+  .contact-form-content.active {
+    position: relative;
+    opacity: 1;
+    visibility: visible; }
+
 @media (min-width: 40em) {
   .about-page-bg {
     background: url("../images/about-bg.png") top right no-repeat;
@@ -1529,12 +1538,6 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     line-height: 20px; }
   textarea {
     height: 125px; }
-  .large-pt {
-    padding-top: 40px; }
-  .large-mt {
-    margin-top: 80px; }
-  .large-pb {
-    padding-bottom: 80px; }
   hr {
     clear: both; }
   form h4 {

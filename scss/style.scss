@@ -1104,4 +1104,14 @@
 			padding: 20px;
 		}
 	}
+	.contact-form-content {
+		position: absolute;
+		opacity: 0;
+		visibility: hidden;
+		&.active {
+			position: relative;
+			opacity: 1;
+			visibility: visible;
+		}
+	}
 @import "desktop.scss";

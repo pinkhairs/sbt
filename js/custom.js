@@ -176,18 +176,18 @@ global.main = {
   },
 
   contactFormAJAX: function () {
-    $('#contact-form').load('section-work-inquiry.php');
     $('input[name="dropdown_eg"]').change(function() {
       $('input[name="dropdown_eg"]').closest('li').removeClass('active');
       active = $('input[name="dropdown_eg"]:checked');
       active.closest('li').addClass('active');
       subject = active.val();
+      $('.contact-form-content').removeClass('active');
       if (subject == 'work') {
-        $('#contact-form').load('section-work-inquiry.php');
+        $('#contact-form-work').addClass('active');
       } else if (subject == 'talent') {
-        $('#contact-form').load('section-talent-inquiry.php');
+        $('#contact-form-talent').addClass('active');
       } else {
-        $('#contact-form').load('section-general-inquiry.php');
+        $('#contact-form-general').addClass('active');
       }
     });
   },
