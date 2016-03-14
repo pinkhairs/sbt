@@ -7,7 +7,12 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	<div class="row">
+=======
+</div>
+<div class="row">
+>>>>>>> 72737a668f9ce76ff9c6753c48c5a9df2faea307
 		<div class="small-12 columns">
 			<div class="section pt0 large-text-center">
 				<h2>Our Service offerings</h2>
@@ -55,6 +60,7 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 	<div class="row small-collapse large-uncollapse">
 		<div class="small-12 columns">
 			<div class="section0">
@@ -67,6 +73,18 @@
 							</h2>
 							<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 						</div>
+=======
+<div class="row small-collapse large-uncollapse">
+	<div class="small-12 columns">
+		<div class="section0 white-section">
+			<div class="industry-cards">
+				<div class="design-industry industry-card card-container">
+					<div class="card">
+						<h3><a href="#">SBT<strong>design</strong><br>
+						<span class="lead">Industry</span></h3>
+						<p class="mt0"><img src="images/small_line.svg" alt=""></p>
+						<h5><a href="#">Open</a></h5>
+>>>>>>> 72737a668f9ce76ff9c6753c48c5a9df2faea307
 					</div>
 					<div class="ev-industry industry-card card-container industry-trigger" id="ev-industry">
 						<div class="card">

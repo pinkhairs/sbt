@@ -166,7 +166,8 @@ include 'header.php'; ?>
 <div class="row">
 	<div class="small-12 columns">
 		<div class="section pt0 large-pt">
-			<form id="inquiry-general" action="<?php echo basename(__FILE__); ?>" method="post">
+
+			<form id="inquiry-general" action="<?php echo basename(__FILE__); ?>" method="post" enctype="multipart/form-data">
 				<noscript>
 						<p><input type="hidden" name="nojs" id="nojs" /></p>
 				</noscript>
