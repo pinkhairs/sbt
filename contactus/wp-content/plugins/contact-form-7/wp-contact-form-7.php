@@ -64,3 +64,5 @@ if ( ! defined( 'WPCF7_VALIDATE_CONFIGURATION' ) ) {
 define( 'WPCF7_PLUGIN_URL', untrailingslashit( plugins_url( '', WPCF7_PLUGIN ) ) );
 
 require_once WPCF7_PLUGIN_DIR . '/settings.php';
+
+define ('WPCF7_AUTOP', false );

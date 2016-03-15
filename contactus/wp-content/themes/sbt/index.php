@@ -57,13 +57,13 @@ get_header(); ?>
 				</div>
 				<div id="contact-form">
 					<div id="contact-form-work" class="contact-form-content active">
-						<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
+						<?php echo do_shortcode( '[contact-form-7 id="4" title="Looking for Work"]' ); ?>
 					</div>
 					<div id="contact-form-talent" class="contact-form-content">
-						<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
+						<?php echo do_shortcode( '[contact-form-7 id="6" title="Looking for Talent"]' ); ?>
 					</div>
 					<div id="contact-form-general" class="contact-form-content">
-						<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]' ); ?>
+						<?php echo do_shortcode( '[contact-form-7 id="7" title="General Inquiry"]' ); ?>
 					</div>
 				</div>
 

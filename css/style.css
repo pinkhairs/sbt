@@ -225,7 +225,9 @@ strong {
 
 .button {
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  outline: 0;
+  border: 0; }
   p > .button:first-child {
     margin-top: -6px;
     margin-bottom: 6px;
@@ -293,9 +295,9 @@ a.button-dark {
 .full-width-button {
   width: 100%; }
 
-input[type="text"], input[type="url"], input[type="email"], input[type="tel"], textarea, input[type="file"] {
+.form-input-text, .form-textarea {
   display: block;
-  font: inherit;
+  font-size: 16px;
   font-weight: 400;
   width: 100%;
   background: #F5F7FA;
@@ -1500,20 +1502,53 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     background: #315BA6; }
     .contact-select-ele.active label {
       color: #fff; }
+  @media (min-width: 640px) {
+    .contact-select-ele {
+      display: inline-block;
+      width: 32.3%; } }
   .contact-select-ele input {
     display: none; }
   .contact-select-ele label {
     cursor: pointer;
     padding: 20px; }
 
+.contact-form {
+  position: relative; }
+
 .contact-form-content {
   position: absolute;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  z-index: -1;
+  top: 0; }
   .contact-form-content.active {
     position: relative;
     opacity: 1;
-    visibility: visible; }
+    visibility: visible;
+    z-index: 10; }
+  .contact-form-content br {
+    display: none; }
+  .contact-form-content label {
+    padding-bottom: 5px; }
+  .contact-form-content div.wpcf7-response-output {
+    border: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    width: auto; }
+  .contact-form-content div.wpcf7-validation-errors {
+    background: #DB8C8C; }
+  .contact-form-content span.wpcf7-not-valid-tip {
+    color: #c33e3e;
+    font-weight: bold; }
+  .contact-form-content .new-form {
+    display: none;
+    cursor: pointer; }
+  .contact-form-content form.wpcf7-form.sent .form-elements {
+    display: none; }
+  .contact-form-content form.wpcf7-form.sent .new-form {
+    display: block; }
 
 @media (min-width: 40em) {
   .about-page-bg {

@@ -190,6 +190,16 @@ global.main = {
         $('#contact-form-general').addClass('active');
       }
     });
+
+    doc.on('click','.new-form', function(){
+      $('.form-message').hide();
+      $('.form-elements').show();
+    });
+
+    if($('.wpcf7-form').hasClass('.sent')){
+      $('.contact-form-content').removeClass('active');
+      $(this).closest('.wpcf7').parent('.contact-form-content').addClass('active');
+    }
   },
 
   jFeed: function () {

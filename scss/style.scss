@@ -1096,6 +1096,10 @@
 				color: #fff;
 			}
 		}
+		@media (min-width:$mqs) {
+			display: inline-block;
+			width: 32.3%;
+		}
 		input {
 			display: none;
 		}
@@ -1104,14 +1108,53 @@
 			padding: 20px;
 		}
 	}
+	.contact-form {
+		position: relative;
+	}
 	.contact-form-content {
 		position: absolute;
 		opacity: 0;
 		visibility: hidden;
+		z-index: -1;
+		top: 0;
 		&.active {
 			position: relative;
 			opacity: 1;
 			visibility: visible;
+			z-index: 10;
+		}
+		br {
+			display: none;
+		}
+		label {
+			padding-bottom: 5px;
+		}
+		div.wpcf7-response-output {
+			border: 0;
+			margin: 0 0 20px 0;
+			text-align: center;
+			font-weight: bold;
+			display: inline-block;
+			width: auto;
+		}
+		div.wpcf7-validation-errors {
+			background: $errorred;
+		}
+		span.wpcf7-not-valid-tip {
+			color: darken($errorred, 20%);
+			font-weight: bold;
+		}
+		.new-form {
+			display: none;
+			cursor: pointer;
+		}
+		form.wpcf7-form.sent {
+			.form-elements {
+				display: none;
+			}
+			.new-form {
+				display: block;
+			}
 		}
 	}
 @import "desktop.scss";

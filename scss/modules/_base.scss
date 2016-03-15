@@ -176,6 +176,8 @@
     font-weight:700;
     text-transform: uppercase;
     @extend .load-more-button;
+    outline: 0;
+    border: 0;
     p > &:first-child {
       margin-top:-6px;
       margin-bottom:6px; /* optical adjustment */
@@ -254,9 +256,9 @@
 
 // Form Elements
 
-  input[type="text"],input[type="url"],input[type="email"],input[type="tel"], textarea, input[type="file"] {
+  .form-input-text, .form-textarea {
     display:block;
-    font:inherit;
+    font-size: 16px;
     font-weight:400;
     width:100%;
     background: $whitehaze;
