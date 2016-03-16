@@ -42,7 +42,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 			<nav id="talent-links">
 				<ul class="menu-links">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="contact.php">Contact Us</a></li>
+					<li><a href="contactus">Contact Us</a></li>
 					<li><a href="submit.php">Form Submitted</a></li>
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="blog">Blog</a></li>

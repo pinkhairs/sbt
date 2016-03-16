@@ -124,7 +124,7 @@ hr {
   padding: 120px 0 0 0;
   position: relative;
   z-index: 10; }
-  @media (min-width: 640px) {
+  @media (min-width: 40em) {
     .wrap {
       margin: 80px 0 171px 0;
       padding: 80px 0 0 0; } }
@@ -158,7 +158,7 @@ h1 {
   font-weight: 300;
   line-height: 72px;
   text-transform: uppercase; }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     h1 {
       font-size: 120px;
       font-weight: 300;
@@ -215,7 +215,7 @@ strong {
   text-transform: uppercase;
   color: #315BA6;
   line-height: 20px; }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     .lead, .read-button, .back-read-button, .view-all-button {
       font-size: 18px;
       line-height: 26px; } }
@@ -466,6 +466,9 @@ input[type="file"] {
   .site-home .wrap {
     margin: 0;
     padding: 0; }
+    @media (min-width: 40em) {
+      .site-home .wrap {
+        margin: 0 0 171px 0; } }
 
 .site-header {
   position: absolute;
@@ -477,7 +480,7 @@ input[type="file"] {
   -moz-transition: background 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   -o-transition: background 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   transition: background 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     .site-header.scrolled {
       position: fixed;
       -moz-transform: translate(0, -120px);
@@ -485,7 +488,7 @@ input[type="file"] {
       -ms-transform: translate(0, -120px);
       -webkit-transform: translate(0, -120px);
       transform: translate(0, -120px); } }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     .site-header.slideDown {
       -moz-transform: translate(0, 0px);
       -o-transform: translate(0, 0px);
@@ -496,7 +499,7 @@ input[type="file"] {
       -moz-transition: transform 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
       -o-transition: transform 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
       transition: transform 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; } }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     .site-header.slideUp {
       -moz-transform: translate(0, -120px);
       -o-transform: translate(0, -120px);
@@ -613,7 +616,7 @@ input[type="file"] {
   height: 807px;
   position: relative;
   width: 100%; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .interactive-hero {
       background-size: 1920px 981px;
       height: 900px;
@@ -636,7 +639,7 @@ input[type="file"] {
   top: 150px;
   width: 100%;
   z-index: 10000; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .text-layer {
       top: 0; } }
   .text-layer .text-header {
@@ -648,19 +651,19 @@ input[type="file"] {
   padding: 20px 10px;
   position: relative;
   width: 100%; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .text-col {
       height: 100%;
       padding: 20px;
       width: 50%; } }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .text-col:hover .text-container, .text-col:hover a.btn, .text-col:hover .sub-paths {
       opacity: 1; }
     .text-col:hover a.btn, .text-col:hover .sub-paths {
       transform: translateY(0); } }
   .text-col:before {
     opacity: 0; }
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: 40em) {
       .text-col:before {
         -webkit-transition: all 400ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
         -moz-transition: all 400ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
@@ -684,7 +687,7 @@ input[type="file"] {
 .text-layer-left .sub-paths {
   display: none; }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 40em) {
   .text-layer-left .sub-paths {
     display: block; } }
 
@@ -706,7 +709,7 @@ input[type="file"] {
   opacity: 1;
   text-transform: uppercase;
   width: 90%; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .text-container {
       left: 50%;
       position: absolute;
@@ -744,7 +747,7 @@ a.btn {
   opacity: 1;
   padding: 5px 20px;
   transform: translateY(10px); }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     a.btn {
       opacity: 0; } }
 
@@ -758,7 +761,7 @@ a.btn {
   opacity: 1;
   padding: 0;
   transform: translateY(10px); }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .sub-paths {
       opacity: 0; } }
 
@@ -783,7 +786,7 @@ a.btn {
   right: 0;
   z-index: 4000;
   text-align: left; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .video-layer {
       display: block;
       width: 1920px; } }
@@ -799,7 +802,7 @@ a.btn {
   height: 411px;
   width: 100%;
   z-index: 1; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 40em) {
     .site-footer {
       height: 171px;
       position: fixed; } }
@@ -829,7 +832,7 @@ a.btn {
   border-bottom: 1px #669DC9 solid;
   overflow: hidden;
   text-align: center; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .social-links {
       margin: 0;
       border: 0;
@@ -841,12 +844,12 @@ a.btn {
   width: 25%;
   float: left;
   padding: 30px 0; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 40em) {
     .social-links li {
       padding: 0; } }
   .social-links li:not(:last-child) {
     border-right: 1px #669DC9 solid; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 40em) {
       .social-links li:not(:last-child) {
         border: 0;
         margin-right: 20px; } }
@@ -855,7 +858,7 @@ a.btn {
   font-size: 48px;
   line-height: 56px;
   text-transform: uppercase; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .map-section h2 {
       font-size: 64px;
       line-height: 72px; } }
@@ -874,7 +877,7 @@ a.btn {
     display: inline-block;
     margin: 0 0 10px 0;
     width: 100%; }
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: 40em) {
       .about-divisions li {
         width: 27%; } }
   .about-divisions a {
@@ -887,11 +890,11 @@ a.btn {
 
 .work .dropdown-label, .talent .dropdown-label {
   display: block; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .work .dropdown-label, .talent .dropdown-label {
       display: none; } }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 40em) {
   .work .dropdown, .talent .dropdown {
     display: block;
     position: static;
@@ -899,19 +902,19 @@ a.btn {
 
 .work .industry-dropdown-container, .talent .industry-dropdown-container {
   display: block; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .work .industry-dropdown-container, .talent .industry-dropdown-container {
       display: none; } }
 
 .work .industry-cards, .talent .industry-cards {
   display: none; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .work .industry-cards, .talent .industry-cards {
       display: block; } }
 
 .work-bg-content .container {
   width: 100%; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .work-bg-content .container {
       width: 60%; } }
 
@@ -934,10 +937,10 @@ a.btn {
     padding: 5px 20px;
     text-align: center;
     width: 100%; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 480px) {
       .service-list li {
         padding: 5px 20px; } }
-    @media screen and (min-width: 960px) {
+    @media screen and (min-width: 40em) {
       .service-list li {
         padding: 10px 100px; } }
     .service-list li:nth-child(even) {
@@ -1074,7 +1077,7 @@ a.btn {
   text-align: center;
   text-transform: uppercase;
   width: 100%; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .slogan {
       padding: 20px 0;
       text-align: left; } }
@@ -1087,7 +1090,7 @@ a.btn {
   letter-spacing: .2em;
   line-height: 84px;
   width: 100%; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .slogan-large {
       color: #669DC9;
       font-size: 32px;
@@ -1098,7 +1101,7 @@ a.btn {
   font-size: 18px;
   line-height: 26px;
   letter-spacing: .2em; }
-  @media screen and (min-width: 960px) {
+  @media screen and (min-width: 40em) {
     .slogan-small {
       color: #000F2E; } }
 
@@ -1215,7 +1218,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
   -ms-transform: translate(-70%, 0);
   -webkit-transform: translate(-70%, 0);
   transform: translate(-70%, 0); }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     .work-title:not(.active) {
       -moz-transform: translate(-50%, 0);
       -o-transform: translate(-50%, 0);
@@ -1229,7 +1232,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
   -ms-transform: translate(70%, 0);
   -webkit-transform: translate(70%, 0);
   transform: translate(70%, 0); }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     .talent-title:not(.active) {
       -moz-transform: translate(50%, 0);
       -o-transform: translate(50%, 0);
@@ -1272,12 +1275,12 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
 .pattern-section {
   background: url("../images/logo-bg.png") repeat-x; }
 
-@media (min-width: 960px) {
+@media (min-width: 40em) {
   .job-filter-container.stuck {
     position: fixed;
     top: 20px; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 64em) {
   .job-filter-container.stuck {
     width: 369px; } }
 
@@ -1314,7 +1317,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
   border-radius: 2px;
   position: relative;
   margin: 0; }
-  @media (min-width: 960px) {
+  @media (min-width: 40em) {
     .dropdown-ele {
       display: inline-block;
       margin: 0 auto 10px;
@@ -1351,7 +1354,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
 .desktop-dropdown-trigger .label {
   display: none; }
 
-@media (min-width: 640px) {
+@media (min-width: 480px) {
   .desktop-dropdown-trigger {
     margin-right: 0;
     z-index: 1000; }
@@ -1406,7 +1409,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     .desktop-dropdown-trigger .label {
       display: block; } }
 
-@media (min-width: 640px) {
+@media (min-width: 480px) {
   .desktop-dropdown {
     display: inline-block;
     overflow: hidden;
@@ -1502,7 +1505,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     background: #315BA6; }
     .contact-select-ele.active label {
       color: #fff; }
-  @media (min-width: 640px) {
+  @media (min-width: 480px) {
     .contact-select-ele {
       display: inline-block;
       width: 32.3%; } }
