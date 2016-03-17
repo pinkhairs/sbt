@@ -40,7 +40,6 @@ include 'header.php'; ?>
 
   </div>
 	<div class="small-12 large-8 columns">
-		<div id="result"></div>
 
     <div class="jobs-iframe-container">
       <iframe src="https://sbtalent.crelate.com/portal?iframe=true" id="jobsFrame" class="jobs-iframe"></iframe>
