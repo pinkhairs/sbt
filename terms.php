@@ -11,7 +11,7 @@ $pageCanonical = 'http://www.siliconbeachtalent.com';
 include 'header.php'; ?>
 
 <div class="generic-template-container">
-   <div class="row">
+  <div class="row">
     <div class="small-12 columns">
       <div class="section medium-section text-center">
         <h1>Terms &amp; Privacy</h1>
@@ -123,4 +123,5 @@ include 'header.php'; ?>
         </div>
     </div>
   </div>
+</div>
 <?php include 'footer.php'; ?>

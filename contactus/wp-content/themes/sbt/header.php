@@ -39,13 +39,13 @@
 			<nav id="talent-links">
 				<ul class="menu-links">
 					<li><a href="http://madebyporter.com/clients/sbt/index.php">Home</a></li>
-					<li><a href="http://madebyporter.com/clients/sbt/contact.php">Contact Us</a></li>
+					<li><a href="http://madebyporter.com/clients/sbt/contact">Contact Us</a></li>
 					<li><a href="http://madebyporter.com/clients/sbt/about.php">About Us</a></li>
 					<li><a href="http://madebyporter.com/clients/sbt/blog">Blog</a></li>
 					<li><a href="http://madebyporter.com/clients/sbt/jobs.php">Jobs</a></li>
 					<li><a href="#">Referrals</a></li>
 					<li><a href="#">Press</a></li>
-					<li><a href="#">Terms &amp; Privacy</a></li>
+					<li><a href="http://madebyporter.com/clients/sbt/terms.php">Terms &amp; Privacy</a></li>
 				</ul>
 			</nav>
 			<div class="row">

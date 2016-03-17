@@ -10,12 +10,26 @@ global.main = {
     this.contactFormAJAX();
     this.jFeed();
     this.formSubmit();
-    this.jobFilterWaypoints();
+    // this.jobFilterWaypoints();
     this.mastheadWaypoints();
     this.blogFilterSort();
+    // this.jobsIframe();
   },
   // List Functions
 
+  jobsIframe: function () {
+    $('.jobs-iframe').load(function() {
+        setTimeout(iResize, 50);
+        // Safari and Opera need a kick-start.
+        var iSource = document.getElementById('jobsFrame').src;
+        document.getElementById('jobsFrame').src = '';
+        document.getElementById('jobsFrame').src = iSource;
+    });
+    function iResize() {
+        document.getElementById('jobsFrame').style.height = 
+        document.getElementById('jobsFrame').contentWindow.document.body.offsetHeight + 'px';
+    }
+  },
   blogFilterSort: function () {
     var index = $('.blog-index');
     index.mixItUp({

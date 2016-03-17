@@ -15,7 +15,7 @@
 		<div class="section text-center">
 			<div class="row">
 				<div class="small-12 large-10 large-centered columns">
-					<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 					<p class="desktop-only"><img src="http://localhost:8888/sbt/images/line-2.svg" alt=""></p>
 				</div>
 			</div>
@@ -44,23 +44,6 @@
 								the_content();
 							?>
 						</div><!-- .entry-content -->
-						<div class="section">
-							<div class="share-this-story">
-								<h3><strong>Share This Story</strong></h3>
-								<nav class="social-links b0">
-									<ul class="flat-links space-out">
-										<li class="b0"><a href="https://twitter.com/loveyourworkca"><img src="http://localhost:8888/sbt/images/twitter-azure.svg" alt="Twitter"></a></li>
-										<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://localhost:8888/sbt/images/facebook-azure.svg" alt="Facebook"></a></li>
-										<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://localhost:8888/sbt/images/tumblr-azure.svg" alt="Facebook"></a></li>
-										<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://localhost:8888/sbt/images/pinterest-azure.svg" alt="Facebook"></a></li>
-										<li class="b0"><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://localhost:8888/sbt/images/facebook-azure.svg" alt="Facebook"></a></li>
-										<li class="b0"><a href="https://www.linkedin.com/company/6390835"><img src="http://localhost:8888/sbt/images/linkedin-azure.svg" alt="LinkedIn"></a></li>
-										<!--<li class="b0"><a href="#"><img src="images/googleplus-azure.svg" alt="Google+"></a></li>
-										<li class="b0"><a href="#"><img src="images/email-azure.svg" alt="Google+"></a></li> -->
-									</ul>
-								</nav>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>

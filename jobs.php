@@ -43,7 +43,7 @@ include 'header.php'; ?>
 		<div id="result"></div>
 
     <div class="jobs-iframe-container">
-      <iframe src="https://sbtalent.crelate.com/portal?iframe=true" class="jobs-iframe"></iframe>
+      <iframe src="https://sbtalent.crelate.com/portal?iframe=true" id="jobsFrame" class="jobs-iframe"></iframe>
     </div>
 
 	</div>

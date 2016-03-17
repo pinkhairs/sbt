@@ -24,7 +24,6 @@ Template Name: All posts
       <div class="small-12 columns">
         <div class="section pt0 pb0 text-center">
           <div class="dropdown-container">
-            <div class="dropdown-label standalone-dropdown"><span>Most Recent</span></div>
             <ul class="dropdown standalone-dropdown-options short-standalone">
               <li class="dropdown-ele filter" data-filter="all"><span>All</span></li>
               <li class="dropdown-ele desktop-dropdown-trigger"><span class="label">Type</span>
@@ -32,11 +31,6 @@ Template Name: All posts
                   <?php $category_ids = get_all_category_ids(); ?> 
                   <?php $args = array( 'orderby' => 'slug', 'parent' => 0 ); $categories = get_categories( $args ); foreach ( $categories as $category ) { echo '<li class="dropdown-ele filter" data-filter=".' . $category->slug . '"><span>' . $category->name . '</span></li>'; } 
                   ?>
-
-                  <!-- <li class="dropdown-ele filter" data-filter=".career"><span>Career</span></li>
-                  <li class="dropdown-ele filter" data-filter=".design"><span>Design</span></li>
-                  <li class="dropdown-ele filter" data-filter=".electric-vehicle"><span>Electric Vehicle</span></li>
-                  <li class="dropdown-ele filter" data-filter=".technology"><span>Technology</span></li> -->
                 </ul>
               </li>
             </ul>
@@ -84,7 +78,7 @@ Template Name: All posts
                         echo $category[0]->cat_name; 
                       ?>
                     </p>
-                    <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                   </div>
                   <a href="<?php the_permalink(); ?>" class="full-width-button read-button">Read On</a>
                 </div>

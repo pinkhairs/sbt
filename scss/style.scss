@@ -580,6 +580,9 @@
 // Blog Index 
 	.blog-post-list {
 		list-style: none;
+		li {
+			margin-bottom: 20px;
+		}
 	}
 	.blog-post-image {
 		overflow: hidden;
@@ -594,16 +597,14 @@
 		text-align:center;
 		height: 334px;
 		h4 {
-			font-weight:400;
-			line-height:32px;
 			margin-top:0;
 			a {
 				color:$midnight;
 			}
 		}
-	}
-	.post {
-		margin-bottom:20px;
+		.lead {
+			margin: 0;
+		}
 	}
 	.color-card {
 		background:$solitude;
@@ -629,6 +630,16 @@
 	}
 
 // Blog Posts
+	.single-post .wrap {
+		margin-top: 0;
+		padding-top: 0;
+		@media screen and (min-width: $mqm){
+			margin-top: 0;
+		}
+	}
+	.author-avatar {
+		margin-bottom: 20px;
+	}
 	.avatar {
 		width:83px;
 		height:83px;
@@ -671,6 +682,15 @@
 	}
 	.post-hero {
 		margin-bottom:20px;
+	}
+	.entry-title {
+		color: #fff;
+		font-size: 24px;
+		line-height: 32px;
+		@media screen and (min-width: $mqm){
+			font-size: 48px;
+			line-height: 56px;
+		}
 	}
 
 // Modal
@@ -915,7 +935,7 @@
 		&.stuck {
 			@media (min-width:$mqm) {
 				position: fixed;
-	  		top: 20px;
+	  		top: 93px;
 			}
 			@media (min-width:$mql) {
 	  		width: 369px;
@@ -952,7 +972,8 @@
 	}
 
 	.jobs-iframe-container {
-		min-height: 400px;
+		min-height: 1000px;
+		margin: 0 0 40px 0;
 		position: relative;
 		width: 100%;
 	}
@@ -965,6 +986,8 @@
 		right: 0;
 		top: 0;
 		width: 100%;
+		-webkit-overflow-scrolling: touch;
+		overflow: auto;
 	}
 // Dropdown
 	.dropdown-container {
@@ -979,6 +1002,7 @@
 	.dropdown-ele {
 		border: 0;
 		border-radius: 2px;
+		cursor: pointer;
 		position: relative;
 		margin: 0;
 		@media (min-width:$mqm) {
