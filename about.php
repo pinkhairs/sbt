@@ -21,7 +21,7 @@ include 'header.php'; ?>
 			</div>
 		</div>
 		<div class="row">
-		 	<div class="small-12 columns">
+		 	<div class="small-12 columns large-text">
 				<div class="section pt0 large-text-center">
 					<h2>A Southern California Tech Fusion</h2>
 					<p>As the flow of talent and capital to Silicon Beach increases, it's now more important than ever to focus not only on building great internal teams, but building a sustainable tech ecosystem for all of Southern California.  We do this through our three recruitment divisions:</p>
@@ -34,7 +34,7 @@ include 'header.php'; ?>
 			</div>
 		</div>
 		<div class="row">
-		 	<div class="small-12 large-7 end columns">
+		 	<div class="small-12 large-8 end columns large-text">
 				<div class="section pt0">
 					<h2>Culture fit + Inspiring Work = A Big Impact</h2>
 					<p>Our recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work. </p>
@@ -46,7 +46,7 @@ include 'header.php'; ?>
 			</div>
 		</div>
 		<div class="row">
-		 	<div class="small-12 large-7 end columns">
+		 	<div class="small-12 large-8 end columns large-text">
 				<div class="section pt0">
 					<h2>Not Your Typical Recruiters</h2>
 					<p>At Silicon Beach Talent, we only partner with companies that we would want to work for ourselves. </p>
@@ -60,7 +60,7 @@ include 'header.php'; ?>
 			</div>
 		</div>
 		<div class="row">
-		 	<div class="small-12 large-7 text-center large-centered columns">
+		 	<div class="small-12 large-8 text-center large-centered columns large-text">
 				<div class="section pt0">
 					<h2>It's about the IMPACT</h2>
 					<p>There is a lot of noise in the job market with the rise of anonymous job matching sites, but they are all missing the point.  You want the whole picture, not just a quick description and a salary estimate.  That's why we spend time onsite with all our partners. We understand every client’s mission and culture, so we know when it resonates with your career objectives. </p>

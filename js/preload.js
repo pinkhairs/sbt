@@ -18,14 +18,7 @@ $('img').preload(function(perc, done) {
 });
 
 
-
-
-
 // createCookie('preload', 1, 365);
-
-
-
-
 
 
 

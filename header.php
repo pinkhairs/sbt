@@ -24,7 +24,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 <link rel="stylesheet" href="css/foundation.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body <?php if ($_COOKIE['preload'] != 1) echo 'class="loading-screen"'; ?> class="<?php echo $pageBodyClass; ?>">
+<body class="<?php if ($_COOKIE['preload'] != 1) echo 'loading-screen'; ?> <?php echo $pageBodyClass; ?>">
 <div id="loading">
 
 </div>
@@ -42,15 +42,13 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 			<nav id="talent-links">
 				<ul class="menu-links">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="contactus">Contact Us</a></li>
-					<li><a href="submit.php">Form Submitted</a></li>
 					<li><a href="about.php">About Us</a></li>
+					<li><a href="contactus">Contact Us</a></li>
 					<li><a href="blog">Blog</a></li>
-					<li><a href="post-alt.php">Post</a></li>
 					<li><a href="jobs.php">Jobs</a></li>
-					<li><a href="#">Referrals</a></li>
-					<li><a href="#">Press</a></li>
 					<li><a href="terms.php">Terms &amp; Privacy</a></li>
+<!-- 					<li><a href="#">Referrals</a></li>
+					<li><a href="#">Press</a></li> -->
 				</ul>
 			</nav>
 			<div class="row">

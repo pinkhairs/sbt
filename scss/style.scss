@@ -486,6 +486,7 @@
 		text-align: center;
 		li {
 			display: inline-block;
+			font-size: 24px;
 			margin: 0 0 10px 0;
 			width: 100%;
 			@media screen and (min-width: $mqm){
@@ -499,6 +500,10 @@
 			height: 100%;
 			padding: 20px 10px;
 			width: 100%;
+		}
+		p {
+			font-size: 18px;
+			margin: 0;
 		}
 	}
 
@@ -877,10 +882,10 @@
 // Loading Screen
 	.loading-screen {
 		z-index:1001;
-		background: rgb(19,35,61); /* Old browsers */
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%, rgba(10,24,47,1) 100%); /* FF3.6-15 */
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
-		background: radial-gradient(ellipse at center,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		// background: rgb(19,35,61); /* Old browsers */
+		// background: -moz-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%, rgba(10,24,47,1) 100%); /* FF3.6-15 */
+		// background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: radial-gradient(ellipse at center,  lighten(#000F2E, 5%) 0%, #000F2E 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 		div:not(#loading), header, footer {
 			display:none;
@@ -946,6 +951,21 @@
 		}
 	}
 
+	.jobs-iframe-container {
+		min-height: 400px;
+		position: relative;
+		width: 100%;
+	}
+	.jobs-iframe {
+		border: 0;
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+	}
 // Dropdown
 	.dropdown-container {
 		margin-bottom: 20px;

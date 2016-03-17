@@ -875,6 +875,7 @@ a.btn {
   text-align: center; }
   .about-divisions li {
     display: inline-block;
+    font-size: 24px;
     margin: 0 0 10px 0;
     width: 100%; }
     @media screen and (min-width: 40em) {
@@ -887,6 +888,9 @@ a.btn {
     height: 100%;
     padding: 20px 10px;
     width: 100%; }
+  .about-divisions p {
+    font-size: 18px;
+    margin: 0; }
 
 .work .dropdown-label, .talent .dropdown-label {
   display: block; }
@@ -1245,13 +1249,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
 
 .loading-screen {
   z-index: 1001;
-  background: #13233d;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #13233d 0%, #0a182f 100%);
-  /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, #13233d 0%, #0a182f 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #13233d 0%, #0a182f 100%);
+  background: radial-gradient(ellipse at center, #001748 0%, #000F2E 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13233d', endColorstr='#0a182f',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
@@ -1305,6 +1303,21 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
       padding: 0 0 10px 0; } }
   .job-filter-actions > li.active {
     font-weight: 400; }
+
+.jobs-iframe-container {
+  min-height: 400px;
+  position: relative;
+  width: 100%; }
+
+.jobs-iframe {
+  border: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%; }
 
 .dropdown-container {
   margin-bottom: 20px; }

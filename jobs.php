@@ -24,22 +24,15 @@ include 'header.php'; ?>
       <ul class="job-filter">
         <li>
           <ul class="job-filter-actions">
-            <li class="active">Show All Jobs</li>
-          </ul>
-        </li>
-        <li>
-          <h4>Date</h4>
-          <ul class="job-filter-actions">
-            <li><a href="#">Newer</a></li>
-            <li><a href="#">Older</a></li>
+            <li id="jobs-all" class="active">Show All Jobs</li>
           </ul>
         </li>
         <li>
           <h4>Type</h4>
           <ul class="job-filter-actions">
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Electric Vehicle</a></li>
-            <li><a href="#">Technology</a></li>
+            <li>Design</li>
+            <li>Electric Vehicle</li>
+            <li>Technology</li>
           </ul>
         </li>
       </ul>
@@ -48,6 +41,11 @@ include 'header.php'; ?>
   </div>
 	<div class="small-12 large-8 columns">
 		<div id="result"></div>
+
+    <div class="jobs-iframe-container">
+      <iframe src="https://sbtalent.crelate.com/portal?iframe=true" class="jobs-iframe"></iframe>
+    </div>
+
 	</div>
 </div>
 <?php include 'footer.php'; ?>
