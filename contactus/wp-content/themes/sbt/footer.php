@@ -66,6 +66,6 @@
 <script src="http://madebyporter.com/clients/sbt/js/sticky.min.js" type="text/javascript"></script>
 <script src="http://madebyporter.com/clients/sbt/js/jfeeditem.js" type="text/javascript"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-<script src="http://localhost:8888/sbt/js/custom.js" type="text/javascript"></script>
+<script src="http://madebyporter.com/clients/sbt/js/custom.js" type="text/javascript"></script>
 </body>
 </html>

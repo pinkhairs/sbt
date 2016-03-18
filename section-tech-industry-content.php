@@ -60,7 +60,7 @@
 <div class="white-section short-section text-center">
 	<div class="row">
 		<div class="small-12 columns large-text-center">
-			<p><a href="#" class="button">View current tech openings</a></p>
+			<p><a href="jobs.php" class="button">View current design openings</a></p>
 		</div>
 	</div>
 </div>

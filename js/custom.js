@@ -117,6 +117,42 @@ global.main = {
       return false;
     });
 
+    setTimeout(
+      function() {
+        //check value of hash
+        if (window.location.hash == '#design-industry'){
+          $("html, body").animate({ scrollTop: $('#design-industry').offset().top - 100}, 1000);
+          setTimeout(
+            function() {
+              $( "#industry-content" ).hide().load( "section-design-industry-content.php" ).fadeIn(600);
+            }, 300
+          );
+          $('.industry-trigger').removeClass('active');
+          $('.design-industry').addClass('active');
+        }
+        else if (window.location.hash == '#ev-industry'){
+          $("html, body").animate({ scrollTop: $('#ev-industry').offset().top - 100}, 1000);
+          setTimeout(
+            function() {
+              $( "#industry-content" ).hide().load( "section-ev-industry-content.php" ).fadeIn(600);
+            }, 300
+          );
+          $('.industry-trigger').removeClass('active');
+          $('.ev-industry').addClass('active');
+        }
+        else if (window.location.hash == '#tech-industry'){
+          $("html, body").animate({ scrollTop: $('#tech-industry').offset().top - 100}, 1000);
+          setTimeout(
+            function() {
+              $( "#industry-content" ).hide().load( "section-tech-industry-content.php" ).fadeIn(600);
+            }, 300
+          );
+          $('.industry-trigger').removeClass('active');
+          $('.tech-industry').addClass('active');
+        }
+      }, 1500
+    );
+
     doc.on('click', '.sub-industry', function() {
       $('.overlay').fadeIn(300);
       $('.modal-container').fadeIn(300);

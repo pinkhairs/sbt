@@ -26,9 +26,9 @@ include 'header.php'; ?>
 					<h2>A Southern California Tech Fusion</h2>
 					<p>As the flow of talent and capital to Silicon Beach increases, it's now more important than ever to focus not only on building great internal teams, but building a sustainable tech ecosystem for all of Southern California.  We do this through our three recruitment divisions:</p>
 						<ul class="about-divisions">
-							<li><a href="work.php">SBT<strong class="lowercase">design</strong> <p class="lead lead-small mt0">Creative &amp; Design </p></a></li>
-							<li><a href="work.php">SBT<strong class="lowercase">ev</strong> <p class="lead lead-small mt0">Electric Vehicle </p></a></li>
-							<li><a href="work.php">SBT<strong class="lowercase">tech</strong> <p class="lead lead-small mt0">Engineering &amp; Tech</p></a></li>
+							<li><a href="work.php#design-industry">SBT<strong class="lowercase">design</strong> <p class="lead lead-small mt0">Creative &amp; Design </p></a></li>
+							<li><a href="work.php#ev-industry">SBT<strong class="lowercase">ev</strong> <p class="lead lead-small mt0">Electric Vehicle </p></a></li>
+							<li><a href="work.php#tech-industry">SBT<strong class="lowercase">tech</strong> <p class="lead lead-small mt0">Engineering &amp; Tech</p></a></li>
 						</ul>
 				</div>
 			</div>
