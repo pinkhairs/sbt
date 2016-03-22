@@ -110,6 +110,11 @@ global.main = {
       } else {
         setTimeout(
           function() {
+            $('.industry-content-container').removeClass('closed');
+          }, 100
+        );
+        setTimeout(
+          function() {
             $( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
           }, 300
         );
