@@ -6,54 +6,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="small-12 columns">
-			<div class="section pt0 large-text-center">
-				<h2>Our Service offerings</h2>
-				<div class="row">
-					<div class="small-12 large-8 large-offset-2 columns">
-						<div class="service-module">
-							<h3>Full Engagement</h3>
-							<ul class="service-list">
-								<li>SOW includes department, number of positions to be filled, and estimated timeline</li>
-								<li>Positions can be up to Manager level</li>
-								<li>Dedicated SBT recruiter</li>
-								<li>Client receives first right of refusal on all SBT candidates for the agreed upon department(s)</li>
-								<li>Weekly pipeline reporting</li>
-								<li>Fee structure: monthly retainer + per placement fee</li>
-								<li>SBT will only take on one full engagement for any given department</li>
-							</ul>
-						</div>
-					</div>
-					<div class="small-12 large-6 columns">
-						<div class="service-module">
-							<h3>Proactive Engagement</h3>
-							<ul class="service-list">
-								<li>SBT will submit candidates for agreed upon roles on a one-off, proactive basis</li>
-								<li>No dedicated SBT recruiter</li>
-								<li>No right of first refusal</li>
-								<li>Fee structure: per placement fee only</li>
-							</ul>
-						</div>
-					</div>
-					<div class="small-12 large-6 columns">
-						<div class="service-module">
-							<h3>Executive Search</h3>
-							<ul class="service-list">
-								<li>Positions at Director level or above</li>
-								<li>Fee structure and engagement details vary by position</li>
-							</ul>
-						</div>
-					</div>
-					<div class="small-12 large-6 columns">
-						<div class="service-module">
-							<h3>Small business workshop</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="row small-collapse large-uncollapse">
 		<div class="small-12 columns">
 			<div class="section0">

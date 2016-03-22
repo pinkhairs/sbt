@@ -41,7 +41,7 @@
   @mixin horizontal-center($x:-50%) {
     left: 50%;
     position: absolute;
-    @include translate($x);
+    @include translate($x,0);
   }
 
 // Absolute Center

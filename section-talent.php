@@ -1,9 +1,23 @@
 	<div class="row">
 		<div class="small-12 large-8 large-centered columns">
 			<div class="section pt0 large-text large-text-center">
-				<h2>It’s about the talent.</h2>
-				<p>Perks and bonuses are important, but we know what truly makes an opportunity great is the work you do and the impact you make. Let us help you find work that matters.</p>
-				<p>We specialize in placing individual contributors and executives through our divisions listed below:</p>
+				<h2>Love your work.</h2>
+				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies.</p>
+				<p>We believe three things passionately:</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="small-12 large-8 large-offset-2 text-center columns">
+			<div class="section pt0">
+				<h3>The world is a better place when people love what they do.</h3>
+				<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density. Being socially responsible and building a sustainable ecosystem for the future is a moral imperative.</p>
+			</div>
+			<div class="section pt0">
+				<h3>We’re different.</h3>
+				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot. We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it.</p>
+				<p>Our service offerings include:</p>
 			</div>
 		</div>
 	</div>
@@ -11,45 +25,41 @@
 	<div class="row">
 		<div class="small-12 columns">
 			<div class="section pt0 large-text-center">
-				<h2>Our Service offerings</h2>
 				<div class="row">
-					<div class="small-12 large-8 large-offset-2 columns">
-						<div class="service-module">
-							<h3>Full Engagement</h3>
-							<ul class="service-list">
-								<li>SOW includes department, number of positions to be filled, and estimated timeline</li>
-								<li>Positions can be up to Manager level</li>
-								<li>Dedicated SBT recruiter</li>
-								<li>Client receives first right of refusal on all SBT candidates for the agreed upon department(s)</li>
-								<li>Weekly pipeline reporting</li>
-								<li>Fee structure: monthly retainer + per placement fee</li>
-								<li>SBT will only take on one full engagement for any given department</li>
-							</ul>
+					<div class="small-12 large-3 columns">
+						<div class="card">
+							<div class="card-content">
+								<span class="lead">Full Engagement</span>
+								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+							</div>
+							<span class="open-text">Open</span>
 						</div>
 					</div>
-					<div class="small-12 large-6 columns">
-						<div class="service-module">
-							<h3>Proactive Engagement</h3>
-							<ul class="service-list">
-								<li>SBT will submit candidates for agreed upon roles on a one-off, proactive basis</li>
-								<li>No dedicated SBT recruiter</li>
-								<li>No right of first refusal</li>
-								<li>Fee structure: per placement fee only</li>
-							</ul>
+					<div class="small-12 large-3 columns">
+						<div class="card">
+							<div class="card-content">
+								<span class="lead">Proactive Engagement</span>
+								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+							</div>
+							<span class="open-text">Open</span>
 						</div>
 					</div>
-					<div class="small-12 large-6 columns">
-						<div class="service-module">
-							<h3>Executive Search</h3>
-							<ul class="service-list">
-								<li>Positions at Director level or above</li>
-								<li>Fee structure and engagement details vary by position</li>
-							</ul>
+					<div class="small-12 large-3 columns">
+						<div class="card">
+							<div class="card-content">
+								<span class="lead">Executive Search</span>
+								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+							</div>
+							<span class="open-text">Open</span>
 						</div>
 					</div>
-					<div class="small-12 large-6 columns">
-						<div class="service-module">
-							<h3>Small business workshop</h3>
+					<div class="small-12 large-3 columns">
+						<div class="card">
+							<div class="card-content">
+								<span class="lead">Small Business Workshop</span>
+								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>	
+							</div>
+							<span class="open-text">Open</span>
 						</div>
 					</div>
 				</div>
@@ -58,6 +68,13 @@
 	</div>
 
 	<div class="row small-collapse large-uncollapse">
+
+		<div class="small-12 columns">
+			<div class="section large-text-center">
+				<h3>Through our three specialized divisions:</h3>
+			</div>
+		</div>
+
 		<div class="small-12 columns">
 			<div class="section0">
 				<div class="industry-cards">

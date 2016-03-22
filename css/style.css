@@ -1079,6 +1079,12 @@ a.btn {
   .modal-button a {
     vertical-align: top; }
 
+.open-text {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: .02em;
+  text-transform: uppercase; }
+
 .slogan {
   padding: 20px;
   text-align: center;
@@ -1144,10 +1150,15 @@ a.btn {
 
 .card {
   background: #fff;
-  padding: 40px;
+  cursor: pointer;
+  min-height: 200px;
+  padding: 40px 20px;
   position: relative;
   text-align: center;
-  transition: all 600ms ease-in-out;
+  -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   z-index: 10; }
   .card h3 a {
     font-weight: 400;
@@ -1157,6 +1168,27 @@ a.btn {
     .card h3 a .lead, .card h3 a .read-button, .card h3 a .back-read-button, .card h3 a .view-all-button {
       color: #669DC9;
       display: block; }
+  .card .open-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    position: absolute;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+
+.card-content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90%; }
 
 .design-industry {
   background: url("../images/design_industry.png") #fff;

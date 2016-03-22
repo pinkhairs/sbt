@@ -754,8 +754,14 @@
 		}
 	}
 
-// Organize Later
-	
+// Misc
+	.open-text {
+		font-size: 14px;
+		font-weight: bold;
+		letter-spacing: .02em;
+		text-transform: uppercase;
+	}
+
 	.slogan {
 		padding: 20px;
 		text-align: center;
@@ -821,10 +827,12 @@
 	}
 	.card {
 		background: #fff;
-		padding: 40px;
+		cursor: pointer;
+		min-height: 200px;
+		padding: 40px 20px;
 		position: relative;
 		text-align:center;
-		transition:all 600ms ease-in-out;
+		@include transition;
 		z-index: 10;
 		h3 a {
 			font-weight:400;
@@ -836,6 +844,15 @@
 				display:block;
 			}
 		}
+		.open-text {
+			position: absolute;
+			bottom: 20px;
+			@include horizontal-center;
+		}
+	}
+	.card-content {
+		@include absolute-center;
+		width: 90%;
 	}
 	.design-industry {
 		background: url('../images/design_industry.png') #fff;
@@ -1014,6 +1031,7 @@
 		-webkit-overflow-scrolling: touch;
 		overflow: auto;
 	}
+
 // Dropdown
 	.dropdown-container {
 		margin-bottom: 20px;
