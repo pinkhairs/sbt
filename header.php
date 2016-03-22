@@ -23,6 +23,10 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 
 <link rel="stylesheet" href="css/foundation.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
+
+<script src="https://use.typekit.net/jfs8zip.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 <body class="<?php if ($_COOKIE['preload'] != 1) echo 'loading-screen'; ?> <?php echo $pageBodyClass; ?>">
 <div id="loading">
@@ -36,8 +40,9 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 				<img src="images/close.svg" alt="" class="close-title">
 				<span class="menu-label">Close</span>
 			</a>
-			<p class="lead midnight">I'm looking for</p>
+			<p class="lead midnight">Find</p>
 			<h2 class="menu-link-heading" id="menu-work-link"><a href="work.php">Work</a></h2>
+			<p class="lead midnight">Hire</p>
 			<h2 class="menu-link-heading" id="menu-work-link"><a href="talent.php">Talent</a></h2>
 			<nav id="talent-links">
 				<ul class="menu-links">
@@ -77,8 +82,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 			</a>
 		</div>
 		<div class="small-12 large-6 columns">
-				<a href="#" id="menu-button"><span class="menu-label">Menu</span></a>
-			</a>
+				<div class="menu-trigger" id="menu-button"><span class="menu-label">Menu</span></div>
 		</div>
 	</div>
 </header>

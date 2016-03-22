@@ -24,7 +24,7 @@ get_header(); ?>
 					<div class="section medium-section text-center">
 						<h1>Blog</h1>
 						<p class="lead mt0">Silicon Beach Talent</p>
-						<p><img src="http://localhost:8888/sbt/images/line.svg" alt=""></p>
+						<p><img src="http://madebyporter.com/sbt/images/line.svg" alt=""></p>
 					</div>
 				</div>
 			</div>

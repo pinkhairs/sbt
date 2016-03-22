@@ -12,7 +12,7 @@
 				<div class="color-card">
 					<span class="card-text">UX / UI Design</span>
 				</div>
-				<a href="#" class="button reverse-button full-width-button">View Job Types</a>
+				<div class="button reverse-button full-width-button">View Job Types</div>
 			</div>
 		</div>
 		<div class="small-6 large-4 columns">

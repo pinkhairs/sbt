@@ -183,19 +183,6 @@
 	.eat-bottom-margin {
 		margin-bottom:-80px;
 	}
-	.menu-container {
-		background:$solitude;
-		position:fixed;
-		bottom: 0;
-		top:0;
-		width:100%;
-		@include translate(100%,0%);
-		display:block;
-		text-align:right;
-		z-index: 1000000;
-		height: 100%;
-		overflow: scroll;
-	}
 	.menu-container-expanded {
 		@include translate(0%,0%);
 		height: 100%;
@@ -216,10 +203,7 @@
 			background-position:bottom right;
 		}
 	}
-	.menu-link-heading {
-		font-size:64px;
-		line-height:91px;
-	}
+	
 	
 	// .talent-title {
 	// 	position:relative;
