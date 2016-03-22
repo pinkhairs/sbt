@@ -755,6 +755,17 @@
 	}
 
 // Misc
+	.industry-content-container {
+		@include transition;
+		&.closed {
+			@include transition;
+			height: 0;
+			overflow: hidden;
+			padding: 0;
+			margin: 0 0 40px 0;
+		}
+	}
+
 	.open-text {
 		font-size: 14px;
 		font-weight: bold;
@@ -809,19 +820,16 @@
 		@include transition;
 		position: relative;
 		&:before {
-			content: "";
+			content:"";
 			position: absolute;
-			background: transparent;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
+			@include triangle-down;
+			@include absolute-center(-50%,-50%);
 			@include transition;
-			z-index: 1;
 		}
 		&.active {
 			&:before {
-				background: #fff;
+				@include transition;
+				@include absolute-center(-50%,470%);
 			}
 		}
 	}

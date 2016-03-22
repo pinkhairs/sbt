@@ -10,7 +10,7 @@
 		<div class="small-12 columns">
 			<div class="section0">
 				<div class="industry-cards">
-					<div class="design-industry industry-card card-container industry-trigger active" id="design-industry">
+					<div class="design-industry industry-card card-container industry-trigger" id="design-industry">
 						<div class="card">
 							<h2>
 								SBT<span class="lowercase">design</span>
@@ -41,14 +41,17 @@
 			</div>
 		</div>
 	</div>
+
 	<div id="industry-dropdown-container" class="industry-dropdown-container">
 		<?php include 'section-industry-dropdown.php'; ?>
 	</div>
-	<div class="section white-section industry-content-container">
+
+	<div class="section white-section industry-content-container closed">
 		<div id="industry-content">
 			<?php include 'section-design-industry-content.php'; ?>
 		</div>
 	</div>
+
 	<div class="section gradient-section large-work-bg">
 		<div class="row collapse full-width-row">
 			<div class="small-12 large-6 large-offset-6 columns">

@@ -1079,6 +1079,21 @@ a.btn {
   .modal-button a {
     vertical-align: top; }
 
+.industry-content-container {
+  -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
+  .industry-content-container.closed {
+    -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 40px 0; }
+
 .open-text {
   font-size: 14px;
   font-weight: bold;
@@ -1135,18 +1150,36 @@ a.btn {
   .industry-card:before {
     content: "";
     position: absolute;
-    background: transparent;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
+  .industry-card.active:before {
     -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
     -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
     -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
     transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
-    z-index: 1; }
-  .industry-card.active:before {
-    background: #fff; }
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(-50%, 470%);
+    -o-transform: translate(-50%, 470%);
+    -ms-transform: translate(-50%, 470%);
+    -webkit-transform: translate(-50%, 470%);
+    transform: translate(-50%, 470%); }
 
 .card {
   background: #fff;
