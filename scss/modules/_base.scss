@@ -1,12 +1,14 @@
 // Base
-
-  body {
-    color: $black;
-    font: $fontPrimary;
-    overflow-x: hidden;
+  
+  html {
+    min-height: 100%;
     &.menu-active {
       overflow: hidden;
     }
+  }
+  body {
+    color: $black;
+    font: $fontPrimary;
   }
 
   hr {
@@ -14,6 +16,17 @@
     background:#CED5E0;
     height:1px;
     margin:1.5rem 0 0;
+  }
+
+  .site-wrap {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    &.menu-active {
+      overflow-y: hidden;
+      position: absolute;
+    }
   }
 
   .wrap {

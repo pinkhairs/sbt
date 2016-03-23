@@ -133,11 +133,10 @@
 		background-color: rgba(233, 236, 240, 0.8);
 		background-size: 100% auto;
 		background-repeat: no-repeat;
+		left: 0;
 		bottom: 0;
 		height: 100%;
-		overflow-y: scroll; /* has to be scroll, not auto */
-		-webkit-overflow-scrolling: touch;
-		padding: 0 0 20px 0;
+		right: 0;
 		position: fixed;
 		text-align: center;
 		top: 0;
@@ -159,7 +158,15 @@
 			margin: 0;
 		}
 	}
+	.menu-inner {
+		height: 100%;
+		overflow-y: scroll;
+		padding: 0 0 20px;
+		-webkit-overflow-scrolling: touch;
+		width: 100%;
+	}
 	.menu-container-expanded {
+		height: 100%;
 		@include translate(0%,0%);
 	}
 	.menu-trigger {

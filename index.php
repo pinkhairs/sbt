@@ -60,8 +60,8 @@ include 'header.php'; ?>
   <div class="beach-layer"></div>
   <div class="video-layer">
     <video autoplay="autoplay" id="video" loop="loop">
-      <source src="video/sbt-hero-video_6_1.mp4" type="video/mp4" />
-      <source src="video/sbt-hero-video_5.webm" type="video/webm" />
+      <source src="video/sbt-hero-video_6c.mp4" type="video/mp4" />
+      <!-- <source src="video/sbt-hero-video_5.webm" type="video/webm" /> -->
     </video>
   </div>
 </div>

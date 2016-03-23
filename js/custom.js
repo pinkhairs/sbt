@@ -55,11 +55,11 @@ global.main = {
     $('#menu-button, .menu-close-button, #close-button').click(function() {
       if ($('.menu-container').hasClass('menu-container-expanded')){
         $('.menu-container').removeClass('menu-container-expanded');
-        $('.wrap,body').removeClass('menu-active');
+        $('.site-wrap').removeClass('menu-active');
       }
       else {
         $('.menu-container').addClass('menu-container-expanded');
-        $('.wrap,body').addClass('menu-active');
+        $('.site-wrap').addClass('menu-active');
       }
     });
   },

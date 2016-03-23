@@ -1,35 +1,36 @@
-</div>
-<footer class="site-footer">
-	<div class="row large-collapse">
-		<div class="small-12 large-4 columns">
-			<div class="medium-section large-pt color-section text-center large-text-left">
-				<h4>Ready to find your next great gig?</h4>
-				<a href="contact.php" class="button">Get started</a>
+	</div>
+	<footer class="site-footer">
+		<div class="row large-collapse">
+			<div class="small-12 large-4 columns">
+				<div class="medium-section large-pt color-section text-center large-text-left">
+					<h4>Ready to find your next great gig?</h4>
+					<a href="contact.php" class="button">Get started</a>
+				</div>
+			</div>
+			<div class="small-12 large-4 large-text-left columns">
+				<h4 class="desktop-only large-pt">Connect with us</h4>
+				<nav class="social-links">
+					<ul class="flat-links mobile-only">
+						<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter.svg" alt="Twitter"></a></li>
+						<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
+						<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
+						<li><a href="#"><img src="images/googleplus.svg" alt="Google+"></a></li>
+					</ul>
+					<ul class="flat-links desktop-only">
+						<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter-white.svg" alt="Twitter"></a></li>
+						<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook-white.svg" alt="Facebook"></a></li>
+						<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin-white.svg" alt="LinkedIn"></a></li>
+						<li><a href="#"><img src="images/googleplus-white.svg" alt="Google+"></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="small-12 large-4 large-text-left columns">
+				<span class="colophon">Silicon Beach Talent <?php echo date('Y'); ?><br>
+				<a href="terms.php">Terms &amp; Conditions</a></span>
 			</div>
 		</div>
-		<div class="small-12 large-4 large-text-left columns">
-			<h4 class="desktop-only large-pt">Connect with us</h4>
-			<nav class="social-links">
-				<ul class="flat-links mobile-only">
-					<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter.svg" alt="Twitter"></a></li>
-					<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
-					<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
-					<li><a href="#"><img src="images/googleplus.svg" alt="Google+"></a></li>
-				</ul>
-				<ul class="flat-links desktop-only">
-					<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter-white.svg" alt="Twitter"></a></li>
-					<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook-white.svg" alt="Facebook"></a></li>
-					<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin-white.svg" alt="LinkedIn"></a></li>
-					<li><a href="#"><img src="images/googleplus-white.svg" alt="Google+"></a></li>
-				</ul>
-			</nav>
-		</div>
-		<div class="small-12 large-4 large-text-left columns">
-			<span class="colophon">Silicon Beach Talent <?php echo date('Y'); ?><br>
-			<a href="terms.php">Terms &amp; Conditions</a></span>
-		</div>
-	</div>
-</footer>
+	</footer>
+</main>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
