@@ -102,29 +102,6 @@
 	}
 
 // Menu
-	.close-title {
-		padding:17px;
-	}
-	.close-button {
-		margin-top:-40px;
-	}
-	.menu-links {
-		padding-top:40px;
-		margin-top:40px;
-		background:url('../images/border.svg') no-repeat top center;
-		a {
-			font-size:24px;
-			line-height:34px;
-			font-weight:300;
-			text-transform:uppercase;
-			letter-spacing:2px;
-		}
-		li:last-child {
-			margin-bottom:40px;
-			padding-bottom:40px;
-			background:url('../images/border.svg') no-repeat bottom center;
-		}
-	}
 	.menu-container {
 		background-image: -webkit-linear-gradient(90deg, rgba(233,236,240,0.40) 0%, #E9ECF0 100%);
 		background-image: -moz-linear-gradient(90deg, rgba(233,236,240,0.40) 0%, #E9ECF0 100%);
@@ -156,6 +133,35 @@
 		}
 		.lead {
 			margin: 0;
+		}
+		.close-title {
+			padding:17px;
+		}
+		.close-button {
+			margin-top:-40px;
+		}
+		.menu-links {
+			padding-top:40px;
+			margin-top:40px;
+			background:url('../images/border.svg') no-repeat top center;
+			@media screen and (min-width: $mqm){
+				background:url('../images/border.svg') no-repeat top right;
+			}
+			a {
+				font-size:24px;
+				line-height:34px;
+				font-weight:300;
+				text-transform:uppercase;
+				letter-spacing:2px;
+			}
+			li:last-child {
+				margin-bottom:40px;
+				padding-bottom:40px;
+				background:url('../images/border.svg') no-repeat bottom center;
+				@media screen and (min-width: $mqm){
+					background:url('../images/border.svg') no-repeat bottom right;
+				}
+			}
 		}
 	}
 	.menu-inner {
@@ -579,6 +585,7 @@
 		padding: 20px 0 0;
 		text-align: center;
 	}
+
 	.service-list {
 		list-style: none;
 		margin: 10px 0 0;
@@ -602,6 +609,15 @@
 			&:nth-child(even){
 				background: darken(#E9ECF0, 10%);
 			}
+		}
+	}
+
+	.specialties-list {
+		list-style-image: url('../images/arrow-right.svg');
+		margin: 0;
+		padding: 0 0 0 25px;
+		li {
+			margin: 0 0 5px 0;
 		}
 	}
 	
@@ -635,13 +651,19 @@
 		}
 	}
 	.color-card {
-		background:$solitude;
-		padding: 10px;
+		background: $solitude;
+		padding: 20px;
 		position: relative;
-		min-height:90px;
+		min-height: 90px;
 		.sub-industry & {
 			display: block;
-			width:100%;
+			width: 100%;
+		}
+		.close-button {
+			cursor: pointer;
+			position: absolute;
+			right: 20px;
+			top: 20px;
 		}
 	}
 	.card-text {

@@ -493,27 +493,6 @@ input[type="file"] {
 .logo-2 {
   background: #E9ECF0; }
 
-.close-title {
-  padding: 17px; }
-
-.close-button {
-  margin-top: -40px; }
-
-.menu-links {
-  padding-top: 40px;
-  margin-top: 40px;
-  background: url("../images/border.svg") no-repeat top center; }
-  .menu-links a {
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
-  .menu-links li:last-child {
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    background: url("../images/border.svg") no-repeat bottom center; }
-
 .menu-container {
   background-image: -webkit-linear-gradient(90deg, rgba(233, 236, 240, 0.4) 0%, #E9ECF0 100%);
   background-image: -moz-linear-gradient(90deg, rgba(233, 236, 240, 0.4) 0%, #E9ECF0 100%);
@@ -554,6 +533,30 @@ input[type="file"] {
     margin-bottom: 20px; }
   .menu-container .lead, .menu-container .read-button, .menu-container .back-read-button, .menu-container .view-all-button {
     margin: 0; }
+  .menu-container .close-title {
+    padding: 17px; }
+  .menu-container .close-button {
+    margin-top: -40px; }
+  .menu-container .menu-links {
+    padding-top: 40px;
+    margin-top: 40px;
+    background: url("../images/border.svg") no-repeat top center; }
+    @media screen and (min-width: 768px) {
+      .menu-container .menu-links {
+        background: url("../images/border.svg") no-repeat top right; } }
+    .menu-container .menu-links a {
+      font-size: 24px;
+      line-height: 34px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+    .menu-container .menu-links li:last-child {
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      background: url("../images/border.svg") no-repeat bottom center; }
+      @media screen and (min-width: 768px) {
+        .menu-container .menu-links li:last-child {
+          background: url("../images/border.svg") no-repeat bottom right; } }
 
 .menu-inner {
   height: 100%;
@@ -950,6 +953,13 @@ a.btn {
     .service-list li:nth-child(even) {
       background: #cbd2db; }
 
+.specialties-list {
+  list-style-image: url("../images/arrow-right.svg");
+  margin: 0;
+  padding: 0 0 0 25px; }
+  .specialties-list li {
+    margin: 0 0 5px 0; }
+
 .blog-post-list {
   list-style: none; }
   .blog-post-list li {
@@ -975,12 +985,17 @@ a.btn {
 
 .color-card {
   background: #E9ECF0;
-  padding: 10px;
+  padding: 20px;
   position: relative;
   min-height: 90px; }
   .sub-industry .color-card {
     display: block;
     width: 100%; }
+  .color-card .close-button {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
 
 .card-text {
   color: #000F2E;

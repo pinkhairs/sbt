@@ -50,7 +50,6 @@ global.main = {
       },
     });
   },
-
   navMenu: function () {
     $('#menu-button, .menu-close-button, #close-button').click(function() {
       if ($('.menu-container').hasClass('menu-container-expanded')){
@@ -63,7 +62,6 @@ global.main = {
       }
     });
   },
-
   workTalentJS: function () {
     $('.work-talent-titles').width($('body').width() * 2);
     $(window).resize(function() {
@@ -86,9 +84,6 @@ global.main = {
     doc.on('click', '.industry-trigger', function() {
       // Grab ID from Card
       $category = $(this).attr('id');
-
-      // Remove active class from all cards
-      $('.industry-card').removeClass('active');
 
       // Add active class to clicked card
       $('.industry-trigger').removeClass('active');
@@ -122,15 +117,9 @@ global.main = {
       return false;
     });
 
-    doc.on('click', '.sub-industry', function() {
-      $('.overlay').fadeIn(300);
-      $('.modal-container').fadeIn(300);
-      $('body').css('overflow-y', 'hidden');
-    });
-    doc.on('click', '.close-button', function() {
-      $('.overlay').fadeOut(300);
-      $('.modal-container').fadeOut(300);
-      $('body').css('overflow-y', 'auto');
+    doc.on('click', '.color-card .close-button', function() {
+      $('.industry-trigger').removeClass('active');
+      $('.industry-content-container').addClass('closed');
       return false;
     });
 
