@@ -120,6 +120,7 @@ hr {
 .wrap {
   background: url("../images/water.png") #E9ECF0 top center no-repeat;
   background-size: 100% auto;
+  overflow: hidden;
   margin: 0;
   padding: 120px 0 0 0;
   position: relative;
