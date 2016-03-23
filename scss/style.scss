@@ -40,22 +40,6 @@
 	}
 
 // Header
-	.site-home {
-		background: transparent;
-		&>.site-header {
-			@media (min-width:40em) {
-			background: transparent;
-				&.scrolled {
-					background: $midnight;
-				}
-			}
-		}
-		.wrap {
-			margin: 0;
-			padding: 0;
-		}
-	}
-	
 	.site-header {
 		position: absolute;
 		text-align: center;
@@ -86,6 +70,22 @@
 		}
 	}
 	
+	.site-home {
+		background: transparent;
+		.site-header {
+			@media (min-width:$mqm) {
+				background: transparent;
+				&.scrolled {
+					background: $midnight;
+				}
+			}
+		}
+		.wrap {
+			margin: 0;
+			padding: 0;
+		}
+	}
+
 	.site-title {
 		padding:10px;
 	}
@@ -414,12 +414,13 @@
 
 // Footer
 	.site-footer {
-		background:$azure;
-		color:#fff;
-		text-align: center;
-		position: relative;
+		background: $azure;
 		bottom: 0;
+		color: #fff;
 		height: 411px;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
 		width: 100%;
 		z-index: 1;
 		@media screen and (min-width: $mqm){

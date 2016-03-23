@@ -28,7 +28,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </head>
-<body class="<?php if ($_COOKIE['preload'] != 1) echo 'loading-screen'; ?> <?php echo $pageBodyClass; ?>">
+<body class="<?php echo $pageBodyClass; ?> <?php if ($_COOKIE['preload'] != 1) echo 'loading-screen'; ?> ">
 
 <!-- Slide Out Menu -->
 <div class="menu-container" id="menu">

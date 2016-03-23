@@ -425,17 +425,6 @@ input[type="file"] {
   background-repeat: no-repeat;
   color: #fff; }
 
-.site-home {
-  background: transparent; }
-  @media (min-width: 40em) {
-    .site-home > .site-header {
-      background: transparent; }
-      .site-home > .site-header.scrolled {
-        background: #000F2E; } }
-  .site-home .wrap {
-    margin: 0;
-    padding: 0; }
-
 .site-header {
   position: absolute;
   text-align: center;
@@ -479,6 +468,17 @@ input[type="file"] {
   @media (min-width: 40em) {
     .site-header {
       background: #000F2E; } }
+
+.site-home {
+  background: transparent; }
+  @media (min-width: 768px) {
+    .site-home .site-header {
+      background: transparent; }
+      .site-home .site-header.scrolled {
+        background: #000F2E; } }
+  .site-home .wrap {
+    margin: 0;
+    padding: 0; }
 
 .site-title {
   padding: 10px; }
@@ -795,11 +795,12 @@ a.btn {
 
 .site-footer {
   background: #315BA6;
-  color: #fff;
-  text-align: center;
-  position: relative;
   bottom: 0;
+  color: #fff;
   height: 411px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
   width: 100%;
   z-index: 1; }
   @media screen and (min-width: 768px) {

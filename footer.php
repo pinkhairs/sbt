@@ -14,13 +14,11 @@
 						<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter.svg" alt="Twitter"></a></li>
 						<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
 						<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
-						<li><a href="#"><img src="images/googleplus.svg" alt="Google+"></a></li>
 					</ul>
 					<ul class="flat-links desktop-only">
 						<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter-white.svg" alt="Twitter"></a></li>
 						<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook-white.svg" alt="Facebook"></a></li>
 						<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin-white.svg" alt="LinkedIn"></a></li>
-						<li><a href="#"><img src="images/googleplus-white.svg" alt="Google+"></a></li>
 					</ul>
 				</nav>
 			</div>
