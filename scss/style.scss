@@ -53,9 +53,6 @@
 		.wrap {
 			margin: 0;
 			padding: 0;
-			@media (min-width:$mqm) {
-				margin: 0 0 171px 0;
-			}
 		}
 	}
 	
@@ -418,10 +415,8 @@
 		height: 411px;
 		width: 100%;
 		z-index: 1;
-
 		@media screen and (min-width: $mqm){
 		  height: 171px;
-		  position: fixed;
 		}
 
 		h4 {
