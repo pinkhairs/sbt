@@ -21,14 +21,14 @@ include 'header.php'; ?>
 			</div>
 		</div>
 		<div class="row">
-		 	<div class="small-12 columns large-text">
+		 	<div class="small-12 large-8 large-offset-2 columns large-text">
 				<div class="section pt0 large-text-center">
 					<h2>A Southern California Tech Fusion</h2>
 					<p>As the flow of talent and capital to Silicon Beach increases, it's now more important than ever to focus not only on building great internal teams, but building a sustainable tech ecosystem for all of Southern California.  We do this through our three recruitment divisions:</p>
 						<ul class="about-divisions">
-							<li><a href="work.php#design-industry">SBT<strong class="lowercase">design</strong> <p class="lead lead-small mt0">Creative &amp; Design </p></a></li>
-							<li><a href="work.php#ev-industry">SBT<strong class="lowercase">ev</strong> <p class="lead lead-small mt0">Electric Vehicle </p></a></li>
-							<li><a href="work.php#tech-industry">SBT<strong class="lowercase">tech</strong> <p class="lead lead-small mt0">Engineering &amp; Tech</p></a></li>
+							<li>SBT<strong class="lowercase">design</strong> <p class="lead lead-small mt0">Creative &amp; Design </p></li>
+							<li>SBT<strong class="lowercase">ev</strong> <p class="lead lead-small mt0">Electric Vehicle </p></li>
+							<li>SBT<strong class="lowercase">tech</strong> <p class="lead lead-small mt0">Engineering &amp; Tech</p></li>
 						</ul>
 				</div>
 			</div>
@@ -60,7 +60,7 @@ include 'header.php'; ?>
 			</div>
 		</div>
 		<div class="row">
-		 	<div class="small-12 large-8 text-center large-centered columns large-text">
+		 	<div class="small-12 large-8 columns large-text">
 				<div class="section pt0">
 					<h2>It's about the IMPACT</h2>
 					<p>There is a lot of noise in the job market with the rise of anonymous job matching sites, but they are all missing the point.  You want the whole picture, not just a quick description and a salary estimate.  That's why we spend time onsite with all our partners. We understand every client’s mission and culture, so we know when it resonates with your career objectives. </p>

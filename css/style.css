@@ -880,17 +880,14 @@ a.btn {
     display: inline-block;
     font-size: 24px;
     margin: 0 0 10px 0;
-    width: 100%; }
-    @media screen and (min-width: 768px) {
-      .about-divisions li {
-        width: 27%; } }
-  .about-divisions a {
+    width: 100%;
     background: #fff;
     color: #000F2E;
-    display: block;
     height: 100%;
-    padding: 20px 10px;
-    width: 100%; }
+    padding: 20px 10px; }
+    @media screen and (min-width: 768px) {
+      .about-divisions li {
+        width: 31%; } }
   .about-divisions p {
     font-size: 18px;
     margin: 0; }

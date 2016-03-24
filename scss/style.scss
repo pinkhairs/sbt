@@ -523,17 +523,13 @@
 			font-size: 24px;
 			margin: 0 0 10px 0;
 			width: 100%;
-			@media screen and (min-width: $mqm){
-				width: 27%;
-			}
-		}
-		a {
 			background: #fff;
 			color: $black;
-			display: block;
 			height: 100%;
 			padding: 20px 10px;
-			width: 100%;
+			@media screen and (min-width: $mqm){
+				width: 31%;
+			}
 		}
 		p {
 			font-size: 18px;
