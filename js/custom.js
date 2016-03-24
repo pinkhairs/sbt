@@ -14,6 +14,7 @@ global.main = {
     this.mastheadWaypoints();
     this.blogFilterSort();
     // this.jobsIframe();
+    this.aboutBios();
   },
   // List Functions
 
@@ -182,7 +183,6 @@ global.main = {
       ddlabel.text(ddele);
     });
   },
-
   contactFormAJAX: function () {
     $('input[name="dropdown_eg"]').change(function() {
       $('input[name="dropdown_eg"]').closest('li').removeClass('active');
@@ -209,7 +209,6 @@ global.main = {
       $(this).closest('.wpcf7').parent('.contact-form-content').addClass('active');
     }
   },
-
   jFeed: function () {
     $(function(){
       jQuery.browser = {};
@@ -263,7 +262,6 @@ global.main = {
       });
     });
   },
-
   formSubmit: function () {
     // Get the form.
     var form = $('#inquiry-general');
@@ -310,7 +308,6 @@ global.main = {
         event.preventDefault();
     });
   },
-
   jobFilterWaypoints: function () {
     function jobFilterWaypoint() {
       var $stickyElement = $('.job-filter-container')
@@ -327,7 +324,6 @@ global.main = {
        jobFilterWaypoint();
     });
   },
-
   mastheadWaypoints: function () {
     function mhwp() {
       var $things = $('.wrap > div:nth-child(odd)');
@@ -366,6 +362,13 @@ global.main = {
     }
     $(window).on('load', function() {
        mhwp();
+    });
+  },
+  aboutBios: function () {
+    doc.on("click", ".about-bios-select-trigger", function(){
+      var ele = $('.about-bios-select-ele');
+      ele.removeClass('active');
+      $(this).parent(ele).addClass('active');
     });
   }
 };
