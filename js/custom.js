@@ -13,23 +13,23 @@ global.main = {
     // this.jobFilterWaypoints();
     this.mastheadWaypoints();
     this.blogFilterSort();
-    // this.jobsIframe();
+    this.jobsIframe();
     this.aboutBios();
   },
-  // List Functions
 
+  // List Functions
   jobsIframe: function () {
-    $('.jobs-iframe').load(function() {
-        setTimeout(iResize, 50);
-        // Safari and Opera need a kick-start.
-        var iSource = document.getElementById('jobsFrame').src;
-        document.getElementById('jobsFrame').src = '';
-        document.getElementById('jobsFrame').src = iSource;
+    var trig = $('.job-filter-trigger');
+    var frame = $('#jobsFrame');
+
+    doc.on('click', '.job-filter-trigger', function(){
+      if (!$(this).hasClass("active")){
+        var link = $(this).attr('id');
+        trig.removeClass('active');
+        frame.attr("src","https://sbtalent.crelate.com/portal?tag=" + link + "&iframe=true");
+        $(this).addClass('active');
+      }
     });
-    function iResize() {
-        document.getElementById('jobsFrame').style.height = 
-        document.getElementById('jobsFrame').contentWindow.document.body.offsetHeight + 'px';
-    }
   },
   blogFilterSort: function () {
     var index = $('.blog-index');

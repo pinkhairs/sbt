@@ -1124,17 +1124,25 @@
 			width: 100%;
 		}
 	}
-	.job-filter-actions {
-		&> li {
-			display: inline-block;
-			padding: 0 10px 0 0;
-			@media (min-width:40em) {
-				display: block;
-				padding: 0 0 10px 0;
+	.job-filter-trigger {
+		color: $azure;
+		cursor: pointer;
+		display: inline-block;
+		padding: 0 10px 0 0;
+		@media (min-width:40em) {
+			display: block;
+			padding: 0 0 10px 0;
+		}
+		&.active {
+			color: $midnight;
+			cursor: default;
+			font-weight: 400;
+			&:hover {
+				color: $midnight;
 			}
-			&.active {
-				font-weight: 400;
-			}
+		}
+		&:hover {
+			color: $bluegrey;
 		}
 	}
 

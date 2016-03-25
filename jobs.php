@@ -24,15 +24,15 @@ include 'header.php'; ?>
       <ul class="job-filter">
         <li>
           <ul class="job-filter-actions">
-            <li id="jobs-all" class="active">Show All Jobs</li>
+            <li id="" class="job-filter-trigger active">Show All Jobs</li>
           </ul>
         </li>
         <li>
           <h4>Type</h4>
           <ul class="job-filter-actions">
-            <li>Design</li>
-            <li>Electric Vehicle</li>
-            <li>Technology</li>
+            <li id="design" class="job-filter-trigger">Design</li>
+            <li id="electric-vehicle" class="job-filter-trigger">Electric Vehicle</li>
+            <li id="technology" class="job-filter-trigger">Technology</li>
           </ul>
         </li>
       </ul>
