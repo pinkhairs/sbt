@@ -1,9 +1,7 @@
 	<div class="row">
 		<div class="small-12 large-8 large-centered columns">
 			<div class="section pt0 large-text large-text-center">
-				<h2>Love your work.</h2>
-				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies.</p>
-				<p>We believe three things passionately:</p>
+				<h2>We believe three things passionately:</h2>
 			</div>
 		</div>
 	</div>
@@ -11,12 +9,16 @@
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 text-center columns">
 			<div class="section pt0">
+				<h3>Love your work.</h3>
+				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies.</p>
+			</div>
+			<div class="section pt0">
 				<h3>The world is a better place when people love what they do.</h3>
 				<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density. Being socially responsible and building a sustainable ecosystem for the future is a moral imperative.</p>
 			</div>
 			<div class="section pt0">
 				<h3>We’re different.</h3>
-				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot. We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it.</p>
+				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot.  We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it. </p>
 				<p>Our service offerings include:</p>
 			</div>
 		</div>
@@ -128,15 +130,13 @@
 			<div class="small-12 large-6 large-offset-6 columns">
 				<div class="work-bg-content">
 					<div class="container large-text">
-						<h2>We're not your typical recruiters.</h2>
-						<p>At Silicon Beach Talent, we partner with fun, innovative companies who need talent to help them tackle insane challenges and meet aggressive goals. </p>
+						<h2>Culture fit + Inspiring Work = A Big Impact</h2>
+						<p>ur recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work. </p>
 
-						<p>We spend time onsite with all our clients to identify the intangibles that fortify connections.</p>
-
-						<p>We specialize in placing individual contributors and executives through our divisions with one simple goal in mind:</p>
+						<p>In the end, our goal is simple:</p>
 
 						<div class="section pb0 slogan">
-							<span class="slogan-large">Love Your Work</span>
+							<span class="slogan-large">Love Your Team</span>
 							<span class="slogan-small">We can help</span>
 						</div>
 					</div>
