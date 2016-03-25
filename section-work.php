@@ -1,8 +1,11 @@
 	<div class="row">
 		<div class="small-12 large-8 large-centered columns">
 			<div class="section pt0 large-text large-text-center">
-				<h2>It's about the work.</h2>
-				<p>Perks and bonuses are important, but we understand what truly makes an opportunity great is the work you do and the impact you make. Today's engineers and developers don't need a traditional recruiter; they need an agent.</p>
+				<h2>You know you're in demand.</h2>
+				<p>You almost can't use LinkedIn anymore because you're bombarded by template recruiter messages.  Your Facebook and Twitter feeds are full of ads for anonymous job matching services, but salary focused job matching and volume based recruiting agencies all seem to miss the most important point:</p>
+
+				<h2>It's about the work. </h2>
+				<p>Perks and bonuses are important, but we understand that what really makes an opportunity great is the work you get to do and the impact you get to make.  Believe it or not, it's the same for recruiters, there's only one problem: Today's engineers and developers don't need a traditional recruiter; they need an agent.</p>
 			</div>
 		</div>
 	</div>
@@ -58,11 +61,13 @@
 				<div class="work-bg-content">
 					<div class="container large-text">
 						<h2>We're not your typical recruiters.</h2>
-						<p>At Silicon Beach Talent, we partner with fun, innovative companies who need talent to help them tackle insane challenges and meet aggressive goals. </p>
+						<p>At Silicon Beach Talent, we're committed to building a sustainable, fun ecosystem for new technology in Southern California, and we only partner with companies that we'd want to work for ourselves.. </p>
 
-						<p>We spend time onsite with all our clients to identify the intangibles that fortify connections.</p>
+						<p>We focus on the intangibles that make you really connect with a company so we can talk to you about what really matters when considering a new position.   Our clients are fun, innovative companies with aggressive goals and even more aggressive visions.</p>
 
-						<p>We specialize in placing individual contributors and executives through our divisions with one simple goal in mind:</p>
+						<p>They're not just looking for a set of skills, they're looking for someone to stand side by side with them to tackle insane challenges.  That's why we spend time onsite with all our clients, to get to know their mission and their culture, so we know if that resonates with you.</p>
+
+						<p>In the end, our goal is simple:</p>
 
 						<div class="section pb0 slogan">
 							<span class="slogan-large">Love Your Work</span>

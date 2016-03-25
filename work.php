@@ -13,14 +13,14 @@ include 'header.php'; ?>
 <div class="work-talent-titles">
 	<div class="work-talent-title work-title active">
 		<div class="section medium-section">
-			<p class="lead animated fadeInUp">I'm looking for</p>
+			<p class="lead animated fadeInUp">Find</p>
 			<h1>Work</h1>
 			<p><img src="images/line.svg" class="fadeInDown animated arrow" alt=""></p>
 		</div>
 	</div>
 	<div class="work-talent-title talent-title">
 		<div class="section medium-section">
-			<p class="lead">I'm looking for</p>
+			<p class="lead">Hire</p>
 			<h1>Talent</h1>
 			<p><img src="images/line.svg" class="fadeInDown animated arrow" alt=""></p>
 		</div>
