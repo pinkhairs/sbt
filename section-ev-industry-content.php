@@ -6,17 +6,17 @@
 					<p class="close-button"><img src="images/close-modal.svg" alt="Close Button"></p>
 					<div class="row">
 						<div class="small-12 large-6 columns text-center large-text-left">
-							<h3>SBTdesign</h3>
-							<p>Specializing in creative design professionals for automotive, web, and mobile applications. Our clients range from young and recently funded startups to established design centers and agencies. Recruiting specialties include:</p>
+							<h3>SBTev</h3>
+							<p>Specializing in the Electrical Vehicle Industry. Clients include both start-up and middle-large OEMS. Recruiting specialties include:</p>
 						</div>
 						<div class="small-12 large-6 columns text-center large-text-left">
 							<h4>Recruiting Specialties include:</h4>
 							<ul class="specialties-list">
-								<li>UX/UI Design</li>
-								<li>Automotive Design</li>
-								<li>Environmental Design</li>
-								<li>Brand &amp; Graphic Design</li>
-								<li>Product Design</li>
+								<li>Design and Studio Engineering</li>
+								<li>Vehicle Engineering</li>
+								<li>Battery Engineering</li>
+								<li>Powertrain Engineering</li>
+								<li>Manufacturing and Quality Engineering</li>
 							</ul>
 						</div>
 					</div>
