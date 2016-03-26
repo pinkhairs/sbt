@@ -17,21 +17,13 @@
 				</div>
 		<div class="small-12 large-4 text-center columns">
 			<div class="section pt0">
-				<div class="row">
-					<div class="small-12 large-4 text-center columns">
 				<h3>The world is a better place when people love what they do.</h3>
 				<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density. Being socially responsible and building a sustainable ecosystem for the future is a moral imperative.</p>
 			</div>
-				</div>
 		<div class="small-12 large-4 text-center columns">
 			<div class="section pt0">
-				<div class="row">
-					<div class="small-12 large-4 text-center columns">
 				<h3>We’re different.</h3>
 				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot.  We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it. </p>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 
