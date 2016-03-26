@@ -7,7 +7,7 @@
 	</div>
 
 	<div class="row">
-		<div class="small-12 large-8 large-offset-2 text-center columns">
+		<div class="small-12 large-4 text-center columns">
 			<div class="section pt0">
 				<h3>Love your work.</h3>
 				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies.</p>
