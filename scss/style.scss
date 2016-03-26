@@ -872,6 +872,12 @@
 	}
 
 // Misc
+	.text-center {
+		text-align: left;
+		@media screen and (min-width: $mqm){
+			text-align: center;
+		}
+	}
 	.industry-content-container {
 		@include transition;
 		&.closed {

@@ -1209,6 +1209,12 @@ a.btn {
   .modal-button a {
     vertical-align: top; }
 
+.text-center {
+  text-align: left; }
+  @media screen and (min-width: 768px) {
+    .text-center {
+      text-align: center; } }
+
 .industry-content-container {
   -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
