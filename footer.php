@@ -45,10 +45,7 @@
 <script src="js/jquery.lazylinepainter-1.7.0.min.js" type="text/javascript"></script>
 <script src="js/loading-screen.js" type="text/javascript"></script>
 <?php } ?>
-<script src="js/jquery.mobile.custom.min.js" type="text/javascript"></script>
-<script src="js/jfeed.js" type="text/javascript"></script>
-<script src="js/jrss.js" type="text/javascript"></script>
-<script src="js/jfeeditem.js" type="text/javascript"></script>
+<!-- <script src="js/jquery.mobile.custom.min.js" type="text/javascript"></script> -->
 <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
 <script src="js/sticky.min.js" type="text/javascript"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>

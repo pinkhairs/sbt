@@ -5,16 +5,15 @@ global.main = {
 
   // Initialize Functions
   init: function () {
+    this.mastheadWaypoints();
     this.navMenu();
     this.workTalentJS();
     this.contactFormAJAX();
-    this.jFeed();
     this.formSubmit();
-    // this.jobFilterWaypoints();
-    this.mastheadWaypoints();
     this.blogFilterSort();
     this.jobsIframe();
     this.aboutBios();
+    // this.jobFilterWaypoints();
   },
 
   // List Functions
@@ -209,59 +208,6 @@ global.main = {
       $(this).closest('.wpcf7').parent('.contact-form-content').addClass('active');
     }
   },
-  jFeed: function () {
-    $(function(){
-      jQuery.browser = {};
-      (function () {
-        jQuery.browser.msie = false;
-        jQuery.browser.version = 0;
-
-        if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
-            jQuery.browser.msie = true;
-            jQuery.browser.version = RegExp.$1;
-        }
-      })();
-
-      jQuery.getFeed({
-        url: 'https://crossorigin.me/https://sbtalent.crelate.com/portal/rss',
-         // success: function(feed){alert(feed);}
-
-        success: function(feed) {
-            var html = '';
-
-            for(var i = 0; i < feed.items.length && i < 5; i++) {
-
-                var item = feed.items[i];
-
-                html += '<div class="card"><h2 class="text-left job-header">'
-                + '<a href="'
-                + item.link
-                + '">'
-                + item.title
-                + '</a>'
-                + '</h2>';
-
-                html += '<p class="updated text-left">'
-                + item.updated
-                + '</p>';
-
-                html += '<div class="job-description text-left">'
-                + item.description
-                + '</div>';
-
-                html += '<a href="'
-                + item.link
-                + '" class="button">'
-                + 'Apply for this job'
-                + '</a>'
-
-                html += '</div><br>'
-            }
-            jQuery('#result').append(html);
-        }
-      });
-    });
-  },
   formSubmit: function () {
     // Get the form.
     var form = $('#inquiry-general');
@@ -326,7 +272,7 @@ global.main = {
   },
   mastheadWaypoints: function () {
     function mhwp() {
-      var $things = $('.wrap > div:nth-child(odd)');
+      var $things = $('.wrap > div:nth-child(2)');
   
       $things.waypoint(function(direction) {
         setTimeout(
@@ -360,7 +306,7 @@ global.main = {
         offset: '-125%'
       });
     }
-    $(window).on('load', function() {
+    doc.on('load', function() {
        mhwp();
     });
   },
