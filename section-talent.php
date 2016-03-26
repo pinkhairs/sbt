@@ -12,7 +12,7 @@
 				<h3>Love your work.</h3>
 				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies.</p>
 			</div>
-			<div class="section pt0">
+			<div class="columns">
 				<h3>The world is a better place when people love what they do.</h3>
 				<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density. Being socially responsible and building a sustainable ecosystem for the future is a moral imperative.</p>
 			</div>
