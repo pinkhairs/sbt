@@ -9,6 +9,7 @@
 	<div class="row">
 		<div class="small-12 large-4 text-center columns">
 			<div class="section pt0">
+				<br />
 				<h3>Love your work.</h3>
 				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies.</p>
 			</div>
@@ -21,6 +22,7 @@
 		</div>
 		<div class="small-12 large-4 text-center columns">
 			<div class="section pt0">
+				<br />
 				<h3>We’re different.</h3>
 				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot.  We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it. </p>
 			</div>
