@@ -5,11 +5,11 @@
 				<div class="section">
 					<p class="close-button"><img src="images/close-modal.svg" alt="Close Button"></p>
 					<div class="row">
-						<div class="small-12 large-6 columns text-center large-text-left">
+						<div class="small-12 large-6 columns text-left large-text-left">
 							<h3>SBTdesign</h3>
 							<p>Specializing in creative design professionals for automotive, web, and mobile applications. Our clients range from young and recently funded startups to established design centers and agencies. Recruiting specialties include:</p>
 						</div>
-						<div class="small-12 large-6 columns text-center large-text-left">
+						<div class="small-12 large-6 columns text-left large-text-left">
 							<h4>Recruiting Specialties include:</h4>
 							<ul class="specialties-list">
 								<li>UX/UI Design</li>

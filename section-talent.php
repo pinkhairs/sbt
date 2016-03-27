@@ -32,7 +32,7 @@
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 text-center columns">
 			<div class="section pt0 large-text large-text-center">
-				<h2>Our service offerings include:</h2>
+				<h3>Our service offerings include:</h3>
 			</div>
 		</div>
 	</div>
@@ -144,7 +144,7 @@
 				<div class="work-bg-content">
 					<div class="container large-text">
 						<h2>Culture fit + Inspiring Work = A Big Impact</h2>
-						<p>ur recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work. </p>
+						<p>Our recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work.</p>
 
 						<p>In the end, our goal is simple:</p>
 
@@ -153,38 +153,6 @@
 							<span class="slogan-small">We can help</span>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="overlay"></div>
-	<div class="modal-container">
-		<div class="color-card modal">
-			<div class="section">
-				<p class="text-right close-button"><a href="#"><img src="images/close-modal.svg" alt=""></a></p>
-				<div class="row">
-					<div class="small-12 large-6 columns text-center large-text-left">
-						<h4>Vehicle Engineering</h4>
-						<p>Phasellus dignissim diam et nisi interdum, ut auctor turpis imperdiet.</p>
-					</div>
-					<div class="small-12 large-6 columns text-center large-text-left">
-						<p>Attribute Engineering<br>
-						Component Engineering<br>
-						Test and Validation<br>
-						Program Management<br>
-						Dimensional Engineering<br>
-						Homologation</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal-button">
-			<div class="row collapse">
-				<div class="small-12 large-6 columns">
-					<a href="#" class="full-width-button back-read-button">Design and Studio Engineering</a>
-				</div>
-				<div class="small-12 large-6 columns">
-					<a href="#" class="full-width-button read-button">Battery Engineering</a>
 				</div>
 			</div>
 		</div>
