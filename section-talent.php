@@ -31,7 +31,7 @@
 
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 text-center columns">
-			<p>Our service offerings include:</p>
+			<h2>Our service offerings include:</h2>
 		</div>
 	</div>
 
