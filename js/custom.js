@@ -13,10 +13,43 @@ global.main = {
     this.blogFilterSort();
     this.jobsIframe();
     this.aboutBios();
+    this.modalJS();
     // this.jobFilterWaypoints();
   },
 
   // List Functions
+
+  modalJS: function() {
+    doc.on('click', '.mobile-modal-trigger', function(){
+      var trigID = $(this).attr('data-trigger'), $html = $('html'), $page = $('.mobile-modal-content'), $modal = $('.mobile-modal'), $wrap = $('.modalaccordion-wrapper'), close = $('.mobile-modal-close'), $trig = $('.mobile-modal-trigger');
+
+      // Remove active from all triggers
+      $trig.removeClass('active');
+
+      // Add active on clicked trigger
+      $(this).addClass('active');
+
+      // Add modal active on HTML
+      $html.addClass('modal-active');
+
+      // Remove active class from all modal containers on page
+      $modal.removeClass('active');
+
+      // Add active class on clicked modal container
+      $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').addClass('active');
+
+      // Remove active class on all modal slides
+      $page.removeClass('active');
+
+      // Add active class on clicked modal slide
+      $('#' + trigID).addClass('active');
+    }).on('click', '.mobile-modal-close', function(){
+      var $html = $('html'), $modal = $('.mobile-modal'), $page = $('.mobile-modal-content');
+      $html.removeClass('modal-active');
+      $modal.removeClass('active');
+      $page.removeClass('active');
+    });
+  },
   jobsIframe: function () {
     var trig = $('.job-filter-trigger');
     var frame = $('#jobsFrame');
@@ -51,14 +84,17 @@ global.main = {
     });
   },
   navMenu: function () {
-    $('#menu-button, .menu-close-button, #close-button').click(function() {
-      if ($('.menu-container').hasClass('menu-container-expanded')){
-        $('.menu-container').removeClass('menu-container-expanded');
-        $('.site-wrap').removeClass('menu-active');
+    $('#menu-button, #hmenu-close').click(function() {
+      var wrap = $('.site-wrap');
+      var menu = $('.hmenu-wrapper');
+      var open = $('.menu-active');
+      if (menu.hasClass('menu-container-expanded')){
+        menu.removeClass('menu-container-expanded');
+        wrap.removeClass('menu-active');
       }
       else {
-        $('.menu-container').addClass('menu-container-expanded');
-        $('.site-wrap').addClass('menu-active');
+        menu.addClass('menu-container-expanded');
+        wrap.addClass('menu-active');
       }
     });
   },
@@ -81,47 +117,46 @@ global.main = {
       }
     });
 
-    doc.on('click', '.industry-trigger', function() {
-      // Grab ID from Card
-      $category = $(this).attr('id');
+    // doc.on('click', '.industry-trigger', function() {
+    //   // Grab ID from Card
+    //   var trigID = $(this).attr('data-trigger');
 
-      // Add active class to clicked card
-      $('.industry-trigger').removeClass('active');
-      $(this).addClass('active');
+    //   // Add active class to clicked card
+    //   $('.industry-trigger').removeClass('active');
+    //   $(this).addClass('active');
 
-      // Animate/Load Desktop Card Design
-      if (window.matchMedia('only screen and (max-width: 960px)').matches) {
-        setTimeout(
-          function() {
-            $('.section-work-sbtdesign-content').css('opacity', '0');
-            $('.industry-content-container').removeClass('closed');
-          }, 100
-        );
-        setTimeout(
-          function() {
-            $( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
-          }, 300
-        );
-      } else {
-        setTimeout(
-          function() {
-            $('.industry-content-container').removeClass('closed');
-          }, 100
-        );
-        setTimeout(
-          function() {
-            $( "#industry-content" ).hide().load( "section-"+$category+"-content.php" ).fadeIn(600);
-          }, 300
-        );
-      }
-      return false;
-    });
+    //   // Animate/Load Desktop Card Design
+    //   if (window.matchMedia('only screen and (max-width: 960px)').matches) {
+    //     setTimeout(
+    //       function() {
+    //         $('.industry-content-container').removeClass('closed');
+    //       }, 100
+    //     );
+    //     setTimeout(
+    //       function() {
+    //         $( "#industry-content" ).hide().load( "section-"+trigID+"-content.php" ).fadeIn(600);
+    //       }, 300
+    //     );
+    //   } else {
+    //     setTimeout(
+    //       function() {
+    //         $('.industry-content-container').removeClass('closed');
+    //       }, 100
+    //     );
+    //     setTimeout(
+    //       function() {
+    //         $( "#industry-content" ).hide().load( "section-"+trigID+"-content.php" ).fadeIn(600);
+    //       }, 300
+    //     );
+    //   }
+    //   return false;
+    // });
 
-    doc.on('click', '.color-card .close-button', function() {
-      $('.industry-trigger').removeClass('active');
-      $('.industry-content-container').addClass('closed');
-      return false;
-    });
+    // doc.on('click', '.color-card .close-button', function() {
+    //   $('.industry-trigger').removeClass('active');
+    //   $('.industry-content-container').addClass('closed');
+    //   return false;
+    // });
 
     // Work Talent Switch
     $('#section-work-talent-content').load('section-work.php');

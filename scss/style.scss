@@ -48,24 +48,24 @@
 		z-index: 100000;
 		@include transition($type: background);
 		&.scrolled {
-			@media (min-width:$mqm) {
+			@media (min-width:$mql) {
 				position: fixed;
 				@include translate(0, -120px);
 			}
 		}
 		&.slideDown {
-			@media (min-width:$mqm) {
+			@media (min-width:$mql) {
 				@include translate(0, 0px);
 				@include transition($type: transform);
 			}
 		}
 		&.slideUp {
-			@media (min-width:$mqm) {
+			@media (min-width:$mql) {
 				@include translate(0, -120px);
 				@include transition($type: transform);
 			}
 		}
-		@media (min-width:40em) {
+		@media (min-width:$mql) {
 			background: $midnight;
 		}
 	}
@@ -73,7 +73,7 @@
 	.site-home {
 		background: transparent;
 		.site-header {
-			@media (min-width:$mqm) {
+			@media (min-width:$mql) {
 				background: transparent;
 				&.scrolled {
 					background: $midnight;
@@ -102,6 +102,76 @@
 	}
 
 // Menu
+	.hmenu-wrapper {
+		background-image: -webkit-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-image: -moz-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-image: -o-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-image: linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-color: rgba(233, 236, 240, 0.8);
+		height: 100%;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+		z-index: 1000000;
+		@include transition;
+		@include translate(0%,-150%);
+		@media (min-width:$mqm) {
+			text-align: right;
+			@include translate(100%,0%);
+		}
+		&.menu-active {
+			@include translate(0%,0%);
+		}
+	}
+	.hmenu-innerwrapper {
+		height: 100%;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
+		padding: 40px;
+		width: 100%;
+	}
+	.hmenu-close-button {
+		background: url('../images/icon-btn-close.svg') no-repeat;
+		color: $azure;
+		cursor: pointer;
+		display: inline-block;
+		height: 44px;
+		margin: 0 0 40px 0;
+		overflow: hidden;
+		text-align: left;
+		text-indent: -9999px;
+		width: 45px;
+	}
+	.hmenu-text-link {
+		color: $azure;
+		display: inline-block;
+		font-size: 24px;
+		letter-spacing: .1em;
+		padding: 10px 0;
+		text-transform: uppercase;
+	}
+	.hmenu-text-small {
+		display: inline-block;
+		font-size: 14px;
+		letter-spacing: .3em;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	.hmenu-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.hmenu-list-element-large {
+		padding-bottom: 20px;
+		.hmenu-text-link {
+			font-size: 48px;
+		}
+		&:nth-child(2) {
+			padding-bottom: 40px;
+		}
+	}
+
 	.menu-container {
 		background-image: -webkit-linear-gradient(90deg, rgba(233,236,240,0.40) 0%, #E9ECF0 100%);
 		background-image: -moz-linear-gradient(90deg, rgba(233,236,240,0.40) 0%, #E9ECF0 100%);
@@ -429,25 +499,32 @@
 		text-align: center;
 		width: 100%;
 		z-index: 1;
-		@media screen and (min-width: $mqm){
+		@media screen and (min-width: $mql){
 		  height: 171px;
 		}
 
 		h4 {
 			color: $lightsteelblue;
 		}
-	}
-	.colophon {
-		display:block;
-		margin-top:40px;
-		a {
-			color:#fff;
-			text-shadow:0 1px 1px rgba(0,0,0,.2);
-			text-decoration:none;
-			font-size:14px;
-			line-height:20px;
-			font-weight:700;
-		}	
+		.text-center {
+			text-align: center;
+		}
+		.colophon {
+			display: block;
+			margin-top: 40px;
+			text-align: center;
+			@media screen and (min-width: $mql){
+				text-align: left;
+			}
+			a {
+				color:#fff;
+				text-shadow:0 1px 1px rgba(0,0,0,.2);
+				text-decoration:none;
+				font-size:14px;
+				line-height:20px;
+				font-weight:700;
+			}	
+		}
 	}
 	.flat-links li, .flat-links a {
 		display:inline-block !important;
@@ -461,35 +538,29 @@
 		border-bottom:1px $bluegrey solid;
 		overflow:hidden;
 		text-align:center;
-		@media screen and (min-width: $mqm){
+		@media screen and (min-width: $mql){
 			margin:0;
 			border:0;
 			overflow: hidden;
+			text-align: left;
 		}
 	}
 	.social-links li {
 		text-align: center;
 		display: inline-block;
-		width: 25%;
-		float: left;
+		width: 32.3%;
 		padding: 30px 0;
-		@media screen and (min-width: $mqm){
+		@media screen and (min-width: $mql){
 			padding: 0;
 		}
 		&:not(:last-child) {
 			border-right:1px $bluegrey solid;
-			@media screen and (min-width: $mqm){
+			@media screen and (min-width: $mql){
 				border: 0;
 				margin-right: 20px;
 			}
 		}
 	}
-	// .social-links li {
-	//     width: auto;
-	//     padding:20px 0 0;
-	//     text-align: center;
-	//     display: block;
-	// }
 
 // Home
 	.map-section {
@@ -655,10 +726,7 @@
 			}
 		}
 		.industry-cards {
-			display: none;
-			@media screen and (min-width: $mqm){
-				display: block;
-			}
+			
 		}
 	}
 
@@ -668,6 +736,23 @@
 			@media screen and (min-width: $mqm){
 				width: 60%;
 			}
+		}
+	}
+
+	.service-wrapper {
+		position: relative;
+	}
+
+	.service-content-page {
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		visibility: hidden;
+		&.active {
+			opacity: 1;
+			position: relative;
+			visibility: visible;
+			z-index: 10000000;
 		}
 	}
 
@@ -936,7 +1021,7 @@
 
 	.industry-card {
 		cursor: pointer;
-		width:33.3%;
+		width: 100%;
 		float: left;
 		padding: 40px;
 		position: relative;
@@ -954,6 +1039,9 @@
 				@include transition;
 				@include absolute-center(-50%,470%);
 			}
+		}
+		@media screen and (min-width: $mql){
+			width: 33.3%;
 		}
 	}
 	.card {
@@ -981,9 +1069,21 @@
 			@include horizontal-center;
 		}
 	}
+	.card-rounded {
+		border-radius: 240px;
+		height: 240px;
+		margin: 0 auto 40px;
+		width: 240px;
+		.open-text {
+			bottom: 50px;
+		}
+	}
 	.card-content {
 		@include absolute-center;
 		width: 90%;
+		.lead {
+			font-size: 18px;
+		}
 	}
 	.design-industry {
 		background: url('../images/design_industry.png') #fff;
@@ -1054,6 +1154,9 @@
 		&:not(.active) {
 			@include translate(-70%,0);
 			@media (min-width:$mqm) {
+				@include translate(-60%,0);
+			}
+			@media (min-width:$mql) {
 				@include translate(-50%,0);
 			}
 		}
@@ -1063,6 +1166,9 @@
 		&:not(.active) {
 			@include translate(70%,0);
 			@media (min-width:$mqm) {
+				@include translate(60%,0);
+			}
+			@media (min-width:$mql) {
 				@include translate(50%,0);
 			}
 		}

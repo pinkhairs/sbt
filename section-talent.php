@@ -37,44 +37,129 @@
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="small-12 columns">
-			<div class="section pt0 large-text-center">
-				<div class="row">
-					<div class="small-12 large-3 columns">
-						<div class="card">
-							<div class="card-content">
-								<span class="lead">Full Engagement</span>
-								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+	<div class="service-wrapper modalaccordion-wrapper">
+		<!-- Services Tabs -->
+		<div class="service-tabs">
+			<div class="row">
+				<div class="small-12 columns">
+					<div class="section pt0 large-text-center">
+						<div class="row">
+							<div class="small-12 medium-6 large-3 columns">
+								<div class="card card-rounded">
+									<div class="card-content">
+										<span class="lead">Full Engagement</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+									</div>
+									<span data-trigger="fullengagement" class="open-text mobile-modal-trigger">Open</span>
+								</div>
 							</div>
-							<span class="open-text">Open</span>
+							<div class="small-12 medium-6 large-3 columns">
+								<div class="card card-rounded">
+									<div class="card-content">
+										<span class="lead">Executive Search</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+									</div>
+									<span data-trigger="executivesearch" class="open-text mobile-modal-trigger">Open</span>
+								</div>
+							</div>
+							<div class="small-12 medium-6 large-3 columns">
+								<div class="card card-rounded">
+									<div class="card-content">
+										<span class="lead">Start-up Workshop</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+									</div>
+									<span data-trigger="startupworkshop" class="open-text mobile-modal-trigger">Open</span>
+								</div>
+							</div>
+							<div class="small-12 medium-6 large-3 columns">
+								<div class="card card-rounded">
+									<div class="card-content">
+										<span class="lead">None of the Above?</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>	
+									</div>
+									<span data-trigger="noneoftheabove" class="open-text mobile-modal-trigger">Open</span>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="small-12 large-3 columns">
-						<div class="card">
-							<div class="card-content">
-								<span class="lead">Proactive Engagement</span>
-								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Service Content -->
+		<div class="section white-section service-content mobile-modal desktop-accordion">
+			<div id="fullengagement" class="service-content-page mobile-modal-content desktop-accordion-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>Full Engagement</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
 							</div>
-							<span class="open-text">Open</span>
 						</div>
 					</div>
-					<div class="small-12 large-3 columns">
-						<div class="card">
-							<div class="card-content">
-								<span class="lead">Executive Search</span>
-								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+				</div>
+			</div>
+			<div id="executivesearch" class="service-content-page mobile-modal-content desktop-accordion-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>Executive Search</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
 							</div>
-							<span class="open-text">Open</span>
 						</div>
 					</div>
-					<div class="small-12 large-3 columns">
-						<div class="card">
-							<div class="card-content">
-								<span class="lead">Small Business Workshop</span>
-								<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>	
+				</div>
+			</div>
+			<div id="startupworkshop" class="service-content-page mobile-modal-content desktop-accordion-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>Start-up Workshop</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
 							</div>
-							<span class="open-text">Open</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="noneoftheabove" class="service-content-page mobile-modal-content desktop-accordion-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>None of the Above</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -82,43 +167,163 @@
 		</div>
 	</div>
 
-	<!-- Desktop Industry Tabs -->
-	<div class="row small-collapse large-uncollapse">
+	<!-- Industry Wrapper -->
+	<div class="industry-wrapper modalaccordion-wrapper">
+		<!-- Industry Tabs -->
+		<div class="industry-tabs">
+			<div class="row small-collapse large-uncollapse">
 
-		<div class="small-12 columns">
-			<div class="section large-text-center">
-				<h3>Through our three specialized divisions:</h3>
+				<div class="small-12 columns">
+					<div class="section large-text-center">
+						<h3>Through our three specialized divisions:</h3>
+					</div>
+				</div>
+
+				<div class="small-12 columns">
+					<div class="section0">
+						<div class="industry-cards">
+							<div class="design-industry industry-card card-container mobile-modal-trigger" data-trigger="design-industry">
+								<div class="card">
+									<h2>
+										SBT<span class="lowercase">design</span>
+										<span class="lead">Industry</span>
+									</h2>
+									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+								</div>
+							</div>
+							<div class="ev-industry industry-card card-container mobile-modal-trigger" data-trigger="ev-industry">
+								<div class="card">
+									<h2>
+										SBT<span class="lowercase">EV</span>
+										<span class="lead">Industry</span>
+									</h2>
+									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+								</div>
+							</div>
+							<div class="tech-industry industry-card card-container mobile-modal-trigger" data-trigger="tech-industry">
+								<div class="card">
+									<h2>
+										SBT<span class="lowercase">tech</span>
+										<span class="lead">Industry</span>
+									</h2>
+									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div class="small-12 columns">
-			<div class="section0">
-				<div class="industry-cards">
-					<div class="design-industry industry-card card-container industry-trigger" id="design-industry">
-						<div class="card">
-							<h2>
-								SBT<span class="lowercase">design</span>
-								<span class="lead">Industry</span>
-							</h2>
-							<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+		<!-- Industry Content -->
+		<div class="section white-section industry-content-container mobile-modal desktop-accordion">
+			<div id="design-industry" class="mobile-modal-content desktop-accordion-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 large-6 columns text-left large-text-left">
+											<h3>SBTdesign</h3>
+											<p>Specializing in creative design professionals for automotive, web, and mobile applications. Our clients range from young and recently funded startups to established design centers and agencies. Recruiting specialties include:</p>
+										</div>
+										<div class="small-12 large-6 columns text-left large-text-left">
+											<h4>Recruiting Specialties include:</h4>
+											<ul class="specialties-list">
+												<li>UX/UI Design</li>
+												<li>Automotive Design</li>
+												<li>Environmental Design</li>
+												<li>Brand &amp; Graphic Design</li>
+												<li>Product Design</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="ev-industry industry-card card-container industry-trigger" id="ev-industry">
-						<div class="card">
-							<h2>
-								SBT<span class="lowercase">EV</span>
-								<span class="lead">Industry</span>
-							</h2>
-							<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+				</div>
+				<div class="white-section short-section text-center">
+					<div class="row">
+						<div class="small-12 columns large-text-center">
+							<a href="jobs.php" class="button">View current design openings</a>
+							<a href="/contact" class="button">Learn more about SBTdesign</a>
 						</div>
 					</div>
-					<div class="tech-industry industry-card card-container industry-trigger" id="tech-industry">
-						<div class="card">
-							<h2>
-								SBT<span class="lowercase">tech</span>
-								<span class="lead">Industry</span>
-							</h2>
-							<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+				</div>
+			</div>
+			<div id="ev-industry" class="mobile-modal-content desktop-accordion-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 large-6 columns text-left large-text-left">
+											<h3>SBTev</h3>
+											<p>Specializing in the Electrical Vehicle Industry. Clients include both start-up and middle-large OEMS. Recruiting specialties include:</p>
+										</div>
+										<div class="small-12 large-6 columns text-left large-text-left">
+											<h4>Recruiting Specialties include:</h4>
+											<ul class="specialties-list">
+												<li>Design and Studio Engineering</li>
+												<li>Vehicle Engineering</li>
+												<li>Battery Engineering</li>
+												<li>Powertrain Engineering</li>
+												<li>Manufacturing and Quality Engineering</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="white-section short-section text-center">
+					<div class="row">
+						<div class="small-12 columns large-text-center">
+							<a href="jobs.php" class="button">View current electric vehicle openings</a>
+							<a href="/contact" class="button">Learn more about SBTev</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="tech-industry" class="mobile-modal-content desktop-accordion-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 large-6 columns text-left large-text-left">
+											<h3>SBTtech</h3>
+											<p>Specializing in engineering and development professionals for companies creating innovate software, mobile, and hardware solutions. Recruiting specialties include:</p>
+										</div>
+										<div class="small-12 large-6 columns text-left large-text-left">
+											<h4>Recruiting Specialties include:</h4>
+											<ul class="specialties-list">
+												<li>Full Stack Developers</li>
+												<li>QA and Test Engineering</li>
+												<li>Product Managers</li>
+												<li>Electrical Hardware Design</li>
+												<li>Program Management and Integration</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="white-section short-section text-center">
+					<div class="row">
+						<div class="small-12 columns large-text-center">
+							<a href="jobs.php" class="button">View current tech openings</a>
+							<a href="/contact" class="button">Learn more about SBTtech</a>
 						</div>
 					</div>
 				</div>
@@ -126,17 +331,6 @@
 		</div>
 	</div>
 
-	<!-- Mobile Industry Dropdown -->
-	<div id="industry-dropdown-container" class="industry-dropdown-container">
-		<?php include 'section-industry-dropdown.php'; ?>
-	</div>
-
-	<!-- Industry Content -->
-	<div class="section white-section industry-content-container closed">
-		<div id="industry-content">
-			<?php include 'section-design-industry-content.php'; ?>
-		</div>
-	</div>
 
 	<div class="section gradient-section large-work-bg">
 		<div class="row collapse full-width-row">

@@ -31,7 +31,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 <body class="<?php echo $pageBodyClass; ?> <?php if ($_COOKIE['preload'] != 1) echo 'loading-screen'; ?> ">
 
 <!-- Slide Out Menu -->
-<div class="menu-container" id="menu">
+<!-- <div class="menu-container" id="menu">
 	<div class="menu-inner">
 		<div class="row">
 			<div class="small-12 columns">
@@ -63,10 +63,60 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 									<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter_bluegrey.svg" alt="Twitter"></a></li>
 									<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook_bluegrey.svg" alt="Facebook"></a></li>
 									<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
-									<!-- <li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li> -->
 								</ul>
 							</nav>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<div class="hmenu-wrapper" id="menu">
+	<div class="hmenu-innerwrapper">
+		<div class="row">
+			<div class="small-12 large-4 large-offset-8 columns">
+				<div class="row">
+					<div class="small-12">
+						<div id="hmenu-close" class="hmenu-close-button">Close</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-12">
+						<ol class="hmenu-list">
+							<li class="hmenu-list-element hmenu-list-element-large">
+								<small class="hmenu-text-small">Find</small>
+								<a href="work.php" class="hmenu-text-link">Work</a>
+							</li>
+							<li class="hmenu-list-element hmenu-list-element-large">
+								<small class="hmenu-text-small">Hire</small>
+								<a href="talent.php" class="hmenu-text-link">Talent</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="index.php" class="hmenu-text-link">Home</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="contactus" class="hmenu-text-link">Contact Us</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="about.php" class="hmenu-text-link">About Us</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="blog" class="hmenu-text-link">Blog</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="jobs.php" class="hmenu-text-link">Jobs</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="referrals.php" class="hmenu-text-link">Referrals</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="press.php" class="hmenu-text-link">Press</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
+							</li>
 					</div>
 				</div>
 			</div>
@@ -88,4 +138,5 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 			</div>
 		</div>
 	</header>
+
 	<div class="wrap">

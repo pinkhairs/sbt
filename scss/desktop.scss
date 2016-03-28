@@ -1,14 +1,8 @@
-@media (min-width:40em) {
+@media (min-width:64em) {
 
 	.about-page-bg {
 		background:url('../images/about-bg.png') top right no-repeat;
 		background-size:auto 100%;
-	}
-	.desktop-only {
-		display:block;
-	}
-	.mobile-only {
-		display:none;
 	}
 	.logo {
 		background:url('../images/sbt-full-logo.svg') left center no-repeat;
@@ -47,25 +41,25 @@
 		margin-bottom:20px;
 	}
 	
-	.site-footer {
-		padding-bottom:0;
-		.section {
-			padding-bottom:40px;
-		}
-		h4,.colophon {
-			color:$lightsteelblue;
-			a {
-				font-size:24px;
-				line-height:34px;
-			}
-		}
-		.social-links li {
-			width:auto;
-		}
-		.medium-section {
-			padding-bottom:40px;
-		}
-	}
+	// .site-footer {
+	// 	padding-bottom:0;
+	// 	.section {
+	// 		padding-bottom:40px;
+	// 	}
+	// 	h4,.colophon {
+	// 		color:$lightsteelblue;
+	// 		a {
+	// 			font-size:24px;
+	// 			line-height:34px;
+	// 		}
+	// 	}
+	// 	.social-links li {
+	// 		width:auto;
+	// 	}
+	// 	.medium-section {
+	// 		padding-bottom:40px;
+	// 	}
+	// }
 	.read-button {
 		font-size:18px;
 		line-height:20px;

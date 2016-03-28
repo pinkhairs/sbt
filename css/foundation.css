@@ -958,7 +958,7 @@ button {
     margin-left: 0;
     margin-right: 0; } }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 64em) {
   .large-1 {
     width: 8.33333%; }
   .large-push-1 {
