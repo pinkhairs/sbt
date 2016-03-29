@@ -132,15 +132,16 @@
 	}
 	.hmenu-close-button {
 		background: url('../images/icon-btn-close.svg') no-repeat;
+		background-size: cover;
 		color: $azure;
 		cursor: pointer;
 		display: inline-block;
-		height: 44px;
+		height: 20px;
 		margin: 0 0 40px 0;
 		overflow: hidden;
 		text-align: left;
 		text-indent: -9999px;
-		width: 45px;
+		width: 20px;
 	}
 	.hmenu-text-link {
 		color: $azure;
@@ -169,6 +170,43 @@
 		}
 		&:nth-child(2) {
 			padding-bottom: 40px;
+		}
+	}
+	.hmenu-list-social {
+		margin: 20px 0 0 0;
+		padding: 20px 0 0 0;
+		position: relative;
+		&:before {
+			background: #808080;
+			content:"";
+			height: 1px;
+			position: absolute;
+			@include horizontal-center;
+			top: 0;
+			width: 40px;
+			@media screen and (min-width: $mqm){
+				right: 0;
+				@include translate(0,0);
+				left: auto;
+			}
+		}
+		.social-links-list {
+			list-style: none;
+			margin: 10px 0 0 0;
+			padding: 0;
+			text-align: center;
+			@media screen and (min-width: $mqm){
+				text-align: right;
+			}
+			li {
+				display: inline-block;
+				margin: 20px;
+				@media screen and (min-width: $mqm){
+					margin-left: 40px;
+					margin-right: 0;
+					width: 30px;
+				}
+			}
 		}
 	}
 
@@ -523,9 +561,9 @@
 				color:#fff;
 				text-shadow:0 1px 1px rgba(0,0,0,.2);
 				text-decoration:none;
-				font-size:14px;
-				line-height:20px;
-				font-weight:700;
+				font-size: 18px;
+				line-height: 24px;
+				font-weight: 700;
 			}	
 		}
 	}
@@ -735,7 +773,7 @@
 		.container {
 			width: 100%;
 			@media screen and (min-width: $mqm){
-				width: 60%;
+				width: 70%;
 			}
 		}
 	}
@@ -959,10 +997,7 @@
 
 // Misc
 	.text-center {
-		text-align: left;
-		@media screen and (min-width: $mqm){
-			text-align: center;
-		}
+		text-align: center;
 	}
 	.industry-content-container {
 		@include transition;
@@ -991,6 +1026,9 @@
 			padding: 20px 0;
 			text-align: left;
 		}
+		@media screen and (min-width: $mql){
+			padding: 20px 0;
+		}
 	}
 	.slogan-large {
 		color: #fff;
@@ -1001,9 +1039,20 @@
 		line-height: 84px;
 		width: 100%;
 		@media screen and (min-width: $mqm){
-			color: #669DC9;
 			font-size: 32px;
 			line-height: 40px;
+		}
+		@media screen and (min-width: $mql){
+			color: #669DC9;
+			.sbtsvg {
+				width: 40px;
+				display: inline-block;
+				vertical-align: bottom;
+				margin-right: 3px;
+			}
+			.sbtsvg img {
+				width: 100%;
+			}
 		}
 	}
 	.slogan-small {
@@ -1011,7 +1060,7 @@
 		font-size: 18px;
 		line-height: 26px;
 		letter-spacing: .2em;
-		@media screen and (min-width: $mqm){
+		@media screen and (min-width: $mql){
 			color: #000F2E;
 		}
 	}
@@ -1178,7 +1227,7 @@
 
 // Loading Screen
 	.loading-screen {
-		z-index:1001;
+		z-index:100000000000;
 		// background: rgb(19,35,61); /* Old browsers */
 		// background: -moz-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%, rgba(10,24,47,1) 100%); /* FF3.6-15 */
 		// background: -webkit-radial-gradient(center, ellipse cover,  rgba(19,35,61,1) 0%,rgba(10,24,47,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -1281,6 +1330,7 @@
 	}
 
 	.dropdown {
+		list-style: none;
 		&.active {
 			display: block;
 		}
@@ -1361,6 +1411,7 @@
 		}
 	}
 	.desktop-dropdown {
+		list-style: none;
 		@media (min-width:$mqs) {
 			display: inline-block;
 			overflow: hidden;

@@ -11,7 +11,7 @@ $pageCanonical = 'http://www.siliconbeachtalent.com';
 include 'header.php'; ?>
 
 <div class="section medium-section text-center">
-	<p class="lead animated fadeInUp">I'm looking for</p>
+	<p class="lead animated fadeInUp">Find A</p>
 	<h1>Jobs</h1>
 	<p><img src="images/line.svg" class="fadeInDown animated arrow" alt=""></p>
 </div>

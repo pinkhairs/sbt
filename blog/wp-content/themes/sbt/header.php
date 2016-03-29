@@ -18,65 +18,85 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/foundation.css" type="text/css">
 	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/style.css" type="text/css">
+
+	<script src="https://use.typekit.net/jfs8zip.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<?php wp_head(); ?>
 </head>
 
-<body <?php if ($_COOKIE['preload'] != 1) echo 'class="loading-screen"'; ?> <?php body_class(); ?>>
-<div id="loading">
-
-</div>
-<div class="menu-container" id="menu">
-	<div class="row">
-		<div class="small-12 columns">
-			<p class="text-right menu-close-button desktop-only"><a href="#"><img src="http://madebyporter.com/clients/sbt/images/close-modal.svg" alt=""></a></p>
-			<a href="#" class="logo mobile-only" id="close-button">
-				<img src="http://madebyporter.com/clients/sbt/images/close.svg" alt="" class="close-title">
-				<span class="menu-label">Close</span>
-			</a>
-			<p class="lead midnight">I'm looking for</p>
-			<h2 class="menu-link-heading" id="menu-work-link"><a href="http://madebyporter.com/clients/sbt/work.php">Work</a></h2>
-			<h2 class="menu-link-heading" id="menu-work-link"><a href="http://madebyporter.com/clients/sbt/talent.php">Talent</a></h2>
-			<nav id="talent-links">
-				<ul class="menu-links">
-					<li><a href="http://madebyporter.com/clients/sbt/index.php">Home</a></li>
-					<li><a href="http://madebyporter.com/clients/sbt/contact.php">Contact Us</a></li>
-					<li><a href="http://madebyporter.com/clients/sbt/about.php">About Us</a></li>
-					<li><a href="http://madebyporter.com/clients/sbt/blog">Blog</a></li>
-					<li><a href="http://madebyporter.com/clients/sbt/jobs.php">Jobs</a></li>
-					<li><a href="#">Referrals</a></li>
-					<li><a href="#">Press</a></li>
-					<li><a href="#">Terms &amp; Privacy</a></li>
-				</ul>
-			</nav>
-			<div class="row">
-				<div class="small-12 columns">
-					<div class="section pt0">
-						<p class="lead">Follow us on</p>
-						<nav class="menu-social-links">
-							<ul class="flat-links">
-								<li><a href="https://twitter.com/loveyourworkca"><img src="http://madebyporter.com/clients/sbt/images/twitter_bluegrey.svg" alt="Twitter"></a></li>
-								<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://madebyporter.com/clients/sbt/images/facebook_bluegrey.svg" alt="Facebook"></a></li>
-								<li><a href="https://www.linkedin.com/company/6390835"><img src="http://madebyporter.com/clients/sbt/images/linkedin_bluegrey.svg" alt="LinkedIn"></a></li>
-								<!-- <li><a href="#"><img src="images/googleplus_bluegrey.svg" alt="Google+"></a></li> -->
-							</ul>
-						</nav>
+<body <?php body_class( 'loading-screen' ); ?>>
+<div class="hmenu-wrapper" id="menu">
+	<div class="hmenu-innerwrapper">
+		<div class="row">
+			<div class="small-12 large-4 large-offset-8 columns">
+				<div class="row">
+					<div class="small-12">
+						<div id="hmenu-close" class="hmenu-close-button">Close</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-12">
+						<ol class="hmenu-list">
+							<li class="hmenu-list-element hmenu-list-element-large">
+								<small class="hmenu-text-small">Find</small>
+								<a href="http://madebyporter.com/clients/sbt/work.php" class="hmenu-text-link">Work</a>
+							</li>
+							<li class="hmenu-list-element hmenu-list-element-large">
+								<small class="hmenu-text-small">Hire</small>
+								<a href="http://madebyporter.com/clients/sbt/talent.php" class="hmenu-text-link">Talent</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/http://madebyporter.com/clients/sbt/index.php" class="hmenu-text-link">Home</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/contactus" class="hmenu-text-link">Contact Us</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/about.php" class="hmenu-text-link">About Us</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/blog" class="hmenu-text-link">Blog</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/jobs.php" class="hmenu-text-link">Jobs</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/referrals.php" class="hmenu-text-link">Referrals</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/press.php" class="hmenu-text-link">Press</a>
+							</li>
+							<li class="hmenu-list-element">
+								<a href="http://madebyporter.com/clients/sbt/terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
+							</li>
+							<li class="hmenu-list-element hmenu-list-social">
+								<small class="hmenu-text-small">Follow Us On</small>
+								<ul class="social-links-list">
+									<li><a href="https://twitter.com/loveyourworkca"><img src="http://madebyporter.com/clients/sbt/images/twitter.svg" alt="Twitter"></a></li>
+									<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://madebyporter.com/clients/sbt/images/facebook.svg" alt="Facebook"></a></li>
+									<li><a href="https://www.linkedin.com/company/6390835"><img src="http://madebyporter.com/clients/sbt/images/linkedin.svg" alt="LinkedIn"></a></li>
+								</ul>
+							</li>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<header class="site-header">
-	<div class="row">
-		<div class="small-12 large-6 columns">
-			<a href="http://madebyporter.com/clients/sbt/index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
-				<img src="http://madebyporter.com/clients/sbt/images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
-			</a>
+
+<main class="site-wrap">
+	<div id="loading"></div>
+	<header class="site-header">
+		<div class="row">
+			<div class="small-12 large-6 columns">
+				<a href="index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
+					<img src="http://madebyporter.com/clients/sbt/images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
+				</a>
+			</div>
+			<div class="small-12 large-6 columns">
+					<div class="menu-trigger" id="menu-button"><span class="menu-label">Menu</span></div>
+			</div>
 		</div>
-		<div class="small-12 large-6 columns">
-				<a href="#" id="menu-button"><span class="menu-label">Menu</span></a>
-			</a>
-		</div>
-	</div>
-</header>
-<div class="wrap">
+	</header>
+
+	<div class="wrap">

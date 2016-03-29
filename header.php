@@ -74,6 +74,14 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 							<li class="hmenu-list-element">
 								<a href="terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
 							</li>
+							<li class="hmenu-list-element hmenu-list-social">
+								<small class="hmenu-text-small">Follow Us On</small>
+								<ul class="social-links-list">
+									<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter.svg" alt="Twitter"></a></li>
+									<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
+									<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
+								</ul>
+							</li>
 					</div>
 				</div>
 			</div>

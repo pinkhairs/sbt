@@ -455,9 +455,10 @@
       opacity: 0;
       visibility: hidden;
       z-index: -1;
+      @include transition($delay: 600);
       &.active {
         display: block;
-        @include transition;
+        @include transition($delay: 600);
         height: auto;
         opacity: 1;
         padding: 40px 0;

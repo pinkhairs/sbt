@@ -10,10 +10,10 @@ global.main = {
     this.workTalentJS();
     this.contactFormAJAX();
     this.formSubmit();
-    this.blogFilterSort();
     this.jobsIframe();
     this.aboutBios();
     this.modalJS();
+    this.blogFilterSort();
     // this.jobFilterWaypoints();
   },
 
@@ -43,6 +43,13 @@ global.main = {
 
       // Add active class on clicked modal slide
       $('#' + trigID).addClass('active');
+
+      // Scroll To...
+      $('html, body').animate({
+        scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top
+      }, 600);
+      
+      return false;
 
     }).on('click', '.mobile-modal-close', function(){
       var $html = $('html'), $modal = $('.mobile-modal'), $page = $('.mobile-modal-content'), $trig = $('.mobile-modal-trigger');
@@ -80,6 +87,7 @@ global.main = {
           }
         },
         onMixLoad: function(state){
+          $('.dropdown-ele').removeClass('active');
           $('.dropdown  > .dropdown-ele:first-child').addClass('active');
         }
       },

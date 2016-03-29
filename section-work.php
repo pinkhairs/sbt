@@ -1,5 +1,5 @@
 	<div class="row">
-		<div class="small-12 large-8 large-centered columns">
+		<div class="small-12 medium-8 medium-offset-2 large-centered columns">
 			<div class="section pt0 large-text large-text-center">
 				<h2>You know you're in demand.</h2>
 				<p>You almost can't use LinkedIn anymore because you're bombarded by template recruiter messages.  Your Facebook and Twitter feeds are full of ads for anonymous job matching services, but salary focused job matching and volume based recruiting agencies all seem to miss the most important point:</p>
@@ -92,7 +92,7 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current design openings</a>
-							<a href="/contact" class="button">Learn more about SBTdesign</a>
+							<a href="contactus" class="button">Learn more about SBTdesign</a>
 						</div>
 					</div>
 				</div>
@@ -129,7 +129,7 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current electric vehicle openings</a>
-							<a href="/contact" class="button">Learn more about SBTev</a>
+							<a href="contactus" class="button">Learn more about SBTev</a>
 						</div>
 					</div>
 				</div>
@@ -166,7 +166,7 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current tech openings</a>
-							<a href="/contact" class="button">Learn more about SBTtech</a>
+							<a href="contactus" class="button">Learn more about SBTtech</a>
 						</div>
 					</div>
 				</div>
@@ -176,7 +176,7 @@
 
 	<!-- Bottom Area -->
 	<div class="section gradient-section large-work-bg">
-		<div class="row full-width-row">
+		<div class="row collapse full-width-row">
 			<div class="small-12 large-6 large-offset-6 columns">
 				<div class="work-bg-content">
 					<div class="container large-text">
@@ -190,7 +190,7 @@
 						<p>In the end, our goal is simple:</p>
 
 						<div class="section pb0 slogan">
-							<span class="slogan-large">Love Your Work</span>
+							<span class="slogan-large">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>ve Your Work</span>
 							<span class="slogan-small">We can help</span>
 						</div>
 					</div>

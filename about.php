@@ -68,10 +68,9 @@ include 'header.php'; ?>
 							<p>There is a lot of noise in the job market with the rise of anonymous job matching sites, but they are all missing the point.  You want the whole picture, not just a quick description and a salary estimate.  That's why we spend time onsite with all our partners. We understand every client’s mission and culture, so we know when it resonates with your career objectives. </p>
 				 
 							<p>In the end, our goal is simple: </p>
-							<div class="section small-text-center pb0 small-love">
-								<h2 class="blue-slogan"><span class="highlight">
-					        L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>VE</span> YOUR WORK</h2>
-								<p class="lead">We can help</p>
+							<div class="section pb0 slogan">
+								<span class="slogan-large">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>ve Your Work</span>
+								<span class="slogan-small">We can help</span>
 							</div>
 						</div>
 					</div>

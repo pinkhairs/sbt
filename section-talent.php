@@ -87,8 +87,8 @@
 		</div>
 
 		<!-- Service Content -->
-		<div class="section white-section service-content mobile-modal desktop-accordion">
-			<div id="fullengagement" class="service-content-page mobile-modal-content desktop-accordion-content">
+		<div class="section white-section service-content mobile-modal">
+			<div id="fullengagement" class="service-content-page mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
@@ -107,7 +107,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="executivesearch" class="service-content-page mobile-modal-content desktop-accordion-content">
+			<div id="executivesearch" class="service-content-page mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="startupworkshop" class="service-content-page mobile-modal-content desktop-accordion-content">
+			<div id="startupworkshop" class="service-content-page mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
@@ -145,7 +145,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="noneoftheabove" class="service-content-page mobile-modal-content desktop-accordion-content">
+			<div id="noneoftheabove" class="service-content-page mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
@@ -216,8 +216,8 @@
 		</div>
 
 		<!-- Industry Content -->
-		<div class="section white-section industry-content-container mobile-modal desktop-accordion">
-			<div id="design-industry" class="mobile-modal-content desktop-accordion-content">
+		<div class="section white-section industry-content-container mobile-modal">
+			<div id="design-industry" class="mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 large-8 large-offset-2 columns">
@@ -249,12 +249,12 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current design openings</a>
-							<a href="/contact" class="button">Learn more about SBTdesign</a>
+							<a href="contactus" class="button">Learn more about SBTdesign</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div id="ev-industry" class="mobile-modal-content desktop-accordion-content">
+			<div id="ev-industry" class="mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 large-8 large-offset-2 columns">
@@ -286,12 +286,12 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current electric vehicle openings</a>
-							<a href="/contact" class="button">Learn more about SBTev</a>
+							<a href="contactus" class="button">Learn more about SBTev</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div id="tech-industry" class="mobile-modal-content desktop-accordion-content">
+			<div id="tech-industry" class="mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 large-8 large-offset-2 columns">
@@ -323,7 +323,7 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current tech openings</a>
-							<a href="/contact" class="button">Learn more about SBTtech</a>
+							<a href="contactus" class="button">Learn more about SBTtech</a>
 						</div>
 					</div>
 				</div>
@@ -343,7 +343,7 @@
 						<p>In the end, our goal is simple:</p>
 
 						<div class="section pb0 slogan">
-							<span class="slogan-large">Love Your Team</span>
+							<span class="slogan-large">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>ve Your Work</span>
 							<span class="slogan-small">We can help</span>
 						</div>
 					</div>

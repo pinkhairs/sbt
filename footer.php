@@ -19,7 +19,7 @@
 			</div>
 			<div class="small-12 large-4 large-text-left columns">
 				<span class="colophon">Silicon Beach Talent <?php echo date('Y'); ?><br>
-				<a href="terms.php">Terms &amp; Conditions</a></span>
+				<a href="terms.php">Privacy &amp; Terms</a></span>
 			</div>
 		</div>
 	</footer>
