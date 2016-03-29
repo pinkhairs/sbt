@@ -45,10 +45,11 @@ global.main = {
       $('#' + trigID).addClass('active');
 
     }).on('click', '.mobile-modal-close', function(){
-      var $html = $('html'), $modal = $('.mobile-modal'), $page = $('.mobile-modal-content');
+      var $html = $('html'), $modal = $('.mobile-modal'), $page = $('.mobile-modal-content'), $trig = $('.mobile-modal-trigger');
       $html.removeClass('modal-active');
       $modal.removeClass('active');
       $page.removeClass('active');
+      $trig.removeClass('active');
     });
   },
   jobsIframe: function () {
