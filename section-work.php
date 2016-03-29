@@ -18,7 +18,7 @@
 
 				<div class="small-12 columns">
 					<div class="section large-text-center">
-						<h3>Through our three specialized divisions:</h3>
+						<h3 style="text-align: center !important;">Through our three specialized divisions:</h3>
 					</div>
 				</div>
 
@@ -59,8 +59,8 @@
 		</div>
 
 		<!-- Industry Content -->
-		<div class="section white-section industry-content-container mobile-modal desktop-accordion">
-			<div id="design-industry" class="mobile-modal-content desktop-accordion-content">
+		<div class="section white-section industry-content-container mobile-modal">
+			<div id="design-industry" class="mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 large-8 large-offset-2 columns">
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="ev-industry" class="mobile-modal-content desktop-accordion-content">
+			<div id="ev-industry" class="mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 large-8 large-offset-2 columns">
@@ -134,7 +134,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="tech-industry" class="mobile-modal-content desktop-accordion-content">
+			<div id="tech-industry" class="mobile-modal-content">
 				<div class="section">
 					<div class="row">
 						<div class="small-12 large-8 large-offset-2 columns">
@@ -174,8 +174,9 @@
 		</div>
 	</div>
 
+	<!-- Bottom Area -->
 	<div class="section gradient-section large-work-bg">
-		<div class="row collapse full-width-row">
+		<div class="row full-width-row">
 			<div class="small-12 large-6 large-offset-6 columns">
 				<div class="work-bg-content">
 					<div class="container large-text">

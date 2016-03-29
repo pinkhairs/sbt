@@ -45,39 +45,39 @@
 					<div class="section pt0 large-text-center">
 						<div class="row">
 							<div class="small-12 medium-6 large-3 columns">
-								<div class="card card-rounded">
+								<div data-trigger="fullengagement" class="card card-rounded mobile-modal-trigger">
 									<div class="card-content">
 										<span class="lead">Full Engagement</span>
 										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 									</div>
-									<span data-trigger="fullengagement" class="open-text mobile-modal-trigger">Open</span>
+									<span class="open-text"></span>
 								</div>
 							</div>
 							<div class="small-12 medium-6 large-3 columns">
-								<div class="card card-rounded">
+								<div data-trigger="executivesearch" class="card card-rounded mobile-modal-trigger">
 									<div class="card-content">
 										<span class="lead">Executive Search</span>
 										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 									</div>
-									<span data-trigger="executivesearch" class="open-text mobile-modal-trigger">Open</span>
+									<span class="open-text"></span>
 								</div>
 							</div>
 							<div class="small-12 medium-6 large-3 columns">
-								<div class="card card-rounded">
+								<div data-trigger="startupworkshop" class="card card-rounded mobile-modal-trigger">
 									<div class="card-content">
 										<span class="lead">Start-up Workshop</span>
 										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 									</div>
-									<span data-trigger="startupworkshop" class="open-text mobile-modal-trigger">Open</span>
+									<span class="open-text"></span>
 								</div>
 							</div>
 							<div class="small-12 medium-6 large-3 columns">
-								<div class="card card-rounded">
+								<div data-trigger="noneoftheabove" class="card card-rounded mobile-modal-trigger">
 									<div class="card-content">
 										<span class="lead">None of the Above?</span>
 										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>	
 									</div>
-									<span data-trigger="noneoftheabove" class="open-text mobile-modal-trigger">Open</span>
+									<span class="open-text"></span>
 								</div>
 							</div>
 						</div>

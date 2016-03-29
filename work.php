@@ -26,7 +26,5 @@ include 'header.php'; ?>
 		</div>
 	</div>
 </div>
-<div id="section-work-talent-content">
-	
-</div>
+<div id="section-work-talent-content"></div>
 <?php include 'footer.php'; ?>

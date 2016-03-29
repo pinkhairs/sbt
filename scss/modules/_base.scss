@@ -2,6 +2,8 @@
   
   html {
     min-height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     &.menu-active {
       overflow: hidden;
     }
@@ -424,6 +426,7 @@
 
 // Mobile Modal
   .mobile-modal {
+    display: none;
     padding: 0;
     @include transition;
     @media (max-width:$mql) {
@@ -437,8 +440,9 @@
       top: 0;
       visibility: hidden;
       width: 100%;
-      z-index: -1;
+      z-index: 1;
       &.active {
+        display: block;
         @include transition;
         opacity: 1;
         visibility: visible;
@@ -450,12 +454,15 @@
       overflow: hidden;
       opacity: 0;
       visibility: hidden;
+      z-index: -1;
       &.active {
+        display: block;
         @include transition;
         height: auto;
         opacity: 1;
         padding: 40px 0;
         visibility: visible;
+        z-index: 1000000;
       }
     }
   }
@@ -468,5 +475,19 @@
       opacity: 1;
       position: relative;
       visibility: visible;
+    }
+  }
+  .mobile-modal-trigger {
+    .open-text {
+      &:after {
+        content:"Open";
+      }
+    }
+    &.active {
+      .open-text{
+        &:after {
+          content:"Close";
+        }
+      }
     }
   }

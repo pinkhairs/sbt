@@ -43,6 +43,7 @@ global.main = {
 
       // Add active class on clicked modal slide
       $('#' + trigID).addClass('active');
+
     }).on('click', '.mobile-modal-close', function(){
       var $html = $('html'), $modal = $('.mobile-modal'), $page = $('.mobile-modal-content');
       $html.removeClass('modal-active');
@@ -116,47 +117,6 @@ global.main = {
         });
       }
     });
-
-    // doc.on('click', '.industry-trigger', function() {
-    //   // Grab ID from Card
-    //   var trigID = $(this).attr('data-trigger');
-
-    //   // Add active class to clicked card
-    //   $('.industry-trigger').removeClass('active');
-    //   $(this).addClass('active');
-
-    //   // Animate/Load Desktop Card Design
-    //   if (window.matchMedia('only screen and (max-width: 960px)').matches) {
-    //     setTimeout(
-    //       function() {
-    //         $('.industry-content-container').removeClass('closed');
-    //       }, 100
-    //     );
-    //     setTimeout(
-    //       function() {
-    //         $( "#industry-content" ).hide().load( "section-"+trigID+"-content.php" ).fadeIn(600);
-    //       }, 300
-    //     );
-    //   } else {
-    //     setTimeout(
-    //       function() {
-    //         $('.industry-content-container').removeClass('closed');
-    //       }, 100
-    //     );
-    //     setTimeout(
-    //       function() {
-    //         $( "#industry-content" ).hide().load( "section-"+trigID+"-content.php" ).fadeIn(600);
-    //       }, 300
-    //     );
-    //   }
-    //   return false;
-    // });
-
-    // doc.on('click', '.color-card .close-button', function() {
-    //   $('.industry-trigger').removeClass('active');
-    //   $('.industry-content-container').addClass('closed');
-    //   return false;
-    // });
 
     // Work Talent Switch
     $('#section-work-talent-content').load('section-work.php');
