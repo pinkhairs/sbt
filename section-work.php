@@ -5,7 +5,9 @@
 				<p>You almost can't use LinkedIn anymore because you're bombarded by template recruiter messages.  Your Facebook and Twitter feeds are full of ads for anonymous job matching services, but salary focused job matching and volume based recruiting agencies all seem to miss the most important point:</p>
 
 				<h2>It's about the work. </h2>
-				<p>Perks and bonuses are important, but we understand that what really makes an opportunity great is the work you get to do and the impact you get to make.  Believe it or not, it's the same for recruiters, there's only one problem: Today's engineers and developers don't need a traditional recruiter; they need an agent.</p>
+				<p>Perks and bonuses are important, but we understand that what really makes an opportunity great is the work you get to do and the impact you get to make.  Believe it or not, it's the same for recruiters, there's only one problem:  Today's engineers and developers don't  need a traditional recruiter; they need an agent.</p>
+
+				<p>That's where we come in.  We specialize in representing exceptional designers, engineers, and developers and connecting them with opportunities we know they'll love.  We focus primarily in three areas:</p>
 			</div>
 		</div>
 	</div>
