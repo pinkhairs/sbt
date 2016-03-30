@@ -80,7 +80,7 @@ include 'header.php'; ?>
     </video>
   </div>
 </div>
-<div class="xl-section dark-section home-dark-section map-section large-text">
+<div class="section dark-section home-dark-section map-section large-text">
 	<div class="row">
 		<div class="small-12 medium-8 large-4 large-end columns">
 			<h2 class="tight-leading"><span class="lead">Made for</span>California</h2>

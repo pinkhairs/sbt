@@ -9,7 +9,7 @@ global.main = {
     this.navMenu();
     this.workTalentJS();
     this.contactFormAJAX();
-    this.formSubmit();
+    // this.formSubmit();
     this.jobsIframe();
     this.aboutBios();
     this.modalJS();
@@ -101,9 +101,13 @@ global.main = {
       if (menu.hasClass('menu-container-expanded')){
         menu.removeClass('menu-container-expanded');
         wrap.removeClass('menu-active');
+        setTimeout(function(){
+          menu.css('z-index','1');
+        }, 1000);
       }
       else {
         menu.addClass('menu-container-expanded');
+        menu.css('z-index','1000000');
         wrap.addClass('menu-active');
       }
     });

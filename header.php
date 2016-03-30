@@ -91,13 +91,13 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 	<div id="loading"></div>
 	<header class="site-header">
 		<div class="row">
-			<div class="small-12 large-6 columns">
+			<div class="small-4 small-offset-4 medium-6 medium-offset-0 columns end">
 				<a href="index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
 					<img src="images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
 				</a>
 			</div>
-			<div class="small-12 large-6 columns">
-					<div class="menu-trigger" id="menu-button"><span class="menu-label"><span class="text">Menu</span></span></div>
+			<div class="small-4 small-offset-4 medium-6 medium-offset-0 columns end">
+					<div class="menu-trigger" id="menu-button">Menu</div>
 			</div>
 		</div>
 	</header>
