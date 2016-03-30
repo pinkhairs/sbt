@@ -38,15 +38,15 @@ get_header(); ?>
 			<div class="section pt0 large-pt">
 					
 				<div class="large-text-center">
-					<label class="large-text">Reason for Contact</label>
+					<h2>Reason for Contact</h2>
 						<ul class="contact-select">
               <li class="contact-select-ele active">
                 <input value="work" type="radio" name="dropdown_eg" id="contact-select-work">
-                <label for="contact-select-work">I'm Looking for Work</label>
+                <label for="contact-select-work">I'm Looking to Find Work</label>
               </li>
               <li class="contact-select-ele">
                 <input type="radio" value="talent" name="dropdown_eg" id="contact-select-talent">
-                <label for="contact-select-talent">I'm Looking for Talent</label>
+                <label for="contact-select-talent">I'm Looking to Hire Talent</label>
               </li>
               <li class="contact-select-ele">
                 <input type="radio" value="general" name="dropdown_eg" id="contact-select-general">

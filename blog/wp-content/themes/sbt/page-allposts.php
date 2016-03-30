@@ -13,9 +13,9 @@ Template Name: All posts
     <div class="row">
       <div class="small-12 columns">
         <div class="section medium-section text-center">
-          <h1>Blog</h1>
+          <h1>Press &amp; Publications</h1>
           <p class="lead mt0">Silicon Beach Talent</p>
-          <p><img src="http://localhost:8888/sbt/images/line.svg" alt=""></p>
+          <p><img src="http://madebyporter.com/clients/sbt/images/line.svg" alt=""></p>
         </div>
       </div>
     </div>

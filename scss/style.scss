@@ -103,11 +103,6 @@
 
 // Menu
 	.hmenu-wrapper {
-		background-image: -webkit-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
-		background-image: -moz-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
-		background-image: -o-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
-		background-image: linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
-		background-color: rgba(233, 236, 240, 0.8);
 		height: 100%;
 		position: fixed;
 		text-align: center;
@@ -116,19 +111,45 @@
 		@include transition;
 		@include translate(0%,-150%);
 		@media (min-width:$mqm) {
+			right: 0;
 			text-align: right;
+			width: 100%;
 			@include translate(100%,0%);
 		}
 		&.menu-active {
 			@include translate(0%,0%);
 		}
+		&:after {
+			content: "";
+			background: rgba(0, 15, 46, 0.5);
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 1;
+		}
 	}
 	.hmenu-innerwrapper {
+		background-image: -webkit-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-image: -moz-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-image: -o-linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-image: linear-gradient(0deg, rgba(233,236,240,0.80) 0%, #E9ECF0 100%);
+		background-color: rgba(233, 236, 240, 0.8);
 		height: 100%;
 		overflow: scroll;
 		-webkit-overflow-scrolling: touch;
-		padding: 40px;
+		padding: 20px;
 		width: 100%;
+		position: absolute;
+		right: 0;
+		z-index: 10;
+		@media (min-width:$mqm) {
+			padding: 40px 40px 40px 0;
+			width: 30%;
+		}
 	}
 	.hmenu-close-button {
 		background: url('../images/icon-btn-close.svg') no-repeat;
@@ -299,6 +320,9 @@
 		text-indent: 6px;
 		text-transform: uppercase;
 		width: 80px;
+		.text {
+			font-family: 'brandon-grotesque', helvetica, arial, sans-serif;
+		}
 	}
 	.menu-social-links {
 		margin: 10px 0;
@@ -511,7 +535,7 @@
 	  display: none;
 	  height: auto;
 	  width: 100%;
-	  top: 0;
+	  top: -50px;
 	  left: 0;
 	  position: absolute;
 	  right: 0;
@@ -524,6 +548,14 @@
 	  video {
 	    width: 100%;
 	  }
+	}
+
+	.hero-arrow {
+		bottom: 150px;
+		opacity: 0.5;
+		position: absolute;
+		@include horizontal-center;
+		z-index: 100000000;
 	}
 
 // Footer

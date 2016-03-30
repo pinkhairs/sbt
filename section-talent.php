@@ -1,37 +1,44 @@
 	<div class="row">
 		<div class="small-12 large-8 large-centered columns">
-			<div class="section pt0 large-text large-text-center">
+			<div class="section pt0 pb0 large-text large-text-center">
 				<h2>We believe three things passionately:</h2>
 			</div>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="small-12 large-4 text-center columns">
+		<div class="small-12 large-8 large-offset-2 text-center columns">
 			<div class="section pt0">
 				<br />
 				<h3>Love your work.</h3>
-				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies.</p>
+				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies. We believe three things passionately:</p>
 			</div>
 		</div>
+	</div>
+	<div class="row">
 		<div class="small-12 large-4 text-center columns">
-			<div class="section pt0">
-				<h3>The world is a better place when people love what they do.</h3>
-				<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density. Being socially responsible and building a sustainable ecosystem for the future is a moral imperative.</p>
-			</div>
+			<p>The world is a better place when people love what they do.</p>
 		</div>
 		<div class="small-12 large-4 text-center columns">
+			<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density.</p>
+		</div>
+		<div class="small-12 large-4 text-center columns">
+			<p>Being socially responsible and building a sustainable ecosystem  for the future is a moral imperative.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 large-8 large-offset-2 text-center columns">
 			<div class="section pt0">
 				<br />
 				<h3>We’re different.</h3>
-				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot.  We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it. </p>
+				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot.  We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it.</p>
 			</div>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 text-center columns">
-			<div class="section pt0 large-text large-text-center">
+			<div class="section pt0 large-text large-text-center" style="padding-bottom: 10px">
 				<h3>Our service offerings include:</h3>
 			</div>
 		</div>
@@ -42,7 +49,7 @@
 		<div class="service-tabs">
 			<div class="row">
 				<div class="small-12 columns">
-					<div class="section pt0 large-text-center">
+					<div class="section pt0 pb0 large-text-center">
 						<div class="row">
 							<div class="small-12 medium-6 large-3 columns">
 								<div data-trigger="fullengagement" class="card card-rounded mobile-modal-trigger">
@@ -174,7 +181,7 @@
 			<div class="row small-collapse large-uncollapse">
 
 				<div class="small-12 columns">
-					<div class="section large-text-center">
+					<div class="section pb0 large-text-center">
 						<h3>Through our three specialized divisions:</h3>
 					</div>
 				</div>
@@ -186,7 +193,7 @@
 								<div class="card">
 									<h2>
 										SBT<span class="lowercase">design</span>
-										<span class="lead">Industry</span>
+										<span class="lead">Creative &amp; Design</span>
 									</h2>
 									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 								</div>
@@ -195,7 +202,7 @@
 								<div class="card">
 									<h2>
 										SBT<span class="lowercase">EV</span>
-										<span class="lead">Industry</span>
+										<span class="lead">Electric Vehicle</span>
 									</h2>
 									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 								</div>
@@ -204,7 +211,7 @@
 								<div class="card">
 									<h2>
 										SBT<span class="lowercase">tech</span>
-										<span class="lead">Industry</span>
+										<span class="lead">Engineering &amp; Tech</span>
 									</h2>
 									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 								</div>

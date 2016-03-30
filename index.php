@@ -11,6 +11,21 @@ $pageCanonical = 'http://www.siliconbeachtalent.com';
 include 'header.php'; ?>
 
 <div class="interactive-hero">
+  <div class="hero-arrow">
+    <svg width="30px" height="44px" viewBox="0 0 30 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+        <title>Line</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Round-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+            <g id="sbt-work-mobile" sketch:type="MSArtboardGroup" transform="translate(-172.000000, -237.000000)" fill="#fff">
+                <g id="Oval-1-+-Line-Copy" sketch:type="MSLayerGroup" transform="translate(163.000000, 225.000000)">
+                    <path d="M23.5256544,52.2492474 C23.5256544,52.5906582 23.8018611,52.8674263 24.1425794,52.8674263 C24.4832976,52.8674263 24.7595043,52.5906582 24.7595043,52.2492474 L24.7595043,13.097919 C24.7595043,12.7565082 24.4832976,12.4797401 24.1425794,12.4797401 C23.8018611,12.4797401 23.5256544,12.7565082 23.5256544,13.097919 L23.5256544,52.2492474 Z M37.7072088,42.0978483 L26.0262658,54.2930745 C25.7903363,54.5393915 25.7983519,54.9307183 26.0441692,55.1671274 C26.2899866,55.4035365 26.6805196,55.3955046 26.9164491,55.1491876 L38.5973921,42.9539614 C38.8333217,42.7076445 38.8253061,42.3163177 38.5794887,42.0799086 C38.3336714,41.8434995 37.9431384,41.8515314 37.7072088,42.0978483 Z M10.57795,42.0978483 L22.258893,54.2930745 C22.4948225,54.5393915 22.4868069,54.9307183 22.2409896,55.1671274 C21.9951722,55.4035365 21.6046392,55.3955046 21.3687096,55.1491876 L9.68776666,42.9539614 C9.4518371,42.7076445 9.45985272,42.3163177 9.70567005,42.0799086 C9.95148739,41.8434995 10.3420204,41.8515314 10.57795,42.0978483 Z" id="Line" sketch:type="MSShapeGroup"></path>
+                </g>
+            </g>
+        </g>
+    </svg>
+  </div>
   <div class="text-layer">
     <div class="text-layer-left text-col">
       <div class="text-container">
@@ -40,7 +55,7 @@ include 'header.php'; ?>
           HIRE TALENT
         </div>
         <h2 class="text-header">
-          Partner with SBT to Build Your <strong>Dream Team</strong>
+          Build Your <br /><strong>Dream Team</strong>
         </h2>
         <a class="button" href="talent.php">Hire Talent</a>
         <ul class="sub-paths">
@@ -78,7 +93,7 @@ include 'header.php'; ?>
 		</div>
 	</div>
 </div>
-<div class="xxl-section pattern-section large-text">
+<div class="xl-section pattern-section large-text">
 	<div class="row">
 		<div class="small-12 large-6 large-centered text-center columns">
 			<h2 class="home-slogan"><span class="highlight">

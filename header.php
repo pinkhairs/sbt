@@ -33,7 +33,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 <div class="hmenu-wrapper" id="menu">
 	<div class="hmenu-innerwrapper">
 		<div class="row">
-			<div class="small-12 large-4 large-offset-8 columns">
+			<div class="small-12 columns">
 				<div class="row">
 					<div class="small-12">
 						<div id="hmenu-close" class="hmenu-close-button">Close</div>
@@ -60,16 +60,13 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 								<a href="about.php" class="hmenu-text-link">About Us</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="blog" class="hmenu-text-link">Blog</a>
+								<a href="blog" class="hmenu-text-link">Press &amp; Publications</a>
 							</li>
 							<li class="hmenu-list-element">
 								<a href="jobs.php" class="hmenu-text-link">Jobs</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="referrals.php" class="hmenu-text-link">Referrals</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="press.php" class="hmenu-text-link">Press</a>
+								<a href="referrals.php" class="hmenu-text-link">Referral Program</a>
 							</li>
 							<li class="hmenu-list-element">
 								<a href="terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
@@ -82,6 +79,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 									<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
 								</ul>
 							</li>
+						</ol>
 					</div>
 				</div>
 			</div>
@@ -99,7 +97,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 				</a>
 			</div>
 			<div class="small-12 large-6 columns">
-					<div class="menu-trigger" id="menu-button"><span class="menu-label">Menu</span></div>
+					<div class="menu-trigger" id="menu-button"><span class="menu-label"><span class="text">Menu</span></span></div>
 			</div>
 		</div>
 	</header>

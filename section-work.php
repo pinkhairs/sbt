@@ -29,7 +29,7 @@
 								<div class="card">
 									<h2>
 										SBT<span class="lowercase">design</span>
-										<span class="lead">Industry</span>
+										<span class="lead">Creative &amp; Design</span>
 									</h2>
 									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 								</div>
@@ -38,7 +38,7 @@
 								<div class="card">
 									<h2>
 										SBT<span class="lowercase">EV</span>
-										<span class="lead">Industry</span>
+										<span class="lead">Electric Vehicle</span>
 									</h2>
 									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 								</div>
@@ -47,7 +47,7 @@
 								<div class="card">
 									<h2>
 										SBT<span class="lowercase">tech</span>
-										<span class="lead">Industry</span>
+										<span class="lead">Engineering &amp; Tech</span>
 									</h2>
 									<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
 								</div>
@@ -92,7 +92,7 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current design openings</a>
-							<a href="contactus" class="button">Learn more about SBTdesign</a>
+							<a href="contactus" class="button">Learn more about SBT<span class="lowercase">design</span></a>
 						</div>
 					</div>
 				</div>

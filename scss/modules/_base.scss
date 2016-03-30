@@ -202,6 +202,9 @@
     &+ .button {
       margin-left: 10px;
     }
+    .lowercase {
+      text-transfrom: lowercase;
+    }
   }
   a.button-dark {
     background: $azure;
@@ -461,7 +464,7 @@
         @include transition($delay: 600);
         height: auto;
         opacity: 1;
-        padding: 40px 0;
+        padding: 20px 0;
         visibility: visible;
         z-index: 1000000;
       }

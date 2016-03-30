@@ -22,7 +22,7 @@ get_header(); ?>
 			<div class="row">
 			 	<div class="small-12 columns">
 					<div class="section medium-section text-center">
-						<h1>Blog</h1>
+						<h1>Press &amp; Publications</h1>
 						<p class="lead mt0">Silicon Beach Talent</p>
 						<p><img src="http://madebyporter.com/sbt/images/line.svg" alt=""></p>
 					</div>

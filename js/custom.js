@@ -46,7 +46,7 @@ global.main = {
 
       // Scroll To...
       $('html, body').animate({
-        scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top
+        scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top - 350
       }, 600);
       
       return false;
