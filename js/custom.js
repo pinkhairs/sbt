@@ -9,11 +9,12 @@ global.main = {
     this.navMenu();
     this.workTalentJS();
     this.contactFormAJAX();
-    // this.formSubmit();
     this.jobsIframe();
     this.aboutBios();
     this.modalJS();
     this.blogFilterSort();
+
+    // this.formSubmit();
     // this.jobFilterWaypoints();
   },
 
@@ -279,8 +280,18 @@ global.main = {
     });
   },
   mastheadWaypoints: function () {
+
+    var body = document.body,
+        html = document.documentElement;
+
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                           html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+    var $hc = $('.header-catch');
+    $hc.css('top', height);
+
     function mhwp() {
-      var $things = $('.wrap > div:nth-child(2)');
+      var $things = $hc;
   
       $things.waypoint(function(direction) {
         setTimeout(
@@ -314,9 +325,7 @@ global.main = {
         offset: '-125%'
       });
     }
-    doc.on('load', function() {
-       mhwp();
-    });
+    mhwp();
   },
   aboutBios: function () {
     doc.on("click", ".about-bios-select-trigger", function(){

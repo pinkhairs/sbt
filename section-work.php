@@ -182,7 +182,7 @@
 			<div class="small-12 large-6 large-offset-6 columns">
 				<div class="work-bg-content">
 					<div class="container large-text">
-						<h2>We're not your typical recruiters.</h2>
+						<h2 class="text-left-desktop">We're not your typical recruiters.</h2>
 						<p>At Silicon Beach Talent, we're committed to building a sustainable, fun ecosystem for new technology in Southern California, and we only partner with companies that we'd want to work for ourselves.. </p>
 
 						<p>We focus on the intangibles that make you really connect with a company so we can talk to you about what really matters when considering a new position.   Our clients are fun, innovative companies with aggressive goals and even more aggressive visions.</p>

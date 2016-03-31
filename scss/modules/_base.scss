@@ -77,7 +77,7 @@
     color:$midnight;
     font-weight: 400;
     letter-spacing: .01em;
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
   }
 
   h1 {
@@ -95,43 +95,25 @@
   h2 {
     font-size: 32px;
     line-height: 40px;
-    // .lead + & {
-    //   margin-top:0;
-    // }
-    // .highlight {
-    //   color:$azure;
-    // }
-    // &.tight-leading {
-    //   line-height: 48px;
-    //   .lead {
-    //     display: inline-block;
-    //     text-indent: 3px;
-    //   }
-    // }
+    @extend .text-center-mobile;
+    @extend .text-center-desktop;
   }
 
   h3 {
     font-size: 24px;
     line-height: 32px;
+    @extend .text-center-desktop;
   }
 
   h4 {
     font-size: 18px;
     line-height: 26px;
-    // .site-footer & {
-    //   font-weight:400;
-    // }
-    // .gradient-section & {
-    //   color:$midnight;
-    // }
+    margin: 0 0 10px 0;
   }
 
   h5 {
     font-size: 14px;
     line-height: 22px;
-    // a {
-    //   color:$midnight;  
-    // }
   }
 
   label {
@@ -142,6 +124,28 @@
 
   strong {
     font-weight:500;
+  }
+
+  .text-center-mobile {
+
+      text-align: center;
+
+  }
+  .text-center-desktop {
+    @media (min-width:$mql) {
+      text-align: center;
+    }
+  }
+
+  .text-left-mobile {
+
+      text-align: left;
+
+  }
+  .text-left-desktop {
+    @media (min-width:$mql) {
+      text-align: left;
+    }
   }
 
   .large-text {

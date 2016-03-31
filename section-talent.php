@@ -1,33 +1,26 @@
 	<div class="row">
-		<div class="small-12 large-8 large-centered columns">
-			<div class="section pt0 pb0 large-text large-text-center">
+		<div class="small-12 large-8 large-offset-2 columns">
+			<div class="section pt0 pb0">
 				<h2>We believe three things passionately:</h2>
-			</div>
-		</div>
-	</div>
 
-	<div class="row">
-		<div class="small-12 large-8 large-offset-2 text-center columns">
-			<div class="section pt0">
-				<br />
 				<h3>Love your work.</h3>
 				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies. We believe three things passionately:</p>
 			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-12 large-4 text-center columns">
+		<div class="small-12 large-4 columns">
 			<p>The world is a better place when people love what they do.</p>
 		</div>
-		<div class="small-12 large-4 text-center columns">
+		<div class="small-12 large-4 columns">
 			<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density.</p>
 		</div>
-		<div class="small-12 large-4 text-center columns">
+		<div class="small-12 large-4 columns">
 			<p>Being socially responsible and building a sustainable ecosystem  for the future is a moral imperative.</p>
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-12 large-8 large-offset-2 text-center columns">
+		<div class="small-12 large-8 large-offset-2 columns">
 			<div class="section pt0">
 				<br />
 				<h3>We’re different.</h3>
@@ -37,9 +30,9 @@
 	</div>
 
 	<div class="row">
-		<div class="small-12 large-8 large-offset-2 text-center columns">
+		<div class="small-12 large-8 large-offset-2 columns">
 			<div class="section pt0 large-text large-text-center" style="padding-bottom: 10px">
-				<h3>Our service offerings include:</h3>
+				<h2>Our service offerings include:</h2>
 			</div>
 		</div>
 	</div>
@@ -181,8 +174,8 @@
 			<div class="row small-collapse large-uncollapse">
 
 				<div class="small-12 columns">
-					<div class="section pb0 large-text-center">
-						<h3>Through our three specialized divisions:</h3>
+					<div class="section pb0">
+						<h2>Through our three specialized divisions:</h2>
 					</div>
 				</div>
 
@@ -344,7 +337,7 @@
 			<div class="small-12 large-6 large-offset-6 columns">
 				<div class="work-bg-content">
 					<div class="container large-text">
-						<h2>Culture fit + Inspiring Work = A Big Impact</h2>
+						<h2 class="text-left-desktop">Culture fit + Inspiring Work = A Big Impact</h2>
 						<p>Our recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work.</p>
 
 						<p>In the end, our goal is simple:</p>

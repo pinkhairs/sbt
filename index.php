@@ -32,7 +32,7 @@ include 'header.php'; ?>
         <div class="sub-text">
           FIND WORK
         </div>
-        <h2 class="text-header">
+        <h2 class="text-header text-left-mobile">
           Find a Career <br />You <strong>Love</strong>
         </h2>
         <a class="button" href="work.php">Find Work</a>
@@ -54,7 +54,7 @@ include 'header.php'; ?>
         <div class="sub-text">
           HIRE TALENT
         </div>
-        <h2 class="text-header">
+        <h2 class="text-header text-left-mobile">
           Build Your <br /><strong>Dream Team</strong>
         </h2>
         <a class="button" href="talent.php">Hire Talent</a>
@@ -83,7 +83,7 @@ include 'header.php'; ?>
 <div class="section dark-section home-dark-section map-section large-text">
 	<div class="row">
 		<div class="small-12 medium-8 large-4 large-end columns">
-			<h2 class="tight-leading"><span class="lead">Made for</span>California</h2>
+			<h2 class="tight-leading text-left-mobile"><span class="lead">Made for</span>California</h2>
 			<p>We are a recruiting and consulting firm matching skills, company culture and personal connections while building a sustainable tech ecosystem in Southern California.</p>
 
 			<p>Perks and bonuses are important, but we understand that what truly makes an opportunity great is the work you do and the impact you make. </p>
