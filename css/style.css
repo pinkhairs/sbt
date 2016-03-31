@@ -104,6 +104,34 @@
     -webkit-transform: translate(0, 0%);
     transform: translate(0, 0%); } }
 
+@-webkit-keyframes arrowbounce {
+  from {
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+  to {
+    -moz-transform: translate(-50%, -20px);
+    -o-transform: translate(-50%, -20px);
+    -ms-transform: translate(-50%, -20px);
+    -webkit-transform: translate(-50%, -20px);
+    transform: translate(-50%, -20px); } }
+
+@keyframes arrowbounce {
+  from {
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+  to {
+    -moz-transform: translate(-50%, -20px);
+    -o-transform: translate(-50%, -20px);
+    -ms-transform: translate(-50%, -20px);
+    -webkit-transform: translate(-50%, -20px);
+    transform: translate(-50%, -20px); } }
+
 html {
   min-height: 100%;
   overflow-y: scroll;
@@ -1057,7 +1085,8 @@ a.btn {
   -ms-transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  z-index: 100000000; }
+  z-index: 100000000;
+  animation: arrowbounce 1000ms alternate infinite; }
   @media screen and (min-width: 64em) {
     .hero-arrow {
       display: block; } }
@@ -1646,6 +1675,39 @@ a.btn {
   width: 240px; }
   .card-rounded .open-text {
     bottom: 50px; }
+  .card-rounded:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
+  .card-rounded.active:before {
+    -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(-50%, 560%);
+    -o-transform: translate(-50%, 560%);
+    -ms-transform: translate(-50%, 560%);
+    -webkit-transform: translate(-50%, 560%);
+    transform: translate(-50%, 560%); }
 
 .card-content {
   left: 50%;

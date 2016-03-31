@@ -564,6 +564,7 @@
 		position: absolute;
 		@include horizontal-center;
 		z-index: 100000000;
+		animation: arrowbounce 1000ms alternate infinite;
 		@media screen and (min-width: $mql){
 			display: block;
 		}
@@ -806,9 +807,6 @@
 			@media screen and (min-width: $mqm){
 				display: none;
 			}
-		}
-		.industry-cards {
-			
 		}
 	}
 
@@ -1169,6 +1167,19 @@
 		width: 240px;
 		.open-text {
 			bottom: 50px;
+		}
+		&:before {
+			content:"";
+			position: absolute;
+			@include triangle-down;
+			@include absolute-center(-50%,-50%);
+			@include transition;
+		}
+		&.active {
+			&:before {
+				@include transition;
+				@include absolute-center(-50%,560%);
+			}
 		}
 	}
 	.card-content {

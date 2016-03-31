@@ -131,7 +131,7 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current electric vehicle openings</a>
-							<a href="contactus" class="button">Learn more about SBTev</a>
+							<a href="contactus" class="button">Learn more about SBT<span class="lowercase">ev</span></a>
 						</div>
 					</div>
 				</div>
@@ -168,7 +168,7 @@
 					<div class="row">
 						<div class="small-12 columns large-text-center">
 							<a href="jobs.php" class="button">View current tech openings</a>
-							<a href="contactus" class="button">Learn more about SBTtech</a>
+							<a href="contactus" class="button">Learn more about SBT<span class="lowercase">tech</span></a>
 						</div>
 					</div>
 				</div>

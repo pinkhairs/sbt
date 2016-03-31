@@ -123,3 +123,23 @@
     @include translate(0,0%);
   }
 }
+
+@-webkit-keyframes arrowbounce {
+  from {
+    @include translate(-50%,0);
+  }
+
+  to {
+    @include translate(-50%,-20px);
+  }
+}
+
+@keyframes arrowbounce {
+  from {
+    @include translate(-50%,0);
+  }
+
+  to {
+    @include translate(-50%,-20px);
+  }
+}
