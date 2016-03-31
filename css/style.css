@@ -1105,25 +1105,47 @@ a.btn {
     .site-footer {
       height: 171px; }
       .site-footer .columns {
-        height: 171px; } }
+        height: 171px;
+        padding: 0 40px; }
+        .site-footer .columns:first-child {
+          border-left: #669DC9 1px solid;
+          border-right: #669DC9 1px solid; }
+        .site-footer .columns:last-child {
+          border-left: #669DC9 1px solid;
+          border-right: #669DC9 1px solid; } }
+  .site-footer .site-footer-ele {
+    height: 100%;
+    position: relative;
+    width: 100%; }
+  .site-footer .site-footer-ele-inner {
+    min-height: 92px;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%); }
   .site-footer h4 {
     color: #B5CEE1; }
   .site-footer .text-center {
     text-align: center; }
   .site-footer .colophon {
     display: block;
-    margin-top: 40px;
     text-align: center; }
     @media screen and (min-width: 64em) {
       .site-footer .colophon {
         text-align: left; } }
     .site-footer .colophon a {
       color: #fff;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
       text-decoration: none;
       font-size: 18px;
       line-height: 24px;
-      font-weight: 700; }
+      font-weight: 400;
+      text-transform: uppercase;
+      top: -10px;
+      position: relative; }
 
 .flat-links li, .flat-links a {
   display: inline-block !important; }
@@ -2281,15 +2303,6 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
       line-height: 52px; }
     .menu-links li:last-child {
       background-position: bottom right; }
-  .site-footer .columns {
-    padding: 0 40px; }
-    .site-footer .columns:first-child {
-      border-left: #669DC9 1px solid;
-      border-right: #669DC9 1px solid; }
-    .site-footer .columns:last-child {
-      border-left: #669DC9 1px solid;
-      border-right: #669DC9 1px solid;
-      padding: 0 40px 70px; }
   .menu-active {
     overflow-y: scroll; }
   .social-links li {

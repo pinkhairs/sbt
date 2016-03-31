@@ -2,24 +2,37 @@
 	<footer class="site-footer">
 		<div class="row large-collapse">
 			<div class="small-12 large-4 columns">
-				<div class="medium-section large-pt color-section text-center large-text-left">
-					<h4>Ready to find your next great gig?</h4>
-					<a href="contact.php" class="button">Get started</a>
+				<div class="site-footer-ele color-section large-text-left">
+					<div class="site-footer-ele-inner">
+						<h4>Ready to find your next great gig?</h4>
+						<a href="contactus" class="button">Get started</a>
+					</div>
 				</div>
 			</div>
 			<div class="small-12 large-4 large-text-left columns">
-				<h4 class="desktop-only large-pt">Connect with us</h4>
-				<nav class="social-links">
-					<ul class="social-links-list">
-						<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter.svg" alt="Twitter"></a></li>
-						<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
-						<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
-					</ul>
-				</nav>
+				<div class="site-footer-ele color-section large-text-left">
+					<div class="site-footer-ele-inner">
+						<h4 class="desktop-only">Connect with us</h4>
+						<nav class="social-links">
+						<ul class="social-links-list">
+							<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter.svg" alt="Twitter"></a></li>
+							<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
+							<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
+						</ul>
+						</nav>
+					</div>
+				</div>
 			</div>
 			<div class="small-12 large-4 large-text-left columns">
-				<span class="colophon">Silicon Beach Talent <?php echo date('Y'); ?><br>
-				<a href="terms.php">Privacy &amp; Terms</a></span>
+				<div class="site-footer-ele color-section large-text-left">
+					<div class="site-footer-ele-inner">
+						<span class="colophon">
+							<h4>Silicon Beach Talent &copy;<?php echo date('Y'); ?></h4>
+							<a href="jobs.php">Jobs</a><br />
+							<a href="terms.php">Privacy &amp; Terms</a>
+						</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>

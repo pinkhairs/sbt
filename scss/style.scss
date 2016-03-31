@@ -585,9 +585,27 @@
 		  height: 171px;
 		  .columns {
 		  	height: 171px;
+		  	padding: 0 40px;
+		  	&:first-child {
+		  		border-left:$bluegrey 1px solid;
+		  		border-right:$bluegrey 1px solid;
+		  	}
+		  	&:last-child {
+		  		border-left:$bluegrey 1px solid;
+		  		border-right:$bluegrey 1px solid;
+		  	}
 		  }
 		}
-
+		.site-footer-ele {
+			height: 100%;
+			position: relative;
+			width: 100%;
+		}
+		.site-footer-ele-inner {
+			min-height: 92px;
+			width: 100%;
+			@include vertical-center;
+		}
 		h4 {
 			color: $lightsteelblue;
 		}
@@ -596,18 +614,19 @@
 		}
 		.colophon {
 			display: block;
-			margin-top: 40px;
 			text-align: center;
 			@media screen and (min-width: $mql){
 				text-align: left;
 			}
 			a {
 				color:#fff;
-				text-shadow:0 1px 1px rgba(0,0,0,.2);
 				text-decoration:none;
 				font-size: 18px;
 				line-height: 24px;
-				font-weight: 700;
+				font-weight: 400;
+				text-transform: uppercase;
+				top: -10px;
+				position: relative;
 			}	
 		}
 	}

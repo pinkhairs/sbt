@@ -69,9 +69,9 @@
 							<li class="hmenu-list-element hmenu-list-social">
 								<small class="hmenu-text-small">Follow Us On</small>
 								<ul class="social-links-list">
-									<li><a href="https://twitter.com/loveyourworkca"><img src="images/twitter.svg" alt="Twitter"></a></li>
-									<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
-									<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
+									<li><a href="https://twitter.com/loveyourworkca"><img src="http://www.madebyporter.com/clients/sbt/images/twitter.svg" alt="Twitter"></a></li>
+									<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://www.madebyporter.com/clients/sbt/images/facebook.svg" alt="Facebook"></a></li>
+									<li><a href="https://www.linkedin.com/company/6390835"><img src="http://www.madebyporter.com/clients/sbt/images/linkedin.svg" alt="LinkedIn"></a></li>
 								</ul>
 							</li>
 						</ol>
@@ -87,7 +87,7 @@
 	<header class="site-header">
 		<div class="row">
 			<div class="small-12 large-6 columns">
-				<a href="index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
+				<a href="http://www.madebyporter.com/clients/sbt/index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
 					<img src="http://madebyporter.com/clients/sbt/images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
 				</a>
 			</div>

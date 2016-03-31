@@ -15,7 +15,7 @@ Template Name: All posts
         <div class="section medium-section text-center">
           <h1>Blog</h1>
           <p class="lead mt0">Silicon Beach Talent</p>
-          <p><img src="http://localhost:8888/sbt/images/line.svg" alt=""></p>
+          <p><img src="http://www.madebyporter.com/clients/sbt/images/line.svg" alt=""></p>
         </div>
       </div>
     </div>
@@ -32,11 +32,6 @@ Template Name: All posts
                   <?php $category_ids = get_all_category_ids(); ?> 
                   <?php $args = array( 'orderby' => 'slug', 'parent' => 0 ); $categories = get_categories( $args ); foreach ( $categories as $category ) { echo '<li class="dropdown-ele filter" data-filter=".' . $category->slug . '"><span>' . $category->name . '</span></li>'; } 
                   ?>
-
-                  <!-- <li class="dropdown-ele filter" data-filter=".career"><span>Career</span></li>
-                  <li class="dropdown-ele filter" data-filter=".design"><span>Design</span></li>
-                  <li class="dropdown-ele filter" data-filter=".electric-vehicle"><span>Electric Vehicle</span></li>
-                  <li class="dropdown-ele filter" data-filter=".technology"><span>Technology</span></li> -->
                 </ul>
               </li>
             </ul>
