@@ -66,7 +66,7 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 								<a href="jobs.php" class="hmenu-text-link">Jobs</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="referrals.php" class="hmenu-text-link">Referral Program</a>
+								<a href="contactus/referrals" class="hmenu-text-link">Referral Program</a>
 							</li>
 							<li class="hmenu-list-element">
 								<a href="terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>

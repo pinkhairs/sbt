@@ -14,7 +14,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 	<meta charset="UTF-8">
-	<title>Silicon Beach Talent</title>
+	<title>Silicon Beach Talent | Blog</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/foundation.css" type="text/css">
 	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/style.css" type="text/css">
@@ -61,7 +61,7 @@
 								<a href="http://www.madebyporter.com/clients/sbt/jobs.php" class="hmenu-text-link">Jobs</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/referrals.php" class="hmenu-text-link">Referral Program</a>
+								<a href="http://www.madebyporter.com/clients/sbt/contactus/referrals" class="hmenu-text-link">Referral Program</a>
 							</li>
 							<li class="hmenu-list-element">
 								<a href="http://www.madebyporter.com/clients/sbt/terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
@@ -86,12 +86,12 @@
 	<div id="loading"></div>
 	<header class="site-header">
 		<div class="row">
-			<div class="small-12 large-6 columns">
+			<div class="small-12 medium-6 columns">
 				<a href="http://www.madebyporter.com/clients/sbt/index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
 					<img src="http://madebyporter.com/clients/sbt/images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
 				</a>
 			</div>
-			<div class="small-12 large-6 columns">
+			<div class="small-12 medium-6 columns">
 					<div class="menu-trigger" id="menu-button"><span class="menu-label">Menu</span></div>
 			</div>
 		</div>

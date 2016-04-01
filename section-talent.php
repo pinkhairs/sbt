@@ -1,168 +1,30 @@
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 columns">
-			<div class="section pt0 pb0">
-				<h2>We believe three things passionately:</h2>
-
-				<h3>Love your work.</h3>
-				<p>This concept is at the core everything we do at Silicon Beach Talent.  We are a boutique recruiting and consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies. We believe three things passionately:</p>
+			<div class="section text-center-desktop large-text">
+				<h2>Love your work.</h2>
+				<p>This concept is at the core of everything we do at Silicon Beach Talent. We are a boutique recruiting and HR consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies. We believe three things passionately:</p>
 			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-12 large-4 columns">
-			<p>The world is a better place when people love what they do.</p>
-		</div>
-		<div class="small-12 large-4 columns">
-			<p>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density.</p>
-		</div>
-		<div class="small-12 large-4 columns">
-			<p>Being socially responsible and building a sustainable ecosystem  for the future is a moral imperative.</p>
+		<div class="small-12 large-8 large-offset-2 columns">
+			<ol class="talent-list">
+				<li>The world is a better place when people love what they do.</li>
+				<li>Strict position-driven hiring is a thing of the past; the future belongs to dynamic companies that prioritize talent density.</li>
+				<li>Building a sustainable ecosystem for the future is a social responsibility we should all share.</li>
+			</ol>
 		</div>
 	</div>
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 columns">
-			<div class="section pt0">
-				<br />
+			<div class="section text-center-desktop large-text">
 				<h3>We’re different.</h3>
-				<p>As a boutique firm, our flexibility and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot.  We're not here to be competition for your internal recruiting efforts, we're here to be an extension of it.</p>
-			</div>
-		</div>
-	</div>
+				<p>As a boutique firm, our flexibilty and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot. We’re not here to be the competition for your internal recruiting efforts, we’re here to be an extension of it.</p>
 
-	<div class="row">
-		<div class="small-12 large-8 large-offset-2 columns">
-			<div class="section pt0 large-text large-text-center" style="padding-bottom: 10px">
-				<h2>Our service offerings include:</h2>
-			</div>
-		</div>
-	</div>
+				<h3>A Southern California Tech Fusion</h3>
+				<p>As flow of capital and talent to Silicon Beach increases, it’s more important than ever that we focus on not only building great internal teams, but also on building a sustainable tech ecosystem for all of Southern California.</p>  
 
-	<div class="service-wrapper modalaccordion-wrapper">
-		<!-- Services Tabs -->
-		<div class="service-tabs">
-			<div class="row">
-				<div class="small-12 columns">
-					<div class="section pt0 pb0 large-text-center">
-						<div class="row">
-							<div class="small-12 medium-6 large-3 columns">
-								<div data-trigger="fullengagement" class="card card-rounded mobile-modal-trigger">
-									<div class="card-content">
-										<span class="lead">Full Engagement</span>
-										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
-									</div>
-									<span class="open-text"></span>
-								</div>
-							</div>
-							<div class="small-12 medium-6 large-3 columns">
-								<div data-trigger="executivesearch" class="card card-rounded mobile-modal-trigger">
-									<div class="card-content">
-										<span class="lead">Executive Search</span>
-										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
-									</div>
-									<span class="open-text"></span>
-								</div>
-							</div>
-							<div class="small-12 medium-6 large-3 columns">
-								<div data-trigger="startupworkshop" class="card card-rounded mobile-modal-trigger">
-									<div class="card-content">
-										<span class="lead">Start-up Workshop</span>
-										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
-									</div>
-									<span class="open-text"></span>
-								</div>
-							</div>
-							<div class="small-12 medium-6 large-3 columns">
-								<div data-trigger="noneoftheabove" class="card card-rounded mobile-modal-trigger">
-									<div class="card-content">
-										<span class="lead">None of the Above?</span>
-										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>	
-									</div>
-									<span class="open-text"></span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- Service Content -->
-		<div class="section white-section service-content mobile-modal">
-			<div id="fullengagement" class="service-content-page mobile-modal-content">
-				<div class="section">
-					<div class="row">
-						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
-							<div class="color-card">
-								<div class="section">
-									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
-									<div class="row">
-										<div class="small-12 columns text-left large-text-left">
-											<h3>Full Engagement</h3>
-											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="executivesearch" class="service-content-page mobile-modal-content">
-				<div class="section">
-					<div class="row">
-						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
-							<div class="color-card">
-								<div class="section">
-									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
-									<div class="row">
-										<div class="small-12 columns text-left large-text-left">
-											<h3>Executive Search</h3>
-											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="startupworkshop" class="service-content-page mobile-modal-content">
-				<div class="section">
-					<div class="row">
-						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
-							<div class="color-card">
-								<div class="section">
-									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
-									<div class="row">
-										<div class="small-12 columns text-left large-text-left">
-											<h3>Start-up Workshop</h3>
-											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="noneoftheabove" class="service-content-page mobile-modal-content">
-				<div class="section">
-					<div class="row">
-						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
-							<div class="color-card">
-								<div class="section">
-									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
-									<div class="row">
-										<div class="small-12 columns text-left large-text-left">
-											<h3>None of the Above</h3>
-											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<p>We do this through our 3 specialized divisions (listed below), and through our local community partnerships.</p>
 			</div>
 		</div>
 	</div>
@@ -172,13 +34,6 @@
 		<!-- Industry Tabs -->
 		<div class="industry-tabs">
 			<div class="row small-collapse large-uncollapse">
-
-				<div class="small-12 columns">
-					<div class="section pb0">
-						<h2>Through our three specialized divisions:</h2>
-					</div>
-				</div>
-
 				<div class="small-12 columns">
 					<div class="section0">
 						<div class="industry-cards">
@@ -331,6 +186,142 @@
 		</div>
 	</div>
 
+	<div class="service-wrapper modalaccordion-wrapper">
+		<!-- Services Tabs -->
+		<div class="service-tabs">
+			<div class="row">
+				<div class="small-12 columns">
+					<div class="section large-text text-center-desktop">
+						<div class="row">
+							<div class="small-12 large-8 large-offset-2 columns">
+								<p>We know there's nothing more rewarding than a great hire, or more frustrating than a bad one. That's why we're here. Check out our service offerings below, or contact us for a 1:1 consultation.</p>
+							</div>
+						</div>
+					</div>
+					<div class="section pt0 pb0 large-text-center">
+						<div class="row">
+							<div class="small-12 medium-6 large-3 columns">
+								<div data-trigger="fullengagement" class="card card-rounded mobile-modal-trigger">
+									<div class="card-content">
+										<span class="lead">Full Engagement</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+									</div>
+									<span class="open-text"></span>
+								</div>
+							</div>
+							<div class="small-12 medium-6 large-3 columns">
+								<div data-trigger="executivesearch" class="card card-rounded mobile-modal-trigger">
+									<div class="card-content">
+										<span class="lead">Executive Search</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+									</div>
+									<span class="open-text"></span>
+								</div>
+							</div>
+							<div class="small-12 medium-6 large-3 columns">
+								<div data-trigger="startupworkshop" class="card card-rounded mobile-modal-trigger">
+									<div class="card-content">
+										<span class="lead">Start-up Workshop</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>
+									</div>
+									<span class="open-text"></span>
+								</div>
+							</div>
+							<div class="small-12 medium-6 large-3 columns">
+								<div data-trigger="noneoftheabove" class="card card-rounded mobile-modal-trigger">
+									<div class="card-content">
+										<span class="lead">None of the Above?</span>
+										<span class="down-arrow"><img src="images/small_line.svg" alt=""></span>	
+									</div>
+									<span class="open-text"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Service Content -->
+		<div class="section white-section service-content mobile-modal">
+			<div id="fullengagement" class="service-content-page mobile-modal-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>Full Engagement</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="executivesearch" class="service-content-page mobile-modal-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>Executive Search</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="startupworkshop" class="service-content-page mobile-modal-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>Start-up Workshop</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="noneoftheabove" class="service-content-page mobile-modal-content">
+				<div class="section">
+					<div class="row">
+						<div class="small-12 medium-8 medium-offset-2 large-8 large-offset-2 columns">
+							<div class="color-card">
+								<div class="section">
+									<p class="close-button mobile-modal-close"><img src="images/close-modal.svg" alt="Close Button"></p>
+									<div class="row">
+										<div class="small-12 columns text-left large-text-left">
+											<h3>None of the Above</h3>
+											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="section gradient-section large-work-bg">
 		<div class="row collapse full-width-row">

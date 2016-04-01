@@ -828,6 +828,32 @@
 	}
 
 // Work/Talent
+	.talent-list {
+		counter-reset: talentcounter;
+		list-style: none;
+		padding: 0 20px 0 0;
+		li {
+			border-bottom: 1px solid #D5D8DB;
+			font-size: 24px;
+			font-weight: 400;
+			line-height: 32px;
+			padding: 40px 0 40px 80px;
+			position: relative;
+			&:before {
+				content: counter(talentcounter);
+				counter-increment: talentcounter;
+				display: block;
+				font-size: 78px;
+				font-weight: 300;
+				left: 0px;
+				line-height: 86px;
+				position: absolute;
+				text-align: center;
+				width: 45px;
+				@include vertical-center;
+			}
+		}
+	}
 	.work, .talent {
 		.dropdown-label {
 			display: block;
@@ -854,7 +880,7 @@
 		.container {
 			width: 100%;
 			@media screen and (min-width: $mqm){
-				width: 70%;
+				width: 100%;
 			}
 		}
 	}
@@ -1634,6 +1660,9 @@
 		.new-form {
 			display: none;
 			cursor: pointer;
+		}
+		.large-text-center {
+			text-align: center;
 		}
 		form.wpcf7-form.sent {
 			.form-elements {

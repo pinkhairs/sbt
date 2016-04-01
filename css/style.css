@@ -1352,6 +1352,36 @@ a.btn {
     font-size: 18px;
     margin: 0; }
 
+.talent-list {
+  counter-reset: talentcounter;
+  list-style: none;
+  padding: 0 20px 0 0; }
+  .talent-list li {
+    border-bottom: 1px solid #D5D8DB;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 40px 0 40px 80px;
+    position: relative; }
+    .talent-list li:before {
+      content: counter(talentcounter);
+      counter-increment: talentcounter;
+      display: block;
+      font-size: 78px;
+      font-weight: 300;
+      left: 0px;
+      line-height: 86px;
+      position: absolute;
+      text-align: center;
+      width: 45px;
+      top: 50%;
+      position: absolute;
+      -moz-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%); }
+
 .work .dropdown-label, .talent .dropdown-label {
   display: block; }
   @media screen and (min-width: 40em) {
@@ -1374,7 +1404,7 @@ a.btn {
   width: 100%; }
   @media screen and (min-width: 40em) {
     .work-bg-content .container {
-      width: 70%; } }
+      width: 100%; } }
 
 .service-wrapper {
   position: relative; }
@@ -2220,6 +2250,8 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
   .contact-form-content .new-form {
     display: none;
     cursor: pointer; }
+  .contact-form-content .large-text-center {
+    text-align: center; }
   .contact-form-content form.wpcf7-form.sent .form-elements {
     display: none; }
   .contact-form-content form.wpcf7-form.sent .new-form {
@@ -2280,7 +2312,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     text-transform: lowercase;
     font-weight: 400; }
   .large-work-bg {
-    background-image: url("../images/work-bg.jpg");
+    background: url("../images/work-bg.jpg") center;
     background-size: cover;
     padding: 0;
     overflow: hidden;
