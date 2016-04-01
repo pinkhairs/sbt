@@ -9,7 +9,7 @@ Template Name: All posts
 
 <?php if(have_posts()) : ?>
   <?php while(have_posts()) : the_post(); ?>
-  <div class="blog-index">
+  <div id="blog-container" class="blog-index">
     <div class="row">
       <div class="small-12 columns">
         <div class="section medium-section text-center">
@@ -59,7 +59,7 @@ Template Name: All posts
             <?php endif; ?> 
             <ol start = "<?php echo $nextpost; ?>" class="blog-post-list">
               <?php $current_date=$date; endif; ?>
-              <li class="small-12 large-4 columns end mix <?php $category = get_the_category( $post->ID ); echo $category[0]->slug;?>" data-myorder="<?php echo getPostViews(get_the_ID()); ?>">
+              <li class="small-12 large-4 columns end mix <?php $category = get_the_category( $post->ID ); echo $category[0]->slug;?>">
                 <div class="post">
                   <div class="post-container">
                     <?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>

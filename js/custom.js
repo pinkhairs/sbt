@@ -5,6 +5,7 @@ global.main = {
 
   // Initialize Functions
   init: function () {
+    this.blogFilter();
     this.mastheadWaypoints();
     this.navMenu();
     this.workTalentJS();
@@ -12,10 +13,6 @@ global.main = {
     this.jobsIframe();
     this.aboutBios();
     this.modalJS();
-    this.blogFilterSort();
-
-    // this.formSubmit();
-    // this.jobFilterWaypoints();
   },
 
   // List Functions
@@ -73,26 +70,10 @@ global.main = {
       }
     });
   },
-  blogFilterSort: function () {
-    var index = $('.blog-index');
-    index.mixItUp({
-      controls: {
-        live: true
-      },
-      callbacks: {
-        onMixStart: function(state){
-          if($('.desktop-dropdown > .dropdown-ele').hasClass('active')) {
-            $('.desktop-dropdown-trigger').addClass('active');
-          } else {
-            $('.desktop-dropdown-trigger').removeClass('active');
-          }
-        },
-        onMixLoad: function(state){
-          $('.dropdown-ele').removeClass('active');
-          $('.dropdown  > .dropdown-ele:first-child').addClass('active');
-        }
-      },
-    });
+  blogFilter: function () {
+    setTimeout(function(){
+      $('.blog-index').mixItUp();
+    }, 1000);
   },
   navMenu: function () {
     $('#menu-button, #hmenu-close').click(function() {
@@ -184,12 +165,12 @@ global.main = {
       }
     });
 
-    doc.on('click', '.dropdown .dropdown-ele', function(){
-      $('.dropdown').removeClass('active');
-      ddele = $(this).children('span').text();
-      ddlabel = $('.dropdown-label label');
-      ddlabel.text(ddele);
-    });
+    // doc.on('click', '.dropdown .dropdown-ele', function(){
+    //   $('.dropdown').removeClass('active');
+    //   ddele = $(this).children('span').text();
+    //   ddlabel = $('.dropdown-label label');
+    //   ddlabel.text(ddele);
+    // });
   },
   contactFormAJAX: function () {
     $('input[name="dropdown_eg"]').change(function() {
@@ -264,20 +245,15 @@ global.main = {
     });
   },
   jobFilterWaypoints: function () {
-    function jobFilterWaypoint() {
-      var $stickyElement = $('.job-filter-container')
-      var sticky
+    var $stickyElement = $('.job-filter-container')
+    var sticky
 
-      if ($stickyElement.length) {
-        sticky = new Waypoint.Sticky({
-          element: $stickyElement[0],
-          wrapper: '<div class="sticky-wrapper waypoint" />'
-        })
-      }
+    if ($stickyElement.length) {
+      sticky = new Waypoint.Sticky({
+        element: $stickyElement[0],
+        wrapper: '<div class="sticky-wrapper waypoint" />'
+      })
     }
-    $(window).on('load', function() {
-       jobFilterWaypoint();
-    });
   },
   mastheadWaypoints: function () {
 
@@ -337,6 +313,6 @@ global.main = {
 };
 
 // Run Functions on Doc Ready
-doc.ready(function () {
+$(document).ready(function () {
   global.main.init();
 });
