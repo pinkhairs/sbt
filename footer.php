@@ -49,16 +49,15 @@
   ga('send', 'pageview');
 
 </script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+<script src="js/init.min.js"></script>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <?php if ($_COOKIE['preload'] != 1) { ?>
-<script src="js/preload.js" type="text/javascript"></script>
 <script src="js/jquery.lazylinepainter-1.7.0.min.js" type="text/javascript"></script>
-<script src="js/loading-screen.js" type="text/javascript"></script>
 <?php } ?>
-<!-- <script src="js/jquery.mobile.custom.min.js" type="text/javascript"></script> -->
 <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
 <script src="js/sticky.min.js" type="text/javascript"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-<script src="js/custom.js" type="text/javascript"></script>
+<script src="js/custom.js" type="text/javascript"></script> -->
 </body>
 </html>

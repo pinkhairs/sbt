@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="26px" height="16px" viewBox="0 0 26 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape + Shape Copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Round-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="sbt-desktop-work-tabs" transform="translate(-1381.000000, -33.000000)" fill="#E9ECF1">
-            <g id="Shape-+-Shape-Copy-+-MENU" transform="translate(1330.000000, 32.000000)">
-                <g id="Shape-+-Shape-Copy" transform="translate(51.000000, 1.000000)">
-                    <path d="M22.3095338,0 L2.98182004,0 C1.33667795,0 3.73034936e-14,1.33667795 3.73034936e-14,2.98046713 C3.73034936e-14,4.62560922 1.33667795,5.96228717 2.98182004,5.96228717 L22.3095338,5.96228717 C23.953323,5.96228717 25.2900009,4.62560922 25.2900009,2.98046713 C25.2900009,1.33667795 23.953323,0 22.3095338,0" id="Shape"></path>
-                    <path d="M22.3095338,10 L2.98182004,10 C1.33667795,10 3.73034936e-14,11.3366779 3.73034936e-14,12.9804671 C3.73034936e-14,14.6256092 1.33667795,15.9622872 2.98182004,15.9622872 L22.3095338,15.9622872 C23.953323,15.9622872 25.2900009,14.6256092 25.2900009,12.9804671 C25.2900009,11.3366779 23.953323,10 22.3095338,10" id="Shape-Copy"></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="26" height="16" viewBox="0 0 26 16" xmlns="http://www.w3.org/2000/svg"><title>Shape + Shape Copy</title><g fill="#E9ECF1" fill-rule="evenodd"><path d="M22.31 0H2.982A2.984 2.984 0 0 0 0 2.98a2.984 2.984 0 0 0 2.982 2.982H22.31a2.984 2.984 0 0 0 2.98-2.982A2.983 2.983 0 0 0 22.31 0M22.31 10H2.982A2.984 2.984 0 0 0 0 12.98a2.984 2.984 0 0 0 2.982 2.982H22.31a2.984 2.984 0 0 0 2.98-2.982A2.983 2.983 0 0 0 22.31 10"/></g></svg>

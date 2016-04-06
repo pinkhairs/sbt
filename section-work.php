@@ -1,10 +1,10 @@
 	<div class="row">
 		<div class="small-12 medium-8 medium-offset-2 large-centered columns">
 			<div class="section pt0 large-text large-text-center">
-				<h2>You know you're in demand.</h2>
+				<h2>You know you're in demand</h2>
 				<p>You almost can't use LinkedIn anymore because you're bombarded by template recruiter messages.  Your Facebook and Twitter feeds are full of ads for anonymous job matching services, but salary focused job matching and volume based recruiting agencies all seem to miss the most important point:</p>
-
-				<h2>It's about the work. </h2>
+				<br />
+				<h2>It's about the work</h2>
 				<p>Perks and bonuses are important, but we understand that what really makes an opportunity great is the work you get to do and the impact you get to make.  Believe it or not, it's the same for recruiters, there's only one problem:  Today's engineers and developers don't  need a traditional recruiter; they need an agent.</p>
 
 				<p>That's where we come in.  We specialize in representing exceptional designers, engineers, and developers and connecting them with opportunities we know they'll love.  We focus primarily in three areas:</p>
@@ -17,13 +17,6 @@
 		<!-- Industry Tabs -->
 		<div class="industry-tabs">
 			<div class="row small-collapse large-uncollapse">
-
-				<div class="small-12 columns">
-					<div class="section large-text-center">
-						<h3 style="text-align: center !important;">Through our three specialized divisions:</h3>
-					</div>
-				</div>
-
 				<div class="small-12 columns">
 					<div class="section0">
 						<div class="industry-cards">

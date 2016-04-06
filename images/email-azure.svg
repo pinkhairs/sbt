@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="48px" height="36px" viewBox="0 0 48 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
-    <title>email</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="sbt-blog-story" sketch:type="MSArtboardGroup" transform="translate(-1291.000000, -2837.000000)" fill="#315BA6">
-            <g id="Share" sketch:type="MSLayerGroup" transform="translate(626.000000, 2752.000000)">
-                <path d="M713,88 C713,86.3359375 711.664062,85 710,85 L668,85 C666.335938,85 665,86.3359375 665,88 L689,106 L713,88 Z M665,93.390625 L665,118 C665,119.664062 666.335938,121 668,121 L710,121 C711.664062,121 713,119.664062 713,118 L713,93.390625 L689,111.390625 L665,93.390625 Z" id="email" sketch:type="MSShapeGroup"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="48" height="36" viewBox="0 0 48 36" xmlns="http://www.w3.org/2000/svg"><title>email</title><path d="M48 3c0-1.664-1.336-3-3-3H3a2.99 2.99 0 0 0-3 3l24 18L48 3zM0 8.39V33c0 1.664 1.336 3 3 3h42c1.664 0 3-1.336 3-3V8.39l-24 18-24-18z" fill="#315BA6" fill-rule="evenodd"/></svg>

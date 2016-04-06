@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
-    <title>linkedin</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Round-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="sbt-work-mobile-industries-popup" sketch:type="MSArtboardGroup" transform="translate(-289.000000, -600.000000)" fill="#315BA6">
-            <path d="M289.755859,612.744141 L289.755859,636 L297.244141,636 L297.244141,612.744141 L289.755859,612.744141 Z M309.25,622.5 C309.25,619.494141 311.166016,618 313.416016,618 C315.666016,618 317.494141,619.494141 317.494141,623.255859 L317.494141,636 L325,636 L325,622.5 C325,615.75 321.255859,612.005859 316,612.005859 C312.994141,612.005859 310.744141,613.710938 309.25,615.960938 L309.003906,612.744141 L301.621094,612.744141 C301.621094,613.535156 301.744141,618 301.744141,618 L301.744141,636 L309.25,636 L309.25,622.5 Z M293.464844,609 C296.242188,609 298,607.171875 298,604.869141 C297.964844,602.548828 296.242188,600.755859 293.535156,600.755859 C290.792969,600.755859 289,602.548828 289,604.869141 C289,607.171875 290.757812,609 293.412109,609 L293.464844,609 L293.464844,609 Z" id="linkedin" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"><title>linkedin</title><path d="M.756 12.744V36h7.488V12.744H.756zM20.25 22.5c0-3.006 1.916-4.5 4.166-4.5 2.25 0 4.078 1.494 4.078 5.256V36H36V22.5c0-6.75-3.744-10.494-9-10.494-3.006 0-5.256 1.705-6.75 3.955l-.246-3.217H12.62c0 .791.123 5.256.123 5.256v18h7.506V22.5zM4.465 9C7.242 9 9 7.172 9 4.87 8.965 2.548 7.242.755 4.535.755 1.793.756 0 2.549 0 4.869 0 7.172 1.758 9 4.412 9h.053z" fill="#315BA6" fill-rule="evenodd"/></svg>

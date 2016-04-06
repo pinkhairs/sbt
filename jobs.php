@@ -19,7 +19,7 @@ include 'header.php'; ?>
   <div class="small-12 large-4 columns">
 
     <aside class="job-filter-container">
-      <h3>Filter by:</h3>
+      <h3 class="text-left-desktop">Filter by:</h3>
 
       <ul class="job-filter">
         <li>

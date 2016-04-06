@@ -24,9 +24,6 @@ echo '<meta name="robots" content="' . $pageRobots . '">';
 <link rel="stylesheet" href="css/foundation.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
 
-<script src="https://use.typekit.net/jfs8zip.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
 </head>
 <body class="<?php echo $pageBodyClass; ?> <?php if ($_COOKIE['preload'] != 1) echo 'loading-screen'; ?> ">
 

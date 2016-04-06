@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="48px" viewBox="0 0 32 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>tumblr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="sbt-blog-story" sketch:type="MSArtboardGroup" transform="translate(-979.000000, -2827.000000)" fill="#315BA6">
+            <g id="Share" sketch:type="MSLayerGroup" transform="translate(619.000000, 2750.000000)">
+                <path d="M392,122.398438 L392,114.992188 C392,114.992188 387.992188,117.007812 384.992188,117.007812 C380,117.007812 378.992188,114.992188 378.992188,110 L378.992188,98 L390.007812,98 L390.007812,89 L378.992188,89 L378.992188,77 L372.007812,77 C371,86 366.992188,89 360.992188,90.9921875 L360.992188,98 L368,98 L368,113 C368,120.992188 372.007812,125 381.007812,125 C387.992188,125 392,122.398438 392,122.398438 L392,122.398438 Z" id="tumblr" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

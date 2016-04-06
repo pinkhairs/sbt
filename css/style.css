@@ -1,3 +1,29 @@
+@import url("//hello.myfonts.net/count/30cfce");
+@font-face {
+  font-family: 'BrandonGrotesqueWeb-Light';
+  src: url("../webfonts/30CFCE_0_0.eot");
+  src: url("../webfonts/30CFCE_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30CFCE_0_0.woff2") format("woff2"), url("../webfonts/30CFCE_0_0.woff") format("woff"), url("../webfonts/30CFCE_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BrandonGrotesqueWeb-LightItalic';
+  src: url("../webfonts/30CFCE_1_0.eot");
+  src: url("../webfonts/30CFCE_1_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30CFCE_1_0.woff2") format("woff2"), url("../webfonts/30CFCE_1_0.woff") format("woff"), url("../webfonts/30CFCE_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BrandonGrotesqueWeb-Regular';
+  src: url("../webfonts/30CFCE_2_0.eot");
+  src: url("../webfonts/30CFCE_2_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30CFCE_2_0.woff2") format("woff2"), url("../webfonts/30CFCE_2_0.woff") format("woff"), url("../webfonts/30CFCE_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BrandonGrotesqueWeb-Italic';
+  src: url("../webfonts/30CFCE_3_0.eot");
+  src: url("../webfonts/30CFCE_3_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30CFCE_3_0.woff2") format("woff2"), url("../webfonts/30CFCE_3_0.woff") format("woff"), url("../webfonts/30CFCE_3_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BrandonGrotesqueWeb-Medium';
+  src: url("../webfonts/30CFCE_4_0.eot");
+  src: url("../webfonts/30CFCE_4_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/30CFCE_4_0.woff2") format("woff2"), url("../webfonts/30CFCE_4_0.woff") format("woff"), url("../webfonts/30CFCE_4_0.ttf") format("truetype"); }
+
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
@@ -144,7 +170,11 @@ html {
 
 body {
   color: #000F2E;
-  font: 300 18px/26px "brandon-grotesque", helvetica, arial, sans-serif; }
+  font-family: BrandonGrotesqueWeb-Regular;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px; }
 
 hr {
   border: 0;
@@ -284,10 +314,18 @@ strong {
   font-size: 18px; }
 
 .button {
-  font-weight: 700;
-  text-transform: uppercase;
+  background: #669DC9;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 20px 8px;
+  letter-spacing: .02em;
+  margin-bottom: 10px;
   outline: 0;
-  border: 0; }
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 26px; }
   p > .button:first-child {
     margin-top: -6px;
     margin-bottom: 6px;
@@ -322,20 +360,6 @@ a.button-dark {
   font-weight: 700;
   padding: 7px 0; }
 
-.load-more-button, .button, .reverse-button {
-  background: #669DC9;
-  border-radius: 2px;
-  font-size: 14px;
-  line-height: 20px;
-  display: inline-block;
-  padding: 10px 20px;
-  color: #FFFFFF;
-  font-weight: 700;
-  letter-spacing: 0;
-  margin-bottom: 10px; }
-  .load-more-button:hover, .button:hover, .reverse-button:hover {
-    background: #79a9d0; }
-
 .view-all-button {
   background: #9E9E9E;
   border-radius: 2px;
@@ -366,7 +390,7 @@ a.button-dark {
   border: 1px solid #CED5E0;
   box-shadow: inset 0px 1px 1px 0px rgba(163, 170, 179, 0.5);
   border-radius: 2px;
-  line-height: 34px;
+  line-height: 24px;
   padding-left: 0.5rem; }
 
 input[type="file"] {
@@ -521,6 +545,19 @@ input[type="file"] {
 
 /* section types by padding */
 /* section types by color */
+.lighten-hero {
+  background: url("../images/bg-hero-blue.png") no-repeat left top;
+  background-size: contain;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  opacity: 0.7; }
+
 .white-section {
   background: #fff; }
 
@@ -743,7 +780,8 @@ input[type="file"] {
 .hmenu-list-element-large {
   padding-bottom: 20px; }
   .hmenu-list-element-large .hmenu-text-link {
-    font-size: 48px; }
+    font-size: 48px;
+    line-height: 56px; }
 
 .hmenu-list-social {
   margin: 20px 0 0 0;
@@ -882,10 +920,11 @@ input[type="file"] {
   width: 80px; }
   @media screen and (min-width: 40em) {
     .menu-trigger {
-      background: url("../images/menu-button.svg") right center no-repeat;
+      background: url("../images/menu-button.svg") right top no-repeat;
       float: right;
-      margin: 27px 0;
-      padding: 3px 30px 0 0;
+      line-height: 22px;
+      margin: 29px 0;
+      padding: 0 30px 0 0;
       width: 100px; } }
 
 .menu-social-links {
@@ -912,7 +951,7 @@ input[type="file"] {
   background-image: url("../images/home-hero.jpg"); }
 
 .interactive-hero {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/025-sbt-desktop-home-2.jpg") no-repeat left top scroll;
+  background: url("../images/bg-hero.jpg") no-repeat left top scroll;
   background-size: cover;
   height: 807px;
   position: relative;
@@ -939,7 +978,7 @@ input[type="file"] {
   position: absolute;
   top: 150px;
   width: 100%;
-  z-index: 10000; }
+  z-index: 100000; }
   @media screen and (min-width: 64em) {
     .text-layer {
       top: 0; } }
@@ -1006,7 +1045,6 @@ input[type="file"] {
   -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   color: #fff;
-  font-family: 300 18px/26px "brandon-grotesque", helvetica, arial, sans-serif;
   opacity: 1;
   text-transform: uppercase;
   width: 90%; }
@@ -1145,6 +1183,8 @@ a.btn {
         text-align: left; } }
     .site-footer .site-footer-ele a {
       margin-bottom: 0; }
+      .site-footer .site-footer-ele a:hover {
+        text-decoration: underline; }
   .site-footer .site-footer-ele-inner {
     width: 100%;
     top: 50%;
@@ -1177,6 +1217,8 @@ a.btn {
       text-decoration: none;
       top: -10px;
       position: relative; }
+      .site-footer .colophon a:hover {
+        text-decoration: underline; }
       @media screen and (min-width: 64em) {
         .site-footer .colophon a {
           display: block;
@@ -1364,6 +1406,7 @@ a.btn {
     padding: 40px 0 40px 80px;
     position: relative; }
     .talent-list li:before {
+      color: #315BA6;
       content: counter(talentcounter);
       counter-increment: talentcounter;
       display: block;
@@ -1815,7 +1858,8 @@ a.btn {
   transform: translate(-50%, -50%);
   width: 90%; }
   .card-content .lead, .card-content .read-button, .card-content .back-read-button, .card-content .view-all-button {
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: 400; }
 
 .design-industry {
   background: url("../images/design_industry.png") #fff;
@@ -2355,9 +2399,6 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     clear: none; }
   .large-industry-content .large-4:nth-child(3n+1) {
     clear: both; }
-  .load-more-button, .button, .reverse-button, .view-all-button {
-    font-size: 18px;
-    line-height: 26px; }
   .eat-bottom-margin {
     margin-bottom: -80px; }
   .menu-container-expanded {

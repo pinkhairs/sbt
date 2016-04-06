@@ -1,7 +1,7 @@
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 columns">
 			<div class="section text-center-desktop large-text">
-				<h2>Love your work.</h2>
+				<h2>Love your work</h2>
 				<p>This concept is at the core of everything we do at Silicon Beach Talent. We are a boutique recruiting and HR consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies. We believe three things passionately:</p>
 			</div>
 		</div>
@@ -18,10 +18,11 @@
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 columns">
 			<div class="section text-center-desktop large-text">
-				<h3>We’re different.</h3>
-				<p>As a boutique firm, our flexibilty and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot. We’re not here to be the competition for your internal recruiting efforts, we’re here to be an extension of it.</p>
 
-				<h3>A Southern California Tech Fusion</h3>
+				<h2>We’re different</h2>
+				<p>As a boutique firm, our flexibilty and specialization mean we can offer custom solutions working onsite with your team that larger firms cannot. We’re not here to be the competition for your internal recruiting efforts, we’re here to be an extension of it.</p>
+				<br />
+				<h2>A Southern California Tech Fusion</h2>
 				<p>As flow of capital and talent to Silicon Beach increases, it’s more important than ever that we focus on not only building great internal teams, but also on building a sustainable tech ecosystem for all of Southern California.</p>  
 
 				<p>We do this through our 3 specialized divisions (listed below), and through our local community partnerships.</p>
@@ -273,7 +274,7 @@
 									<div class="row">
 										<div class="small-12 columns text-left large-text-left">
 											<h3>Executive Search</h3>
-											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+											<p>For Director level positions and above.  All exec searches are handled personally by one of our founders, and include weekly calibration meetings with executive staff.  </p>
 										</div>
 									</div>
 								</div>
@@ -292,7 +293,7 @@
 									<div class="row">
 										<div class="small-12 columns text-left large-text-left">
 											<h3>Start-up Workshop</h3>
-											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+											<p>“Recruiting 101” for founders and small teams new to the challenges of recruiting.  Engagement details vary by company and industry, contact us to learn more.</p>
 										</div>
 									</div>
 								</div>
@@ -311,7 +312,7 @@
 									<div class="row">
 										<div class="small-12 columns text-left large-text-left">
 											<h3>None of the Above</h3>
-											<p>Includes dedicated SBT recruiter(s) for the full duration of the project.  Recruiter will function as an extension of your internal recruiting efforts, and may include weekly onsite meetings and pipeline reporting. Positions may be up to Manager level.</p>
+											<p>Not ready to commit to a project?  We get it, start-up life can be unpredictable.  As a boutique firm we are flexible and happy to sit down and see if we would be a good partner now or in the future.  No commitment necessary.</p>
 										</div>
 									</div>
 								</div>

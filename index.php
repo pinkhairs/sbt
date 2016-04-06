@@ -44,7 +44,7 @@ include 'header.php'; ?>
             |
           </li>
           <li class="sub-path-item">
-            <a class="sub-path-link" href="contact.php">Contact us</a>
+            <a class="sub-path-link" href="contactus">Contact us</a>
           </li>
         </ul>
       </div>
@@ -66,16 +66,16 @@ include 'header.php'; ?>
             |
           </li>
           <li class="sub-path-item">
-            <a class="sub-path-link" href="contact.php">Contact us</a>
+            <a class="sub-path-link" href="contactus">Contact us</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="beach-layer"></div>
+  <div class="lighten-hero"></div>
   <div class="video-layer">
     <video autoplay="autoplay" id="video" loop="loop">
-      <source src="video/sbt-hero-video_6c.mp4" type="video/mp4" />
+      <source src="video/sbt-hero-video_8.mp4" type="video/mp4" />
       <!-- <source src="video/sbt-hero-video_5.webm" type="video/webm" /> -->
     </video>
   </div>

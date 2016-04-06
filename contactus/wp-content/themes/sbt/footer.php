@@ -61,16 +61,16 @@
   ga('send', 'pageview');
 
 </script>
-<script src="https://code.jquery.com/jquery-1.12.2.min.js" type="text/javascript"></script>
+<script src="http://www.madebyporter.com/clients/sbt/js/init.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-1.12.2.min.js" type="text/javascript"></script>
 <?php if ($_COOKIE['preload'] != 1) { ?>
 <script src="http://madebyporter.com/clients/sbt/js/preload.js" type="text/javascript"></script>
 <script src="http://madebyporter.com/clients/sbt/js/jquery.lazylinepainter-1.7.0.min.js" type="text/javascript"></script>
 <script src="http://madebyporter.com/clients/sbt/js/loading-screen.js" type="text/javascript"></script>
 <?php } ?>
-<!-- <script src="js/jquery.mobile.custom.min.js" type="text/javascript"></script> -->
 <script src="http://madebyporter.com/clients/sbt/js/jquery.waypoints.min.js" type="text/javascript"></script>
 <script src="http://madebyporter.com/clients/sbt/js/sticky.min.js" type="text/javascript"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-<script src="http://madebyporter.com/clients/sbt/js/custom.js" type="text/javascript"></script>
+<script src="http://madebyporter.com/clients/sbt/js/custom.js" type="text/javascript"></script> -->
 </body>
 </html>

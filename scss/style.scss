@@ -1,3 +1,4 @@
+@import 'modules/_fonts';
 @import 'modules/_variables';
 @import 'modules/_mixins';
 @import 'modules/_animations';
@@ -7,6 +8,27 @@
 	
 
 /* section types by color */
+	
+	.lighten-hero {
+		// background-image: -webkit-linear-gradient(0deg, rgba(102, 157, 201,0) 0%, rgba(102, 157, 201,0.4) 100%);
+		// background-image: -moz-linear-gradient(0deg, rgba(102, 157, 201,0) 0%, rgba(102, 157, 201,0.4) 100%);
+		// background-image: -o-linear-gradient(0deg, rgba(102, 157, 201,0) 0%, rgba(102, 157, 201,0.4) 100%);
+		// background-image: linear-gradient(0deg, rgba(255, 255, 255,0) 0%, #0DDACF 50%);
+		
+		background: url('../images/bg-hero-blue.png') no-repeat left top;
+		background-size: contain;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 10000;
+		opacity: 0.7;
+
+		// mix-blend-mode: overlay;
+	}
 	.white-section {
 		background:#fff;
 	}
@@ -205,6 +227,7 @@
 		padding-bottom: 20px;
 		.hmenu-text-link {
 			font-size: 48px;
+			line-height: 56px;
 		}
 	}
 	.hmenu-list-social {
@@ -330,10 +353,11 @@
 		text-transform: uppercase;
 		width: 80px;
 		@media screen and (min-width: $mqm){
-			background:url('../images/menu-button.svg') right center no-repeat;
+			background:url('../images/menu-button.svg') right top no-repeat;
 			float: right;
-			margin: 27px 0;
-			padding: 3px 30px 0 0;
+			line-height: 22px;
+			margin: 29px 0;
+			padding: 0 30px 0 0;
 			width: 100px;
 		}
 	}
@@ -366,7 +390,7 @@
 		background-image:url('../images/home-hero.jpg');
 	}
 	.interactive-hero {
-	  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/025-sbt-desktop-home-2.jpg') no-repeat left top scroll;
+	  background: url('../images/bg-hero.jpg') no-repeat left top scroll;
     background-size: cover;
     height: 807px;
     position: relative;
@@ -395,7 +419,7 @@
 	  position: absolute;
 	  top: 150px;
 	  width: 100%;
-	  z-index: 10000;
+	  z-index: 100000;
 	  @media screen and (min-width: $mql){
 	    top: 0;
 	  }
@@ -478,7 +502,6 @@
 	.text-container {
 	  @include transition;
 	  color: #fff;
-	  font-family: $fontPrimary;
 	  opacity: 1;
 	  text-transform: uppercase;
 	  width: 90%;
@@ -613,6 +636,9 @@
 			}
 			a {
 				margin-bottom: 0;
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 		.site-footer-ele-inner {
@@ -644,6 +670,9 @@
 				text-decoration: none;
 				top: -10px;
 				position: relative;
+				&:hover {
+					text-decoration: underline;
+				}
 				@media screen and (min-width: $mql){
 					display: block;
 					margin-right: 0;
@@ -840,6 +869,7 @@
 			padding: 40px 0 40px 80px;
 			position: relative;
 			&:before {
+				color: $azure;
 				content: counter(talentcounter);
 				counter-increment: talentcounter;
 				display: block;
@@ -1262,6 +1292,7 @@
 		width: 90%;
 		.lead {
 			font-size: 18px;
+			font-weight: 400;
 		}
 	}
 	.design-industry {

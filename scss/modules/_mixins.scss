@@ -1,95 +1,131 @@
 // Mixins
 
-// Transform
-  @mixin transform($transforms) {
-       -moz-transform: $transforms;
-         -o-transform: $transforms;
-        -ms-transform: $transforms;
-    -webkit-transform: $transforms;
-            transform: $transforms;
-  }
+  // Font Mixins
+    @mixin font-light() {
+      font-family: BrandonGrotesqueWeb-Light;
+      font-weight: normal;
+      font-style: normal;
+    }
+    @mixin font-light-italic() {
+      font-family: BrandonGrotesqueWeb-LightItalic;
+      font-weight: normal;
+      font-style: normal;
+    }
+    @mixin font-regular() {
+      font-family: BrandonGrotesqueWeb-Regular;
+      font-weight: normal;
+      font-style: normal;
+    }
+    @mixin font-regular-italic() {
+      font-family: BrandonGrotesqueWeb-Italic;
+      font-weight: normal;
+      font-style: normal;
+    }
+    @mixin font-medium() {
+      font-family: BrandonGrotesqueWeb-Medium;
+      font-weight: normal;
+      font-style: normal;
+    }
 
-// Transitions
-  @mixin transition($time: 350ms, $type:all, $style:cubic-bezier(.14, .62, .39, 1), $delay:0s) {
-    -webkit-transition: $type $time $style $delay;
-    -moz-transition: $type $time $style $delay;
-    -o-transition: $type $time $style $delay;
-    transition: $type $time $style $delay;
-  }
+    @mixin font-size-regular() {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    @mixin font-size-large() {
+      font-size: 24px;
+      line-height: 32px;
+    }
 
-// Rotate
-  @mixin rotate ($deg) {
-    @include transform(rotate(#{$deg}deg));
-  }
+  // Transform
+    @mixin transform($transforms) {
+         -moz-transform: $transforms;
+           -o-transform: $transforms;
+          -ms-transform: $transforms;
+      -webkit-transform: $transforms;
+              transform: $transforms;
+    }
 
-// Scale
-  @mixin scale($scale) {
-     @include transform(scale($scale));
-  } 
+  // Transitions
+    @mixin transition($time: 350ms, $type:all, $style:cubic-bezier(.14, .62, .39, 1), $delay:0s) {
+      -webkit-transition: $type $time $style $delay;
+      -moz-transition: $type $time $style $delay;
+      -o-transition: $type $time $style $delay;
+      transition: $type $time $style $delay;
+    }
 
-// Translate
-  @mixin translate ($x, $y) {
-    @include transform(translate($x, $y));
-  }
+  // Rotate
+    @mixin rotate ($deg) {
+      @include transform(rotate(#{$deg}deg));
+    }
 
-// Skew
-  @mixin skew ($x, $y) {
-     @include transform(skew(#{$x}deg, #{$y}deg));
-  }
+  // Scale
+    @mixin scale($scale) {
+       @include transform(scale($scale));
+    } 
 
-// Horizontal Center
-  @mixin horizontal-center($x:-50%) {
-    left: 50%;
-    position: absolute;
-    @include translate($x,0);
-  }
+  // Translate
+    @mixin translate ($x, $y) {
+      @include transform(translate($x, $y));
+    }
 
-// Vertical Center
-  @mixin vertical-center($y:-50%) {
-    top: 50%;
-    position: absolute;
-    @include translate(0,$y);
-  }
+  // Skew
+    @mixin skew ($x, $y) {
+       @include transform(skew(#{$x}deg, #{$y}deg));
+    }
 
-// Absolute Center
-  @mixin absolute-center($x:-50%,$y:-50%) {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    @include translate($x,$y);
-  }
+  // Horizontal Center
+    @mixin horizontal-center($x:-50%) {
+      left: 50%;
+      position: absolute;
+      @include translate($x,0);
+    }
 
-// Animations
-  @mixin animation($x) {
-    -webkit-animation: $x;
-    -moz-animation: $x;
-    -o-animation: $x;
-    animation: $x;
-  }
+  // Vertical Center
+    @mixin vertical-center($y:-50%) {
+      top: 50%;
+      position: absolute;
+      @include translate(0,$y);
+    }
 
-// Dropdown Animation
-  @mixin ddAnimationIn {
-    @for $i from 1 through 4 {
-      &:nth-child(#{$i}) {
-        @include translate(0, #{$i * -100}px);
-        @include transition($time: 1600ms, $delay: #{$i * 100}ms);
+  // Absolute Center
+    @mixin absolute-center($x:-50%,$y:-50%) {
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      @include translate($x,$y);
+    }
+
+  // Animations
+    @mixin animation($x) {
+      -webkit-animation: $x;
+      -moz-animation: $x;
+      -o-animation: $x;
+      animation: $x;
+    }
+
+  // Dropdown Animation
+    @mixin ddAnimationIn {
+      @for $i from 1 through 4 {
+        &:nth-child(#{$i}) {
+          @include translate(0, #{$i * -100}px);
+          @include transition($time: 1600ms, $delay: #{$i * 100}ms);
+        }
       }
     }
-  }
-  @mixin ddAnimationOut {
-    @for $i from 1 through 4 {
-      &:nth-child(#{$i}) {
-        @include translate(0,0);
-        @include transition($delay: #{$i * 100}ms);
+    @mixin ddAnimationOut {
+      @for $i from 1 through 4 {
+        &:nth-child(#{$i}) {
+          @include translate(0,0);
+          @include transition($delay: #{$i * 100}ms);
+        }
       }
     }
-  }
 
-// Triangle Down
-  @mixin triangle-down ($size:20px,$color:#fff) {
-    width: 0; 
-    height: 0; 
-    border-left: $size solid transparent;
-    border-right: $size solid transparent;
-    border-top: $size solid $color;
-  }
+  // Triangle Down
+    @mixin triangle-down ($size:20px,$color:#fff) {
+      width: 0; 
+      height: 0; 
+      border-left: $size solid transparent;
+      border-right: $size solid transparent;
+      border-top: $size solid $color;
+    }
