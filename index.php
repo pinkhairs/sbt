@@ -72,10 +72,10 @@ include 'header.php'; ?>
       </div>
     </div>
   </div>
-  <div class="lighten-hero"></div>
+  <!-- <div class="lighten-hero"></div> -->
   <div class="video-layer">
     <video autoplay="autoplay" id="video" loop="loop">
-      <source src="video/sbt-hero-video_8.mp4" type="video/mp4" />
+      <source src="video/sbt-hero-video_12.mp4" type="video/mp4" />
       <!-- <source src="video/sbt-hero-video_5.webm" type="video/webm" /> -->
     </video>
   </div>

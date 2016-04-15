@@ -69,26 +69,25 @@
   }
 
   p {
+    @include font-light;
     font-size: 18px;
     line-height: 26px;
     margin: 0 0 20px 0;
   }
 
   h1, h2, h3, h4, h5, h6 {
+    @include font-light;
     color:$midnight;
-    font-weight: 400;
     letter-spacing: .01em;
     margin: 0 0 20px 0;
   }
 
   h1 {
     font-size: 64px;
-    font-weight: 300;
     line-height: 72px;
     text-transform: uppercase;
     @media (min-width:$mqm) {
       font-size: 120px;
-      font-weight: 300;
       line-height: 128px;
     }
   }

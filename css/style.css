@@ -218,25 +218,28 @@ a {
   color: #315BA6; }
 
 p {
+  font-family: BrandonGrotesqueWeb-Light;
+  font-weight: normal;
+  font-style: normal;
   font-size: 18px;
   line-height: 26px;
   margin: 0 0 20px 0; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: BrandonGrotesqueWeb-Light;
+  font-weight: normal;
+  font-style: normal;
   color: #000F2E;
-  font-weight: 400;
   letter-spacing: .01em;
   margin: 0 0 20px 0; }
 
 h1 {
   font-size: 64px;
-  font-weight: 300;
   line-height: 72px;
   text-transform: uppercase; }
   @media (min-width: 40em) {
     h1 {
       font-size: 120px;
-      font-weight: 300;
       line-height: 128px; } }
 
 h2 {
@@ -545,19 +548,6 @@ input[type="file"] {
 
 /* section types by padding */
 /* section types by color */
-.lighten-hero {
-  background: url("../images/bg-hero-blue.png") no-repeat left top;
-  background-size: contain;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 10000;
-  opacity: 0.7; }
-
 .white-section {
   background: #fff; }
 
@@ -569,6 +559,9 @@ input[type="file"] {
 
 .home-dark-section {
   background: #091531; }
+  @media (min-width: 64em) {
+    .home-dark-section {
+      background: #091639; } }
   .home-dark-section .lead, .home-dark-section .read-button, .home-dark-section .back-read-button, .home-dark-section .view-all-button {
     color: #B5CEE1; }
 
@@ -675,7 +668,7 @@ input[type="file"] {
   position: fixed;
   text-align: center;
   width: 100%;
-  z-index: 1;
+  z-index: -1;
   -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
@@ -723,6 +716,9 @@ input[type="file"] {
   position: absolute;
   right: 0;
   z-index: 10;
+  font-family: BrandonGrotesqueWeb-Light;
+  font-weight: normal;
+  font-style: normal;
   -moz-transform: translate(0%, -150%);
   -o-transform: translate(0%, -150%);
   -ms-transform: translate(0%, -150%);
@@ -951,25 +947,17 @@ input[type="file"] {
   background-image: url("../images/home-hero.jpg"); }
 
 .interactive-hero {
-  background: url("../images/bg-hero.jpg") no-repeat left top scroll;
+  background: url("../images/bg-hero-lightblue.png") no-repeat left top scroll #0C2245;
   background-size: cover;
   height: 807px;
   position: relative;
   width: 100%; }
   @media screen and (min-width: 64em) {
     .interactive-hero {
+      background: transparent #0C2245;
       background-size: 1920px 981px;
       height: 900px;
       overflow: hidden; } }
-
-.beach-layer {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/77302/sbt-hero-sand.png") no-repeat;
-  background-size: 1920px auto;
-  bottom: 0;
-  height: 242px;
-  position: absolute;
-  width: 100%;
-  z-index: 5000; }
 
 .text-layer {
   height: 100%;
@@ -1009,10 +997,13 @@ input[type="file"] {
         -moz-transition: all 400ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
         -o-transition: all 400ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
         transition: all 400ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
-        background-image: linear-gradient(-180deg, #055BEF 50%, rgba(255, 255, 255, 0) 100%);
+        background-image: -webkit-linear-gradient(-180deg, #000 50%, transparent 100%);
+        background-image: -moz-linear-gradient(-180deg, #000 50%, transparent 100%);
+        background-image: -o-linear-gradient(-180deg, #000 50%, transparent 100%);
+        background-image: linear-gradient(-180deg, #000 50%, transparent 100%);
         content: "";
         height: 100%;
-        opacity: 0.1;
+        opacity: 0;
         position: absolute;
         top: 0;
         width: 150%; } }
@@ -1022,6 +1013,7 @@ input[type="file"] {
   right: 0; }
 
 .text-layer-left:hover:before {
+  opacity: 0.6;
   transform: translateX(0) skew(10deg); }
 
 .text-layer-left .sub-paths {
@@ -1037,6 +1029,7 @@ input[type="file"] {
     transform: translateX(1500px) skew(10deg);
     left: 0; }
   .text-layer-right:hover:before {
+    opacity: 0.6;
     transform: translateX(0) skew(10deg); }
 
 .text-container {
@@ -1695,6 +1688,8 @@ a.btn {
   letter-spacing: .2em;
   line-height: 84px;
   width: 100%; }
+  .slogan-large.black {
+    color: #000F2E; }
   .slogan-large .sbtsvg {
     line-height: 78px;
     margin-right: 10px;
@@ -2356,7 +2351,7 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     text-transform: lowercase;
     font-weight: 400; }
   .large-work-bg {
-    background: url("../images/work-bg.jpg") center;
+    background: url("../images/work-bg.jpg") center top;
     background-size: cover;
     padding: 0;
     overflow: hidden;
