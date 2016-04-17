@@ -11240,7 +11240,7 @@ global.main = {
 
       // Scroll To...
       $('html, body').animate({
-        scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top - 350
+        scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top - 320
       }, 600);
       
       return false;

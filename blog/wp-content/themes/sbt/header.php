@@ -18,9 +18,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/foundation.css" type="text/css">
 	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/style.css" type="text/css">
-
-	<script src="https://use.typekit.net/jfs8zip.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<?php wp_head(); ?>
 </head>
 

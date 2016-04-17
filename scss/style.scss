@@ -20,9 +20,9 @@
 		}
 	}
 	.home-dark-section  {
-		background:#091531;
+		background:#0A1738;
 		@media (min-width:$mql) {
-			background: #091639;
+			background: #091841;
 		}
 		.lead {
 			color:$lightsteelblue;
@@ -86,6 +86,7 @@
 			}
 		}
 		.wrap {
+			background: #0C2245;
 			margin: 0;
 			padding: 0;
 		}
@@ -374,7 +375,7 @@
 		background-image:url('../images/home-hero.jpg');
 	}
 	.interactive-hero {
-		background: url('../images/bg-hero-lightblue.png') no-repeat left top scroll #0C2245;
+		background: url('../images/bg-hero-blue-4a.png') no-repeat left top scroll #0C2245;
     background-size: cover;
     height: 807px;
     position: relative;
@@ -382,7 +383,7 @@
     @media screen and (min-width: $mql){
     	background: transparent #0C2245;
       background-size: 1920px 981px;
-      height: 900px;
+      height: 707px;
     	overflow: hidden;
     }
 	}
@@ -484,7 +485,7 @@
 	  text-transform: uppercase;
 	  width: 90%;
 	  @media screen and (min-width: $mql){
-	    @include absolute-center(-50%,-80%);
+	    @include absolute-center(-50%,-50%);
 	    opacity: 0.5;
 	    width: 440px;
 	  }
@@ -557,6 +558,10 @@
 	  text-align: left;
 	  @media screen and (min-width: $mql){
 	  	display: block;
+	    width: 1480px;
+	  }
+	  @media screen and (min-width: 1900px){
+	  	display: block;
 	    width: 1920px;
 	  }
 	  video {
@@ -566,7 +571,7 @@
 
 	.hero-arrow {
 		display: none;
-		bottom: 150px;
+		bottom: 0px;
 		opacity: 0.5;
 		position: absolute;
 		@include horizontal-center;
@@ -707,6 +712,7 @@
 	.home-slogan {
 		.sbtsvg {
 			display: inline-block;
+			line-height: 48px;
 			vertical-align: bottom;
 			width: 40px;
 			svg {
@@ -1160,7 +1166,7 @@
 			color: $black;
 		}
 		.sbtsvg {
-			line-height: 78px;
+			line-height: 48px;
 			margin-right: 10px;
 			vertical-align: text-top;
 		}
