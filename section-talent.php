@@ -1,7 +1,7 @@
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 columns">
 			<div class="section text-center-desktop large-text">
-				<h2 class="slogan-large black">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>VE YOUR WORK</h2>
+				<h2 class="slogan-large black">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>VE YOUR TEAM</h2>
 				<p>This concept is at the core of everything we do at Silicon Beach Talent. We are a boutique recruiting and HR consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies. We believe three things passionately:</p>
 			</div>
 		</div>

@@ -11170,19 +11170,18 @@ global.main = {
       createCookie(name,"",-1);
     }
 
-
     var pathObj = {
         "loading": {
             "strokepath": [
 
                 {
                     "path": "M114.335937,79.2929688 C114.335937,79.2929688 88.5039059,91.6660156 75.7226562,117 C53.6568433,160.737113 77.2285156,227.34375 146.128906,227.34375 C196.987774,227.34375 222.016767,182.528052 222.016767,147.112528 C222.016766,105 179.6875,81.0507812 179.6875,81.0507812",
-                    "duration": 225,
+                    "duration": 300,
                     // "ease": 'easeInCubic'
                 },
                 {
                     "path": "M64.5806254,69.2568371 L42.2660266,46.9422384 M31.833455,147.220703 L0.0615325643,147.220703 M64.5537931,230.681276 L38.4723642,252.020626 M147.5,262.453198 L147.5,292.328289 M223.413405,230.207068 L249.494834,251.546419 M256.607951,150.5 L288.379874,150.5 M223.413405,69.1970358 L245.728004,46.8824372 M144.5,147.56529 L144.5,0.690493575",
-                    "duration": 225,
+                    "duration": 300,
                     // "ease": 'easeInExpo'
                 },
             ],
@@ -11205,8 +11204,9 @@ global.main = {
           "onComplete":function() { 
             setTimeout(
               function() {
-                $('#loading').fadeOut('slow'); $('body').removeClass('loading-screen');
-              }, 200
+                $('#loading').fadeOut('fast'); 
+                $('body').removeClass('loading-screen');
+              }, 350
             );
           }
       }).lazylinepainter('paint'); 
@@ -11214,14 +11214,15 @@ global.main = {
     loadAnimation();
   },
   modalJS: function() {
-    doc.on('click', '.mobile-modal-trigger', function(){
+    doc.on('click', '.mobile-modal-trigger', function(event){
+
       var trigID = $(this).attr('data-trigger'), $html = $('html'), $page = $('.mobile-modal-content'), $modal = $('.mobile-modal'), $wrap = $('.modalaccordion-wrapper'), close = $('.mobile-modal-close'), $trig = $('.mobile-modal-trigger');
 
       // Remove active from all triggers
       $trig.removeClass('active');
 
       // Add active on clicked trigger
-      $(this).addClass('active');
+      $(event.target).addClass('active');
 
       // Add modal active on HTML
       $html.addClass('modal-active');
@@ -11230,7 +11231,7 @@ global.main = {
       $modal.removeClass('active');
 
       // Add active class on clicked modal container
-      $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').addClass('active');
+      $(event.target).closest('.modalaccordion-wrapper').find('.mobile-modal').addClass('active');
 
       // Remove active class on all modal slides
       $page.removeClass('active');
@@ -11238,10 +11239,32 @@ global.main = {
       // Add active class on clicked modal slide
       $('#' + trigID).addClass('active');
 
-      // Scroll To...
-      $('html, body').animate({
-        scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top - 320
-      }, 600);
+      // Checks if card is rounded
+      if ( $(this).hasClass('card-rounded') ){
+        // Scroll To...
+        if (window.matchMedia('only screen and (max-width: 480px)').matches) {
+          $('html, body').animate({
+            scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top
+          }, 600);
+        } else if (window.matchMedia('only screen and (min-width: 481px)').matches) {
+          $('html, body').animate({
+            scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top - 380
+          }, 600);
+        }
+      } 
+      // Else regular card
+      else {
+        // Scroll To...
+        if (window.matchMedia('only screen and (max-width: 480px)').matches) {
+          $('html, body').animate({
+            scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top
+          }, 600);
+        } else if (window.matchMedia('only screen and (min-width: 481px)').matches) {
+          $('html, body').animate({
+            scrollTop: $(this).closest('.modalaccordion-wrapper').find('.mobile-modal').offset().top - 320
+          }, 600);
+        }
+      }
       
       return false;
 
@@ -11275,18 +11298,18 @@ global.main = {
     $('#menu-button, #hmenu-close').click(function() {
       var wrap = $('.site-wrap');
       var menu = $('.hmenu-wrapper');
-      var open = $('.menu-active');
-      if (menu.hasClass('menu-container-expanded')){
-        menu.removeClass('menu-container-expanded');
-        wrap.removeClass('menu-active');
+      var open = $('.hmenu-open');
+      if (menu.hasClass('hmenu-open')){
+        menu.removeClass('hmenu-open');
+        wrap.removeClass('hmenu-open');
         setTimeout(function(){
-          menu.css('z-index','1');
+          menu.css('z-index','-1');
         }, 1000);
       }
       else {
-        menu.addClass('menu-container-expanded');
+        menu.addClass('hmenu-open');
         menu.css('z-index','1000000');
-        wrap.addClass('menu-active');
+        wrap.addClass('hmenu-open');
       }
     });
   },
@@ -11434,7 +11457,7 @@ global.main = {
           }, 
         20);
       }, {
-        offset: '-75%'
+        offset: '-50%'
       });
 
       $things.waypoint(function(direction) {
@@ -11448,7 +11471,7 @@ global.main = {
           200);  
         }
       }, {
-        offset: '0'
+        offset: '-50%'
       });
     }
     mhwp();
