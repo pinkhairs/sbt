@@ -103,11 +103,11 @@ include 'header.php'; ?>
 									Marissa Peretz
 								</span>
 								<div class="about-bios-select-content last">
-									<p>Marissa began her entrepreneurial journey at a young age.  While in high school, Marissa had a knack for creativity and design and began making custom belt buckles, sewing custom skirts and designing jewelry selling them to attendees at her high school, Santa Monica High school, and local boutiques.</p>
+									<p>Marissa began her entrepreneurial journey at a young age by harnessing her passion for creativity and design to create her own fashion startup while attending Santa Monica High school.</p>
 
-									<p>Marissa then attended the University of Arizona where she was accepted to the top Entrepreneurship program in the country at Eller College of Management. Marissa graduated with a Dual Major in Entrepreneurship and Marketing, with an additional Certification in International Business which prepared her well for her career at Tesla Motors.</p>
+									<p>Her journey continued at the University of Arizona where she was accepted to the top Entrepreneurship program in the country at Eller College of Management. Marissa graduated with a Dual Major in Entrepreneurship and Marketing, with an additional Certification in International Business and a [Thesis / Capstone Project] in sustainable transportation [or Electric Vehicles] which prepared her well for her career at Tesla Motors.</p>
 
-									<p>Marissa was a Recruiting Leader at Tesla Motors from 2010-2015 having led the recruiting for the Design Studio in Los Angeles, Vehicle and Product Excellence Engineering and Program Management teams in Fremont, and the ground floor set up for the Gigafactory in Reno. Her ability to design organizational structure strategically and build cross functional talent based teams in both startup and mid size companies has been paramount to her past employers and more recently her clients.</p>
+									<p>Prior to founding Silicon Beach Talent, Marissa was a Recruiting Leader at Tesla Motors from 2010-2015. She led the recruiting for the Design Studio in Los Angeles, Vehicle and Product Excellence Engineering and Program Management teams in Fremont, and the ground floor set up for the Gigafactory in Reno. Her ability to strategically design organizational structure and build cross functional, talent based teams in both startup and mid size companies is applauded by both past employers and current clients.</p>
 								</div>
 							</li>
 						</ul>

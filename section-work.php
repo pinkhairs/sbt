@@ -70,11 +70,11 @@
 										<div class="small-12 large-6 columns text-left large-text-left">
 											<h4>Recruiting Specialties include:</h4>
 											<ul class="specialties-list">
-												<li>UX/UI Design</li>
+												<li>UX/UI Design and Engineering</li>
 												<li>Automotive Design</li>
 												<li>Brand &amp; Graphic Design</li>
-												<li>Product Design</li>
-												<li>Environmental Design</li>
+												<li>Product/Environmental Design</li>
+												<li>VR/VFX Design</li>
 												<li>Executive Search</li>
 											</ul>
 										</div>
@@ -146,11 +146,11 @@
 										<div class="small-12 large-6 columns text-left large-text-left">
 											<h4>Recruiting Specialties include:</h4>
 											<ul class="specialties-list">
-												<li>UI/UX Design</li>
+												<li>UI/UX Design and Engineering</li>
 												<li>Full Stack Developers</li>
 												<li>Mechanical Engineering</li>
-												<li>Electrical Engineering</li>
 												<li>QA and Test Engineering</li>
+												<li>VR/AR</li>
 												<li>Executive Search</li>
 											</ul>
 										</div>
