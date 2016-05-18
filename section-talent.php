@@ -1,7 +1,7 @@
 	<div class="row">
 		<div class="small-12 large-8 large-offset-2 columns">
 			<div class="section text-center-desktop large-text">
-				<h2 class="slogan-large black">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>VE YOUR TEAM</h2>
+				<h2 class="slogan-large black">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>VE YOUR WORK</h2>
 				<p>This concept is at the core of everything we do at Silicon Beach Talent. We are a boutique recruiting and HR consulting company specializing in talent acquisition and hiring strategy development for fun, innovative, and rapidly scaling companies. We believe three things passionately:</p>
 			</div>
 		</div>
@@ -88,11 +88,11 @@
 										<div class="small-12 large-6 columns text-left large-text-left">
 											<h4>Recruiting Specialties include:</h4>
 											<ul class="specialties-list">
-												<li>UX/UI Design</li>
+												<li>UX/UI Design and Engineering</li>
 												<li>Automotive Design</li>
 												<li>Brand &amp; Graphic Design</li>
-												<li>Product Design</li>
-												<li>Environmental Design</li>
+												<li>Product/Environmental Design</li>
+												<li>VR/VFX Design</li>
 												<li>Executive Search</li>
 											</ul>
 										</div>
@@ -164,11 +164,11 @@
 										<div class="small-12 large-6 columns text-left large-text-left">
 											<h4>Recruiting Specialties include:</h4>
 											<ul class="specialties-list">
-												<li>UI/UX Design</li>
+												<li>UI/UX Design and Engineering</li>
 												<li>Full Stack Developers</li>
 												<li>Mechanical Engineering</li>
-												<li>Electrical Engineering</li>
 												<li>QA and Test Engineering</li>
+												<li>VR/AR</li>
 												<li>Executive Search</li>
 											</ul>
 										</div>

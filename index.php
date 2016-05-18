@@ -89,7 +89,7 @@ include 'header.php'; ?>
 			<p>Perks and bonuses are important, but we understand that what truly makes an opportunity great is the work you do and the impact you make. </p>
 
 			<p>That is why our recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work. </p>
-			<p><a href="work.php" class="button button-dark">Get work</a> <a href="talent.php" class="button">Get talent</a></p>
+			<p><a href="work.php" class="button button-dark">Find Work</a> <a href="talent.php" class="button">Hire Talent</a></p>
 		</div>
 	</div>
 </div>
