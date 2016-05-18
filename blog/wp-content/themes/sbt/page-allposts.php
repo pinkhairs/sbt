@@ -15,7 +15,7 @@ Template Name: All posts
         <div class="section medium-section text-center">
           <h1>Press &amp; Publications</h1>
           <p class="lead mt0">Silicon Beach Talent</p>
-          <p><img src="http://madebyporter.com/clients/sbt/images/line.svg" alt=""></p>
+          <p><img src="http://siliconbeachtalent.com/images/line.svg" alt=""></p>
         </div>
       </div>
     </div>

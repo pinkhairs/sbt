@@ -105,7 +105,7 @@
 
   // Dropdown Animation
     @mixin ddAnimationIn {
-      @for $i from 1 through 4 {
+      @for $i from 1 through 6 {
         &:nth-child(#{$i}) {
           @include translate(0, #{$i * -100}px);
           @include transition($time: 1600ms, $delay: #{$i * 100}ms);
@@ -113,7 +113,7 @@
       }
     }
     @mixin ddAnimationOut {
-      @for $i from 1 through 4 {
+      @for $i from 1 through 6 {
         &:nth-child(#{$i}) {
           @include translate(0,0);
           @include transition($delay: #{$i * 100}ms);

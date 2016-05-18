@@ -16,8 +16,8 @@
 	<meta charset="UTF-8">
 	<title>Silicon Beach Talent | Blog</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/foundation.css" type="text/css">
-	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/style.css" type="text/css">
+	<link rel="stylesheet" href="http://siliconbeachtalent.com/css/foundation.css" type="text/css">
+	<link rel="stylesheet" href="http://siliconbeachtalent.com/css/style.css" type="text/css">
 	<?php wp_head(); ?>
 </head>
 
@@ -36,39 +36,39 @@
 						<ol class="hmenu-list">
 							<li class="hmenu-list-element hmenu-list-element-large">
 								<small class="hmenu-text-small">Find</small>
-								<a href="http://www.madebyporter.com/clients/sbt/work.php" class="hmenu-text-link">Work</a>
+								<a href="http://siliconbeachtalent.com/work.php" class="hmenu-text-link">Work</a>
 							</li>
 							<li class="hmenu-list-element hmenu-list-element-large">
 								<small class="hmenu-text-small">Hire</small>
-								<a href="http://www.madebyporter.com/clients/sbt/talent.php" class="hmenu-text-link">Talent</a>
+								<a href="http://siliconbeachtalent.com/talent.php" class="hmenu-text-link">Talent</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/index.php" class="hmenu-text-link">Home</a>
+								<a href="http://siliconbeachtalent.com" class="hmenu-text-link">Home</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/contactus" class="hmenu-text-link">Contact Us</a>
+								<a href="http://siliconbeachtalent.com/contactus" class="hmenu-text-link">Contact Us</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/about.php" class="hmenu-text-link">About Us</a>
+								<a href="http://siliconbeachtalent.com/about.php" class="hmenu-text-link">About Us</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/blog" class="hmenu-text-link">Press &amp; Publications</a>
+								<a href="http://siliconbeachtalent.com/blog" class="hmenu-text-link">Press &amp; Publications</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/jobs.php" class="hmenu-text-link">Jobs</a>
+								<a href="http://siliconbeachtalent.com/jobs.php" class="hmenu-text-link">Jobs</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/contactus/referrals" class="hmenu-text-link">Referral Program</a>
+								<a href="http://siliconbeachtalent.com/contactus/referrals" class="hmenu-text-link">Referral Program</a>
 							</li>
 							<li class="hmenu-list-element">
-								<a href="http://www.madebyporter.com/clients/sbt/terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
+								<a href="http://siliconbeachtalent.com/terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
 							</li>
 							<li class="hmenu-list-element hmenu-list-social">
 								<small class="hmenu-text-small">Follow Us On</small>
 								<ul class="social-links-list">
-									<li><a href="https://twitter.com/loveyourworkca"><img src="http://www.madebyporter.com/clients/sbt/images/twitter.svg" alt="Twitter"></a></li>
-									<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://www.madebyporter.com/clients/sbt/images/facebook.svg" alt="Facebook"></a></li>
-									<li><a href="https://www.linkedin.com/company/6390835"><img src="http://www.madebyporter.com/clients/sbt/images/linkedin.svg" alt="LinkedIn"></a></li>
+									<li><a href="https://twitter.com/loveyourworkca"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
+									<li><a href="https://facebook.com/siliconbeachtalent"><img src="http://siliconbeachtalent.com/images/facebook.svg" alt="Facebook"></a></li>
+									<li><a href="https://linkedin.com/company/6390835"><img src="http://siliconbeachtalent.com/images/linkedin.svg" alt="LinkedIn"></a></li>
 								</ul>
 							</li>
 						</ol>
@@ -84,8 +84,8 @@
 	<header class="site-header">
 		<div class="row">
 			<div class="small-12 medium-6 columns">
-				<a href="http://www.madebyporter.com/clients/sbt/index.php" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
-					<img src="http://madebyporter.com/clients/sbt/images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
+				<a href="http://siliconbeachtalent.com" class="logo<?php if ($_GET['v'] == 2) echo '-2 logo'; ?>">
+					<img src="http://siliconbeachtalent.com/images/sbt-logo<?php if ($_GET['v'] == 2) echo '-2'; ?>.svg" alt="Silicon Beach Talent" class="site-title">
 				</a>
 			</div>
 			<div class="small-12 medium-6 columns">

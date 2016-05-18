@@ -5,7 +5,7 @@
 				<div class="site-footer-ele color-section large-text-left">
 					<div class="site-footer-ele-inner">
 						<h4>Ready to find your next great gig?</h4>
-						<a href="http://www.madebyporter.com/clients/sbt/contactus" class="button">Get started</a>
+						<a href="http://www.siliconbeachtalent.com/contactus" class="button">Get started</a>
 					</div>
 				</div>
 			</div>
@@ -28,8 +28,8 @@
 					<div class="site-footer-ele-inner">
 						<span class="colophon">
 							<h4>Silicon Beach Talent &copy;<?php echo date('Y'); ?></h4>
-							<a href="http://www.madebyporter.com/clients/sbt/jobs.php">Jobs</a>
-							<a href="http://www.madebyporter.com/clients/sbt/terms.php">Privacy &amp; Terms</a>
+							<a href="http://www.siliconbeachtalent.com/jobs.php">Jobs</a>
+							<a href="http://www.siliconbeachtalent.com/terms.php">Privacy &amp; Terms</a>
 						</span>
 					</div>
 				</div>
@@ -45,7 +45,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-74978027-1', 'auto');
+  ga('create', 'UA-76593421-1', 'auto');
   ga('send', 'pageview');
 
 </script>

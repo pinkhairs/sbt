@@ -169,6 +169,7 @@ html {
       overflow: hidden; } }
 
 body {
+  background-color: #000F2E;
   color: #000F2E;
   font-family: BrandonGrotesqueWeb-Regular;
   font-weight: normal;
@@ -501,7 +502,7 @@ input[type="file"] {
   transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s; }
   @media (max-width: 64em) {
     .mobile-modal {
-      background: rgba(255, 255, 255, 0.9) !important;
+      background: rgba(255, 255, 255, 0.98) !important;
       bottom: 0;
       height: 100%;
       overflow: scroll;
@@ -605,10 +606,10 @@ input[type="file"] {
   top: 0;
   width: 100%;
   z-index: 100000;
-  -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 800ms;
-  -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 800ms;
-  -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 800ms;
-  transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 800ms;
+  -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
+  transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 0s;
   -moz-transform: translate(0, 0);
   -o-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -759,14 +760,17 @@ input[type="file"] {
   @media (min-width: 40em) {
     .hmenu-innerwrapper {
       padding: 40px 40px 40px 0;
-      width: 40%;
-      right: 0;
-      text-align: right;
+      width: 60%;
       -moz-transform: translate(100%, 0%);
       -o-transform: translate(100%, 0%);
       -ms-transform: translate(100%, 0%);
       -webkit-transform: translate(100%, 0%);
-      transform: translate(100%, 0%); } }
+      transform: translate(100%, 0%);
+      right: 0;
+      text-align: right; } }
+  @media (min-width: 64em) {
+    .hmenu-innerwrapper {
+      width: 40%; } }
 
 .hmenu-close-button {
   background: url("../images/icon-btn-close.svg") no-repeat;
@@ -888,7 +892,7 @@ input[type="file"] {
       background: url("../images/menu-button.svg") right top no-repeat;
       float: right;
       line-height: 22px;
-      margin: 29px 0;
+      margin: 32px 0 26px;
       padding: 0 30px 0 0;
       width: 100px; } }
 
@@ -920,8 +924,12 @@ input[type="file"] {
   @media screen and (min-width: 64em) {
     .interactive-hero {
       background: none #0C2245;
-      background-size: 1920px 981px;
       height: 707px;
+      overflow: hidden; } }
+  @media screen and (min-width: 1600px) {
+    .interactive-hero {
+      background: none #0C2245;
+      height: 932px;
       overflow: hidden; } }
 
 .text-layer {
@@ -1082,7 +1090,7 @@ a.btn {
     .video-layer {
       display: block;
       width: 1480px; } }
-  @media screen and (min-width: 1900px) {
+  @media screen and (min-width: 1600px) {
     .video-layer {
       display: block;
       width: 1920px; } }
@@ -2110,6 +2118,26 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
         -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 400ms;
         -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 400ms;
         transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 400ms; }
+      .desktop-dropdown-trigger:hover .dropdown-ele:nth-child(5) {
+        -moz-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms;
+        -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms;
+        -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms;
+        transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms; }
+      .desktop-dropdown-trigger:hover .dropdown-ele:nth-child(6) {
+        -moz-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        -webkit-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms;
+        -moz-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms;
+        -o-transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms;
+        transition: all 350ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms; }
     .desktop-dropdown-trigger .label {
       display: block; } }
 
@@ -2173,6 +2201,26 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
           -moz-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 400ms;
           -o-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 400ms;
           transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 400ms; }
+        .desktop-dropdown .dropdown-ele:nth-child(5) {
+          -moz-transform: translate(0, -500px);
+          -o-transform: translate(0, -500px);
+          -ms-transform: translate(0, -500px);
+          -webkit-transform: translate(0, -500px);
+          transform: translate(0, -500px);
+          -webkit-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms;
+          -moz-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms;
+          -o-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms;
+          transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 500ms; }
+        .desktop-dropdown .dropdown-ele:nth-child(6) {
+          -moz-transform: translate(0, -600px);
+          -o-transform: translate(0, -600px);
+          -ms-transform: translate(0, -600px);
+          -webkit-transform: translate(0, -600px);
+          transform: translate(0, -600px);
+          -webkit-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms;
+          -moz-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms;
+          -o-transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms;
+          transition: all 1600ms cubic-bezier(0.14, 0.62, 0.39, 1) 600ms; }
         .desktop-dropdown .dropdown-ele.active span {
           background: #315BA6;
           color: #fff; }
@@ -2191,6 +2239,8 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
           z-index: 600; }
         .desktop-dropdown .dropdown-ele:nth-child(6) {
           z-index: 500; }
+        .desktop-dropdown .dropdown-ele:nth-child(7) {
+          z-index: 400; }
       .desktop-dropdown span {
         font-size: 18px;
         line-height: 26px; } }

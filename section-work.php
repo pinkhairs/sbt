@@ -191,6 +191,7 @@
 							<span class="slogan-large">L<span class="sbtsvg"><img src="images/sbt-logo-2.svg" /></span>ve Your Work</span>
 							<span class="slogan-small">We can help</span>
 						</div>
+						
 					</div>
 				</div>
 			</div>

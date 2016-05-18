@@ -11,12 +11,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-	<div class="hero post-hero" style="background: -moz-linear-gradient(top, rgba(233,236,240,0) 50%, rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat; background-size:cover; background: -webkit-linear-gradient(top,  rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat; background-size:cover; background: linear-gradient(to bottom, rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat; background-size:cover;">
+	<div class="hero post-hero" style="background: -moz-linear-gradient(top, rgba(233,236,240,0) 50%, rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat center; background: -webkit-linear-gradient(top, rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat center; background: linear-gradient(to bottom, rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat center; background-size:cover;">
 		<div class="section text-center">
 			<div class="row">
 				<div class="small-12 large-10 large-centered columns">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-					<p class="desktop-only"><img src="http://localhost:8888/sbt/images/line-2.svg" alt=""></p>
+					<p class="desktop-only"><img src="http://siliconbeachtalent.com/images/line-2.svg" alt=""></p>
 				</div>
 			</div>
 		</div>
