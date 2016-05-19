@@ -38,7 +38,7 @@ global.main = {
       //console.log(this, perc, done);
     });
 
-    // createCookie('preload', 1, 365);
+    createCookie('preload', 1, 365);
 
     function createCookie(name,value,days) {
       if (days) {
@@ -287,18 +287,29 @@ global.main = {
     // });
   },
   contactFormAJAX: function () {
+
+    $('.form-talent, .form-general').hide();
+    $('.form-work').show();
+
     $('input[name="dropdown_eg"]').change(function() {
       $('input[name="dropdown_eg"]').closest('li').removeClass('active');
       active = $('input[name="dropdown_eg"]:checked');
       active.closest('li').addClass('active');
       subject = active.val();
       $('.contact-form-content').removeClass('active');
+
       if (subject == 'work') {
-        $('#contact-form-work').addClass('active');
+        $('.form-talent, .form-general').hide();
+        $('.form-work').show();
+        $('#form-type').val('Work');
       } else if (subject == 'talent') {
-        $('#contact-form-talent').addClass('active');
+        $('.form-talent, .form-general').show();
+        $('.form-work').hide();
+        $('#form-type').val('Talent');
       } else {
-        $('#contact-form-general').addClass('active');
+        $('.form-talent, .form-general').show();
+        $('.form-work').hide();
+        $('#form-type').val('General');
       }
     });
 

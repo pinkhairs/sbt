@@ -7,10 +7,10 @@ Author: Takayuki Miyoshi
 Author URI: http://ideasilo.wordpress.com/
 Text Domain: contact-form-7
 Domain Path: /languages/
-Version: 4.4
+Version: 4.4.2
 */
 
-define( 'WPCF7_VERSION', '4.4' );
+define( 'WPCF7_VERSION', '4.4.2' );
 
 define( 'WPCF7_REQUIRED_WP_VERSION', '4.3' );
 
@@ -64,5 +64,3 @@ if ( ! defined( 'WPCF7_VALIDATE_CONFIGURATION' ) ) {
 define( 'WPCF7_PLUGIN_URL', untrailingslashit( plugins_url( '', WPCF7_PLUGIN ) ) );
 
 require_once WPCF7_PLUGIN_DIR . '/settings.php';
-
-define ('WPCF7_AUTOP', false );

@@ -2275,10 +2275,11 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
   position: relative; }
 
 .contact-form-content {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  z-index: -1;
+  min-height: 300px;
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
   top: 0; }
   .contact-form-content.active {
     position: relative;
@@ -2310,6 +2311,8 @@ div.large-industry-content div.columns:last-child:not(:first-child) {
     display: none; }
   .contact-form-content form.wpcf7-form.sent .new-form {
     display: block; }
+  .contact-form-content .hidden-field {
+    display: none; }
 
 @media (min-width: 64em) {
   .about-page-bg {

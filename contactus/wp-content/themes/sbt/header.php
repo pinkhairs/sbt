@@ -17,11 +17,13 @@
 	<title>Silicon Beach Talent | Blog</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://siliconbeachtalent.com/css/foundation.css" type="text/css">
-	<link rel="stylesheet" href="http://siliconbeachtalent.com/css/style.css" type="text/css">
+	<!-- <link rel="stylesheet" href="http://localhost:8888/sbt/css/style.css" type="text/css"> -->
+	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/style.css" type="text/css">
+	<!-- <link rel="stylesheet" href="http://siliconbeachtalent.com/css/style.css" type="text/css"> -->
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class( 'loading-screen' ); ?>>
+<body>
 <div class="hmenu-wrapper" id="menu">
 	<div class="hmenu-innerwrapper">
 		<div class="row">

@@ -1586,10 +1586,11 @@
 		position: relative;
 	}
 	.contact-form-content {
-		position: absolute;
-		opacity: 0;
-		visibility: hidden;
-		z-index: -1;
+		min-height: 300px;
+		position: relative;
+		opacity: 1;
+		visibility: visible;
+		z-index: 1;
 		top: 0;
 		&.active {
 			position: relative;
@@ -1632,6 +1633,9 @@
 			.new-form {
 				display: block;
 			}
+		}
+		.hidden-field {
+			display: none;
 		}
 	}
 @import "desktop.scss";
