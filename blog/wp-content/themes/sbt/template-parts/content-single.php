@@ -35,11 +35,12 @@
 
 						<hr width="40" class="mt0 small-hr desktop-only">
 
-						<p class="date mt0"><?php the_date('m.d.y'); ?></p>
+						<span class="date mt0"><?php the_date('m.d.y'); ?></span>
 
 					</div>
 					<div class="small-12 large-8 large-offset-1 columns">
 						<div class="entry-content">
+							<img src="<?php echo $featuredImage; ?>" class="seo-image" />
 							<?php
 								the_content();
 							?>

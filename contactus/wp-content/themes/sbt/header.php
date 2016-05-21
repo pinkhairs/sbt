@@ -14,11 +14,11 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 	<meta charset="UTF-8">
-	<title>Silicon Beach Talent | Blog</title>
+	<title>Silicon Beach Talent | Contact Us</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://siliconbeachtalent.com/css/foundation.css" type="text/css">
 	<!-- <link rel="stylesheet" href="http://localhost:8888/sbt/css/style.css" type="text/css"> -->
-	<link rel="stylesheet" href="http://madebyporter.com/clients/sbt/css/style.css" type="text/css">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
 	<!-- <link rel="stylesheet" href="http://siliconbeachtalent.com/css/style.css" type="text/css"> -->
 	<?php wp_head(); ?>
 </head>
@@ -68,7 +68,7 @@
 							<li class="hmenu-list-element hmenu-list-social">
 								<small class="hmenu-text-small">Follow Us On</small>
 								<ul class="social-links-list">
-									<li><a href="https://twitter.com/loveyourworkca"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
+									<li><a href="https://twitter.com/LoveYourWorkLA"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
 									<li><a href="https://facebook.com/siliconbeachtalent"><img src="http://siliconbeachtalent.com/images/facebook.svg" alt="Facebook"></a></li>
 									<li><a href="https://linkedin.com/company/6390835"><img src="http://siliconbeachtalent.com/images/linkedin.svg" alt="LinkedIn"></a></li>
 								</ul>
@@ -91,7 +91,7 @@
 				</a>
 			</div>
 			<div class="small-12 medium-6 columns">
-					<div class="menu-trigger" id="menu-button"><span class="menu-label">Menu</span></div>
+				<div class="menu-trigger" id="menu-button"><span class="menu-label">Menu</span></div>
 			</div>
 		</div>
 	</header>

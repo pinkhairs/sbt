@@ -27,7 +27,7 @@
 						<h4 class="desktop-only">Connect with us</h4>
 						<nav class="social-links">
 						<ul class="social-links-list">
-							<li><a href="https://twitter.com/loveyourworkca"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
+							<li><a href="https://twitter.com/LoveYourWorkLA"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
 							<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://siliconbeachtalent.com/images/facebook.svg" alt="Facebook"></a></li>
 							<li><a href="https://www.linkedin.com/company/6390835"><img src="http://siliconbeachtalent.com/images/linkedin.svg" alt="LinkedIn"></a></li>
 						</ul>

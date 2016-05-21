@@ -27,7 +27,7 @@
 						<h4 class="desktop-only">Connect with us</h4>
 						<nav class="social-links">
 						<ul class="social-links-list">
-							<li><a href="https://twitter.com/loveyourworkca"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
+							<li><a href="https://twitter.com/LoveYourWorkLA"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
 							<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://siliconbeachtalent.com/images/facebook.svg" alt="Facebook"></a></li>
 							<li><a href="https://www.linkedin.com/company/6390835"><img src="http://siliconbeachtalent.com/images/linkedin.svg" alt="LinkedIn"></a></li>
 						</ul>
@@ -62,8 +62,8 @@
 
 </script>
 
-<!-- <script src="http://localhost:8888/sbt/js/init.js"></script> -->
-<script src="http://madebyporter.com/clients/sbt/js/init.js"></script>
+<script src="../js/init.js"></script>
+<!-- <script src="http://madebyporter.com/clients/sbt/js/init.js"></script> -->
 <!-- <script src="http://siliconbeachtalent.com/js/init.min.js"></script> -->
 </body>
 </html>

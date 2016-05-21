@@ -22,7 +22,7 @@ get_header(); ?>
 				<p class="lead">I'm ready to</p>
 				<h1>Contact</h1>
 				<p class="lead mt0">Silicon Beach Talent</p>
-				<p><img src="http://madebyporter.com/clients/sbt/images/line.svg" alt=""></p>
+				<p><img src="../images/line.svg" alt=""></p>
 			</div>
 		</div>
 	</div>
@@ -41,7 +41,7 @@ get_header(); ?>
 					<h2>Reason for Contact</h2>
 					<ul class="contact-select">
             <li class="contact-select-ele active">
-              <input value="work" type="radio" name="dropdown_eg" id="contact-select-work">
+              <input value="work" type="radio" name="dropdown_eg" id="contact-select-work" checked="checked">
               <label for="contact-select-work">I'm Looking to Find Work</label>
             </li>
             <li class="contact-select-ele">
@@ -56,19 +56,8 @@ get_header(); ?>
 				</div>
 				<div id="contact-form">
           <div class="contact-form-content">
-            <!-- <?php echo do_shortcode( '[contact-form-7 id="8" title="SBT Form"]' ); ?> -->
             <?php echo do_shortcode( '[contact-form-7 id="16" title="SBT Form"]' ); ?>
           </div>
-
-					<!-- <div id="contact-form-work" class="contact-form-content active">
-						<?php echo do_shortcode( '[contact-form-7 id="4" title="Looking for Work"]' ); ?>
-					</div> -->
-<!-- 					<div id="contact-form-talent" class="contact-form-content">
-						<?php echo do_shortcode( '[contact-form-7 id="6" title="Looking for Talent"]' ); ?>
-					</div>
-					<div id="contact-form-general" class="contact-form-content">
-						<?php echo do_shortcode( '[contact-form-7 id="7" title="General Inquiry"]' ); ?>
-					</div> -->
 				</div>
 
 			</div>

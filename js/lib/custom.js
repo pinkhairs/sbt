@@ -318,9 +318,32 @@ global.main = {
       $('.form-elements').show();
     });
 
-    if($('.wpcf7-form').hasClass('.sent')){
+    if($('.wpcf7-form').hasClass('sent')){
       $('.contact-form-content').removeClass('active');
       $(this).closest('.wpcf7').parent('.contact-form-content').addClass('active');
+    } else if($('.wpcf7-form').hasClass('invalid')){
+      $('.contact-select-ele').removeClass('active');
+      var ft = $(document).find('#form-type'), type = ft.val();
+
+      if (type == 'Work') {
+        $('#contact-select-work').prop("checked", true);
+        active = $('input[name="dropdown_eg"]:checked');
+        active.closest('li').addClass('active');
+        $('.form-talent, .form-general').hide();
+        $('.form-work').show();
+      } else if (type == 'Talent') {
+        $(document).find('#contact-select-talent').prop("checked", true);
+        active = $('input[name="dropdown_eg"]:checked');
+        active.closest('li').addClass('active');
+        $('.form-talent').show();
+        $('.form-work').hide();
+      } else {
+        $('#contact-select-general').prop("checked", true);
+        active = $('input[name="dropdown_eg"]:checked');
+        active.closest('li').addClass('active');
+        $('.form-general').show();
+        $('.form-work').hide();
+      }
     }
   },
   jobFilterWaypoints: function () {
@@ -343,7 +366,7 @@ global.main = {
                            html.clientHeight, html.scrollHeight, html.offsetHeight );
 
     var $hc = $('.header-catch');
-    $hc.css('top', height);
+    $hc.css('top', height / 3);
 
     function mhwp() {
       var $things = $hc;
