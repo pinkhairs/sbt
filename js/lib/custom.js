@@ -15,9 +15,22 @@ global.main = {
     this.jobsIframe();
     this.aboutBios();
     this.modalJS();
+    this.externalLinks();
   },
 
   // List Functions
+  externalLinks: function(){
+    $('a').each(function() {
+       var a = new RegExp('/' + window.location.host + '/');
+       if(!a.test(this.href)) {
+           $(this).click(function(event) {
+               event.preventDefault();
+               event.stopPropagation();
+               window.open(this.href, '_blank');
+           });
+       }
+    });
+  },
   heroJS: function() {
     var $ele = $('.text-col');
     $ele.hover(function(){

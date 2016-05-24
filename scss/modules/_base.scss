@@ -284,26 +284,16 @@
 
   .form-input-text, .form-textarea {
     display:block;
-    font-size: 16px;
-    font-weight:400;
+    font-size: 18px;
+    font-weight: 700;
     width:100%;
     background: $whitehaze;
     border: 1px solid #CED5E0;
     box-shadow: inset 0px 1px 1px 0px rgba(163,170,179,0.50);
     border-radius: 2px;
-    line-height: 24px;
-    padding-left:0.5rem;
-  }
-
-  .form-input-text {
-    height: 40px;
-  }
-
-  input[type="file"] {
-    font-size:18px;
-    font-weight:700;
-    line-height:18px;
-    padding:8px 10px;
+    line-height: 1.2;
+    padding: 0.5rem;
+    padding-top: 0.7rem;
   }
 
   .error {

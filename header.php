@@ -19,6 +19,20 @@
 	{
 	echo '<meta name="robots" content="' . $pageRobots . '">';
 	}
+
+  // Enable prefixes for urls
+  $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+  if (strpos($url,'referral') !== false) {
+    $prefix = "../../";
+  } else if (strpos($url,'blog') !== false) {
+    $prefix = "../";
+  } else if (strpos($url,'contactus') !== false) {
+    $prefix = "../";
+  } else {
+    $prefix = "";
+  }
+  
 ?>
 
 <link rel="stylesheet" href="css/foundation.css" type="text/css" />
@@ -28,62 +42,8 @@
 </head>
 <body class="<?php echo $pageBodyClass; ?> <?php if ($_COOKIE['preload'] != 1) echo 'loading-screen'; ?> ">
 
-<div class="hmenu-wrapper" id="menu">
-	<div class="hmenu-innerwrapper">
-		<div class="row">
-			<div class="small-12 columns">
-				<div class="row">
-					<div class="small-12">
-						<div id="hmenu-close" class="hmenu-close-button">Close</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="small-12">
-						<ol class="hmenu-list">
-							<li class="hmenu-list-element hmenu-list-element-large">
-								<small class="hmenu-text-small">Find</small>
-								<a href="work.php" class="hmenu-text-link">Work</a>
-							</li>
-							<li class="hmenu-list-element hmenu-list-element-large">
-								<small class="hmenu-text-small">Hire</small>
-								<a href="talent.php" class="hmenu-text-link">Talent</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="index.php" class="hmenu-text-link">Home</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="contactus" class="hmenu-text-link">Contact Us</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="about.php" class="hmenu-text-link">About Us</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="blog" class="hmenu-text-link">Press &amp; Publications</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="jobs.php" class="hmenu-text-link">Jobs</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="contactus/referrals" class="hmenu-text-link">Referral Program</a>
-							</li>
-							<li class="hmenu-list-element">
-								<a href="terms.php" class="hmenu-text-link">Terms &amp; Privacy</a>
-							</li>
-							<li class="hmenu-list-element hmenu-list-social">
-								<small class="hmenu-text-small">Follow Us On</small>
-								<ul class="social-links-list">
-									<li><a href="https://twitter.com/LoveYourWorkLA"><img src="images/twitter.svg" alt="Twitter"></a></li>
-									<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="images/facebook.svg" alt="Facebook"></a></li>
-									<li><a href="https://www.linkedin.com/company/6390835"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
-								</ul>
-							</li>
-						</ol>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<!-- Site Menu --> 
+<?php include 'menu.php' ?>
 
 <main class="site-wrap">
 	<div id="loading"></div>

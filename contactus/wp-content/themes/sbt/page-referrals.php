@@ -15,7 +15,7 @@ Template Name: Referrals
         <div class="section medium-section text-center">
           <h1>Referral Program</h1>
           <p class="lead mt0">Silicon Beach Talent</p>
-          <p><img src="http://www.madebyporter.com/clients/sbt/images/line.svg" alt=""></p>
+          <p><img src="../../images/line.svg" alt=""></p>
         </div>
       </div>
     </div>

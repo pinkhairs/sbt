@@ -38,7 +38,7 @@ include 'header.php'; ?>
 				<div class="row">
 				 	<div class="small-12 large-11 columns large-text">
 						<div class="section pt0">
-							<h2>Culture fit + Inspiring Work = A Big Impact</h2>
+							<h2 class="text-left">Culture fit + Inspiring Work = A Big Impact</h2>
 							<p>Our recruiters work onsite to thoroughly understand the culture of your company so we can talk to exceptional candidates about what really matters to them: the work. </p>
 
 							<p>Perks and bonuses are important, but we understand that what truly makes an opportunity great is the work you do and the impact you make. </p>
@@ -50,7 +50,7 @@ include 'header.php'; ?>
 				<div class="row">
 				 	<div class="small-12 large-11 columns large-text">
 						<div class="section pt0">
-							<h2>Not Your Typical Recruiters</h2>
+							<h2 class="text-left">Not Your Typical Recruiters</h2>
 							<p>At Silicon Beach Talent, we only partner with companies that we would want to work for ourselves. </p>
 
 							<p>We focus on the intangibles that make you connect with a company so we can understand what matters to you when considering a new position. </p>
@@ -64,7 +64,7 @@ include 'header.php'; ?>
 				<div class="row">
 				 	<div class="small-12 large-11 columns large-text end">
 						<div class="section pt0">
-							<h2>It's about the IMPACT</h2>
+							<h2 class="text-left">It's about the IMPACT</h2>
 							<p>There is a lot of noise in the job market with the rise of anonymous job matching sites, but they are all missing the point.  You want the whole picture, not just a quick description and a salary estimate.  That's why we spend time onsite with all our partners. We understand every client’s mission and culture, so we know when it resonates with your career objectives. </p>
 				 
 							<p>In the end, our goal is simple: </p>

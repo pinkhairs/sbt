@@ -397,6 +397,9 @@
 	    &:before {
 	      transform: translateX(0) skew(10deg);
 	    }
+	    .text-container, a.btn, .sub-paths {
+	      opacity: 1;
+	    }
 	  }
 	  .sub-paths {
 	  	display: none;
@@ -1066,6 +1069,7 @@
 	.text-center {
 		text-align: center;
 	}
+	
 	.industry-content-container {
 		@include transition;
 		&.closed {
@@ -1475,8 +1479,8 @@
 			display: block;
 			font-size: 24px;
 			font-weight: 400;
-			line-height: 32px;
-			padding: 10px;
+			line-height: 1.2;
+			padding: 15px 10px 10px;
 			position: relative;
 			text-transform: uppercase;
 			width: 100%;

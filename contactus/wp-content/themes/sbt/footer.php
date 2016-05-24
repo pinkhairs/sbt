@@ -8,8 +8,9 @@
  * @subpackage Twenty_Sixteen
  * @since Twenty Sixteen 1.0
  */
+	
+	global $prefix;
 ?>
-
 	</div>
 	<footer class="site-footer">
 		<div class="row large-collapse">
@@ -17,7 +18,7 @@
 				<div class="site-footer-ele color-section large-text-left">
 					<div class="site-footer-ele-inner">
 						<h4>Ready to find your next great gig?</h4>
-						<a href="http://siliconbeachtalent.com/contactus" class="button">Get started</a>
+						<a href="<?php echo $prefix; ?>contactus" class="button">Get started</a>
 					</div>
 				</div>
 			</div>
@@ -27,9 +28,9 @@
 						<h4 class="desktop-only">Connect with us</h4>
 						<nav class="social-links">
 						<ul class="social-links-list">
-							<li><a href="https://twitter.com/LoveYourWorkLA"><img src="http://siliconbeachtalent.com/images/twitter.svg" alt="Twitter"></a></li>
-							<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="http://siliconbeachtalent.com/images/facebook.svg" alt="Facebook"></a></li>
-							<li><a href="https://www.linkedin.com/company/6390835"><img src="http://siliconbeachtalent.com/images/linkedin.svg" alt="LinkedIn"></a></li>
+							<li><a href="https://twitter.com/LoveYourWorkLA"><img src="<?php echo $prefix; ?>images/twitter.svg" alt="Twitter"></a></li>
+							<li><a href="https://www.facebook.com/siliconbeachtalent"><img src="<?php echo $prefix; ?>images/facebook.svg" alt="Facebook"></a></li>
+							<li><a href="https://www.linkedin.com/company/6390835"><img src="<?php echo $prefix; ?>images/linkedin.svg" alt="LinkedIn"></a></li>
 						</ul>
 						</nav>
 					</div>
@@ -40,8 +41,8 @@
 					<div class="site-footer-ele-inner">
 						<span class="colophon">
 							<h4>Silicon Beach Talent &copy;<?php echo date('Y'); ?></h4>
-							<a href="http://siliconbeachtalent.com/jobs.php">Jobs</a>
-							<a href="http://siliconbeachtalent.com/terms.php">Privacy &amp; Terms</a>
+							<a href="<?php echo $prefix; ?>jobs.php">Jobs</a>
+							<a href="<?php echo $prefix; ?>terms.php">Privacy &amp; Terms</a>
 						</span>
 					</div>
 				</div>
@@ -62,8 +63,7 @@
 
 </script>
 
-<script src="../js/init.js"></script>
-<!-- <script src="http://madebyporter.com/clients/sbt/js/init.js"></script> -->
-<!-- <script src="http://siliconbeachtalent.com/js/init.min.js"></script> -->
+<script src="<?php echo $prefix; ?>js/init.js"></script>
+
 </body>
 </html>

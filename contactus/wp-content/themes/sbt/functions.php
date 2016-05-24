@@ -432,3 +432,14 @@ function setPostViews($postID) {
 
 // Remove issues with prefetching adding extra views
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+
+// Declare prefix for urls
+$url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+if (strpos($url,'referrals') !== false) {
+  $prefix = "../../";
+} else if (strpos($url,'contactus') !== false) {
+  $prefix = "../";
+} else {
+  $prefix = "";
+}
