@@ -393,7 +393,7 @@
 	    transform: translateX(-1500px) skew(10deg);
 	    right: 0;
 	  }
-	  &:hover {
+	  &:hover, &.onload {
 	    &:before {
 	      transform: translateX(0) skew(10deg);
 	    }

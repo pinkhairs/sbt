@@ -27,7 +27,7 @@ include 'header.php'; ?>
     </svg>
   </div>
   <div class="text-layer">
-    <div class="text-layer-left text-col">
+    <div class="text-layer-left text-col onload">
       <div class="text-container">
         <div class="sub-text">
           FIND WORK

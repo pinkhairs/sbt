@@ -11110,6 +11110,7 @@ global.main = {
 
   // Initialize Functions
   init: function () {
+    this.heroJS();
     this.loadingScreen();
     this.blogFilter();
     this.mastheadWaypoints();
@@ -11122,7 +11123,14 @@ global.main = {
   },
 
   // List Functions
-
+  heroJS: function() {
+    var $ele = $('.text-col');
+    $ele.hover(function(){
+      $ele.removeClass('onload');
+    }, function(){
+      $ele.addClass('onload');
+    });
+  },
   loadingScreen: function() {
     $.fn.preload = function (callback) {
       var length = this.length;
@@ -11143,7 +11151,7 @@ global.main = {
       //console.log(this, perc, done);
     });
 
-    createCookie('preload', 1, 365);
+    // createCookie('preload', 1, 365);
 
     function createCookie(name,value,days) {
       if (days) {

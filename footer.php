@@ -50,7 +50,8 @@
 
 </script>
 
-<script src="js/init.min.js"></script>
+<!-- <script src="js/init.min.js"></script> -->
+<script src="js/init.js"></script>
 
 </body>
 </html>
