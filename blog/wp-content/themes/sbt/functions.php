@@ -436,7 +436,7 @@ remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 // Declare prefix for urls
 $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
-if (strpos($url,'articles') !== false) {
+if (strpos($url,'article') !== false) {
   $prefix = "../../../";
 } else if (strpos($url,'blog') !== false) {
   $prefix = "../";

@@ -56,7 +56,7 @@ get_header(); ?>
 				</div>
 				<div id="contact-form">
           <div class="contact-form-content">
-            <?php echo do_shortcode( '[contact-form-7 id="16" title="SBT Form"]' ); ?>
+            <?php echo do_shortcode( '[contact-form-7 id="19" title="SBT Form"]' ); ?>
           </div>
 				</div>
 
