@@ -11,16 +11,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php $featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-	<div class="hero post-hero" style="background: -moz-linear-gradient(top, rgba(233,236,240,0) 50%, rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat center; background: -webkit-linear-gradient(top, rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat center; background: linear-gradient(to bottom, rgba(233,236,240,0) 50%,rgba(233,236,240,1) 100%), url('<?php echo $featuredImage; ?>') no-repeat center; background-size:cover;">
-		<div class="section text-center">
-			<div class="row">
-				<div class="small-12 large-10 large-centered columns">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-					<p class="desktop-only"><img src="http://siliconbeachtalent.com/images/line-2.svg" alt=""></p>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div class="hero post-hero" style="background: url('<?php echo $featuredImage; ?>') no-repeat center; background-size:cover;"></div>
 
 	<div class="row">
 		<div class="small-12 columns">
@@ -41,6 +32,7 @@
 					<div class="small-12 large-8 large-offset-1 columns">
 						<div class="entry-content">
 							<img src="<?php echo $featuredImage; ?>" class="seo-image" />
+							<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 							<?php
 								the_content();
 							?>

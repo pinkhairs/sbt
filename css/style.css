@@ -1571,16 +1571,20 @@ a.btn {
   display: block; }
 
 .post-hero {
-  margin-bottom: 20px; }
+  margin-bottom: 40px;
+  min-height: 400px; }
 
 .entry-title {
-  color: #fff;
+  color: #000F2E;
   font-size: 24px;
   line-height: 32px; }
   @media screen and (min-width: 40em) {
     .entry-title {
       font-size: 48px;
       line-height: 56px; } }
+
+.entry-content img {
+  margin: 0 0 40px 0; }
 
 .overlay {
   background: rgba(255, 255, 255, 0.95);
